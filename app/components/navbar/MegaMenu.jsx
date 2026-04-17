@@ -281,7 +281,8 @@ function MegaMenu({
       const panelWidth = panelEl.offsetWidth || panelEl.getBoundingClientRect().width;
       const panelHeight = panelEl.offsetHeight || panelEl.getBoundingClientRect().height;
 
-      const desiredLeft = anchorRect.left + anchorRect.width / 2 - panelWidth / 2;
+      // Always open centered in the viewport (consistent placement for all menus)
+      const desiredLeft = window.innerWidth / 2 - panelWidth / 2;
       const minLeft = viewportMargin;
       const maxLeft = Math.max(viewportMargin, window.innerWidth - viewportMargin - panelWidth);
       const left = Math.min(maxLeft, Math.max(minLeft, desiredLeft));
@@ -318,17 +319,13 @@ function MegaMenu({
         ref={panelRef}
         {...panelMotion}
         transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-        className={`${widthClass} rounded-3xl border border-red-500/20 bg-black/90 p-8 text-white shadow-[0_0_40px_rgba(255,0,0,0.2)] backdrop-blur-xl`}
+        className={`${widthClass} h-[440px] rounded-3xl border border-red-500/20 bg-black/90 p-8 text-white shadow-[0_0_40px_rgba(255,0,0,0.2)] backdrop-blur-xl`}
       >
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div className="grid h-full min-h-0 grid-cols-1 gap-8 lg:grid-cols-3">
           <div
-            className={`grid gap-8 lg:col-span-2 ${
+            className={`grid min-h-0 gap-8 lg:col-span-2 ${
               sections?.length > 1 ? 'sm:grid-cols-2' : 'sm:grid-cols-1'
-            } ${
-              leftScrollable
-                ? `${leftMaxHeightClass} overflow-y-auto pr-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`
-                : ''
-            }`}
+            } ${leftScrollable ? leftMaxHeightClass : 'max-h-full'} overflow-y-auto pr-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`}
           >
             {sections?.map((section) => (
               <div key={section.title} className="min-w-0">
@@ -350,7 +347,7 @@ function MegaMenu({
             ))}
           </div>
 
-          <div className="lg:border-l lg:border-white/10 lg:pl-8">
+          <div className="min-h-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:border-l lg:border-white/10 lg:pl-8">
             <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-red-500">
               {highlight?.sectionTitle ?? 'HIGHLIGHT'}
             </p>
@@ -523,7 +520,7 @@ export default function Navbar() {
   const renderProductsDropdown = () => (
     <MegaMenu
       menuId="products"
-      widthClass="w-[920px] max-w-[calc(100vw-2rem)]"
+      widthClass="w-[1040px] max-w-[calc(100vw-2rem)]"
       anchorRef={productsButtonRef}
       positionStrategy="fixed"
       viewportMargin={16}

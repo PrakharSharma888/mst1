@@ -17,36 +17,79 @@ const stats = [
 ];
 
 const team = [
-  { 
-    name: "Marcus Thorne", 
-    role: "Lead Developer", 
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&h=300&fit=crop",
-    linkedin: "#"
+  {
+    name: 'Promod Borate',
+    role: 'Founder & CEO',
+    image:
+      '/assets/Pramod Sir (2).png',
+    bio:
+      'Promod Borate leads MST Blockchain with a strong focus on building a scalable, reliable, and user-centric blockchain ecosystem. He drives the vision across protocol development, product innovation, and ecosystem growth, ensuring MST remains production-ready and accessible for real-world adoption.',
+    bio2:
+      'Beyond his leadership role, Promod is passionate about simplifying complex systems into practical solutions and actively mentors emerging builders in the Web3 space, helping them turn ideas into impactful products.',
+    twitterHandle: '@mst_pramod',
+    twitterHref: '#'
   },
-  { 
-    name: "Sarah Chen", 
-    role: "Blockchain Architect", 
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&h=300&fit=crop",
-    linkedin: "#"
+  {
+    name: 'Swapnil Dere',
+    role: 'Co founder',
+    image:
+      '/assets/Swapnil Sir.jpeg',
+    bio:
+      'Swapnil Dere plays a key role in shaping MST Blockchain’s technical vision and system architecture, ensuring the platform is scalable, secure, and future-ready. He focuses on building a robust foundation that balances performance, reliability, and seamless composability for developers and users.',
+    bio2:
+      'Driven by precision and innovation, he is committed to delivering a developer-friendly ecosystem that supports continuous growth and real-world adoption.',
+    twitterHandle: '@mst_swapnil',
+    twitterHref: '#'
   },
-  { 
-    name: "David Varkey", 
-    role: "Smart Contract Dev", 
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&h=300&fit=crop",
-    linkedin: "#"
+  {
+    name: 'kamlesh Nagware',
+    role: 'Director',
+    image:
+      '/assets/Kamlesh Sir.jpg',
+    bio:
+      'Kamlesh Nagware plays a crucial role in strengthening MST Blockchain’s security, reliability, and core infrastructure. He focuses on developing secure smart contract patterns and robust system primitives that enable teams to build confidently and efficiently on the MST ecosystem.',
+    bio2:
+      'Beyond development, he contributes by creating reference implementations, testing frameworks, and practical guides, turning best practices into scalable and repeatable development processe',
+    twitterHandle: '@mst_kamlesh',
+    twitterHref: '#'
   },
-  { 
-    name: "Elena Rodriguez", 
-    role: "UI/UX Lead", 
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&h=300&fit=crop",
-    linkedin: "#"
+  {
+    name: 'Suresh Nair',
+    role: 'COO',
+    image:
+      '/assets/nigelsir.jpeg',
+    bio:
+      'Suresh Nair oversees operations at MST Blockchain, ensuring a seamless alignment between product strategy, execution, and user experience. He plays a key role in shaping how builders and community members interact with the ecosystem—making MST intuitive, accessible, and efficient at every touchpoint.',
+    bio2:
+      'Driven by a vision of delivering a premium and user-centric experience, he ensures that every interaction within MST reflects quality, precision, and ease of use.',
+    twitterHandle: '@mst_Suresh',
+    twitterHref: '#'
   },
-  { 
-    name: "Julian Smith", 
-    role: "Community Manager", 
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=300&h=300&fit=crop",
-    linkedin: "#"
+  {
+    name: 'Kalika Mishra',
+    role: 'CTO',
+    image:
+      '/assets/Kalika Sir.png',
+    bio:
+      'Kalika Mishra leads the technology vision at MST Blockchain, driving the development of a scalable, secure, and high-performance blockchain infrastructure. She works across protocol engineering, system architecture, and integrations to ensure MST remains robust, efficient, and future-ready.',
+    bio2:
+      'Passionate about building cutting-edge systems, she is committed to advancing MST as a developer-friendly and production-grade Web3 ecosystem.',
+    twitterHandle: '@mst_Kalika',
+    twitterHref: '#'
   },
+   {
+    name: 'Ashish Kumar Jain',
+    role: 'CMO',
+    image:
+      '/assets/Ashish Sir.jpeg',
+    bio:
+      'Ashish Kumar Jain leads the marketing vision at MST Blockchain, driving brand strategy, growth initiatives, and global outreach. He focuses on positioning MST as a trusted and innovative Web3 ecosystem, connecting technology with real-world adoption.',
+    bio2:
+      'Passionate about building impactful brands, he is committed to creating a premium, accessible, and growth-driven presence for MST in the global blockchain landscape.',
+    twitterHandle: '@mst_Ashish',
+    twitterHref: '#'
+  },
+
 ];
 
 const features = [
@@ -220,42 +263,67 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* 5. THE ARCHITECTS (TEAM) */}
-      <section className="py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-end justify-between mb-20 gap-8">
-            <div className="max-w-2xl text-left">
-              <h2 className="text-4xl md:text-6xl font-black mb-6">Meet the <br /><span className="text-red-600">Architects</span></h2>
-              <p className="text-gray-500 text-xl font-medium">The world-class team driving MST development.</p>
-            </div>
-            <button className="px-8 py-3 text-red-600 font-bold border-2 border-red-50 rounded-xl hover:bg-red-50 transition-colors">
-              Careers at MST
-            </button>
-          </div>
+      {/* 5. MEET THE TEAM (SCREENSHOT-STYLE) */}
+      <section className="bg-gray-100">
+        <div className="relative bg-[#1a1a1a] py-10 text-center">
+          <p className="text-sm font-black uppercase tracking-[0.42em] text-white md:text-base">
+            Meet the Core Team
+          </p>
+          <span className="pointer-events-none absolute left-1/2 top-full h-0 w-0 -translate-x-1/2 border-l-[16px] border-r-[16px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#1a1a1a]" />
+        </div>
 
-          <motion.div 
-            variants={staggerContainer}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8"
-          >
-            {team.map((member, i) => (
-              <motion.div key={i} variants={fadeInUp} className="group cursor-pointer">
-                <div className="relative mb-6 aspect-[4/5] rounded-[2rem] overflow-hidden border-4 border-white shadow-lg transition-transform duration-500 group-hover:scale-105">
-                  <img src={member.image} alt={member.name} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                    <div className="flex gap-3">
-                      <FiLinkedin className="text-white hover:text-red-400" />
-                      <FiTwitter className="text-white hover:text-red-400" />
+        <div className="mx-auto max-w-6xl">
+          {team.map((member, idx) => (
+            <div key={member.name} className="border-b border-black/10">
+              <div
+                className={
+                  `flex min-h-[440px] flex-col items-stretch md:flex-row ` +
+                  (idx % 2 === 1 ? 'md:flex-row-reverse' : '')
+                }
+              >
+                {/* Photo side */}
+                <div className="relative w-full md:w-1/2">
+                  <div className="absolute inset-0 bg-gradient-to-b from-white to-gray-200" />
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(0,0,0,0.10),transparent_55%)]" />
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="absolute inset-x-0 bottom-0 mx-auto h-full w-full object-contain px-8 md:px-10"
+                  />
+                </div>
+
+                {/* Content side */}
+                <div className="flex w-full items-center bg-white px-7 py-10 md:w-1/2 md:px-12">
+                  <div className="max-w-lg">
+                    <p className="text-[11px] font-black uppercase tracking-[0.24em] text-red-600">
+                      {member.role}
+                    </p>
+                    <h3 className="mt-3 text-2xl font-black tracking-[0.12em] text-gray-800 md:text-3xl">
+                      {member.name}
+                    </h3>
+
+                    <div className="mt-5 space-y-4 text-sm leading-relaxed text-gray-600">
+                      <p>{member.bio}</p>
+                      <p>{member.bio2}</p>
+                    </div>
+
+                    <div className="mt-6 flex items-center gap-3">
+                      <a
+                        href={member.twitterHref}
+                        className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#1da1f2] text-white transition-transform hover:scale-105"
+                        aria-label="Twitter"
+                      >
+                        <FiTwitter />
+                      </a>
+                      <span className="text-xs font-black uppercase tracking-[0.22em] text-[#1da1f2]">
+                        {member.twitterHandle}
+                      </span>
                     </div>
                   </div>
                 </div>
-                <h4 className="font-black text-xl text-gray-900">{member.name}</h4>
-                <p className="text-sm font-bold text-red-500 uppercase tracking-widest">{member.role}</p>
-              </motion.div>
-            ))}
-          </motion.div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

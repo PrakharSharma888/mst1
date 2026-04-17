@@ -1,0 +1,5252 @@
+﻿# Color Codes Report (auto-generated)
+
+Scanned: 22643 files under C:\mstblockchain\MST
+Generated: 2026-04-17T14:57:10
+
+## Hex colors
+Total: 1378
+
+- #000
+- #0000
+- #000000
+- #0000000a
+- #0000000d
+- #0000000f
+- #00000013
+- #00000014
+- #0000001a
+- #0000001f
+- #00000026
+- #0000002e
+- #00000038
+- #0000003d
+- #00000040
+- #00000047
+- #0000004d
+- #00000059
+- #00000080
+- #000000a1
+- #000000a6
+- #000000ad
+- #000000b3
+- #000000bd
+- #000000bf
+- #000000e6
+- #000000f2
+- #000080
+- #00008b
+- #0000cc
+- #0000cd
+- #0000ff
+- #0003
+- #0009
+- #000c
+- #002
+- #0025ad
+- #002c22
+- #0033cc
+- #0033ff
+- #004e3b
+- #0054ad
+- #0056b3
+- #005986
+- #005f46
+- #005f5a
+- #005f78
+- #0060d1
+- #006400
+- #006600
+- #006666
+- #0066cc
+- #0066ff
+- #0067d6
+- #0069a4
+- #0070f3
+- #007492
+- #0076ff
+- #00776e
+- #0078d4
+- #007956
+- #00796b
+- #007bff
+- #008000
+- #008080
+- #008138
+- #0084cc
+- #008b8b
+- #0091ff
+- #0092b5
+- #009588
+- #009688
+- #0096ff
+- #009767
+- #0097a7
+- #0099cc
+- #0099ff
+- #00a344
+- #00a544
+- #00a5ef
+- #00aaff
+- #00acc1
+- #00b7d7
+- #00baa7
+- #00baa71a
+- #00bb7f
+- #00bcd4
+- #00bcfe
+- #00bfff
+- #00c758
+- #00c853
+- #00cc00
+- #00cc33
+- #00cc66
+- #00cc99
+- #00cccc
+- #00ccff
+- #00ced1
+- #00d294
+- #00d2ef
+- #00d3bd
+- #00e676
+- #00fa9a
+- #00ff00
+- #00ff0b1a
+- #00ff52
+- #00ff7f
+- #00ffff
+- #01579b
+- #016630
+- #020
+- #020618
+- #022f2e
+- #024a70
+- #0277bd
+- #0284c7
+- #030712
+- #032e15
+- #036157
+- #0369a1
+- #039be5
+- #03a9f4
+- #047857
+- #052f4a
+- #053345
+- #059669
+- #05df72
+- #064e3b
+- #065f46
+- #066056
+- #0680d7
+- #06b6d4
+- #075985
+- #0891b2
+- #09090b
+- #090b0c
+- #0a0a0a
+- #0a1723
+- #0a4481
+- #0ac5b2
+- #0ae448
+- #0b0b0b
+- #0b1a36
+- #0b2211
+- #0b4f4a
+- #0c0504
+- #0c090c
+- #0c0a09
+- #0c0c09
+- #0c461b
+- #0c4a6e
+- #0c59a4
+- #0d3868
+- #0d47a1
+- #0d542b
+- #0d9488
+- #0e100f
+- #0e7490
+- #0ea5e9
+- #0f0
+- #0f172a
+- #0f172b
+- #0f1b2d
+- #0f2c17
+- #0f3058
+- #0f766e
+- #0ff
+- #10003
+- #101828
+- #10243e
+- #104e64
+- #107
+- #10b981
+- #111
+- #111111
+- #111827
+- #11351b
+- #114a8b
+- #115e59
+- #11707
+- #121
+- #123
+- #125
+- #12530
+- #126427
+- #1266
+- #127
+- #12753
+- #13335
+- #134e4a
+- #13792
+- #1414
+- #14393
+- #14416
+- #1447e6
+- #1447e61a
+- #145
+- #14532d
+- #14839
+- #14b8a6
+- #14c000
+- #151520
+- #15162
+- #15319
+- #15335
+- #15581
+- #155dfc
+- #155e75
+- #1565c0
+- #15803d
+- #15811
+- #1589
+- #1594
+- #1595df
+- #161b1d
+- #162456
+- #16358
+- #164e63
+- #166534
+- #16a34a
+- #171717
+- #17275
+- #17458
+- #17623
+- #17920
+- #1813
+- #18181b
+- #18217
+- #18311e
+- #18320
+- #18402
+- #1867
+- #18897
+- #191
+- #191919
+- #191970
+- #192e03
+- #193cb8
+- #19416
+- #19621
+- #1976d2
+- #199
+- #1a1a1a
+- #1a2745
+- #1a9338
+- #1b5e20
+- #1b9de2
+- #1c1917
+- #1c398e
+- #1d161e
+- #1d1816
+- #1d1d16
+- #1d293d
+- #1d4ed8
+- #1da1f2
+- #1e1a4d
+- #1e1e24c2
+- #1e1e24f5
+- #1e2939
+- #1e293b
+- #1e3a8a
+- #1e40af
+- #1e88e5
+- #1e90ff
+- #1f1f1f
+- #1f2937
+- #201
+- #20328
+- #20441
+- #2080ff
+- #20b2aa
+- #20df80
+- #211
+- #212121
+- #21963136
+- #2196f3
+- #220
+- #222
+- #222222
+- #22292b
+- #22811
+- #228b22
+- #22c55e
+- #22d3ee
+- #23169
+- #23278
+- #235
+- #23548
+- #23879
+- #242424
+- #24289
+- #24565
+- #24698
+- #24753
+- #25071
+- #250d12
+- #253278
+- #256
+- #2563eb
+- #25908
+- #2596
+- #26177
+- #262626
+- #262636
+- #263238
+- #26516
+- #26642
+- #271700
+- #272296
+- #272727
+- #27272a
+- #27799
+- #28131
+- #283593
+- #284f80
+- #28631
+- #28670
+- #28839
+- #292524
+- #292929
+- #29619
+- #2962ff
+- #297a3a
+- #297c3b
+- #2a1314
+- #2a1a0a
+- #2a212c
+- #2a2a33
+- #2a2a33aa
+- #2b2422
+- #2b2b22
+- #2bc3d2
+- #2cc9ff
+- #2dd4bf
+- #2e2e2e
+- #2e7d32
+- #2e8b57
+- #2f0d68
+- #2f4f4f
+- #2fc2df
+- #30112
+- #30329
+- #303f9f
+- #30540
+- #3080ff
+- #31187
+- #311b92
+- #311e13
+- #31286
+- #312c85
+- #312e81
+- #31348
+- #314158
+- #31693
+- #31711034
+- #31747
+- #31768
+- #31798
+- #31890
+- #322
+- #32391
+- #3269
+- #328
+- #32cd32
+- #3300cc
+- #3300ff
+- #333
+- #333333
+- #3333cc
+- #3333ff
+- #334155
+- #3351
+- #3366cc
+- #3366ff
+- #33691e
+- #3399cc
+- #3399ff
+- #33cc00
+- #33cc33
+- #33cc66
+- #33cc99
+- #33cccc
+- #33ccff
+- #341
+- #3410
+- #341c00
+- #348
+- #34c1ed
+- #34d399
+- #35530e
+- #35c1f1
+- #364153
+- #365
+- #365314
+- #36c752
+- #372aac
+- #3730a3
+- #3736
+- #374151
+- #37474f
+- #3803
+- #381316
+- #388e3c
+- #388e4a
+- #38bdf8
+- #394
+- #394447
+- #3949ab
+- #3a33d1
+- #3b82f6
+- #3b82f67f
+- #3c0366
+- #3cb371
+- #3d1719
+- #3d6300
+- #3e863d
+- #3f3f46
+- #3f51b5
+- #3f6212
+- #402
+- #404
+- #404040
+- #40c4ff
+- #40e0d0
+- #4169e1
+- #419
+- #42257a
+- #424242
+- #42a5f5
+- #432004
+- #432dd7
+- #4338ca
+- #43a047
+- #441306
+- #44403b
+- #44403c
+- #4488ff
+- #448aff
+- #454545
+- #45556c
+- #455a64
+- #45b2ff
+- #460809
+- #461901
+- #4635
+- #463947
+- #4682b4
+- #468847
+- #46a758
+- #46ecd5
+- #4737
+- #473c39
+- #474739
+- #475569
+- #483d8b
+- #48d1cc
+- #4989
+- #4a2900
+- #4a4a5a
+- #4a4a5a54
+- #4a5565
+- #4ade80
+- #4b004f
+- #4b0082
+- #4b5563
+- #4b585b
+- #4b7d00
+- #4c1d95
+- #4caf50
+- #4d0218
+- #4d179a
+- #4d7c0f
+- #4dd0e1
+- #4e2009
+- #4e7fff
+- #4f39f6
+- #4f46e5
+- #4f4f4f
+- #4fc3f7
+- #501d12
+- #5089
+- #50e3c2
+- #510424
+- #512da8
+- #5151
+- #5176
+- #52171480
+- #5227ff
+- #523424
+- #5251
+- #525252
+- #52525b
+- #52525c
+- #52a9ff
+- #52aeff
+- #53eafd
+- #5439
+- #545454
+- #546e7a
+- #5497
+- #54a2ff
+- #5501
+- #551a1e
+- #555
+- #5558
+- #556
+- #556b2f
+- #558b2f
+- #55934f
+- #55aaff
+- #566
+- #5689
+- #573300
+- #57534d
+- #57534e
+- #575eff
+- #581
+- #581c87
+- #59168b
+- #594c5b
+- #595959
+- #5aad45
+- #5b21b6
+- #5b4f4b
+- #5b5b4b
+- #5c6bc0
+- #5d0ec0
+- #5e35b1
+- #5ee9b5
+- #5eead4
+- #5f62
+- #5f707f
+- #5f9ea0
+- #607d8b
+- #60864
+- #60a5fa
+- #616161
+- #61791
+- #619857
+- #625fff
+- #626262
+- #62748e
+- #62a400
+- #634703
+- #6366f1
+- #63c174
+- #64748b
+- #6495ed
+- #64b5f6
+- #659e5a
+- #65a30d
+- #6600cc
+- #6600ff
+- #663399
+- #6633cc
+- #6633ff
+- #666
+- #666600
+- #666666
+- #66cc00
+- #66cc33
+- #66cdaa
+- #671e22
+- #673ab7
+- #676767
+- #67787c
+- #67e8f9
+- #693f05
+- #696969
+- #6a5acd
+- #6a7282
+- #6b21a8
+- #6b7280
+- #6b8e23
+- #6bbf47
+- #6c757d
+- #6cda76
+- #6d28d9
+- #6d3722
+- #6e11b0
+- #6e293b
+- #6ee7b7
+- #6fb936
+- #7008e7
+- #701a75
+- #707070
+- #708090
+- #713f12
+- #716347
+- #717
+- #7170
+- #71717a
+- #71717b
+- #721378
+- #733e0a
+- #737373
+- #7459
+- #7460
+- #747474
+- #7519
+- #7524
+- #7542
+- #757575
+- #75ac64
+- #76ac64
+- #76ff03
+- #777
+- #778899
+- #77d4ff
+- #78350f
+- #784719
+- #78716c
+- #78909c
+- #79697b
+- #79716b
+- #7986cb
+- #79b461
+- #79ffe1
+- #7b3306
+- #7b68ee
+- #7bf1a8
+- #7c2d12
+- #7c3aed
+- #7c6d67
+- #7c7c67
+- #7cb342
+- #7cfc00
+- #7d7d7d
+- #7d87ff
+- #7dd3fc
+- #7e22ce
+- #7e2a0c
+- #7e57c2
+- #7f1d1d
+- #7f22fe
+- #7fff00
+- #7fffd4
+- #800000
+- #800080
+- #808000
+- #808080
+- #80cd00
+- #80deea
+- #818cf8
+- #81c784
+- #81d4fa
+- #8200da
+- #8200da1a
+- #82181a
+- #82181a40
+- #82181a59
+- #82181a66
+- #822025
+- #831843
+- #832bc1
+- #8379
+- #8465
+- #84cc16
+- #854d0e
+- #858585
+- #8604
+- #861043
+- #86198f
+- #8667c4
+- #86efac
+- #874b00
+- #878787
+- #87ceeb
+- #87cefa
+- #880e4f
+- #881337
+- #889640e6
+- #88ff44
+- #8a0194
+- #8a2be2
+- #8a5100
+- #8b0000
+- #8b008b
+- #8b0836
+- #8b4513
+- #8b4c21
+- #8b5cf6
+- #8b7d9e
+- #8bc34a
+- #8cbcd6
+- #8d54ff
+- #8f3e00
+- #8f8f8f
+- #8fbc8f
+- #90a1b9
+- #90a4ae
+- #90c5ff
+- #90c5ff33
+- #90caf9
+- #90ee90
+- #913f27
+- #91e600
+- #92400e
+- #926c50
+- #929292
+- #9333ea
+- #9338
+- #9370db
+- #939
+- #93c5fd
+- #9400d3
+- #942a09
+- #94a3b8
+- #9513
+- #953d00
+- #9575cd
+- #96f7e4
+- #9731
+- #9810fa
+- #9860
+- #989a98
+- #98fb98
+- #9900cc
+- #9900ff
+- #9918
+- #991b1b
+- #992b0a
+- #9932cc
+- #9933cc
+- #9933ff
+- #998966
+- #999
+- #999999
+- #99a1af
+- #99cc00
+- #99cc33
+- #99ceff
+- #99e59f
+- #99f6e4
+- #9a3412
+- #9a5b49
+- #9a9aab
+- #9ac9e3
+- #9acd32
+- #9c27b0
+- #9ca3af
+- #9ca8ab
+- #9ccc65
+- #9d174d
+- #9da0a4
+- #9de500
+- #9e6400
+- #9f0
+- #9f0712
+- #9f0f
+- #9f1239
+- #9f2d00
+- #9f9fa9
+- #9fa8da
+- #a0522d
+- #a0a0a0
+- #a0f
+- #a16207
+- #a1a1a1
+- #a1a1aa
+- #a2004c
+- #a21caf
+- #a2db3c
+- #a2f4fd
+- #a30037
+- #a35200
+- #a36100
+- #a3a3a3
+- #a3e635
+- #a4b3ff
+- #a4f4cf
+- #a51850
+- #a52a2a
+- #a5a5a5
+- #a5b4fc
+- #a5f3fc
+- #a600b5
+- #a6642a
+- #a685ff
+- #a6a09b
+- #a78bfa
+- #a7f3d0
+- #a855f7
+- #a89ea9
+- #a8a29e
+- #a8a8a8
+- #a9a9a9
+- #aaa
+- #ab300b
+- #aba09c
+- #abab9c
+- #abff84
+- #ac4bff
+- #acce
+- #ad1457
+- #adccea
+- #add
+- #add8e6
+- #add8fb
+- #addaf
+- #added
+- #addeffec
+- #adff2f
+- #ae745e
+- #aed581
+- #af613b
+- #afeeee
+- #b08969
+- #b0bec5
+- #b0c4de
+- #b0e0e6
+- #b22222
+- #b2dfdb
+- #b2ebf2
+- #b388ff
+- #b39ddb
+- #b3c2e0
+- #b3ddf5
+- #b3e5fc
+- #b45309
+- #b45837
+- #b71c1c
+- #b75000
+- #b8860b
+- #b8e6fe
+- #b91c1c
+- #b94a48
+- #b9f8cf
+- #ba55d3
+- #babe
+- #bac
+- #bae6fd
+- #bbbaa6
+- #bbdefb
+- #bbf451
+- #bbf7d0
+- #bc8f8f
+- #bc9d7d
+- #bda
+- #bdb76b
+- #bdbdbd
+- #be123c
+- #be185d
+- #bedbff
+- #bef264
+- #bf000f
+- #bf000fe6
+- #bf360c
+- #bfdbfe
+- #c026d3
+- #c07eff
+- #c084fc
+- #c0c0c0
+- #c12
+- #c20039
+- #c2410c
+- #c4005c
+- #c4b4ff
+- #c4b5fd
+- #c51162
+- #c53c00
+- #c57e43
+- #c58355
+- #c5cae9
+- #c600db
+- #c62828
+- #c71585
+- #c76e00
+- #c7a7ff
+- #c7d2fe
+- #c7d2ff
+- #c8f1c9
+- #c9c9c9
+- #ca2a30
+- #ca8a04
+- #cac
+- #cad5e2
+- #cbcbcb
+- #cbd5e1
+- #cbfbf1
+- #cc0000
+- #cc0033
+- #cc0066
+- #cc0099
+- #cc00cc
+- #cc00ff
+- #cc3300
+- #cc3333
+- #cc3366
+- #cc3399
+- #cc33cc
+- #cc33ff
+- #cc6600
+- #cc6633
+- #cc861e
+- #cc9900
+- #cc9933
+- #ccc
+- #cccc00
+- #cccc33
+- #ccf2f6
+- #ccfbf1
+- #ccff90
+- #cd5c5c
+- #cd853f
+- #cd8900
+- #cda
+- #cde7ff
+- #ce93d8
+- #cefafe
+- #cfd8dc
+- #cffafe
+- #d0d6d8
+- #d0fae5
+- #d19d61
+- #d1c4e9
+- #d1d5db
+- #d1d5dc
+- #d1fae5
+- #d2691e
+- #d2b48c
+- #d32f2f
+- #d3d3d3
+- #d4d4d4
+- #d4d4d8
+- #d50000
+- #d68600
+- #d6d3d1
+- #d6e9c6
+- #d7d0d7
+- #d81b60
+- #d84315
+- #d8b4fe
+- #d8bfd8
+- #d8d2d0
+- #d8d8d0
+- #d8d8d8
+- #d8f999
+- #d946ef
+- #d97706
+- #d9b3ff
+- #d9b3ff33
+- #d9d9d9
+- #d9f99d
+- #da2f35
+- #da3036
+- #da70d6
+- #daa520
+- #db2777
+- #db7093
+- #dbe2e5
+- #dbeafe
+- #dc143c
+- #dc2626
+- #dc262626
+- #dcdcdc
+- #dcedc8
+- #dcf6dc
+- #dcfce7
+- #dd7400
+- #dda0dd
+- #ddd
+- #ddd6fe
+- #ddd6ff
+- #deaded
+- #deb887
+- #dec
+- #def
+- #defa
+- #defe
+- #dff0d8
+- #dff2fe
+- #e0a27a
+- #e0e0e0
+- #e0e7ff
+- #e0f2fe
+- #e0ffff
+- #e11d48
+- #e12afb
+- #e1bee7
+- #e1e1e1
+- #e1f0ff
+- #e1f5fe
+- #e2e8f0
+- #e30076
+- #e38939
+- #e3e7e8
+- #e3f2fd
+- #e40014
+- #e400140d
+- #e400141a
+- #e4001433
+- #e4001480
+- #e40014e6
+- #e4e4e7
+- #e53935
+- #e5484d
+- #e57373
+- #e5e5e5
+- #e5e7eb
+- #e5e7eb80
+- #e5fbeb
+- #e64a19
+- #e65100
+- #e69329
+- #e6e6e6
+- #e6e6fa
+- #e70044
+- #e79c13
+- #e7e4e7
+- #e7e5e4
+- #e879f9
+- #e8e4e3
+- #e8e8e3
+- #e8eaf6
+- #e8f5e9
+- #e91e63
+- #e9967a
+- #e9d5ff
+- #e9eef7
+- #ea2828
+- #ea2828b3
+- #ea580c
+- #ea80fc
+- #eab308
+- #eac
+- #eaeaea
+- #eaf6ff
+- #eafaea
+- #ebebeb
+- #ec4899
+- #ec6cff
+- #eceff1
+- #ecfcca
+- #ecfccb
+- #ecfdf5
+- #ecfeff
+- #edb200
+- #ede9fe
+- #ededed
+- #edf6ff
+- #ee82ee
+- #eed3d7
+- #eee
+- #eee8aa
+- #eef2ff
+- #ef4444
+- #ef444426
+- #ef44442e
+- #ef6c00
+- #efebe9
+- #eff6ff
+- #effbef
+- #f00
+- #f003
+- #f05100
+- #f08
+- #f08080
+- #f0a703
+- #f0abfc
+- #f0ad4e
+- #f0adbe
+- #f0e68c
+- #f0f0f0
+- #f0f7ff
+- #f0f8ff
+- #f0f9ff
+- #f0fdf4
+- #f0fdfa
+- #f0fff0
+- #f0ffff
+- #f1a10d
+- #f1f3f3
+- #f1f5f9
+- #f2a9ff
+- #f2dede
+- #f2f2f2
+- #f30
+- #f3cbce
+- #f3e5f5
+- #f3e8ff
+- #f3f1f1
+- #f3f1f3
+- #f3f4f6
+- #f3f4f6cc
+- #f43f5e
+- #f44336
+- #f4511e
+- #f452ff
+- #f472b6
+- #f48fb1
+- #f4a460
+- #f4f4f0
+- #f4f4f5
+- #f4f4f5e6
+- #f57c00
+- #f59e0b
+- #f5a623
+- #f5b047
+- #f5d0fe
+- #f5deb3
+- #f5eaea
+- #f5f3ff
+- #f5f5dc
+- #f5f5f4
+- #f5f5f5
+- #f5f5f6
+- #f5fffa
+- #f6339a
+- #f6339a1a
+- #f6cfff
+- #f6fbff
+- #f76e99
+- #f7d7d9
+- #f7fee7
+- #f80
+- #f87171
+- #f87274
+- #f8baba
+- #f8bbd0
+- #f8f8ff
+- #f8f9fa
+- #f8fafc
+- #f8fafd
+- #f97316
+- #f99c00
+- #f9a8d4
+- #f9dedc
+- #f9f9f9
+- #f9fafb
+- #f9fafb80
+- #f9fbfb
+- #fa233b
+- #fa8072
+- #fac800
+- #facc15
+- #fae8ff
+- #faebd7
+- #faf0e6
+- #faf5ff
+- #fafad2
+- #fafaf9
+- #fafafa
+- #fb2c36
+- #fb2c360d
+- #fb2c361a
+- #fb2c3626
+- #fb2c3633
+- #fb2c3640
+- #fb2c364d
+- #fb2c3659
+- #fb2c3666
+- #fb2c3680
+- #fb2c3699
+- #fb2c36b3
+- #fb2c36cc
+- #fb2c36e6
+- #fb5c74
+- #fb64b6
+- #fb7185
+- #fb8c00
+- #fb923c
+- #fbbf24
+- #fbc02d
+- #fbcfe8
+- #fbe1e2
+- #fbe9e7
+- #fbeed5
+- #fbfaf9
+- #fbfbf9
+- #fca5a5
+- #fcbb00
+- #fccee8
+- #fccee880
+- #fcd34d
+- #fce7f3
+- #fcf8e3
+- #fcfcfd
+- #fd5e53ff
+- #fda4af
+- #fda5d5
+- #fdba74
+- #fdd8d8
+- #fde047
+- #fde68a
+- #fdf2f8
+- #fdf4ff
+- #fdf5e6
+- #fe6e00
+- #fea
+- #fecaca
+- #fecdd3
+- #fed7aa
+- #fee2e2
+- #fee685
+- #feedbac
+- #fef08a
+- #fef0cd
+- #fef2f2
+- #fef2f24d
+- #fef2f280
+- #fef3c6
+- #fef3c7
+- #fef3dd
+- #fef9c2
+- #fef9c3
+- #fefce8
+- #ff0
+- #ff0000
+- #ff000014
+- #ff00001f
+- #ff0033
+- #ff0066
+- #ff0099
+- #ff00cc
+- #ff00ff
+- #ff1493
+- #ff1e56
+- #ff2060
+- #ff2357
+- #ff23570d
+- #ff235733
+- #ff2727
+- #ff2d2d
+- #ff2d2d14
+- #ff2d2d1a
+- #ff2d2d1f
+- #ff2d2d29
+- #ff2d2d2e
+- #ff2d2d33
+- #ff2d2d38
+- #ff2d2d3d
+- #ff2d2d40
+- #ff2d2d4d
+- #ff2d2d59
+- #ff2d2d61
+- #ff2d2d66
+- #ff2d2d80
+- #ff2d2db3
+- #ff3300
+- #ff3333
+- #ff3366
+- #ff3399
+- #ff33cc
+- #ff33ff
+- #ff3d00
+- #ff4081
+- #ff4421
+- #ff4466
+- #ff4500
+- #ff4d4d
+- #ff5252
+- #ff5722
+- #ff5757
+- #ff6347
+- #ff6369
+- #ff6568
+- #ff65681a
+- #ff656899
+- #ff6568e6
+- #ff6600
+- #ff6633
+- #ff667f
+- #ff69b4
+- #ff6d92
+- #ff6e40
+- #ff6f00
+- #ff6f02
+- #ff7043
+- #ff7f50
+- #ff8000
+- #ff8080
+- #ff8709
+- #ff8a65
+- #ff8b1a
+- #ff8c00
+- #ff9800
+- #ff9900
+- #ff990a
+- #ff9933
+- #ffa000
+- #ffa07a
+- #ffa2ae
+- #ffa3a3
+- #ffa3a333
+- #ffa3a340
+- #ffa500
+- #ffa726
+- #ffab91
+- #ffb224
+- #ffb6c1
+- #ffb74d
+- #ffb96d
+- #ffc0cb
+- #ffc107
+- #ffc96b
+- #ffca28
+- #ffcaca
+- #ffcaca33
+- #ffcaca4d
+- #ffcaca66
+- #ffcaca80
+- #ffcacab3
+- #ffcc00
+- #ffcc33
+- #ffcc80
+- #ffccbc
+- #ffccd3
+- #ffcdd2
+- #ffd236
+- #ffd54f
+- #ffd700
+- #ffd7a8
+- #ffdab9
+- #ffddbf
+- #ffdead
+- #ffe02a
+- #ffe2e2
+- #ffe2e233
+- #ffe4b5
+- #ffe4c4
+- #ffe4e1
+- #ffe4e6
+- #ffe5e5
+- #ffeb3b
+- #ffebcd
+- #ffebeb
+- #ffecee
+- #ffedd5
+- #ffefd5
+- #fff
+- #fff0
+- #fff085
+- #fff0f0
+- #fff0f5
+- #fff1f2
+- #fff3
+- #fff3e0
+- #fff3f3
+- #fff4d5
+- #fff59d
+- #fff5ee
+- #fff6
+- #fff6e5
+- #fff7ed
+- #fff7f9
+- #fff8dc
+- #fff9
+- #fff9c4
+- #fffacd
+- #fffaf0
+- #fffafa
+- #fffaff
+- #fffbeb
+- #fffc
+- #fffce1
+- #ffff00
+- #ffff40
+- #ffffe0
+- #fffff0
+- #ffffff
+- #ffffff08
+- #ffffff0a
+- #ffffff0d
+- #ffffff14
+- #ffffff1a
+- #ffffff1f
+- #ffffff26
+- #ffffff29
+- #ffffff40
+- #ffffff4d
+- #ffffff80
+- #ffffff8c
+- #ffffffa6
+- #ffffffad
+- #ffffffb3
+- #ffffffd9
+- #ffffffe6
+
+## rgb/rgba/hsl/hsla()
+Total: 337
+
+- hsl(" + hsla[0] + ", " + hsla[1] + "%, " + hsla[2] + "%)
+- hsl("+k+","+S+"%,"+C+"%)
+- hsl("+m+", "+v+"%, "+y+"%)
+- hsl(${[n, `${r}%`, `${i}%`].concat(t.alpha === 1 ? [] : [t.alpha])
+- hsl(${[t, `${r}%`, `${n}%`].concat(e.alpha === 1 ? [] : [e.alpha])
+- hsl(...arguments_: number[])
+- hsl(...from: Apple)
+- hsl(...from: CMYK)
+- hsl(...from: Gray)
+- hsl(...from: HCG)
+- hsl(...from: HSV)
+- hsl(...from: HWB)
+- hsl(...from: LAB)
+- hsl(...from: LCH)
+- hsl(...from: RGB)
+- hsl(...from: XYZ)
+- hsl(...value: number[])
+- hsl(?:a)
+- hsl(0, 100%, 50%)
+- hsl(120,50%,50%)
+- hsl(30, 20%, 95%)
+- hsl(a)
+- hsl(color)
+- hsl(color: ColorLike)
+- hsl(e)
+- hsl(from: ANSI16)
+- hsl(from: ANSI256)
+- hsl(from: Apple)
+- hsl(from: CMYK)
+- hsl(from: Gray)
+- hsl(from: HCG)
+- hsl(from: HEX)
+- hsl(from: HSV)
+- hsl(from: HWB)
+- hsl(from: Keyword)
+- hsl(from: LAB)
+- hsl(from: LCH)
+- hsl(from: RGB)
+- hsl(from: XYZ)
+- hsl(hue: number, saturation: number, lightness: number)
+- hsl(rgb)
+- hsl(value1,saturation,lightness)
+- hsla(" : "rgba(", i = 0, c, shell, d, l; if (!colors)
+- hsla(" + hsla[0] + ", " + hsla[1] + "%, " + hsla[2] + "%, " + alpha + ")
+- hsla(" + Math.round(hue)
+- hsla("!==p.substr(-5)
+- hsla(")
+- hsla(":"rgba(",k=0;if(!i)
+- hsla(":"rgba(",l=0;if(!u)
+- hsla("+k+","+S+"%,"+C+"%,"+E+")
+- hsla("+m+", "+v+"%, "+y+"%, "+w+")
+- hsla("+Math.round(a)
+- hsla("+Math.round(e)
+- hsla("+Math.round(t)
+- hsla("===_.substr(-5)
+- hsla("===o.substr(-5)
+- hsla(0, 0%, 100%, 0.13)
+- hsla(0, 0%, 100%, 0.14)
+- hsla(0, 0%, 100%, 0.2)
+- hsla(0, 0%, 100%, 0.25)
+- hsla(120,50%,50%,0.5)
+- hsla(color)
+- hsla(value1,saturation,lightness,alpha)
+- rgb(' + ( nx * 127 + 127 )
+- rgb(' + bmFloor(elementData.c.v[0])
+- rgb(' + bmFloor(itemData.c.v[0])
+- rgb(' + cValues[i * 4 + 1] + ',' + cValues[i * 4 + 2] + ',' + cValues[i * 4 + 3] + ')
+- rgb(' + iRed + ',' + iGreen + ',' + iBlue + ')
+- rgb(' + Math.round(colorData[0] * 255)
+- rgb(' + Math.round(fc[0] * 255)
+- rgb(' + Math.round(sc[0] * 255)
+- rgb( 191, 191, 191 )
+- rgb( 255, 255, 255 )
+- rgb( 63, 63, 63 )
+- rgb( w1 * color1.red()
+- rgb(" + (nx * 127 + 127)
+- rgb(" + bmFloor(elementData.c.v[0])
+- rgb(" + bmFloor(itemData.c.v[0])
+- rgb(" + cValues[i * 4 + 1] + "," + cValues[i * 4 + 2] + "," + cValues[i * 4 + 3] + ")
+- rgb(" + iRed + "," + iGreen + "," + iBlue + ")
+- rgb(" + Math.round(colorData[0] * 255)
+- rgb(" + Math.round(fc[0] * 255)
+- rgb(" + Math.round(sc[0] * 255)
+- rgb(" + r + "%, " + g + "%, " + b + "%)
+- rgb(" + rgba[0] + ", " + rgba[1] + ", " + rgba[2] + ")
+- rgb(")
+- rgb("+hslToRgb(parseInt(""+hslaMatched[1],10)
+- rgb("+hslToRgb(parseInt(""+hslMatched[1],10)
+- rgb("+m+", "+v+", "+y+")
+- rgb("+o.bg+")
+- rgb("+o.fg+")
+- rgb("+t.bg+")
+- rgb("+t.fg+")
+- rgb("+v+","+y+","+w+")
+- rgb(${ Math.round( r * 255 )
+- rgb(${b},${c},${d})
+- rgb(${Math.round(255*e)
+- rgb(${Math.round(255*t)
+- rgb(${r},${g},${b})
+- rgb(${red} ${green} ${blue}${alphaString})
+- rgb(${t},${a},${r})
+- rgb()
+- rgb(...arguments_: number[])
+- rgb(...from: Apple)
+- rgb(...from: CMYK)
+- rgb(...from: Gray)
+- rgb(...from: HCG)
+- rgb(...from: HSL)
+- rgb(...from: HSV)
+- rgb(...from: HWB)
+- rgb(...from: LAB)
+- rgb(...from: LCH)
+- rgb(...from: XYZ)
+- rgb(...value: number[])
+- rgb(?:a)
+- rgb(0 0 0 / 0.03)
+- rgb(0 0 0 / 0.04)
+- rgb(0 0 0 / 0.05)
+- rgb(0 0 0 / 0.06)
+- rgb(0 0 0 / 0.07)
+- rgb(0 0 0 / 0.075)
+- rgb(0 0 0 / 0.08)
+- rgb(0 0 0 / 0.1)
+- rgb(0 0 0 / 0.12)
+- rgb(0 0 0 / 0.15)
+- rgb(0 0 0 / 0.2)
+- rgb(0 0 0 / 0.25)
+- rgb(0, 0, 0)
+- rgb(10, 10, 10)
+- rgb(100%, 0%, 0%)
+- rgb(100%,0%,0%)
+- rgb(127,127,255)
+- rgb(250, 0,0)
+- rgb(255, 0, 0)
+- rgb(255, 255, 255)
+- rgb(255,0,0)
+- rgb(255,131,0)
+- rgb(255,255,255)
+- rgb(a)
+- RGB(A)
+- rgb(args)
+- rgb(color)
+- rgb(color: ColorLike)
+- rgb(e)
+- rgb(firstValue,secondValue,thirdValue)
+- rgb(firstValue.red,firstValue.green,firstValue.blue)
+- rgb(from red r g b)
+- rgb(from: ANSI16)
+- rgb(from: ANSI256)
+- rgb(from: Apple)
+- rgb(from: CMYK)
+- rgb(from: Gray)
+- rgb(from: HCG)
+- rgb(from: HEX)
+- rgb(from: HSL)
+- rgb(from: HSV)
+- rgb(from: HWB)
+- rgb(from: Keyword)
+- rgb(from: LAB)
+- rgb(from: LCH)
+- rgb(from: XYZ)
+- rgb(r, g, b)
+- rgb(red: number, green: number, blue: number)
+- rgb(value: Node<NumOrBoolToVec3<TNumOrBool>> | NumOrBool<TNumOrBool>)
+- rgb(value1,green,blue)
+- rgba(' + cValues[i * 4 + 1] + ',' + cValues[i * 4 + 2] + ',' + cValues[i * 4 + 3] + ',' + opacity + ')
+- rgba( 255, 0, 0, 1 )
+- rgba(" || chunk.substr(-5)
+- rgba(" + cValues[i * 4 + 1] + "," + cValues[i * 4 + 2] + "," + cValues[i * 4 + 3] + "," + opacity + ")
+- rgba(" + r + "%, " + g + "%, " + b + "%, " + (alpha || rgba[3] || 1)
+- rgba(" + rgba[0] + ", " + rgba[1] + ", " + rgba[2] + ", " + alpha + ")
+- rgba(" + rgbUnit.transform(red)
+- rgba("!==p.substr(-5)
+- rgba(")
+- rgba("+bt.transform(t)
+- rgba("+firstValue.red+","+firstValue.green+","+firstValue.blue+","+firstValue.alpha+")
+- rgba("+firstValue+","+secondValue+","+thirdValue+","+fourthValue+")
+- rgba("+hslToRgb(value1,saturation,lightness)
+- rgba("+hslToRgb(value1.hue,value1.saturation,value1.lightness)
+- rgba("+I.transform(t)
+- rgba("+it.transform(t)
+- rgba("+L.transform(e)
+- rgba("+m.transform(t)
+- rgba("+M.transform(t)
+- rgba("+m+", "+v+", "+y+", "+w+")
+- rgba("+n.transform(a)
+- rgba("+O.transform(t)
+- rgba("+rgbValue.red+","+rgbValue.green+","+rgbValue.blue+","+secondValue+")
+- rgba("+ut.transform(t)
+- rgba("+v+","+y+","+w+","+E+")
+- rgba("+Vt.transform(t)
+- rgba("+X.transform(t)
+- rgba("===_.substr(-5)
+- rgba("===f.substr(-5)
+- rgba("===l.substr(-5)
+- rgba("===o.substr(-5)
+- rgba(${color.r},${color.g},${color.b},${color.a})
+- rgba(${F},${b},${v2},${M !== void 0 ? M : 1})
+- rgba(${n}, ${r}, ${i}, ${o})
+- rgba(${P2},${w2},${S2},${O !== void 0 ? O : 1})
+- rgba(${r}, ${i}, ${o}, 1)
+- rgba(${r}, ${n}, ${i}, 1)
+- rgba(${t}, ${r}, ${n}, ${i})
+- rgba()
+- rgba(_extends({},parsedColor,{alpha:guard(0,1,(100*alpha+100*parseFloat(amount)
+- rgba(_extends({},parsedColor,{alpha:guard(0,1,(100*alpha-100*parseFloat(amount)
+- rgba({red:Math.floor(color1.red*weight1+color2.red*weight2)
+- rgba(0, 0, 0, " + (0.05 + i % 2 / 12)
+- rgba(0, 0, 0, .3)
+- rgba(0, 0, 0, 0)
+- rgba(0, 0, 0, 0.0)
+- rgba(0, 0, 0, 0.02)
+- rgba(0, 0, 0, 0.04)
+- rgba(0, 0, 0, 0.05)
+- rgba(0, 0, 0, 0.06)
+- rgba(0, 0, 0, 0.08)
+- rgba(0, 0, 0, 0.081)
+- rgba(0, 0, 0, 0.1)
+- rgba(0, 0, 0, 0.12)
+- rgba(0, 0, 0, 0.145)
+- rgba(0, 0, 0, 0.21)
+- rgba(0, 0, 0, 0.24)
+- rgba(0, 0, 0, 0.25)
+- rgba(0, 0, 0, 0.3)
+- rgba(0, 0, 0, 0.34)
+- rgba(0, 0, 0, 0.4)
+- rgba(0, 0, 0, 0.44)
+- rgba(0, 0, 0, 0.5)
+- rgba(0, 0, 0, 0.51)
+- rgba(0, 0, 0, 0.6)
+- rgba(0, 0, 0, 0.605)
+- rgba(0, 0, 0, 0.65)
+- rgba(0, 0, 0, 0.75)
+- rgba(0, 0, 0, 0.8)
+- rgba(0, 0, 0, 0.9)
+- rgba(0, 0, 0, 0.91)
+- rgba(0, 0, 0, 1)
+- rgba(0, 0, 255, 0.2)
+- rgba(0, 0, 255, 0.9)
+- rgba(0, 170, 255, 0.1)
+- rgba(0, 170, 255, 0.15)
+- rgba(0, 170, 255, 0.2)
+- rgba(0, 170, 255, 0.25)
+- rgba(0, 170, 255, 0.3)
+- rgba(0, 255, 0, 0.2)
+- rgba(0,0,0,.3)
+- rgba(0,0,0,0)
+- rgba(0,0,0,0.0)
+- rgba(0,0,0,0.04)
+- rgba(0,0,0,0.05)
+- rgba(0,0,0,0.06)
+- rgba(0,0,0,0.08)
+- rgba(0,0,0,0.1)
+- rgba(0,0,0,0.10)
+- rgba(0,0,0,0.22)
+- rgba(0,0,0,0.25)
+- rgba(0,0,0,0.3)
+- rgba(0,0,0,0.7)
+- rgba(0,0,0,0.8)
+- rgba(100%,0%,0%,0.5)
+- rgba(100, 0, 0, 0.3)
+- rgba(100, 100, 10, 0.4)
+- rgba(128, 0, 255, 0.9)
+- rgba(128, 128, 0, 0.2)
+- rgba(128, 128, 128, 0.15)
+- rgba(128, 128, 128, 0.6)
+- rgba(128, 128, 128, 1)
+- rgba(128, 128, 255, 0.2)
+- rgba(160, 0, 160, 1.0)
+- rgba(180, 180, 180, 0.5)
+- rgba(180, 180, 180, 0.6)
+- rgba(20, 20, 20, 1)
+- rgba(200, 200, 64, 1.0)
+- rgba(204, 153, 51, 0.5)
+- rgba(217, 119, 6, 0.95)
+- rgba(230, 230, 230, 0.1)
+- rgba(230, 230, 230, 0.2)
+- rgba(239,68,68,0.12)
+- rgba(244, 67, 54, 0.1)
+- rgba(245, 158, 11, 0.9)
+- rgba(250, 250, 250, 0)
+- rgba(250, 250, 250, 0.8)
+- rgba(255, 128, 0, 0.9)
+- rgba(255, 128, 0, 1.0)
+- rgba(255, 255, 255, ${C.alpha})
+- rgba(255, 255, 255, ${h2.alpha})
+- rgba(255, 255, 255, ${this.intensity})
+- rgba(255, 255, 255, .3)
+- rgba(255, 255, 255, 0.04)
+- rgba(255, 255, 255, 0.05)
+- rgba(255, 255, 255, 0.06)
+- rgba(255, 255, 255, 0.066)
+- rgba(255, 255, 255, 0.08)
+- rgba(255, 255, 255, 0.087)
+- rgba(255, 255, 255, 0.1)
+- rgba(255, 255, 255, 0.12)
+- rgba(255, 255, 255, 0.125)
+- rgba(255, 255, 255, 0.145)
+- rgba(255, 255, 255, 0.15)
+- rgba(255, 255, 255, 0.2)
+- rgba(255, 255, 255, 0.239)
+- rgba(255, 255, 255, 0.25)
+- rgba(255, 255, 255, 0.4)
+- rgba(255, 255, 255, 0.47)
+- rgba(255, 255, 255, 0.5)
+- rgba(255, 255, 255, 0.506)
+- rgba(255, 255, 255, 0.54)
+- rgba(255, 255, 255, 0.6)
+- rgba(255, 255, 255, 0.61)
+- rgba(255, 255, 255, 0.923)
+- rgba(255, 45, 45, 0.15)
+- rgba(255,0,0,0.5)
+- rgba(255,255,255,.3)
+- rgba(255,255,255,0.04)
+- rgba(255,255,255,0.08)
+- rgba(255,255,255,0.10)
+- rgba(255,255,255,0.12)
+- rgba(255,255,255,0.14)
+- rgba(255,255,255,0.25)
+- rgba(255,255,255,0.75)
+- rgba(255,45,45,0.08)
+- rgba(255,45,45,0.10)
+- rgba(255,45,45,0.16)
+- rgba(255,45,45,0.18)
+- rgba(255,45,45,0.22)
+- rgba(255,45,45,0.25)
+- rgba(30, 30, 36, 0.85)
+- rgba(32, 32, 240, 1.0)
+- rgba(50, 20, 100, 0.3)
+- rgba(74, 74, 90, 0.2)
+- rgba(74, 74, 90, 0.5)
+- rgba(75, 160, 255, 0.1)
+- rgba(85, 85, 85, 0.6)
+- rgba(85, 85, 85, 0.7)
+- rgba(color)
+- rgba(firstValue,secondValue,thirdValue,fourthValue)
+- rgba(value: Node<NumOrBoolToVec4<TNumOrBool>> | NumOrBool<TNumOrBool>)
+
+## Tailwind color tokens found
+Total: 235
+
+- bg-black
+- bg-black/15
+- bg-black/20
+- bg-black/25
+- bg-black/5
+- bg-black/70
+- bg-black/80
+- bg-black/90
+- bg-black/95
+- bg-blue-100
+- bg-blue-200
+- bg-blue-50
+- bg-blue-950
+- bg-gray-100
+- bg-gray-100/80
+- bg-gray-200
+- bg-gray-300
+- bg-gray-50
+- bg-gray-50/50
+- bg-gray-800
+- bg-gray-900
+- bg-green-100
+- bg-green-50
+- bg-indigo-50
+- bg-pink-600
+- bg-purple-50
+- bg-purple-950
+- bg-red-100
+- bg-red-200
+- bg-red-200/20
+- bg-red-300
+- bg-red-300/20
+- bg-red-400
+- bg-red-400/10
+- bg-red-50
+- bg-red-500
+- bg-red-500/10
+- bg-red-500/20
+- bg-red-500/40
+- bg-red-500/5
+- bg-red-600
+- bg-red-600/10
+- bg-red-600/5
+- bg-red-700
+- bg-red-900
+- bg-rose-50
+- bg-slate-100
+- bg-slate-50
+- bg-slate-900
+- bg-slate-950
+- bg-teal-500
+- bg-teal-500/10
+- bg-white
+- bg-white/10
+- bg-white/20
+- bg-white/3
+- bg-white/30
+- bg-white/40
+- bg-white/5
+- bg-white/50
+- bg-white/60
+- bg-white/70
+- bg-white/80
+- bg-white/90
+- bg-zinc-800
+- border-black
+- border-black/10
+- border-black/12
+- border-black/20
+- border-black/5
+- border-blue
+- border-gray-100
+- border-gray-200
+- border-gray-300
+- border-gray-500
+- border-green-100
+- border-pink-200
+- border-pink-200/50
+- border-red
+- border-red-100
+- border-red-200
+- border-red-200/30
+- border-red-200/40
+- border-red-200/50
+- border-red-200/70
+- border-red-300
+- border-red-300/20
+- border-red-300/25
+- border-red-400
+- border-red-50
+- border-red-500
+- border-red-500/10
+- border-red-500/20
+- border-red-500/25
+- border-red-500/30
+- border-red-500/35
+- border-red-500/40
+- border-red-500/50
+- border-red-500/60
+- border-red-500/70
+- border-red-500/80
+- border-red-600
+- border-red-600/50
+- border-rose-100
+- border-rose-500
+- border-slate-100
+- border-slate-200
+- border-white
+- border-white/10
+- border-white/15
+- border-white/20
+- border-white/50
+- border-white/70
+- border-zinc-200
+- from-black
+- from-black/20
+- from-black/30
+- from-black/50
+- from-black/60
+- from-black/80
+- from-red-100
+- from-red-50
+- from-red-50/50
+- from-red-500
+- from-red-500/10
+- from-red-500/15
+- from-red-600
+- from-red-600/90
+- from-red-900
+- from-red-900/25
+- from-red-900/35
+- from-white
+- from-white/90
+- ring-blue-300
+- ring-blue-300/20
+- ring-blue-700
+- ring-blue-700/10
+- ring-purple-300
+- ring-purple-300/20
+- ring-purple-700
+- ring-purple-700/10
+- ring-red-500
+- ring-rose-500
+- ring-rose-500/5
+- text-black
+- text-black/60
+- text-black/68
+- text-black/70
+- text-black/74
+- text-black/75
+- text-black/80
+- text-blue
+- text-blue-300
+- text-blue-500
+- text-blue-600
+- text-blue-700
+- text-gray-200
+- text-gray-300
+- text-gray-400
+- text-gray-500
+- text-gray-600
+- text-gray-700
+- text-gray-800
+- text-gray-900
+- text-green-500
+- text-green-600
+- text-green-700
+- text-indigo-600
+- text-orange-500
+- text-purple-300
+- text-purple-500
+- text-purple-700
+- text-red
+- text-red-100
+- text-red-300
+- text-red-400
+- text-red-400/60
+- text-red-400/90
+- text-red-50
+- text-red-500
+- text-red-500/10
+- text-red-500/30
+- text-red-500/60
+- text-red-500/90
+- text-red-600
+- text-rose-500
+- text-rose-600
+- text-slate-200
+- text-slate-400
+- text-slate-500
+- text-slate-600
+- text-slate-700
+- text-slate-800
+- text-slate-900
+- text-white
+- text-white/25
+- text-white/40
+- text-white/50
+- text-white/55
+- text-white/60
+- text-white/65
+- text-white/68
+- text-white/70
+- text-white/80
+- text-white/85
+- text-white/90
+- text-zinc-300
+- text-zinc-900
+- to-black
+- to-black/95
+- to-gray-200
+- to-gray-50
+- to-pink-500
+- to-pink-500/10
+- to-red-200
+- to-red-400
+- to-red-50
+- to-red-50/30
+- to-red-500
+- to-rose-500
+- to-white
+- to-zinc-100
+- to-zinc-100/90
+- via-black
+- via-black/15
+- via-black/25
+- via-black/5
+- via-pink-500
+- via-red-400
+- via-red-500
+- via-red-600
+- via-red-700
+- via-red-700/90
+- via-white
+- via-white/80
+
+## CSS variable definitions found
+Total: 3282
+
+- ------------------------------: | :-----: | :----------------------------: | :-------------------------------: | :-: | * | **1** _(-webkit-mask-box-image)_ | No | **17.2** | **79** _(-webkit-mask-box-image)_ | No | * | | | 3.1 _(-webkit-mask-box-image)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border */ "mask-border"?: Property.MaskBorder | undefined;
+- ------------------------------: | :-----: | :----------------------------: | :-------------------------------: | :-: | * | **1** _(-webkit-mask-box-image)_ | No | **17.2** | **79** _(-webkit-mask-box-image)_ | No | * | | | 3.1 _(-webkit-mask-box-image)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border */ maskBorder?: Property.MaskBorder | undefined;
+- -------------------------------------: | :-----: | :-----------------------------------: | :--------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-outset)_ | No | **17.2** | **79** _(-webkit-mask-box-image-outset)_ | No | * | | | 3.1 _(-webkit-mask-box-image-outset)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-outset */ "mask-border-outset"?: Property.MaskBorderOutset<TLength> | undefined;
+- -------------------------------------: | :-----: | :-----------------------------------: | :--------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-outset)_ | No | **17.2** | **79** _(-webkit-mask-box-image-outset)_ | No | * | | | 3.1 _(-webkit-mask-box-image-outset)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-outset */ maskBorderOutset?: Property.MaskBorderOutset<TLength> | undefined;
+- -------------------------------------: | :-----: | :-----------------------------------: | :--------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-repeat)_ | No | **17.2** | **79** _(-webkit-mask-box-image-repeat)_ | No | * | | | 3.1 _(-webkit-mask-box-image-repeat)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-repeat */ "mask-border-repeat"?: Property.MaskBorderRepeat | undefined;
+- -------------------------------------: | :-----: | :-----------------------------------: | :--------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-repeat)_ | No | **17.2** | **79** _(-webkit-mask-box-image-repeat)_ | No | * | | | 3.1 _(-webkit-mask-box-image-repeat)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-repeat */ maskBorderRepeat?: Property.MaskBorderRepeat | undefined;
+- ------------------------------------: | :-----: | :----------------------------------: | :-------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-slice)_ | No | **17.2** | **79** _(-webkit-mask-box-image-slice)_ | No | * | | | 3.1 _(-webkit-mask-box-image-slice)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-slice */ "mask-border-slice"?: Property.MaskBorderSlice | undefined;
+- ------------------------------------: | :-----: | :----------------------------------: | :-------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-slice)_ | No | **17.2** | **79** _(-webkit-mask-box-image-slice)_ | No | * | | | 3.1 _(-webkit-mask-box-image-slice)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-slice */ maskBorderSlice?: Property.MaskBorderSlice | undefined;
+- -------------------------------------: | :-----: | :-----------------------------------: | :--------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-source)_ | No | **17.2** | **79** _(-webkit-mask-box-image-source)_ | No | * | | | 3.1 _(-webkit-mask-box-image-source)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-source */ "mask-border-source"?: Property.MaskBorderSource | undefined;
+- -------------------------------------: | :-----: | :-----------------------------------: | :--------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-source)_ | No | **17.2** | **79** _(-webkit-mask-box-image-source)_ | No | * | | | 3.1 _(-webkit-mask-box-image-source)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-source */ maskBorderSource?: Property.MaskBorderSource | undefined;
+- ------------------------------------: | :-----: | :----------------------------------: | :-------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-width)_ | No | **17.2** | **79** _(-webkit-mask-box-image-width)_ | No | * | | | 3.1 _(-webkit-mask-box-image-width)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-width */ "mask-border-width"?: Property.MaskBorderWidth<TLength> | undefined;
+- ------------------------------------: | :-----: | :----------------------------------: | :-------------------------------------: | :-: | * | **1** _(-webkit-mask-box-image-width)_ | No | **17.2** | **79** _(-webkit-mask-box-image-width)_ | No | * | | | 3.1 _(-webkit-mask-box-image-width)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-width */ maskBorderWidth?: Property.MaskBorderWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color */ color?: Property.Color | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font */ font?: Property.Font | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-family */ "font-family"?: Property.FontFamily | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-family */ fontFamily?: Property.FontFamily | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin */ margin?: Property.Margin<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-bottom */ "margin-bottom"?: Property.MarginBottom<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-bottom */ marginBottom?: Property.MarginBottom<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-left */ "margin-left"?: Property.MarginLeft<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-left */ marginLeft?: Property.MarginLeft<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-right */ "margin-right"?: Property.MarginRight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-right */ marginRight?: Property.MarginRight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-top */ "margin-top"?: Property.MarginTop<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-top */ marginTop?: Property.MarginTop<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-align */ "text-align"?: Property.TextAlign | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-align */ textAlign?: Property.TextAlign | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration */ "text-decoration"?: Property.TextDecoration<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration */ textDecoration?: Property.TextDecoration<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-indent */ "text-indent"?: Property.TextIndent<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-indent */ textIndent?: Property.TextIndent<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background */ background?: Property.Background<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-attachment */ "background-attachment"?: Property.BackgroundAttachment | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-attachment */ backgroundAttachment?: Property.BackgroundAttachment | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-color */ "background-color"?: Property.BackgroundColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-color */ backgroundColor?: Property.BackgroundColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-image */ "background-image"?: Property.BackgroundImage | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-image */ backgroundImage?: Property.BackgroundImage | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position */ "background-position"?: Property.BackgroundPosition<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position */ backgroundPosition?: Property.BackgroundPosition<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-repeat */ "background-repeat"?: Property.BackgroundRepeat | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-repeat */ backgroundRepeat?: Property.BackgroundRepeat | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border */ border?: Property.Border<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom */ "border-bottom"?: Property.BorderBottom<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom */ borderBottom?: Property.BorderBottom<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-color */ "border-bottom-color"?: Property.BorderBottomColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-color */ borderBottomColor?: Property.BorderBottomColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-width */ "border-bottom-width"?: Property.BorderBottomWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-width */ borderBottomWidth?: Property.BorderBottomWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-color */ "border-color"?: Property.BorderColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-color */ borderColor?: Property.BorderColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left */ "border-left"?: Property.BorderLeft<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left */ borderLeft?: Property.BorderLeft<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-color */ "border-left-color"?: Property.BorderLeftColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-color */ borderLeftColor?: Property.BorderLeftColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-width */ "border-left-width"?: Property.BorderLeftWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-width */ borderLeftWidth?: Property.BorderLeftWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-color */ "border-right-color"?: Property.BorderRightColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-color */ borderRightColor?: Property.BorderRightColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-width */ "border-right-width"?: Property.BorderRightWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-width */ borderRightWidth?: Property.BorderRightWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-style */ "border-style"?: Property.BorderStyle | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-style */ borderStyle?: Property.BorderStyle | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top */ "border-top"?: Property.BorderTop<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top */ borderTop?: Property.BorderTop<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-color */ "border-top-color"?: Property.BorderTopColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-color */ borderTopColor?: Property.BorderTopColor | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-width */ "border-top-width"?: Property.BorderTopWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-width */ borderTopWidth?: Property.BorderTopWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-width */ "border-width"?: Property.BorderWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-width */ borderWidth?: Property.BorderWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clear */ clear?: Property.Clear | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/display */ display?: Property.Display | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/float */ float?: Property.Float | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-style */ "font-style"?: Property.FontStyle | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-style */ fontStyle?: Property.FontStyle | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant */ "font-variant"?: Property.FontVariant | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant */ fontVariant?: Property.FontVariant | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/height */ height?: Property.Height<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/letter-spacing */ "letter-spacing"?: Property.LetterSpacing<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/letter-spacing */ letterSpacing?: Property.LetterSpacing<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-height */ "line-height"?: Property.LineHeight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-height */ lineHeight?: Property.LineHeight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style */ "list-style"?: Property.ListStyle | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style */ listStyle?: Property.ListStyle | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style-image */ "list-style-image"?: Property.ListStyleImage | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style-image */ listStyleImage?: Property.ListStyleImage | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style-position */ "list-style-position"?: Property.ListStylePosition | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style-position */ listStylePosition?: Property.ListStylePosition | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style-type */ "list-style-type"?: Property.ListStyleType | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style-type */ listStyleType?: Property.ListStyleType | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow */ overflow?: Property.Overflow | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding */ padding?: Property.Padding<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-bottom */ "padding-bottom"?: Property.PaddingBottom<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-bottom */ paddingBottom?: Property.PaddingBottom<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-left */ "padding-left"?: Property.PaddingLeft<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-left */ paddingLeft?: Property.PaddingLeft<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-right */ "padding-right"?: Property.PaddingRight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-right */ paddingRight?: Property.PaddingRight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-top */ "padding-top"?: Property.PaddingTop<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-top */ paddingTop?: Property.PaddingTop<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position */ position?: Property.Position | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-transform */ "text-transform"?: Property.TextTransform | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-transform */ textTransform?: Property.TextTransform | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/vertical-align */ "vertical-align"?: Property.VerticalAlign<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/vertical-align */ verticalAlign?: Property.VerticalAlign<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/visibility */ visibility?: Property.Visibility | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/width */ width?: Property.Width<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/z-index */ "z-index"?: Property.ZIndex | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/z-index */ zIndex?: Property.ZIndex | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/bottom */ bottom?: Property.Bottom<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/top */ top?: Property.Top<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-style */ "border-bottom-style"?: Property.BorderBottomStyle | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-style */ borderBottomStyle?: Property.BorderBottomStyle | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-style */ "border-left-style"?: Property.BorderLeftStyle | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-style */ borderLeftStyle?: Property.BorderLeftStyle | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right */ "border-right"?: Property.BorderRight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right */ borderRight?: Property.BorderRight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-style */ "border-right-style"?: Property.BorderRightStyle | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-style */ borderRightStyle?: Property.BorderRightStyle | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-style */ "border-top-style"?: Property.BorderTopStyle | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-style */ borderTopStyle?: Property.BorderTopStyle | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-size */ "font-size"?: Property.FontSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-size */ fontSize?: Property.FontSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/left */ left?: Property.Left<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/right */ right?: Property.Right<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/white-space */ "white-space"?: Property.WhiteSpace | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/white-space */ whiteSpace?: Property.WhiteSpace | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **6** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-spacing */ "word-spacing"?: Property.WordSpacing<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **6** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-spacing */ wordSpacing?: Property.WordSpacing<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **7** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-width */ "max-width"?: Property.MaxWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **7** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-width */ maxWidth?: Property.MaxWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **7** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-width */ "min-width"?: Property.MinWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **7** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-width */ minWidth?: Property.MinWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-spacing */ "border-spacing"?: Property.BorderSpacing<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-spacing */ borderSpacing?: Property.BorderSpacing<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caption-side */ "caption-side"?: Property.CaptionSide | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caption-side */ captionSide?: Property.CaptionSide | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **1** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/content */ content?: Property.Content | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1** | **1.1** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-collapse */ "border-collapse"?: Property.BorderCollapse | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1** | **1.1** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-collapse */ borderCollapse?: Property.BorderCollapse | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1** | **1.2** | **12** | **4** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/cursor */ cursor?: Property.Cursor | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1** | **1.2** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/empty-cells */ "empty-cells"?: Property.EmptyCells | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1** | **1.2** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/empty-cells */ emptyCells?: Property.EmptyCells | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1** | **1.3** | **12** | **7** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-height */ "max-height"?: Property.MaxHeight<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1** | **1.3** | **12** | **7** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-height */ maxHeight?: Property.MaxHeight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **1** | **2** | **12** | **9** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/opacity */ opacity?: Property.Opacity | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | **1** | **4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/dominant-baseline */ "dominant-baseline"?: Property.DominantBaseline | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | **1** | **4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/dominant-baseline */ dominantBaseline?: Property.DominantBaseline | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill-opacity */ "fill-opacity"?: Property.FillOpacity | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill-opacity */ fillOpacity?: Property.FillOpacity | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1.5** | **1.2** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-color */ "outline-color"?: Property.OutlineColor | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1.5** | **1.2** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-color */ outlineColor?: Property.OutlineColor | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1.5** | **1.2** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-style */ "outline-style"?: Property.OutlineStyle | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1.5** | **1.2** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-style */ outlineStyle?: Property.OutlineStyle | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1.5** | **1.2** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-width */ "outline-width"?: Property.OutlineWidth<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **1.5** | **1.2** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-width */ outlineWidth?: Property.OutlineWidth<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **1** | **1.5** | **1.2** | **15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-offset */ "outline-offset"?: Property.OutlineOffset<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **1** | **1.5** | **1.2** | **15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-offset */ outlineOffset?: Property.OutlineOffset<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **1** | **1.5** | **3** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-gap */ "column-gap"?: Property.ColumnGap<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **1** | **1.5** | **3** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-gap */ columnGap?: Property.ColumnGap<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **1** | **1.5** | **4** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/pointer-events */ "pointer-events"?: Property.PointerEvents | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **1** | **1.5** | **4** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/pointer-events */ pointerEvents?: Property.PointerEvents | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke */ stroke?: Property.Stroke | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-dasharray */ "stroke-dasharray"?: Property.StrokeDasharray<TLength> | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-dasharray */ strokeDasharray?: Property.StrokeDasharray<TLength> | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-dashoffset */ "stroke-dashoffset"?: Property.StrokeDashoffset<TLength> | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-dashoffset */ strokeDashoffset?: Property.StrokeDashoffset<TLength> | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-linecap */ "stroke-linecap"?: Property.StrokeLinecap | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-linecap */ strokeLinecap?: Property.StrokeLinecap | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-linejoin */ "stroke-linejoin"?: Property.StrokeLinejoin | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-linejoin */ strokeLinejoin?: Property.StrokeLinejoin | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-miterlimit */ "stroke-miterlimit"?: Property.StrokeMiterlimit | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-miterlimit */ strokeMiterlimit?: Property.StrokeMiterlimit | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-opacity */ "stroke-opacity"?: Property.StrokeOpacity | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-opacity */ strokeOpacity?: Property.StrokeOpacity | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-width */ "stroke-width"?: Property.StrokeWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **1.5** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-width */ strokeWidth?: Property.StrokeWidth<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :-----: | * | **1** | **126** | **3.1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/zoom */ zoom?: Property.Zoom | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **15** | **3** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-break */ "word-break"?: Property.WordBreak | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **1** | **15** | **3** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-break */ wordBreak?: Property.WordBreak | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **3** | **1.3** | **12** | **7** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-height */ "min-height"?: Property.MinHeight<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **3** | **1.3** | **12** | **7** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-height */ minHeight?: Property.MinHeight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | **3** | **3** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-interpolation-filters */ "color-interpolation-filters"?: Property.ColorInterpolationFilters | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | **3** | **3** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-interpolation-filters */ colorInterpolationFilters?: Property.ColorInterpolationFilters | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | **3** | **4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-rendering */ "shape-rendering"?: Property.ShapeRendering | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | **3** | **4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-rendering */ shapeRendering?: Property.ShapeRendering | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤14** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-anchor */ "text-anchor"?: Property.TextAnchor | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤14** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-anchor */ textAnchor?: Property.TextAnchor | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill */ fill?: Property.Fill | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill-rule */ "fill-rule"?: Property.FillRule | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill-rule */ fillRule?: Property.FillRule | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker */ marker?: Property.Marker | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-end */ "marker-end"?: Property.MarkerEnd | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-end */ markerEnd?: Property.MarkerEnd | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-mid */ "marker-mid"?: Property.MarkerMid | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-mid */ markerMid?: Property.MarkerMid | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-start */ "marker-start"?: Property.MarkerStart | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-start */ markerStart?: Property.MarkerStart | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stop-color */ "stop-color"?: Property.StopColor | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stop-color */ stopColor?: Property.StopColor | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stop-opacity */ "stop-opacity"?: Property.StopOpacity | undefined;
+- ----: | :-----: | :----: | :-----: | :-: | * | **1** | **3** | **4** | **â‰¤15** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stop-opacity */ stopOpacity?: Property.StopOpacity | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **3.5** | **3** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-x */ "overflow-x"?: Property.OverflowX | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **3.5** | **3** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-x */ overflowX?: Property.OverflowX | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **3.5** | **3** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-y */ "overflow-y"?: Property.OverflowY | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **3.5** | **3** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-y */ overflowY?: Property.OverflowY | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **4** | **3** | **12** | **9** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-origin */ "background-origin"?: Property.BackgroundOrigin | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **4** | **3** | **12** | **9** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-origin */ backgroundOrigin?: Property.BackgroundOrigin | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | **4** | **3** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/resize */ resize?: Property.Resize | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **4** | **5** | **12** | **9** | * | | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-clip */ "background-clip"?: Property.BackgroundClip | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **4** | **5** | **12** | **9** | * | | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-clip */ backgroundClip?: Property.BackgroundClip | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **49** | **1** | **12** | **6** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position-x */ "background-position-x"?: Property.BackgroundPositionX<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **49** | **1** | **12** | **6** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position-x */ backgroundPositionX?: Property.BackgroundPositionX<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **49** | **1** | **12** | **6** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position-y */ "background-position-y"?: Property.BackgroundPositionY<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **1** | **49** | **1** | **12** | **6** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position-y */ backgroundPositionY?: Property.BackgroundPositionY<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **7** | **1.3** | **12** | **6** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-overflow */ "text-overflow"?: Property.TextOverflow | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **1** | **7** | **1.3** | **12** | **6** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-overflow */ textOverflow?: Property.TextOverflow | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | No | **4** | **79** | No | */ "baseline-shift"?: Property.BaselineShift<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **1** | No | **4** | **79** | No | */ baselineShift?: Property.BaselineShift<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **1** | No | **5.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/alignment-baseline */ "alignment-baseline"?: Property.AlignmentBaseline | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **1** | No | **5.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/alignment-baseline */ alignmentBaseline?: Property.AlignmentBaseline | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **10** | **29** | **5.1** | **12** | **8** | * | 1 _-x-_ | 1 _-x-_ | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-sizing */ "box-sizing"?: Property.BoxSizing | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **10** | **29** | **5.1** | **12** | **8** | * | 1 _-x-_ | 1 _-x-_ | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-sizing */ boxSizing?: Property.BoxSizing | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **10** | **4** | **5.1** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-shadow */ "box-shadow"?: Property.BoxShadow | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **10** | **4** | **5.1** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-shadow */ boxShadow?: Property.BoxShadow | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **101** | **107** | **15.4** | **101** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-palette */ "font-palette"?: Property.FontPalette | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **101** | **107** | **15.4** | **101** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-palette */ fontPalette?: Property.FontPalette | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **104** | **72** | **14.1** | **104** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/rotate */ rotate?: Property.Rotate | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **104** | **72** | **14.1** | **104** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scale */ scale?: Property.Scale | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **104** | **72** | **14.1** | **104** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/translate */ translate?: Property.Translate<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **104** | No | No | **104** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-view-box */ "object-view-box"?: Property.ObjectViewBox | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **104** | No | No | **104** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-view-box */ objectViewBox?: Property.ObjectViewBox | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **105** | **110** | **16** | **105** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/container */ container?: Property.Container | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **105** | **110** | **16** | **105** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/container-name */ "container-name"?: Property.ContainerName | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **105** | **110** | **16** | **105** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/container-name */ containerName?: Property.ContainerName | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **105** | **110** | **16** | **105** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/container-type */ "container-type"?: Property.ContainerType | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **105** | **110** | **16** | **105** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/container-type */ containerType?: Property.ContainerType | undefined;
+- -----: | :-----: | :-------: | :------: | :-: | * | **106** | **98** | **17** | **106** | No | * | 6 _-x-_ | | 5.1 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphenate-character */ "hyphenate-character"?: Property.HyphenateCharacter | undefined;
+- -----: | :-----: | :-------: | :------: | :-: | * | **106** | **98** | **17** | **106** | No | * | 6 _-x-_ | | 5.1 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphenate-character */ hyphenateCharacter?: Property.HyphenateCharacter | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **109** | **117** | **14.1** | **109** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/math-style */ "math-style"?: Property.MathStyle | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **109** | **117** | **14.1** | **109** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/math-style */ mathStyle?: Property.MathStyle | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **109** | **117** | No | **109** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/math-depth */ "math-depth"?: Property.MathDepth | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **109** | **117** | No | **109** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/math-depth */ mathDepth?: Property.MathDepth | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **109** | **137** | No | **109** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphenate-limit-chars */ "hyphenate-limit-chars"?: Property.HyphenateLimitChars | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **109** | **137** | No | **109** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphenate-limit-chars */ hyphenateLimitChars?: Property.HyphenateLimitChars | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **109** | No | No | **109** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/math-shift */ "math-shift"?: Property.MathShift | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **109** | No | No | **109** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/math-shift */ mathShift?: Property.MathShift | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **11** | **1.5** | **9** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/quotes */ quotes?: Property.Quotes | undefined;
+- -----: | :-----: | :---------: | :-----: | :-: | * | **110** | No | **9** _-x-_ | **110** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/initial-letter */ "initial-letter"?: Property.InitialLetter | undefined;
+- -----: | :-----: | :---------: | :-----: | :-: | * | **110** | No | **9** _-x-_ | **110** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/initial-letter */ initialLetter?: Property.InitialLetter | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **111** | **144** | **18** | **111** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-transition-name */ "view-transition-name"?: Property.ViewTransitionName | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **111** | **144** | **18** | **111** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-transition-name */ viewTransitionName?: Property.ViewTransitionName | undefined;
+- -----: | :-----: | :-----: | :-----: | :-: | * | **111** | **34** | **9.1** | **111** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates */ "font-variant-alternates"?: Property.FontVariantAlternates | undefined;
+- -----: | :-----: | :-----: | :-----: | :-: | * | **111** | **34** | **9.1** | **111** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates */ fontVariantAlternates?: Property.FontVariantAlternates | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **112** | **115** | **16** | **112** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-composition */ "animation-composition"?: Property.AnimationComposition | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **112** | **115** | **16** | **112** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-composition */ animationComposition?: Property.AnimationComposition | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **114** | **121** | **17.4** | **114** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap */ "text-wrap"?: Property.TextWrap | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **114** | **121** | **17.4** | **114** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap */ textWrap?: Property.TextWrap | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **114** | **124** | **17.4** | **114** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/white-space-collapse */ "white-space-collapse"?: Property.WhiteSpaceCollapse | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **114** | **124** | **17.4** | **114** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/white-space-collapse */ whiteSpaceCollapse?: Property.WhiteSpaceCollapse | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range */ "animation-range"?: Property.AnimationRange<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range */ animationRange?: Property.AnimationRange<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range-end */ "animation-range-end"?: Property.AnimationRangeEnd<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range-end */ animationRangeEnd?: Property.AnimationRangeEnd<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range-start */ "animation-range-start"?: Property.AnimationRangeStart<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range-start */ animationRangeStart?: Property.AnimationRangeStart<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timeline */ "animation-timeline"?: Property.AnimationTimeline | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timeline */ animationTimeline?: Property.AnimationTimeline | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline */ "scroll-timeline"?: Property.ScrollTimeline | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline */ scrollTimeline?: Property.ScrollTimeline | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline-axis */ "scroll-timeline-axis"?: Property.ScrollTimelineAxis | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline-axis */ scrollTimelineAxis?: Property.ScrollTimelineAxis | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline-name */ "scroll-timeline-name"?: Property.ScrollTimelineName | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline-name */ scrollTimelineName?: Property.ScrollTimelineName | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline */ "view-timeline"?: Property.ViewTimeline | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline */ viewTimeline?: Property.ViewTimeline | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-axis */ "view-timeline-axis"?: Property.ViewTimelineAxis | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-axis */ viewTimelineAxis?: Property.ViewTimelineAxis | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-inset */ "view-timeline-inset"?: Property.ViewTimelineInset<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-inset */ viewTimelineInset?: Property.ViewTimelineInset<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-name */ "view-timeline-name"?: Property.ViewTimelineName | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **115** | No | **26** | **115** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-name */ viewTimelineName?: Property.ViewTimelineName | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **116** | **122** | **16** | **116** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-position */ "offset-position"?: Property.OffsetPosition<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **116** | **122** | **16** | **116** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-position */ offsetPosition?: Property.OffsetPosition<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **116** | **72** | **16** | **116** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-anchor */ "offset-anchor"?: Property.OffsetAnchor<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **116** | **72** | **16** | **116** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-anchor */ offsetAnchor?: Property.OffsetAnchor<TLength> | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **116** | No | **26** | **116** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-scope */ "timeline-scope"?: Property.TimelineScope | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **116** | No | **26** | **116** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-scope */ timelineScope?: Property.TimelineScope | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **117** | **129** | **17.4** | **117** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-behavior */ "transition-behavior"?: Property.TransitionBehavior | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **117** | **129** | **17.4** | **117** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-behavior */ transitionBehavior?: Property.TransitionBehavior | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **117** | No | No | **117** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overlay */ overlay?: Property.Overlay | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **120** | **53** | **15.4** | **120** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-mode */ "mask-mode"?: Property.MaskMode | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **120** | **53** | **15.4** | **120** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-mode */ maskMode?: Property.MaskMode | undefined;
+- -----: | :-----: | :------: | :------: | :-: | * | **120** | **53** | **15.4** | **120** | No | * | 1 _-x-_ | | 4 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-clip */ "mask-clip"?: Property.MaskClip | undefined;
+- -----: | :-----: | :------: | :------: | :-: | * | **120** | **53** | **15.4** | **120** | No | * | 1 _-x-_ | | 4 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-clip */ maskClip?: Property.MaskClip | undefined;
+- -----: | :-----: | :------: | :------: | :-: | * | **120** | **53** | **15.4** | **120** | No | * | 1 _-x-_ | | 4 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-origin */ "mask-origin"?: Property.MaskOrigin | undefined;
+- -----: | :-----: | :------: | :------: | :-: | * | **120** | **53** | **15.4** | **120** | No | * | 1 _-x-_ | | 4 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-origin */ maskOrigin?: Property.MaskOrigin | undefined;
+- -----: | :-----: | :-------: | :---: | :-: | * | **120** | **53** | **15.4** | 12-79 | No | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask */ mask?: Property.Mask<TLength> | undefined;
+- -----: | :-----: | :------: | :---: | :-: | * | **120** | **53** | **15.4** | 16-79 | No | * | 1 _-x-_ | | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-image */ "mask-image"?: Property.MaskImage | undefined;
+- -----: | :-----: | :------: | :---: | :-: | * | **120** | **53** | **15.4** | 16-79 | No | * | 1 _-x-_ | | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-image */ maskImage?: Property.MaskImage | undefined;
+- -----: | :-----: | :------: | :---: | :-: | * | **120** | **53** | **15.4** | 18-79 | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-composite */ "mask-composite"?: Property.MaskComposite | undefined;
+- -----: | :-----: | :------: | :---: | :-: | * | **120** | **53** | **15.4** | 18-79 | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-composite */ maskComposite?: Property.MaskComposite | undefined;
+- -----: | :-----: | :-------: | :---: | :-: | * | **120** | **53** | **15.4** | 18-79 | No | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-position */ "mask-position"?: Property.MaskPosition<TLength> | undefined;
+- -----: | :-----: | :-------: | :---: | :-: | * | **120** | **53** | **15.4** | 18-79 | No | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-position */ maskPosition?: Property.MaskPosition<TLength> | undefined;
+- -----: | :-----: | :-------: | :---: | :-: | * | **120** | **53** | **15.4** | 18-79 | No | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-repeat */ "mask-repeat"?: Property.MaskRepeat | undefined;
+- -----: | :-----: | :-------: | :---: | :-: | * | **120** | **53** | **15.4** | 18-79 | No | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-repeat */ maskRepeat?: Property.MaskRepeat | undefined;
+- -----: | :-----: | :------: | :---: | :-: | * | **120** | **53** | **15.4** | 18-79 | No | * | 4 _-x-_ | | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-size */ "mask-size"?: Property.MaskSize<TLength> | undefined;
+- -----: | :-----: | :------: | :---: | :-: | * | **120** | **53** | **15.4** | 18-79 | No | * | 4 _-x-_ | | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-size */ maskSize?: Property.MaskSize<TLength> | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **121** | **64** | **18.2** | **121** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-width */ "scrollbar-width"?: Property.ScrollbarWidth | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **121** | **64** | **18.2** | **121** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-width */ scrollbarWidth?: Property.ScrollbarWidth | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **121** | **64** | No | **121** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-color */ "scrollbar-color"?: Property.ScrollbarColor | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **121** | **64** | No | **121** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-color */ scrollbarColor?: Property.ScrollbarColor | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **123** | **60** | **11** | **123** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/paint-order */ "paint-order"?: Property.PaintOrder | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **123** | **60** | **11** | **123** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/paint-order */ paintOrder?: Property.PaintOrder | undefined;
+- -----: | :-----: | :---------: | :-----: | :-: | * | **123** | No | **preview** | **123** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/field-sizing */ "field-sizing"?: Property.FieldSizing | undefined;
+- -----: | :-----: | :---------: | :-----: | :-: | * | **123** | No | **preview** | **123** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/field-sizing */ fieldSizing?: Property.FieldSizing | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **123** | No | No | **123** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-spacing-trim */ "text-spacing-trim"?: Property.TextSpacingTrim | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **123** | No | No | **123** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-spacing-trim */ textSpacingTrim?: Property.TextSpacingTrim | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **125** | **144** | **18.2** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-transition-class */ "view-transition-class"?: Property.ViewTransitionClass | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **125** | **144** | **18.2** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-transition-class */ viewTransitionClass?: Property.ViewTransitionClass | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **125** | **preview** | **26** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/anchor-name */ "anchor-name"?: Property.AnchorName | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **125** | **preview** | **26** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/anchor-name */ anchorName?: Property.AnchorName | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **125** | **preview** | **26** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-anchor */ "position-anchor"?: Property.PositionAnchor | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **125** | **preview** | **26** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-anchor */ positionAnchor?: Property.PositionAnchor | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **125** | **preview** | **26** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try */ "position-try"?: Property.PositionTry | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **125** | **preview** | **26** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try */ positionTry?: Property.PositionTry | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **125** | **preview** | No | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-visibility */ "position-visibility"?: Property.PositionVisibility | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **125** | **preview** | No | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-visibility */ positionVisibility?: Property.PositionVisibility | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **125** | No | **26** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try-order */ "position-try-order"?: Property.PositionTryOrder | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **125** | No | **26** | **125** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try-order */ positionTryOrder?: Property.PositionTryOrder | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **127** | **3** | **16.4** | **127** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-size-adjust */ "font-size-adjust"?: Property.FontSizeAdjust | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **127** | **3** | **16.4** | **127** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-size-adjust */ fontSizeAdjust?: Property.FontSizeAdjust | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **128** | **38** | **18.2** | **128** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-align */ "ruby-align"?: Property.RubyAlign | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **128** | **38** | **18.2** | **128** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-align */ rubyAlign?: Property.RubyAlign | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **128** | **preview** | **26** | **128** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try-fallbacks */ "position-try-fallbacks"?: Property.PositionTryFallbacks | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **128** | **preview** | **26** | **128** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try-fallbacks */ positionTryFallbacks?: Property.PositionTryFallbacks | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **129** | **preview** | **26** | **129** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-area */ "position-area"?: Property.PositionArea | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **129** | **preview** | **26** | **129** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-area */ positionArea?: Property.PositionArea | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **129** | No | No | **129** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interpolate-size */ "interpolate-size"?: Property.InterpolateSize | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **129** | No | No | **129** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interpolate-size */ interpolateSize?: Property.InterpolateSize | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **13** | **3.6** | **6** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/image-rendering */ "image-rendering"?: Property.ImageRendering | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **13** | **3.6** | **6** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/image-rendering */ imageRendering?: Property.ImageRendering | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **130** | **124** | **17.4** | **130** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap-mode */ "text-wrap-mode"?: Property.TextWrapMode | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **130** | **124** | **17.4** | **130** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap-mode */ textWrapMode?: Property.TextWrapMode | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **130** | **124** | **17.5** | **130** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap-style */ "text-wrap-style"?: Property.TextWrapStyle | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **130** | **124** | **17.5** | **130** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap-style */ textWrapStyle?: Property.TextWrapStyle | undefined;
+- ------: | :-----: | :---------: | :------: | :-: | * | **130** | **32** | **7** _-x-_ | **130** | No | * | 22 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-decoration-break */ "box-decoration-break"?: Property.BoxDecorationBreak | undefined;
+- ------: | :-----: | :---------: | :------: | :-: | * | **130** | **32** | **7** _-x-_ | **130** | No | * | 22 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-decoration-break */ boxDecorationBreak?: Property.BoxDecorationBreak | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **131** | **141** | No | **131** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-emoji */ "font-variant-emoji"?: Property.FontVariantEmoji | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **131** | **141** | No | **131** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-emoji */ fontVariantEmoji?: Property.FontVariantEmoji | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **131** | **preview** | **26** | **131** | No | */ "anchor-scope"?: Property.AnchorScope | undefined;
+- -----: | :---------: | :----: | :-----: | :-: | * | **131** | **preview** | **26** | **131** | No | */ anchorScope?: Property.AnchorScope | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **133** | No | **18.2** | **133** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box */ "text-box"?: Property.TextBox | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **133** | No | **18.2** | **133** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box */ textBox?: Property.TextBox | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **133** | No | **18.2** | **133** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-edge */ "text-box-edge"?: Property.TextBoxEdge | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **133** | No | **18.2** | **133** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-edge */ textBoxEdge?: Property.TextBoxEdge | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **133** | No | **18.2** | **133** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-trim */ "text-box-trim"?: Property.TextBoxTrim | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **133** | No | **18.2** | **133** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-trim */ textBoxTrim?: Property.TextBoxTrim | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **133** | No | No | **133** | No | */ "scroll-initial-target"?: Property.ScrollInitialTarget | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **133** | No | No | **133** | No | */ scrollInitialTarget?: Property.ScrollInitialTarget | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **135** | **69** | **26** | **135** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-block */ "overflow-block"?: Property.OverflowBlock | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **135** | **69** | **26** | **135** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-block */ overflowBlock?: Property.OverflowBlock | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **135** | **69** | **26** | **135** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-inline */ "overflow-inline"?: Property.OverflowInline | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **135** | **69** | **26** | **135** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-inline */ overflowInline?: Property.OverflowInline | undefined;
+- ------: | :-----------------: | :------: | :------: | :-: | * | **136** | **97** | **15.4** | **136** | No | * | 17 _-x-_ | 48 _(color-adjust)_ | 6 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/print-color-adjust */ "color-adjust"?: Property.PrintColorAdjust | undefined;
+- ------: | :-----------------: | :------: | :------: | :-: | * | **136** | **97** | **15.4** | **136** | No | * | 17 _-x-_ | 48 _(color-adjust)_ | 6 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/print-color-adjust */ "print-color-adjust"?: Property.PrintColorAdjust | undefined;
+- ------: | :-----------------: | :------: | :------: | :-: | * | **136** | **97** | **15.4** | **136** | No | * | 17 _-x-_ | 48 _(color-adjust)_ | 6 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/print-color-adjust */ colorAdjust?: Property.PrintColorAdjust | undefined;
+- ------: | :-----------------: | :------: | :------: | :-: | * | **136** | **97** | **15.4** | **136** | No | * | 17 _-x-_ | 48 _(color-adjust)_ | 6 _-x-_ | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/print-color-adjust */ printColorAdjust?: Property.PrintColorAdjust | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **14** | **1** | **1** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/table-layout */ "table-layout"?: Property.TableLayout | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **14** | **1** | **1** | **12** | **5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/table-layout */ tableLayout?: Property.TableLayout | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **140** | **145** | **18.4** | **140** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-autospace */ "text-autospace"?: Property.TextAutospace | undefined;
+- -----: | :-----: | :------: | :-----: | :-: | * | **140** | **145** | **18.4** | **140** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-autospace */ textAutospace?: Property.TextAutospace | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **143** | **34** | No | **143** | No | * | | 4 _-x-_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-language-override */ "font-language-override"?: Property.FontLanguageOverride | undefined;
+- -----: | :-----: | :----: | :-----: | :-: | * | **143** | **34** | No | **143** | No | * | | 4 _-x-_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-language-override */ fontLanguageOverride?: Property.FontLanguageOverride | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **15** | **15** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-outset */ "border-image-outset"?: Property.BorderImageOutset<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **15** | **15** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-outset */ borderImageOutset?: Property.BorderImageOutset<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **15** | **15** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-repeat */ "border-image-repeat"?: Property.BorderImageRepeat | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **15** | **15** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-repeat */ borderImageRepeat?: Property.BorderImageRepeat | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **15** | **15** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-slice */ "border-image-slice"?: Property.BorderImageSlice | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **15** | **15** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-slice */ borderImageSlice?: Property.BorderImageSlice | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **15** | **15** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-source */ "border-image-source"?: Property.BorderImageSource | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **15** | **15** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-source */ borderImageSource?: Property.BorderImageSource | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **16** | **13** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-width */ "border-image-width"?: Property.BorderImageWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **16** | **13** | **6** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-width */ borderImageWidth?: Property.BorderImageWidth<TLength> | undefined;
+- -----: | :-------: | :-----: | :----: | :----: | * | **16** | **15** | **6** | **12** | **11** | * | 7 _-x-_ | 3.5 _-x-_ | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image */ "border-image"?: Property.BorderImage | undefined;
+- -----: | :-------: | :-----: | :----: | :----: | * | **16** | **15** | **6** | **12** | **11** | * | 7 _-x-_ | 3.5 _-x-_ | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image */ borderImage?: Property.BorderImage | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **2** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-weight */ "font-weight"?: Property.FontWeight | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **2** | **1** | **1** | **12** | **3** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-weight */ fontWeight?: Property.FontWeight | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **2** | **1** | **1** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/direction */ direction?: Property.Direction | undefined;
+- ----: | :-----: | :-----: | :----: | :-----: | * | **2** | **1** | **1.3** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/unicode-bidi */ "unicode-bidi"?: Property.UnicodeBidi | undefined;
+- ----: | :-----: | :-----: | :----: | :-----: | * | **2** | **1** | **1.3** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/unicode-bidi */ unicodeBidi?: Property.UnicodeBidi | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **2** | **1** | **3** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-increment */ "counter-increment"?: Property.CounterIncrement | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **2** | **1** | **3** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-increment */ counterIncrement?: Property.CounterIncrement | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **2** | **1** | **3** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-reset */ "counter-reset"?: Property.CounterReset | undefined;
+- ----: | :-----: | :----: | :----: | :---: | * | **2** | **1** | **3** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-reset */ counterReset?: Property.CounterReset | undefined;
+- ----: | :-----: | :-----: | :----: | :----: | * | **2** | **3.5** | **1.1** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-shadow */ "text-shadow"?: Property.TextShadow | undefined;
+- ----: | :-----: | :-----: | :----: | :----: | * | **2** | **3.5** | **1.1** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-shadow */ textShadow?: Property.TextShadow | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **21** | **91** | **7** | **79** | No | * | | 4 _-x-_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/tab-size */ "tab-size"?: Property.TabSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **21** | **91** | **7** | **79** | No | * | | 4 _-x-_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/tab-size */ tabSize?: Property.TabSize<TLength> | undefined;
+- -------------: | :---------------: | :-------------: | :--------------: | :-------------------: | * | **23** | **49** | **7** | **18** | **5.5** _(word-wrap)_ | * | 1 _(word-wrap)_ | 3.5 _(word-wrap)_ | 1 _(word-wrap)_ | 12 _(word-wrap)_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-wrap */ "overflow-wrap"?: Property.OverflowWrap | undefined;
+- -------------: | :---------------: | :-------------: | :--------------: | :-------------------: | * | **23** | **49** | **7** | **18** | **5.5** _(word-wrap)_ | * | 1 _(word-wrap)_ | 3.5 _(word-wrap)_ | 1 _(word-wrap)_ | 12 _(word-wrap)_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-wrap */ overflowWrap?: Property.OverflowWrap | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **24** | **35** | **7** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-type */ "mask-type"?: Property.MaskType | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **24** | **35** | **7** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-type */ maskType?: Property.MaskType | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **25** | No | **1.3** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/orphans */ orphans?: Property.Orphans | undefined;
+- ----: | :-----: | :-----: | :----: | :---: | * | **25** | No | **1.3** | **12** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/widows */ widows?: Property.Widows | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition */ transition?: Property.Transition<TTime> | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-duration */ "transition-duration"?: Property.TransitionDuration<TTime> | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-duration */ transitionDuration?: Property.TransitionDuration<TTime> | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-property */ "transition-property"?: Property.TransitionProperty | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-property */ transitionProperty?: Property.TransitionProperty | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-timing-function */ "transition-timing-function"?: Property.TransitionTimingFunction | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 3.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-timing-function */ transitionTimingFunction?: Property.TransitionTimingFunction | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-delay */ "transition-delay"?: Property.TransitionDelay<TTime> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **26** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-delay */ transitionDelay?: Property.TransitionDelay<TTime> | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **20** | **9** | **12** | **10** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-self */ "align-self"?: Property.AlignSelf | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **20** | **9** | **12** | **10** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-self */ alignSelf?: Property.AlignSelf | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **20** | **9** | **12** | **10** | * | 22 _-x-_ | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-shrink */ "flex-shrink"?: Property.FlexShrink | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **20** | **9** | **12** | **10** | * | 22 _-x-_ | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-shrink */ flexShrink?: Property.FlexShrink | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **20** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-items */ "align-items"?: Property.AlignItems | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **20** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-items */ alignItems?: Property.AlignItems | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **20** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-content */ "justify-content"?: Property.JustifyContent | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **20** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-content */ justifyContent?: Property.JustifyContent | undefined;
+- ------: | :-----: | :-----: | :----: | :------: | * | **29** | **20** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | 10 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/order */ order?: Property.Order | undefined;
+- ------: | :-----: | :-----: | :----: | :----------------------: | * | **29** | **20** | **9** | **12** | **11** | * | 22 _-x-_ | | 7 _-x-_ | | 10 _(-ms-flex-positive)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-grow */ "flex-grow"?: Property.FlexGrow | undefined;
+- ------: | :-----: | :-----: | :----: | :----------------------: | * | **29** | **20** | **9** | **12** | **11** | * | 22 _-x-_ | | 7 _-x-_ | | 10 _(-ms-flex-positive)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-grow */ flexGrow?: Property.FlexGrow | undefined;
+- ------: | :-----: | :-----: | :----: | :------: | * | **29** | **22** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | 10 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex */ flex?: Property.Flex<TLength> | undefined;
+- ------: | :-----: | :-----: | :----: | :------: | * | **29** | **22** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | 10 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-direction */ "flex-direction"?: Property.FlexDirection | undefined;
+- ------: | :-----: | :-----: | :----: | :------: | * | **29** | **22** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | 10 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-direction */ flexDirection?: Property.FlexDirection | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **22** | **9** | **12** | **11** | * | 22 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-basis */ "flex-basis"?: Property.FlexBasis<TLength> | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **22** | **9** | **12** | **11** | * | 22 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-basis */ flexBasis?: Property.FlexBasis<TLength> | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **28** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-content */ "align-content"?: Property.AlignContent | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **28** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-content */ alignContent?: Property.AlignContent | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **28** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-flow */ "flex-flow"?: Property.FlexFlow | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **28** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-flow */ flexFlow?: Property.FlexFlow | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **28** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-wrap */ "flex-wrap"?: Property.FlexWrap | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **29** | **28** | **9** | **12** | **11** | * | 21 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-wrap */ flexWrap?: Property.FlexWrap | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **3** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-size */ "background-size"?: Property.BackgroundSize<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **3** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-size */ backgroundSize?: Property.BackgroundSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **32** | **36** | **10** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-fit */ "object-fit"?: Property.ObjectFit | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **32** | **36** | **10** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-fit */ objectFit?: Property.ObjectFit | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **32** | **36** | **10** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-position */ "object-position"?: Property.ObjectPosition<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **32** | **36** | **10** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-position */ objectPosition?: Property.ObjectPosition<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **33** | **32** | **9** | **79** | No | * | | | 6 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-kerning */ "font-kerning"?: Property.FontKerning | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **33** | **32** | **9** | **79** | No | * | | | 6 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-kerning */ fontKerning?: Property.FontKerning | undefined;
+- ----: | :-----: | :------: | :----: | :---: | * | **33** | **74** | **12.1** | **12** | **6** | * | | | 9 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-underline-position */ "text-underline-position"?: Property.TextUnderlinePosition | undefined;
+- ----: | :-----: | :------: | :----: | :---: | * | **33** | **74** | **12.1** | **12** | **6** | * | | | 9 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-underline-position */ textUnderlinePosition?: Property.TextUnderlinePosition | undefined;
+- ------: | :-----: | :-----: | :----: | :-: | * | **34** | **34** | **9.1** | **79** | No | * | 31 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-ligatures */ "font-variant-ligatures"?: Property.FontVariantLigatures | undefined;
+- ------: | :-----: | :-----: | :----: | :-: | * | **34** | **34** | **9.1** | **79** | No | * | 31 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-ligatures */ fontVariantLigatures?: Property.FontVariantLigatures | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **35** | **30** | **8** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-blend-mode */ "background-blend-mode"?: Property.BackgroundBlendMode | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **35** | **30** | **8** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-blend-mode */ backgroundBlendMode?: Property.BackgroundBlendMode | undefined;
+- ------: | :------: | :-------: | :----: | :----: | * | **36** | **16** | **15.4** | **12** | **10** | * | 12 _-x-_ | 10 _-x-_ | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/backface-visibility */ "backface-visibility"?: Property.BackfaceVisibility | undefined;
+- ------: | :------: | :-------: | :----: | :----: | * | **36** | **16** | **15.4** | **12** | **10** | * | 12 _-x-_ | 10 _-x-_ | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/backface-visibility */ backfaceVisibility?: Property.BackfaceVisibility | undefined;
+- -----: | :-------: | :-----: | :----: | :-----: | * | **36** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | 3.5 _-x-_ | 2 _-x-_ | | 9 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-origin */ "transform-origin"?: Property.TransformOrigin<TLength> | undefined;
+- -----: | :-------: | :-----: | :----: | :-----: | * | **36** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | 3.5 _-x-_ | 2 _-x-_ | | 9 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-origin */ transformOrigin?: Property.TransformOrigin<TLength> | undefined;
+- -----: | :-------: | :-------: | :----: | :-----: | * | **36** | **16** | **9** | **12** | **10** | * | 1 _-x-_ | 3.5 _-x-_ | 3.1 _-x-_ | | 9 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform */ transform?: Property.Transform | undefined;
+- ------: | :------: | :-----: | :----: | :----: | * | **36** | **16** | **9** | **12** | **10** | * | 12 _-x-_ | 10 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/perspective */ perspective?: Property.Perspective<TLength> | undefined;
+- ------: | :------: | :-----: | :----: | :----: | * | **36** | **16** | **9** | **12** | **10** | * | 12 _-x-_ | 10 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/perspective-origin */ "perspective-origin"?: Property.PerspectiveOrigin<TLength> | undefined;
+- ------: | :------: | :-----: | :----: | :----: | * | **36** | **16** | **9** | **12** | **10** | * | 12 _-x-_ | 10 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/perspective-origin */ perspectiveOrigin?: Property.PerspectiveOrigin<TLength> | undefined;
+- ------: | :------: | :-----: | :----: | :-: | * | **36** | **16** | **9** | **12** | No | * | 12 _-x-_ | 10 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-style */ "transform-style"?: Property.TransformStyle | undefined;
+- ------: | :------: | :-----: | :----: | :-: | * | **36** | **16** | **9** | **12** | No | * | 12 _-x-_ | 10 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-style */ transformStyle?: Property.TransformStyle | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **36** | **36** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/will-change */ "will-change"?: Property.WillChange | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **36** | **36** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/will-change */ willChange?: Property.WillChange | undefined;
+- ----: | :-----: | :----: | :----: | :------: | * | **36** | **52** | **13** | **12** | **11** | * | | | | | 10 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/touch-action */ "touch-action"?: Property.TouchAction | undefined;
+- ----: | :-----: | :----: | :----: | :------: | * | **36** | **52** | **13** | **12** | **11** | * | | | | | 10 _-x-_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/touch-action */ touchAction?: Property.TouchAction | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **37** | **27** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/all */ all?: Property.All | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **37** | **62** | **10.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-image-threshold */ "shape-image-threshold"?: Property.ShapeImageThreshold | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **37** | **62** | **10.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-image-threshold */ shapeImageThreshold?: Property.ShapeImageThreshold | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **37** | **62** | **10.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-margin */ "shape-margin"?: Property.ShapeMargin<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **37** | **62** | **10.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-margin */ shapeMargin?: Property.ShapeMargin<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **37** | **62** | **10.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-outside */ "shape-outside"?: Property.ShapeOutside | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **37** | **62** | **10.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-outside */ shapeOutside?: Property.ShapeOutside | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **4** | **1** | **5** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-rendering */ "text-rendering"?: Property.TextRendering | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **4** | **1** | **5** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-rendering */ textRendering?: Property.TextRendering | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-left-radius */ "border-bottom-left-radius"?: Property.BorderBottomLeftRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-left-radius */ borderBottomLeftRadius?: Property.BorderBottomLeftRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-right-radius */ "border-bottom-right-radius"?: Property.BorderBottomRightRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-right-radius */ borderBottomRightRadius?: Property.BorderBottomRightRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-radius */ "border-radius"?: Property.BorderRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-radius */ borderRadius?: Property.BorderRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-left-radius */ "border-top-left-radius"?: Property.BorderTopLeftRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-left-radius */ borderTopLeftRadius?: Property.BorderTopLeftRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-right-radius */ "border-top-right-radius"?: Property.BorderTopRightRadius<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :---: | * | **4** | **4** | **5** | **12** | **9** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-right-radius */ borderTopRightRadius?: Property.BorderTopRightRadius<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **41** | **32** | **8** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mix-blend-mode */ "mix-blend-mode"?: Property.MixBlendMode | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **41** | **32** | **8** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mix-blend-mode */ mixBlendMode?: Property.MixBlendMode | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **41** | **36** | **8** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/isolation */ isolation?: Property.Isolation | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **42** | **69** | **9** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/x */ x?: Property.X<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **42** | **69** | **9** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/y */ y?: Property.Y<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation */ animation?: Property.Animation<TTime> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-delay */ "animation-delay"?: Property.AnimationDelay<TTime> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-delay */ animationDelay?: Property.AnimationDelay<TTime> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-direction */ "animation-direction"?: Property.AnimationDirection | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-direction */ animationDirection?: Property.AnimationDirection | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-duration */ "animation-duration"?: Property.AnimationDuration<TTime> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-duration */ animationDuration?: Property.AnimationDuration<TTime> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-iteration-count */ "animation-iteration-count"?: Property.AnimationIterationCount | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-iteration-count */ animationIterationCount?: Property.AnimationIterationCount | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-name */ "animation-name"?: Property.AnimationName | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-name */ animationName?: Property.AnimationName | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-play-state */ "animation-play-state"?: Property.AnimationPlayState | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-play-state */ animationPlayState?: Property.AnimationPlayState | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timing-function */ "animation-timing-function"?: Property.AnimationTimingFunction | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 4 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timing-function */ animationTimingFunction?: Property.AnimationTimingFunction | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 5 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-fill-mode */ "animation-fill-mode"?: Property.AnimationFillMode | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **43** | **16** | **9** | **12** | **10** | * | 3 _-x-_ | 5 _-x-_ | 5 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-fill-mode */ animationFillMode?: Property.AnimationFillMode | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **43** | **69** | **17.4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/rx */ rx?: Property.Rx<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **43** | **69** | **17.4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ry */ ry?: Property.Ry<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **43** | **69** | **9** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/cx */ cx?: Property.Cx<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **43** | **69** | **9** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/cy */ cy?: Property.Cy<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **43** | **69** | **9** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/r */ r?: Property.R<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **47** | **49** | **16** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-align-last */ "text-align-last"?: Property.TextAlignLast | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **47** | **49** | **16** | **12** | **5.5** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-align-last */ textAlignLast?: Property.TextAlignLast | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **47** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/row-gap */ "row-gap"?: Property.RowGap<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **47** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/row-gap */ rowGap?: Property.RowGap<TLength> | undefined;
+- ------: | :------: | :-----: | :----: | :----: | * | **48** | **34** | **9.1** | **15** | **10** | * | 16 _-x-_ | 15 _-x-_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-feature-settings */ "font-feature-settings"?: Property.FontFeatureSettings | undefined;
+- ------: | :------: | :-----: | :----: | :----: | * | **48** | **34** | **9.1** | **15** | **10** | * | 16 _-x-_ | 15 _-x-_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-feature-settings */ fontFeatureSettings?: Property.FontFeatureSettings | undefined;
+- -----: | :-----: | :-------: | :----: | :---: | * | **48** | **41** | **10.1** | **12** | **9** | * | 8 _-x-_ | | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/writing-mode */ "writing-mode"?: Property.WritingMode | undefined;
+- -----: | :-----: | :-------: | :----: | :---: | * | **48** | **41** | **10.1** | **12** | **9** | * | 8 _-x-_ | | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/writing-mode */ writingMode?: Property.WritingMode | undefined;
+- ------: | :-----: | :-------: | :----: | :-: | * | **48** | **41** | **14** | **79** | No | * | 12 _-x-_ | | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-orientation */ "text-orientation"?: Property.TextOrientation | undefined;
+- ------: | :-----: | :-------: | :----: | :-: | * | **48** | **41** | **14** | **79** | No | * | 12 _-x-_ | | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-orientation */ textOrientation?: Property.TextOrientation | undefined;
+- ------------------------: | :-----: | :--------------------------: | :----: | :------------------------------------: | * | **48** | **48** | **15.4** | **79** | **11** _(-ms-text-combine-horizontal)_ | * | 9 _(-webkit-text-combine)_ | | 5.1 _(-webkit-text-combine)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-combine-upright */ "text-combine-upright"?: Property.TextCombineUpright | undefined;
+- ------------------------: | :-----: | :--------------------------: | :----: | :------------------------------------: | * | **48** | **48** | **15.4** | **79** | **11** _(-ms-text-combine-horizontal)_ | * | 9 _(-webkit-text-combine)_ | | 5.1 _(-webkit-text-combine)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-combine-upright */ textCombineUpright?: Property.TextCombineUpright | undefined;
+- ------------------------------: | :--------------------------------: | :------------------------------: | :-------------------------------: | :-: | * | **5** _(-webkit-font-smoothing)_ | **25** _(-moz-osx-font-smoothing)_ | **4** _(-webkit-font-smoothing)_ | **79** _(-webkit-font-smoothing)_ | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-smooth */ "font-smooth"?: Property.FontSmooth<TLength> | undefined;
+- ------------------------------: | :--------------------------------: | :------------------------------: | :-------------------------------: | :-: | * | **5** _(-webkit-font-smoothing)_ | **25** _(-moz-osx-font-smoothing)_ | **4** _(-webkit-font-smoothing)_ | **79** _(-webkit-font-smoothing)_ | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-smooth */ fontSmooth?: Property.FontSmooth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **5** | **3** | **6** | **12** | **â‰¤11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flood-color */ "flood-color"?: Property.FloodColor | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **5** | **3** | **6** | **12** | **â‰¤11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flood-color */ floodColor?: Property.FloodColor | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **5** | **3** | **6** | **12** | **â‰¤11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flood-opacity */ "flood-opacity"?: Property.FloodOpacity | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **5** | **3** | **6** | **12** | **â‰¤11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flood-opacity */ floodOpacity?: Property.FloodOpacity | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **5** | **3** | **6** | **12** | **â‰¤11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/lighting-color */ "lighting-color"?: Property.LightingColor | undefined;
+- ----: | :-----: | :----: | :----: | :-----: | * | **5** | **3** | **6** | **12** | **â‰¤11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/lighting-color */ lightingColor?: Property.LightingColor | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **50** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-width */ "column-width"?: Property.ColumnWidth<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **50** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-width */ columnWidth?: Property.ColumnWidth<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/columns */ columns?: Property.Columns<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-fill */ "column-fill"?: Property.ColumnFill | undefined;
+- ----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-fill */ columnFill?: Property.ColumnFill | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-count */ "column-count"?: Property.ColumnCount | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-count */ columnCount?: Property.ColumnCount | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule */ "column-rule"?: Property.ColumnRule<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule */ columnRule?: Property.ColumnRule<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule-color */ "column-rule-color"?: Property.ColumnRuleColor | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule-color */ columnRuleColor?: Property.ColumnRuleColor | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule-style */ "column-rule-style"?: Property.ColumnRuleStyle | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule-style */ columnRuleStyle?: Property.ColumnRuleStyle | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule-width */ "column-rule-width"?: Property.ColumnRuleWidth<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :----: | * | **50** | **52** | **9** | **12** | **10** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule-width */ columnRuleWidth?: Property.ColumnRuleWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **50** | **65** | **10** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-after */ "break-after"?: Property.BreakAfter | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **50** | **65** | **10** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-after */ breakAfter?: Property.BreakAfter | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **50** | **65** | **10** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-before */ "break-before"?: Property.BreakBefore | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **50** | **65** | **10** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-before */ breakBefore?: Property.BreakBefore | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **50** | **65** | **10** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-inside */ "break-inside"?: Property.BreakInside | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **50** | **65** | **10** | **12** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-inside */ breakInside?: Property.BreakInside | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **50** | **71** | **9** | **12** | **10** | * | 6 _-x-_ | | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-span */ "column-span"?: Property.ColumnSpan | undefined;
+- -----: | :-----: | :-------: | :----: | :----: | * | **50** | **71** | **9** | **12** | **10** | * | 6 _-x-_ | | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-span */ columnSpan?: Property.ColumnSpan | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **52** | **20** | **9** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-items */ "justify-items"?: Property.JustifyItems | undefined;
+- ----: | :-----: | :----: | :----: | :----: | * | **52** | **20** | **9** | **12** | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-items */ justifyItems?: Property.JustifyItems | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **52** | **34** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-caps */ "font-variant-caps"?: Property.FontVariantCaps | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **52** | **34** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-caps */ fontVariantCaps?: Property.FontVariantCaps | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **52** | **34** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-numeric */ "font-variant-numeric"?: Property.FontVariantNumeric | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **52** | **34** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-numeric */ fontVariantNumeric?: Property.FontVariantNumeric | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **52** | **69** | **15.4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain */ contain?: Property.Contain | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **52** | **97** | No | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/d */ d?: Property.D | undefined;
+- ------: | :-----: | :-----: | :----: | :-: | * | **53** | **35** | **9.1** | **12** | No | * | 18 _-x-_ | | 6 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/filter */ filter?: Property.Filter | undefined;
+- -----: | :-----: | :---------: | :------: | :----------: | * | **54** | **69** | **3** _-x-_ | **79** | **10** _-x-_ | * | 1 _-x-_ | 1 _-x-_ | | 12 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/user-select */ "user-select"?: Property.UserSelect | undefined;
+- -----: | :-----: | :---------: | :------: | :----------: | * | **54** | **69** | **3** _-x-_ | **79** | **10** _-x-_ | * | 1 _-x-_ | 1 _-x-_ | | 12 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/user-select */ userSelect?: Property.UserSelect | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **54** | No | No | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-size-adjust */ "text-size-adjust"?: Property.TextSizeAdjust | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **54** | No | No | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-size-adjust */ textSizeAdjust?: Property.TextSizeAdjust | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **55** | **3.5** | **9.1** | **79** | **10** | * | 23 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-path */ "clip-path"?: Property.ClipPath | undefined;
+- ------: | :-----: | :-----: | :----: | :----: | * | **55** | **3.5** | **9.1** | **79** | **10** | * | 23 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-path */ clipPath?: Property.ClipPath | undefined;
+- ------: | :-----: | :-------: | :----: | :----------: | * | **55** | **43** | **17** | **79** | **10** _-x-_ | * | 13 _-x-_ | 6 _-x-_ | 5.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphens */ hyphens?: Property.Hyphens | undefined;
+- ----------------: | :-----: | :------: | :----: | :-: | * | **55** | **72** | **15.4** | **79** | No | * | 46 _(motion-path)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-path */ "motion-path"?: Property.OffsetPath | undefined;
+- ----------------: | :-----: | :------: | :----: | :-: | * | **55** | **72** | **15.4** | **79** | No | * | 46 _(motion-path)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-path */ "offset-path"?: Property.OffsetPath | undefined;
+- ----------------: | :-----: | :------: | :----: | :-: | * | **55** | **72** | **15.4** | **79** | No | * | 46 _(motion-path)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-path */ motionPath?: Property.OffsetPath | undefined;
+- ----------------: | :-----: | :------: | :----: | :-: | * | **55** | **72** | **15.4** | **79** | No | * | 46 _(motion-path)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-path */ offsetPath?: Property.OffsetPath | undefined;
+- -----------: | :-----: | :----: | :----: | :-: | * | **55** | **72** | **16** | **79** | No | * | 46 _(motion)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset */ motion?: Property.Offset<TLength> | undefined;
+- -----------: | :-----: | :----: | :----: | :-: | * | **55** | **72** | **16** | **79** | No | * | 46 _(motion)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset */ offset?: Property.Offset<TLength> | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **55** | **72** | **16** | **79** | No | * | 46 _(motion-distance)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-distance */ "motion-distance"?: Property.OffsetDistance<TLength> | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **55** | **72** | **16** | **79** | No | * | 46 _(motion-distance)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-distance */ "offset-distance"?: Property.OffsetDistance<TLength> | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **55** | **72** | **16** | **79** | No | * | 46 _(motion-distance)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-distance */ motionDistance?: Property.OffsetDistance<TLength> | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **55** | **72** | **16** | **79** | No | * | 46 _(motion-distance)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-distance */ offsetDistance?: Property.OffsetDistance<TLength> | undefined;
+- ----: | :-----: | :---------: | :----: | :-: | * | **56** | **66** | **preview** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-anchor */ "overflow-anchor"?: Property.OverflowAnchor | undefined;
+- ----: | :-----: | :---------: | :----: | :-: | * | **56** | **66** | **preview** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-anchor */ overflowAnchor?: Property.OverflowAnchor | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **56** | **72** | **16** | **79** | No | * | 46 _(motion-rotation)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate */ "motion-rotation"?: Property.OffsetRotate | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **56** | **72** | **16** | **79** | No | * | 46 _(motion-rotation)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate */ "offset-rotate"?: Property.OffsetRotate | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **56** | **72** | **16** | **79** | No | * | 46 _(motion-rotation)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate */ "offset-rotation"?: Property.OffsetRotate | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **56** | **72** | **16** | **79** | No | * | 46 _(motion-rotation)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate */ motionRotation?: Property.OffsetRotate | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **56** | **72** | **16** | **79** | No | * | 46 _(motion-rotation)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate */ offsetRotate?: Property.OffsetRotate | undefined;
+- --------------------: | :-----: | :----: | :----: | :-: | * | **56** | **72** | **16** | **79** | No | * | 46 _(motion-rotation)_ | | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate */ offsetRotation?: Property.OffsetRotate | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **36** | **12.1** | **79** | No | * | | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-color */ "text-decoration-color"?: Property.TextDecorationColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **36** | **12.1** | **79** | No | * | | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-color */ textDecorationColor?: Property.TextDecorationColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **36** | **12.1** | **79** | No | * | | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-line */ "text-decoration-line"?: Property.TextDecorationLine | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **36** | **12.1** | **79** | No | * | | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-line */ textDecorationLine?: Property.TextDecorationLine | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **36** | **12.1** | **79** | No | * | | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-style */ "text-decoration-style"?: Property.TextDecorationStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **36** | **12.1** | **79** | No | * | | | 8 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-style */ textDecorationStyle?: Property.TextDecorationStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-block-size */ "max-block-size"?: Property.MaxBlockSize<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-block-size */ maxBlockSize?: Property.MaxBlockSize<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-block-size */ "min-block-size"?: Property.MinBlockSize<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-block-size */ minBlockSize?: Property.MinBlockSize<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-inline-size */ "min-inline-size"?: Property.MinInlineSize<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-inline-size */ minInlineSize?: Property.MinInlineSize<TLength> | undefined;
+- ----: | :-----: | :--------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * | | | 10.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-inline-size */ "max-inline-size"?: Property.MaxInlineSize<TLength> | undefined;
+- ----: | :-----: | :--------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * | | | 10.1 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-inline-size */ maxInlineSize?: Property.MaxInlineSize<TLength> | undefined;
+- --------------------------: | :-----: | :----------------------------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * | 8 _(-webkit-logical-height)_ | | 5.1 _(-webkit-logical-height)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/block-size */ "block-size"?: Property.BlockSize<TLength> | undefined;
+- --------------------------: | :-----: | :----------------------------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * | 8 _(-webkit-logical-height)_ | | 5.1 _(-webkit-logical-height)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/block-size */ blockSize?: Property.BlockSize<TLength> | undefined;
+- -------------------------: | :-----: | :---------------------------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * | 8 _(-webkit-logical-width)_ | | 5.1 _(-webkit-logical-width)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inline-size */ "inline-size"?: Property.InlineSize<TLength> | undefined;
+- -------------------------: | :-----: | :---------------------------: | :----: | :-: | * | **57** | **41** | **12.1** | **79** | No | * | 8 _(-webkit-logical-width)_ | | 5.1 _(-webkit-logical-width)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inline-size */ inlineSize?: Property.InlineSize<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :----: | * | **57** | **45** | **10.1** | **16** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-self */ "justify-self"?: Property.JustifySelf | undefined;
+- ----: | :-----: | :------: | :----: | :----: | * | **57** | **45** | **10.1** | **16** | **10** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-self */ justifySelf?: Property.JustifySelf | undefined;
+- ----: | :-----: | :------: | :----: | :-------------------------: | * | **57** | **52** | **10.1** | **16** | **10** _(-ms-grid-columns)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-columns */ "grid-template-columns"?: Property.GridTemplateColumns<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-------------------------: | * | **57** | **52** | **10.1** | **16** | **10** _(-ms-grid-columns)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-columns */ gridTemplateColumns?: Property.GridTemplateColumns<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :----------------------: | * | **57** | **52** | **10.1** | **16** | **10** _(-ms-grid-rows)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-rows */ "grid-template-rows"?: Property.GridTemplateRows<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :----------------------: | * | **57** | **52** | **10.1** | **16** | **10** _(-ms-grid-rows)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-rows */ gridTemplateRows?: Property.GridTemplateRows<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/gap */ gap?: Property.Gap<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid */ grid?: Property.Grid | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-area */ "grid-area"?: Property.GridArea | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-area */ gridArea?: Property.GridArea | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-flow */ "grid-auto-flow"?: Property.GridAutoFlow | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-flow */ gridAutoFlow?: Property.GridAutoFlow | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column */ "grid-column"?: Property.GridColumn | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column */ gridColumn?: Property.GridColumn | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column-end */ "grid-column-end"?: Property.GridColumnEnd | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column-end */ gridColumnEnd?: Property.GridColumnEnd | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column-start */ "grid-column-start"?: Property.GridColumnStart | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column-start */ gridColumnStart?: Property.GridColumnStart | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row */ "grid-row"?: Property.GridRow | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row */ gridRow?: Property.GridRow | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row-end */ "grid-row-end"?: Property.GridRowEnd | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row-end */ gridRowEnd?: Property.GridRowEnd | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row-start */ "grid-row-start"?: Property.GridRowStart | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row-start */ gridRowStart?: Property.GridRowStart | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template */ "grid-template"?: Property.GridTemplate | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template */ gridTemplate?: Property.GridTemplate | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-areas */ "grid-template-areas"?: Property.GridTemplateAreas | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **52** | **10.1** | **16** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-areas */ gridTemplateAreas?: Property.GridTemplateAreas | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **53** | **11.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-color */ "caret-color"?: Property.CaretColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **57** | **53** | **11.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-color */ caretColor?: Property.CaretColor | undefined;
+- ----: | :-----: | :------: | :----: | :-------------------------: | * | **57** | **70** | **10.1** | **16** | **10** _(-ms-grid-columns)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-columns */ "grid-auto-columns"?: Property.GridAutoColumns<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-------------------------: | * | **57** | **70** | **10.1** | **16** | **10** _(-ms-grid-columns)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-columns */ gridAutoColumns?: Property.GridAutoColumns<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :----------------------: | * | **57** | **70** | **10.1** | **16** | **10** _(-ms-grid-rows)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-rows */ "grid-auto-rows"?: Property.GridAutoRows<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :----------------------: | * | **57** | **70** | **10.1** | **16** | **10** _(-ms-grid-rows)_ | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-rows */ gridAutoRows?: Property.GridAutoRows<TLength> | undefined;
+- -----: | :-----: | :-----: | :----: | :-----: | * | **58** | **69** | **11** | **14** | **5.5** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-break */ "line-break"?: Property.LineBreak | undefined;
+- -----: | :-----: | :-----: | :----: | :-----: | * | **58** | **69** | **11** | **14** | **5.5** | * | 1 _-x-_ | | 3 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-break */ lineBreak?: Property.LineBreak | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **59** | **45** | **11** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-items */ "place-items"?: Property.PlaceItems | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **59** | **45** | **11** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-items */ placeItems?: Property.PlaceItems | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **59** | **45** | **11** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-self */ "place-self"?: Property.PlaceSelf | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **59** | **45** | **11** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-self */ placeSelf?: Property.PlaceSelf | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **59** | **45** | **9** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-content */ "place-content"?: Property.PlaceContent | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **59** | **45** | **9** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-content */ placeContent?: Property.PlaceContent | undefined;
+- ---------: | :----------: | :-------: | :----------: | :-: | * | **6** _-x-_ | **68** _-x-_ | 18.2-18.4 | **17** _-x-_ | No | * | | | 5 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-clamp */ "line-clamp"?: Property.LineClamp | undefined;
+- ---------: | :----------: | :-------: | :----------: | :-: | * | **6** _-x-_ | **68** _-x-_ | 18.2-18.4 | **17** _-x-_ | No | * | | | 5 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-clamp */ lineClamp?: Property.LineClamp | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **6** | **15** | **5.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/vector-effect */ "vector-effect"?: Property.VectorEffect | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **6** | **15** | **5.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/vector-effect */ vectorEffect?: Property.VectorEffect | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **61** | **36** | **15.4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-behavior */ "scroll-behavior"?: Property.ScrollBehavior | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **61** | **36** | **15.4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-behavior */ scrollBehavior?: Property.ScrollBehavior | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **62** | **62** | **11** | **17** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variation-settings */ "font-variation-settings"?: Property.FontVariationSettings | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **62** | **62** | **11** | **17** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variation-settings */ fontVariationSettings?: Property.FontVariationSettings | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **63** | **34** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-east-asian */ "font-variant-east-asian"?: Property.FontVariantEastAsian | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **63** | **34** | **9.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-east-asian */ fontVariantEastAsian?: Property.FontVariantEastAsian | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **63** | **59** | **16** | **18** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior */ "overscroll-behavior"?: Property.OverscrollBehavior | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **63** | **59** | **16** | **18** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior */ overscrollBehavior?: Property.OverscrollBehavior | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **63** | **59** | **16** | **18** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-x */ "overscroll-behavior-x"?: Property.OverscrollBehaviorX | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **63** | **59** | **16** | **18** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-x */ overscrollBehaviorX?: Property.OverscrollBehaviorX | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **63** | **59** | **16** | **18** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-y */ "overscroll-behavior-y"?: Property.OverscrollBehaviorY | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **63** | **59** | **16** | **18** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-y */ overscrollBehaviorY?: Property.OverscrollBehaviorY | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **64** | **55** | **11** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-box */ "transform-box"?: Property.TransformBox | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **64** | **55** | **11** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-box */ transformBox?: Property.TransformBox | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **64** | **70** | **15.4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-skip-ink */ "text-decoration-skip-ink"?: Property.TextDecorationSkipInk | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **64** | **70** | **15.4** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-skip-ink */ textDecorationSkipInk?: Property.TextDecorationSkipInk | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end */ "border-block-end"?: Property.BorderBlockEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end */ borderBlockEnd?: Property.BorderBlockEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-color */ "border-block-end-color"?: Property.BorderBlockEndColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-color */ borderBlockEndColor?: Property.BorderBlockEndColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-style */ "border-block-end-style"?: Property.BorderBlockEndStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-style */ borderBlockEndStyle?: Property.BorderBlockEndStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-width */ "border-block-end-width"?: Property.BorderBlockEndWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-width */ borderBlockEndWidth?: Property.BorderBlockEndWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start */ "border-block-start"?: Property.BorderBlockStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start */ borderBlockStart?: Property.BorderBlockStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-color */ "border-block-start-color"?: Property.BorderBlockStartColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-color */ borderBlockStartColor?: Property.BorderBlockStartColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-style */ "border-block-start-style"?: Property.BorderBlockStartStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-style */ borderBlockStartStyle?: Property.BorderBlockStartStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-width */ "border-block-start-width"?: Property.BorderBlockStartWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-width */ borderBlockStartWidth?: Property.BorderBlockStartWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end */ "border-inline-end"?: Property.BorderInlineEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end */ borderInlineEnd?: Property.BorderInlineEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start */ "border-inline-start"?: Property.BorderInlineStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start */ borderInlineStart?: Property.BorderInlineStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-width */ "border-inline-start-width"?: Property.BorderInlineStartWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-width */ borderInlineStartWidth?: Property.BorderInlineStartWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block-end */ "margin-block-end"?: Property.MarginBlockEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block-end */ marginBlockEnd?: Property.MarginBlockEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block-start */ "margin-block-start"?: Property.MarginBlockStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block-start */ marginBlockStart?: Property.MarginBlockStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block-end */ "padding-block-end"?: Property.PaddingBlockEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block-end */ paddingBlockEnd?: Property.PaddingBlockEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block-start */ "padding-block-start"?: Property.PaddingBlockStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block-start */ paddingBlockStart?: Property.PaddingBlockStart<TLength> | undefined;
+- ----: | :-------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-end-color)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-color */ "border-inline-end-color"?: Property.BorderInlineEndColor | undefined;
+- ----: | :-------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-end-color)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-color */ borderInlineEndColor?: Property.BorderInlineEndColor | undefined;
+- ----: | :-------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-end-style)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-style */ "border-inline-end-style"?: Property.BorderInlineEndStyle | undefined;
+- ----: | :-------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-end-style)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-style */ borderInlineEndStyle?: Property.BorderInlineEndStyle | undefined;
+- ----: | :-------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-end-width)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-width */ "border-inline-end-width"?: Property.BorderInlineEndWidth<TLength> | undefined;
+- ----: | :-------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-end-width)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-width */ borderInlineEndWidth?: Property.BorderInlineEndWidth<TLength> | undefined;
+- ----: | :---------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-start-color)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-color */ "border-inline-start-color"?: Property.BorderInlineStartColor | undefined;
+- ----: | :---------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-start-color)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-color */ borderInlineStartColor?: Property.BorderInlineStartColor | undefined;
+- ----: | :---------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-start-style)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-style */ "border-inline-start-style"?: Property.BorderInlineStartStyle | undefined;
+- ----: | :---------------------------: | :------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | | 3 _(-moz-border-start-style)_ | | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-style */ borderInlineStartStyle?: Property.BorderInlineStartStyle | undefined;
+- ----------------------: | :-------------------: | :----------------------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | 2 _(-webkit-margin-end)_ | 3 _(-moz-margin-end)_ | 3 _(-webkit-margin-end)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline-end */ "margin-inline-end"?: Property.MarginInlineEnd<TLength> | undefined;
+- ----------------------: | :-------------------: | :----------------------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | 2 _(-webkit-margin-end)_ | 3 _(-moz-margin-end)_ | 3 _(-webkit-margin-end)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline-end */ marginInlineEnd?: Property.MarginInlineEnd<TLength> | undefined;
+- ------------------------: | :---------------------: | :------------------------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | 2 _(-webkit-margin-start)_ | 3 _(-moz-margin-start)_ | 3 _(-webkit-margin-start)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline-start */ "margin-inline-start"?: Property.MarginInlineStart<TLength> | undefined;
+- ------------------------: | :---------------------: | :------------------------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | 2 _(-webkit-margin-start)_ | 3 _(-moz-margin-start)_ | 3 _(-webkit-margin-start)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline-start */ marginInlineStart?: Property.MarginInlineStart<TLength> | undefined;
+- -----------------------: | :--------------------: | :-----------------------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | 2 _(-webkit-padding-end)_ | 3 _(-moz-padding-end)_ | 3 _(-webkit-padding-end)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline-end */ "padding-inline-end"?: Property.PaddingInlineEnd<TLength> | undefined;
+- -----------------------: | :--------------------: | :-----------------------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | 2 _(-webkit-padding-end)_ | 3 _(-moz-padding-end)_ | 3 _(-webkit-padding-end)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline-end */ paddingInlineEnd?: Property.PaddingInlineEnd<TLength> | undefined;
+- -------------------------: | :----------------------: | :-------------------------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | 2 _(-webkit-padding-start)_ | 3 _(-moz-padding-start)_ | 3 _(-webkit-padding-start)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline-start */ "padding-inline-start"?: Property.PaddingInlineStart<TLength> | undefined;
+- -------------------------: | :----------------------: | :-------------------------: | :----: | :-: | * | **69** | **41** | **12.1** | **79** | No | * | 2 _(-webkit-padding-start)_ | 3 _(-moz-padding-start)_ | 3 _(-webkit-padding-start)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline-start */ paddingInlineStart?: Property.PaddingInlineStart<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **11** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-snap-align */ "scroll-snap-align"?: Property.ScrollSnapAlign | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **11** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-snap-align */ scrollSnapAlign?: Property.ScrollSnapAlign | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding */ "scroll-padding"?: Property.ScrollPadding<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding */ scrollPadding?: Property.ScrollPadding<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-bottom */ "scroll-padding-bottom"?: Property.ScrollPaddingBottom<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-bottom */ scrollPaddingBottom?: Property.ScrollPaddingBottom<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-left */ "scroll-padding-left"?: Property.ScrollPaddingLeft<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-left */ scrollPaddingLeft?: Property.ScrollPaddingLeft<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-right */ "scroll-padding-right"?: Property.ScrollPaddingRight<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-right */ scrollPaddingRight?: Property.ScrollPaddingRight<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-top */ "scroll-padding-top"?: Property.ScrollPaddingTop<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-top */ scrollPaddingTop?: Property.ScrollPaddingTop<TLength> | undefined;
+- ----: | :-----: | :------------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-bottom)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-bottom */ "scroll-margin-bottom"?: Property.ScrollMarginBottom<TLength> | undefined;
+- ----: | :-----: | :------------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-bottom)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-bottom */ "scroll-snap-margin-bottom"?: Property.ScrollMarginBottom<TLength> | undefined;
+- ----: | :-----: | :------------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-bottom)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-bottom */ scrollMarginBottom?: Property.ScrollMarginBottom<TLength> | undefined;
+- ----: | :-----: | :------------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-bottom)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-bottom */ scrollSnapMarginBottom?: Property.ScrollMarginBottom<TLength> | undefined;
+- ----: | :-----: | :----------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-left)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-left */ "scroll-margin-left"?: Property.ScrollMarginLeft<TLength> | undefined;
+- ----: | :-----: | :----------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-left)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-left */ "scroll-snap-margin-left"?: Property.ScrollMarginLeft<TLength> | undefined;
+- ----: | :-----: | :----------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-left)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-left */ scrollMarginLeft?: Property.ScrollMarginLeft<TLength> | undefined;
+- ----: | :-----: | :----------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-left)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-left */ scrollSnapMarginLeft?: Property.ScrollMarginLeft<TLength> | undefined;
+- ----: | :-----: | :-----------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-right)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-right */ "scroll-margin-right"?: Property.ScrollMarginRight<TLength> | undefined;
+- ----: | :-----: | :-----------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-right)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-right */ "scroll-snap-margin-right"?: Property.ScrollMarginRight<TLength> | undefined;
+- ----: | :-----: | :-----------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-right)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-right */ scrollMarginRight?: Property.ScrollMarginRight<TLength> | undefined;
+- ----: | :-----: | :-----------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-right)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-right */ scrollSnapMarginRight?: Property.ScrollMarginRight<TLength> | undefined;
+- ----: | :-----: | :---------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-top)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-top */ "scroll-margin-top"?: Property.ScrollMarginTop<TLength> | undefined;
+- ----: | :-----: | :---------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-top)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-top */ "scroll-snap-margin-top"?: Property.ScrollMarginTop<TLength> | undefined;
+- ----: | :-----: | :---------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-top)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-top */ scrollMarginTop?: Property.ScrollMarginTop<TLength> | undefined;
+- ----: | :-----: | :---------------------------: | :----: | :-: | * | **69** | **68** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin-top)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-top */ scrollSnapMarginTop?: Property.ScrollMarginTop<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-block */ "scroll-margin-block"?: Property.ScrollMarginBlock<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-block */ scrollMarginBlock?: Property.ScrollMarginBlock<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-block-end */ "scroll-margin-block-end"?: Property.ScrollMarginBlockEnd<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-block-end */ scrollMarginBlockEnd?: Property.ScrollMarginBlockEnd<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-block-start */ "scroll-margin-block-start"?: Property.ScrollMarginBlockStart<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-block-start */ scrollMarginBlockStart?: Property.ScrollMarginBlockStart<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-inline */ "scroll-margin-inline"?: Property.ScrollMarginInline<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-inline */ scrollMarginInline?: Property.ScrollMarginInline<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-inline-end */ "scroll-margin-inline-end"?: Property.ScrollMarginInlineEnd<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-inline-end */ scrollMarginInlineEnd?: Property.ScrollMarginInlineEnd<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-inline-start */ "scroll-margin-inline-start"?: Property.ScrollMarginInlineStart<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-inline-start */ scrollMarginInlineStart?: Property.ScrollMarginInlineStart<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-block */ "scroll-padding-block"?: Property.ScrollPaddingBlock<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-block */ scrollPaddingBlock?: Property.ScrollPaddingBlock<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-block-end */ "scroll-padding-block-end"?: Property.ScrollPaddingBlockEnd<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-block-end */ scrollPaddingBlockEnd?: Property.ScrollPaddingBlockEnd<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-block-start */ "scroll-padding-block-start"?: Property.ScrollPaddingBlockStart<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-block-start */ scrollPaddingBlockStart?: Property.ScrollPaddingBlockStart<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-inline */ "scroll-padding-inline"?: Property.ScrollPaddingInline<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-inline */ scrollPaddingInline?: Property.ScrollPaddingInline<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-inline-end */ "scroll-padding-inline-end"?: Property.ScrollPaddingInlineEnd<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-inline-end */ scrollPaddingInlineEnd?: Property.ScrollPaddingInlineEnd<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-inline-start */ "scroll-padding-inline-start"?: Property.ScrollPaddingInlineStart<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **69** | **68** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-inline-start */ scrollPaddingInlineStart?: Property.ScrollPaddingInlineStart<TLength> | undefined;
+- ----: | :-----: | :-----------------------: | :----: | :-: | * | **69** | **90** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin */ "scroll-margin"?: Property.ScrollMargin<TLength> | undefined;
+- ----: | :-----: | :-----------------------: | :----: | :-: | * | **69** | **90** | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin */ scrollMargin?: Property.ScrollMargin<TLength> | undefined;
+- ----: | :-----: | :-----: | :----: | :----------: | * | **69** | 39-68 | **11** | **79** | **10** _-x-_ | * | | | 9 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-snap-type */ "scroll-snap-type"?: Property.ScrollSnapType | undefined;
+- ----: | :-----: | :-----: | :----: | :----------: | * | **69** | 39-68 | **11** | **79** | **10** _-x-_ | * | | | 9 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-snap-type */ scrollSnapType?: Property.ScrollSnapType | undefined;
+- ----: | :-----: | :-----------------------: | :----: | :-: | * | **69** | 68-90 | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin */ "scroll-snap-margin"?: Property.ScrollMargin<TLength> | undefined;
+- ----: | :-----: | :-----------------------: | :----: | :-: | * | **69** | 68-90 | **14.1** | **79** | No | * | | | 11 _(scroll-snap-margin)_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin */ scrollSnapMargin?: Property.ScrollMargin<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **75** | **103** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-snap-stop */ "scroll-snap-stop"?: Property.ScrollSnapStop | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **75** | **103** | **15** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-snap-stop */ scrollSnapStop?: Property.ScrollSnapStop | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **76** | **103** | **18** | **79** | No | * | | | 9 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/backdrop-filter */ "backdrop-filter"?: Property.BackdropFilter | undefined;
+- ----: | :-----: | :-----: | :----: | :-: | * | **76** | **103** | **18** | **79** | No | * | | | 9 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/backdrop-filter */ backdropFilter?: Property.BackdropFilter | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **77** | **73** | **16** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-block */ "overscroll-behavior-block"?: Property.OverscrollBehaviorBlock | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **77** | **73** | **16** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-block */ overscrollBehaviorBlock?: Property.OverscrollBehaviorBlock | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **77** | **73** | **16** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline */ "overscroll-behavior-inline"?: Property.OverscrollBehaviorInline | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **77** | **73** | **16** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline */ overscrollBehaviorInline?: Property.OverscrollBehaviorInline | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **79** | **62** | **13.1** | **17** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-optical-sizing */ "font-optical-sizing"?: Property.FontOpticalSizing | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **79** | **62** | **13.1** | **17** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-optical-sizing */ fontOpticalSizing?: Property.FontOpticalSizing | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **81** | **26** | **13.1** | **81** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/image-orientation */ "image-orientation"?: Property.ImageOrientation | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **81** | **26** | **13.1** | **81** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/image-orientation */ imageOrientation?: Property.ImageOrientation | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **81** | **96** | **13** | **81** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-scheme */ "color-scheme"?: Property.ColorScheme | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **81** | **96** | **13** | **81** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-scheme */ colorScheme?: Property.ColorScheme | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **83** | **107** | **17** | **83** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-size */ "contain-intrinsic-size"?: Property.ContainIntrinsicSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **83** | **107** | **17** | **83** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-size */ containIntrinsicSize?: Property.ContainIntrinsicSize<TLength> | undefined;
+- -----: | :-----: | :------: | :---: | :-: | * | **84** | **38** | **18.2** | 12-79 | No | * | 1 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-position */ "ruby-position"?: Property.RubyPosition | undefined;
+- -----: | :-----: | :------: | :---: | :-: | * | **84** | **38** | **18.2** | 12-79 | No | * | 1 _-x-_ | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-position */ rubyPosition?: Property.RubyPosition | undefined;
+- -----: | :-----: | :------: | :------: | :-: | * | **84** | **80** | **15.4** | **84** | No | * | 1 _-x-_ | 1 _-x-_ | 3 _-x-_ | 12 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/appearance */ appearance?: Property.Appearance | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **85** | **110** | **1** | **85** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/page */ page?: Property.Page | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **85** | **125** | **18** | **85** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/content-visibility */ "content-visibility"?: Property.ContentVisibility | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **85** | **125** | **18** | **85** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/content-visibility */ contentVisibility?: Property.ContentVisibility | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **85** | **68** | **17.2** | **85** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-set */ "counter-set"?: Property.CounterSet | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **85** | **68** | **17.2** | **85** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-set */ counterSet?: Property.CounterSet | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block */ "inset-block"?: Property.InsetBlock<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block */ insetBlock?: Property.InsetBlock<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block-end */ "inset-block-end"?: Property.InsetBlockEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block-end */ insetBlockEnd?: Property.InsetBlockEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block-start */ "inset-block-start"?: Property.InsetBlockStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block-start */ insetBlockStart?: Property.InsetBlockStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline */ "inset-inline"?: Property.InsetInline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline */ insetInline?: Property.InsetInline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline-end */ "inset-inline-end"?: Property.InsetInlineEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline-end */ insetInlineEnd?: Property.InsetInlineEnd<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline-start */ "inset-inline-start"?: Property.InsetInlineStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **63** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline-start */ insetInlineStart?: Property.InsetInlineStart<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block */ "border-block"?: Property.BorderBlock<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block */ borderBlock?: Property.BorderBlock<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-color */ "border-block-color"?: Property.BorderBlockColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-color */ borderBlockColor?: Property.BorderBlockColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-style */ "border-block-style"?: Property.BorderBlockStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-style */ borderBlockStyle?: Property.BorderBlockStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-width */ "border-block-width"?: Property.BorderBlockWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-width */ borderBlockWidth?: Property.BorderBlockWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline */ "border-inline"?: Property.BorderInline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline */ borderInline?: Property.BorderInline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-color */ "border-inline-color"?: Property.BorderInlineColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-color */ borderInlineColor?: Property.BorderInlineColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-style */ "border-inline-style"?: Property.BorderInlineStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-style */ borderInlineStyle?: Property.BorderInlineStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-width */ "border-inline-width"?: Property.BorderInlineWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-width */ borderInlineWidth?: Property.BorderInlineWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset */ inset?: Property.Inset<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block */ "margin-block"?: Property.MarginBlock<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block */ marginBlock?: Property.MarginBlock<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline */ "margin-inline"?: Property.MarginInline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline */ marginInline?: Property.MarginInline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block */ "padding-block"?: Property.PaddingBlock<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block */ paddingBlock?: Property.PaddingBlock<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline */ "padding-inline"?: Property.PaddingInline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **66** | **14.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline */ paddingInline?: Property.PaddingInline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **70** | **12.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-underline-offset */ "text-underline-offset"?: Property.TextUnderlineOffset<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **87** | **70** | **12.1** | **87** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-underline-offset */ textUnderlineOffset?: Property.TextUnderlineOffset<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **88** | **89** | **15** | **88** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/aspect-ratio */ "aspect-ratio"?: Property.AspectRatio | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **88** | **89** | **15** | **88** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/aspect-ratio */ aspectRatio?: Property.AspectRatio | undefined;
+- ----: | :-----: | :----: | :-----------------------------: | :---------------------------------: | * | **89** | **113** | No | **79** | **10** _(-ms-high-contrast-adjust)_ | * | | | | 12 _(-ms-high-contrast-adjust)_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/forced-color-adjust */ "forced-color-adjust"?: Property.ForcedColorAdjust | undefined;
+- ----: | :-----: | :----: | :-----------------------------: | :---------------------------------: | * | **89** | **113** | No | **79** | **10** _(-ms-high-contrast-adjust)_ | * | | | | 12 _(-ms-high-contrast-adjust)_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/forced-color-adjust */ forcedColorAdjust?: Property.ForcedColorAdjust | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **89** | **66** | **15** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-end-end-radius */ "border-end-end-radius"?: Property.BorderEndEndRadius<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **89** | **66** | **15** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-end-end-radius */ borderEndEndRadius?: Property.BorderEndEndRadius<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **89** | **66** | **15** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-end-start-radius */ "border-end-start-radius"?: Property.BorderEndStartRadius<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **89** | **66** | **15** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-end-start-radius */ borderEndStartRadius?: Property.BorderEndStartRadius<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **89** | **66** | **15** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-start-end-radius */ "border-start-end-radius"?: Property.BorderStartEndRadius<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **89** | **66** | **15** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-start-end-radius */ borderStartEndRadius?: Property.BorderStartEndRadius<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **89** | **66** | **15** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-start-start-radius */ "border-start-start-radius"?: Property.BorderStartStartRadius<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **89** | **66** | **15** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-start-start-radius */ borderStartStartRadius?: Property.BorderStartStartRadius<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **89** | **70** | **12.1** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-thickness */ "text-decoration-thickness"?: Property.TextDecorationThickness<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **89** | **70** | **12.1** | **89** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-thickness */ textDecorationThickness?: Property.TextDecorationThickness<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **90** | **102** | No | **90** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-clip-margin */ "overflow-clip-margin"?: Property.OverflowClipMargin<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **90** | **102** | No | **90** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-clip-margin */ overflowClipMargin?: Property.OverflowClipMargin<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **93** | **92** | **15.4** | **93** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/accent-color */ "accent-color"?: Property.AccentColor | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **93** | **92** | **15.4** | **93** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/accent-color */ accentColor?: Property.AccentColor | undefined;
+- ----: | :-----: | :------: | :----: | :---: | * | **94** | **88** | **16.4** | **94** | **8** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline */ outline?: Property.Outline<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **94** | **97** | **18.2** | **94** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-gutter */ "scrollbar-gutter"?: Property.ScrollbarGutter | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **94** | **97** | **18.2** | **94** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-gutter */ scrollbarGutter?: Property.ScrollbarGutter | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **95** | **107** | **17** | **95** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-block-size */ "contain-intrinsic-block-size"?: Property.ContainIntrinsicBlockSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **95** | **107** | **17** | **95** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-block-size */ containIntrinsicBlockSize?: Property.ContainIntrinsicBlockSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **95** | **107** | **17** | **95** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-height */ "contain-intrinsic-height"?: Property.ContainIntrinsicHeight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **95** | **107** | **17** | **95** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-height */ containIntrinsicHeight?: Property.ContainIntrinsicHeight<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **95** | **107** | **17** | **95** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-inline-size */ "contain-intrinsic-inline-size"?: Property.ContainIntrinsicInlineSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **95** | **107** | **17** | **95** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-inline-size */ containIntrinsicInlineSize?: Property.ContainIntrinsicInlineSize<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **95** | **107** | **17** | **95** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-width */ "contain-intrinsic-width"?: Property.ContainIntrinsicWidth<TLength> | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **95** | **107** | **17** | **95** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-width */ containIntrinsicWidth?: Property.ContainIntrinsicWidth<TLength> | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **97** | **111** | **16.4** | **97** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps */ "font-synthesis-small-caps"?: Property.FontSynthesisSmallCaps | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **97** | **111** | **16.4** | **97** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps */ fontSynthesisSmallCaps?: Property.FontSynthesisSmallCaps | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **97** | **111** | **16.4** | **97** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-style */ "font-synthesis-style"?: Property.FontSynthesisStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **97** | **111** | **16.4** | **97** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-style */ fontSynthesisStyle?: Property.FontSynthesisStyle | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **97** | **111** | **16.4** | **97** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-weight */ "font-synthesis-weight"?: Property.FontSynthesisWeight | undefined;
+- ----: | :-----: | :------: | :----: | :-: | * | **97** | **111** | **16.4** | **97** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-weight */ fontSynthesisWeight?: Property.FontSynthesisWeight | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **97** | **34** | **9** | **97** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis */ "font-synthesis"?: Property.FontSynthesis | undefined;
+- ----: | :-----: | :----: | :----: | :-: | * | **97** | **34** | **9** | **97** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis */ fontSynthesis?: Property.FontSynthesis | undefined;
+- ------: | :-----: | :----: | :------: | :-: | * | **99** | **46** | **7** | **99** | No | * | 25 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis */ "text-emphasis"?: Property.TextEmphasis | undefined;
+- ------: | :-----: | :----: | :------: | :-: | * | **99** | **46** | **7** | **99** | No | * | 25 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis */ textEmphasis?: Property.TextEmphasis | undefined;
+- ------: | :-----: | :----: | :------: | :-: | * | **99** | **46** | **7** | **99** | No | * | 25 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-color */ "text-emphasis-color"?: Property.TextEmphasisColor | undefined;
+- ------: | :-----: | :----: | :------: | :-: | * | **99** | **46** | **7** | **99** | No | * | 25 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-color */ textEmphasisColor?: Property.TextEmphasisColor | undefined;
+- ------: | :-----: | :----: | :------: | :-: | * | **99** | **46** | **7** | **99** | No | * | 25 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-position */ "text-emphasis-position"?: Property.TextEmphasisPosition | undefined;
+- ------: | :-----: | :----: | :------: | :-: | * | **99** | **46** | **7** | **99** | No | * | 25 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-position */ textEmphasisPosition?: Property.TextEmphasisPosition | undefined;
+- ------: | :-----: | :----: | :------: | :-: | * | **99** | **46** | **7** | **99** | No | * | 25 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-style */ "text-emphasis-style"?: Property.TextEmphasisStyle | undefined;
+- ------: | :-----: | :----: | :------: | :-: | * | **99** | **46** | **7** | **99** | No | * | 25 _-x-_ | | | 79 _-x-_ | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-style */ textEmphasisStyle?: Property.TextEmphasisStyle | undefined;
+- -----: | :-----: | :----: | :----: | :-: | * | **â‰¤15** | **3.5** | **â‰¤5** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-rule */ "clip-rule"?: Property.ClipRule | undefined;
+- -----: | :-----: | :----: | :----: | :-: | * | **â‰¤15** | **3.5** | **â‰¤5** | **79** | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-rule */ clipRule?: Property.ClipRule | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | 57-64 | No | **12.1** | No | No | * | | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-skip */ "text-decoration-skip"?: Property.TextDecorationSkip | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | 57-64 | No | **12.1** | No | No | * | | | 7 _-x-_ | | | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-skip */ textDecorationSkip?: Property.TextDecorationSkip | undefined;
+- ----: | :-----: | :----: | :--: | :-: | * | No | **118** | No | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-position */ "font-synthesis-position"?: Property.FontSynthesisPosition | undefined;
+- ----: | :-----: | :----: | :--: | :-: | * | No | **118** | No | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-position */ fontSynthesisPosition?: Property.FontSynthesisPosition | undefined;
+- ----: | :-----: | :-----: | :--: | :-: | * | No | **34** | **9.1** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-position */ "font-variant-position"?: Property.FontVariantPosition | undefined;
+- ----: | :-----: | :-----: | :--: | :-: | * | No | **34** | **9.1** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-position */ fontVariantPosition?: Property.FontVariantPosition | undefined;
+- ----: | :-----: | :----: | :---: | :----: | * | No | **55** | No | 12-79 | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-justify */ "text-justify"?: Property.TextJustify | undefined;
+- ----: | :-----: | :----: | :---: | :----: | * | No | **55** | No | 12-79 | **11** | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-justify */ textJustify?: Property.TextJustify | undefined;
+- ----: | :-----: | :----: | :--: | :-: | * | No | No | **10** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hanging-punctuation */ "hanging-punctuation"?: Property.HangingPunctuation | undefined;
+- ----: | :-----: | :----: | :--: | :-: | * | No | No | **10** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hanging-punctuation */ hangingPunctuation?: Property.HangingPunctuation | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **11.1** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/speak-as */ "speak-as"?: Property.SpeakAs | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **11.1** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/speak-as */ speakAs?: Property.SpeakAs | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **11.1** | No | No | */ "stroke-color"?: Property.StrokeColor | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **11.1** | No | No | */ strokeColor?: Property.StrokeColor | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **16.4** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-trim */ "margin-trim"?: Property.MarginTrim | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **16.4** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-trim */ marginTrim?: Property.MarginTrim | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **18.2** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-overhang */ "ruby-overhang"?: Property.RubyOverhang | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **18.2** | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-overhang */ rubyOverhang?: Property.RubyOverhang | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **18.4** | No | No | */ "font-width"?: Property.FontWidth | undefined;
+- ----: | :-----: | :------: | :--: | :-: | * | No | No | **18.4** | No | No | */ fontWidth?: Property.FontWidth | undefined;
+- ----: | :-----: | :----: | :--: | :-: | * | No | No | No | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-shape */ "caret-shape"?: Property.CaretShape | undefined;
+- ----: | :-----: | :----: | :--: | :-: | * | No | No | No | No | No | * * @see https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-shape */ caretShape?: Property.CaretShape | undefined;
+- --1A:2B:3C:4D:5E").success).toBe(false);
+- --accent: #FF2D2D;
+- --accent: #ff2d2d;
+- --accent:#262626;
+- --accent:#f5f5f5;
+- --accent:#ff2d2d;
+- --accent:lab(15.204% 0 -.00000596046);
+- --accent:lab(96.52% -.0000298023 .0000119209);
+- --accent-color: #00aaff;
+- --accent-foreground:#171717;
+- --accent-foreground:#fafafa;
+- --accent-foreground:lab(7.78201% -.0000149012 0);
+- --accent-foreground:lab(98.26% 0 0);
+- --animate-bounce: bounce 1s infinite;
+- --animate-ping: ping 1s cubic-bezier(0, 0, .2, 1) infinite;
+- --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+- --animate-ping:ping 1s cubic-bezier(0, 0, .2, 1) infinite;
+- --animate-pulse: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
+- --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+- --animate-pulse:pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
+- --animate-pulse:pulse 2s cubic-bezier(.4,0,.6,1)infinite;
+- --animate-spin: spin 1s linear infinite;
+- --animate-spin:spin 1s linear infinite;
+- --aspect-video: 16 / 9;
+- --background: #0a0a0a;
+- --background: #fff;
+- --background: #ffffff;
+- --background: var(--color-gray-1000);
+- --background:#fff;
+- --background-color: var(--color-background-100);
+- --background-color:#1f1f1f;
+- --blur: 1px;
+- --blur: 8px;
+- --blur-2xl: 40px;
+- --blur-2xl:40px;
+- --blur-3xl: 64px;
+- --blur-3xl:64px;
+- --blur-lg: 16px;
+- --blur-md: 12px;
+- --blur-md:12px;
+- --blur-sm: 8px;
+- --blur-sm:8px;
+- --blur-xl: 24px;
+- --blur-xl:24px;
+- --blur-xs: 4px;
+- --border:#262626;
+- --border:#e5e5e5;
+- --border:lab(15.204% 0 -.00000596046);
+- --border:lab(90.952% 0 -.0000119209);
+- --breakpoint-2xl: 96rem;
+- --breakpoint-lg: 64rem;
+- --breakpoint-md: 48rem;
+- --breakpoint-sm: 40rem;
+- --breakpoint-xl: 80rem;
+- --card:#0a0a0a;
+- --card:#fff;
+- --card:lab(100% 0 0);
+- --card:lab(2.75381% 0 0);
+- --card-foreground:#0a0a0a;
+- --card-foreground:#fafafa;
+- --card-foreground:lab(2.75381% 0 0);
+- --card-foreground:lab(98.26% 0 0);
+- --checkbox-size:calc(var(--widget-height)*0.75);
+- --code-frame-line-height: var(--size-16);
+- --code-frame-padding: 12px;
+- --color-accent: var(--accent);
+- --color-accent:var(--accent);
+- --color-accents-1: #808080;
+- --color-accents-2: #222222;
+- --color-accents-3: #404040;
+- --color-amber-100: #271700;
+- --color-amber-100: #fef3c6;
+- --color-amber-100: #fff6e5;
+- --color-amber-100: lab(95.916% -1.2165 23.111);
+- --color-amber-100: oklch(96.2% 0.059 95.617);
+- --color-amber-1000: #4e2009;
+- --color-amber-1000: #fef3dd;
+- --color-amber-200: #341c00;
+- --color-amber-200: #fee685;
+- --color-amber-200: #fff4d5;
+- --color-amber-200: lab(91.7203% -.505269 49.9084);
+- --color-amber-200: oklch(92.4% 0.12 95.746);
+- --color-amber-300: #4a2900;
+- --color-amber-300: #fef0cd;
+- --color-amber-300: #ffd236;
+- --color-amber-300: lab(86.4156% 6.13147 78.3961);
+- --color-amber-300: oklch(87.9% 0.169 91.605);
+- --color-amber-400: #573300;
+- --color-amber-400: #fcbb00;
+- --color-amber-400: #ffddbf;
+- --color-amber-400: lab(80.1641% 16.6016 99.2089);
+- --color-amber-400: oklch(82.8% 0.189 84.429);
+- --color-amber-50: #fffbeb;
+- --color-amber-50: lab(98.6252% -.635982 8.42309);
+- --color-amber-50: oklch(98.7% 0.022 95.277);
+- --color-amber-500: #693f05;
+- --color-amber-500: #f99c00;
+- --color-amber-500: #ffc96b;
+- --color-amber-500: lab(72.7183% 31.8672 97.9407);
+- --color-amber-500: oklch(76.9% 0.188 70.08);
+- --color-amber-600: #dd7400;
+- --color-amber-600: #e79c13;
+- --color-amber-600: #f5b047;
+- --color-amber-600: lab(60.3514% 40.5624 87.1228);
+- --color-amber-600: oklch(66.6% 0.179 58.318);
+- --color-amber-700: #b75000;
+- --color-amber-700: #ffb224;
+- --color-amber-700: lab(47.2709% 42.9082 69.2966);
+- --color-amber-700: oklch(55.5% 0.163 48.998);
+- --color-amber-800: #953d00;
+- --color-amber-800: #ff990a;
+- --color-amber-800: lab(37.8823% 37.1699 52.2718);
+- --color-amber-800: oklch(47.3% 0.137 46.201);
+- --color-amber-900: #7b3306;
+- --color-amber-900: #a35200;
+- --color-amber-900: #f1a10d;
+- --color-amber-900: lab(31.2288% 30.2627 40.0378);
+- --color-amber-900: oklch(41.4% 0.112 45.904);
+- --color-amber-950: #461901;
+- --color-amber-950: lab(15.8111% 20.9107 23.3752);
+- --color-amber-950: oklch(27.9% 0.077 45.635);
+- --color-ansi-bg: var(--color-background-200);
+- --color-ansi-black: var(--color-gray-200);
+- --color-ansi-blue: var(--color-blue-700);
+- --color-ansi-bright-black: var(--color-syntax-comment);
+- --color-ansi-bright-blue: var(--color-blue-800);
+- --color-ansi-bright-cyan: var(--color-blue-800);
+- --color-ansi-bright-green: var(--color-green-800);
+- --color-ansi-bright-magenta: var(--color-blue-800);
+- --color-ansi-bright-red: var(--color-red-800);
+- --color-ansi-bright-white: var(--color-gray-1000);
+- --color-ansi-bright-yellow: var(--color-amber-900);
+- --color-ansi-cyan: var(--color-syntax-keyword);
+- --color-ansi-fg: var(--color-gray-1000);
+- --color-ansi-green: var(--color-syntax-string);
+- --color-ansi-magenta: var(--color-syntax-keyword);
+- --color-ansi-red: var(--color-red-700);
+- --color-ansi-selection: var(--color-gray-alpha-300);
+- --color-ansi-white: var(--color-gray-700);
+- --color-ansi-yellow: var(--color-syntax-function);
+- --color-backdrop: rgba(0, 0, 0, 0.8);
+- --color-backdrop: rgba(250, 250, 250, 0.8);
+- --color-background: var(--background);
+- --color-background:var(--background);
+- --color-background-100: #0a0a0a;
+- --color-background-100: #ffffff;
+- --color-background-200: #000000;
+- --color-background-200: #fafafa;
+- --color-bg: var(--color-background-100);
+- --color-black: #000;
+- --color-black:#000;
+- --color-blue-100: #0f1b2d;
+- --color-blue-100: #dbeafe;
+- --color-blue-100: #f0f7ff;
+- --color-blue-100: lab(92.0301% -2.24757 -11.6453);
+- --color-blue-100: oklch(93.2% 0.032 255.585);
+- --color-blue-100:#dbeafe;
+- --color-blue-100:lab(92.0301% -2.24757 -11.6453);
+- --color-blue-1000: #0025ad;
+- --color-blue-1000: #eaf6ff;
+- --color-blue-200: #10243e;
+- --color-blue-200: #bedbff;
+- --color-blue-200: #edf6ff;
+- --color-blue-200: lab(86.15% -4.04379 -21.0797);
+- --color-blue-200: oklch(88.2% 0.059 254.128);
+- --color-blue-300: #0f3058;
+- --color-blue-300: #90c5ff;
+- --color-blue-300: #e1f0ff;
+- --color-blue-300: lab(77.5052% -6.4629 -36.42);
+- --color-blue-300: oklch(80.9% 0.105 251.813);
+- --color-blue-300:#90c5ff;
+- --color-blue-300:lab(77.5052% -6.4629 -36.42);
+- --color-blue-400: #0d3868;
+- --color-blue-400: #54a2ff;
+- --color-blue-400: #cde7ff;
+- --color-blue-400: lab(65.0361% -1.42062 -56.9803);
+- --color-blue-400: oklch(70.7% 0.165 254.624);
+- --color-blue-50: #eff6ff;
+- --color-blue-50: lab(96.492% -1.14647 -5.11479);
+- --color-blue-50: oklch(97% 0.014 254.604);
+- --color-blue-50:#eff6ff;
+- --color-blue-50:lab(96.492% -1.14644 -5.11479);
+- --color-blue-50:lab(96.492% -1.14647 -5.11479);
+- --color-blue-500: #0a4481;
+- --color-blue-500: #3080ff;
+- --color-blue-500: #99ceff;
+- --color-blue-500: lab(54.1736% 13.3368 -74.6839);
+- --color-blue-500: oklch(62.3% 0.214 259.815);
+- --color-blue-500:#3080ff;
+- --color-blue-500:lab(54.1736% 13.3368 -74.6839);
+- --color-blue-500:lab(54.1736% 13.3369 -74.6839);
+- --color-blue-600: #0091ff;
+- --color-blue-600: #155dfc;
+- --color-blue-600: #52aeff;
+- --color-blue-600: lab(44.0605% 29.0279 -86.0352);
+- --color-blue-600: oklch(54.6% 0.245 262.881);
+- --color-blue-600:#155dfc;
+- --color-blue-600:lab(44.0605% 29.0279 -86.0352);
+- --color-blue-700: #0070f3;
+- --color-blue-700: #1447e6;
+- --color-blue-700: lab(36.9089% 35.0961 -85.6872);
+- --color-blue-700: oklch(48.8% 0.243 264.376);
+- --color-blue-700:#1447e6;
+- --color-blue-700:lab(36.9089% 35.0961 -85.6872);
+- --color-blue-800: #0060d1;
+- --color-blue-800: #193cb8;
+- --color-blue-800: lab(30.2514% 27.7854 -70.2699);
+- --color-blue-800: oklch(42.4% 0.199 265.638);
+- --color-blue-900: #0067d6;
+- --color-blue-900: #1c398e;
+- --color-blue-900: #52a9ff;
+- --color-blue-900: lab(26.1542% 15.7545 -51.5504);
+- --color-blue-900: oklch(37.9% 0.146 265.522);
+- --color-blue-950: #162456;
+- --color-blue-950: lab(15.6723% 8.86233 -32.2945);
+- --color-blue-950: oklch(28.2% 0.091 267.935);
+- --color-blue-950:#162456;
+- --color-blue-950:lab(15.6723% 8.86232 -32.2945);
+- --color-border-shadow: rgba(0, 0, 0, 0.145);
+- --color-border-shadow: rgba(255, 255, 255, 0.145);
+- --color-cyan-100: #cefafe;
+- --color-cyan-100: lab(95.3146% -13.8285 -6.84733);
+- --color-cyan-100: oklch(95.6% 0.045 203.388);
+- --color-cyan-200: #a2f4fd;
+- --color-cyan-200: lab(91.0821% -24.0435 -12.8306);
+- --color-cyan-200: oklch(91.7% 0.08 205.041);
+- --color-cyan-300: #53eafd;
+- --color-cyan-300: lab(85.3886% -36.7635 -21.5717);
+- --color-cyan-300: oklch(86.5% 0.127 207.078);
+- --color-cyan-400: #00d2ef;
+- --color-cyan-400: lab(76.6045% -40.9406 -29.6231);
+- --color-cyan-400: oklch(78.9% 0.154 211.53);
+- --color-cyan-50: #ecfeff;
+- --color-cyan-50: lab(98.3303% -5.97429 -2.62109);
+- --color-cyan-50: oklch(98.4% 0.019 200.873);
+- --color-cyan-500: #00b7d7;
+- --color-cyan-500: lab(67.805% -35.3952 -30.2018);
+- --color-cyan-500: oklch(71.5% 0.143 215.221);
+- --color-cyan-600: #0092b5;
+- --color-cyan-600: lab(55.1767% -26.7496 -30.5138);
+- --color-cyan-600: oklch(60.9% 0.126 221.723);
+- --color-cyan-700: #007492;
+- --color-cyan-700: lab(44.7267% -21.5987 -26.118);
+- --color-cyan-700: oklch(52% 0.105 223.128);
+- --color-cyan-800: #005f78;
+- --color-cyan-800: lab(36.5114% -17.1989 -21.6292);
+- --color-cyan-800: oklch(45% 0.085 224.283);
+- --color-cyan-900: #104e64;
+- --color-cyan-900: lab(30.372% -13.1853 -18.7887);
+- --color-cyan-900: oklch(39.8% 0.07 227.392);
+- --color-cyan-950: #053345;
+- --color-cyan-950: lab(19.1528% -9.68759 -15.5267);
+- --color-cyan-950: oklch(30.2% 0.056 229.695);
+- --color-emerald-100: #d0fae5;
+- --color-emerald-100: lab(94.9004% -17.0769 5.63836);
+- --color-emerald-100: oklch(95% 0.052 163.051);
+- --color-emerald-200: #a4f4cf;
+- --color-emerald-200: lab(90.2247% -31.039 9.47084);
+- --color-emerald-200: oklch(90.5% 0.093 164.15);
+- --color-emerald-300: #5ee9b5;
+- --color-emerald-300: lab(83.9203% -48.7124 13.8849);
+- --color-emerald-300: oklch(84.5% 0.143 164.978);
+- --color-emerald-400: #00d294;
+- --color-emerald-400: lab(75.0771% -60.7313 19.4146);
+- --color-emerald-400: oklch(76.5% 0.177 163.223);
+- --color-emerald-50: #ecfdf5;
+- --color-emerald-50: lab(97.8462% -6.94963 1.85487);
+- --color-emerald-50: oklch(97.9% 0.021 166.113);
+- --color-emerald-500: #00bb7f;
+- --color-emerald-500: lab(66.9756% -58.27 19.5419);
+- --color-emerald-500: oklch(69.6% 0.17 162.48);
+- --color-emerald-600: #009767;
+- --color-emerald-600: lab(55.0481% -49.9246 15.93);
+- --color-emerald-600: oklch(59.6% 0.145 163.225);
+- --color-emerald-700: #007956;
+- --color-emerald-700: lab(44.4871% -41.0396 11.0361);
+- --color-emerald-700: oklch(50.8% 0.118 165.612);
+- --color-emerald-800: #005f46;
+- --color-emerald-800: lab(35.3675% -33.1188 8.04002);
+- --color-emerald-800: oklch(43.2% 0.095 166.913);
+- --color-emerald-900: #004e3b;
+- --color-emerald-900: lab(28.8637% -26.9249 5.45986);
+- --color-emerald-900: oklch(37.8% 0.077 168.94);
+- --color-emerald-950: #002c22;
+- --color-emerald-950: lab(15.0582% -17.9507 2.38369);
+- --color-emerald-950: oklch(26.2% 0.051 172.552);
+- --color-font: #757575;
+- --color-font: white;
+- --color-foreground: var(--foreground);
+- --color-foreground:var(--foreground);
+- --color-fuchsia-100: #fae8ff;
+- --color-fuchsia-100: lab(93.9419% 9.5765 -9.08735);
+- --color-fuchsia-100: oklch(95.2% 0.037 318.852);
+- --color-fuchsia-200: #f6cfff;
+- --color-fuchsia-200: lab(87.7108% 19.9958 -18.2054);
+- --color-fuchsia-200: oklch(90.3% 0.076 319.62);
+- --color-fuchsia-300: #f2a9ff;
+- --color-fuchsia-300: lab(78.5378% 39.3533 -32.9615);
+- --color-fuchsia-300: oklch(83.3% 0.145 321.434);
+- --color-fuchsia-400: #ec6cff;
+- --color-fuchsia-400: lab(66.1178% 66.0652 -52.4733);
+- --color-fuchsia-400: oklch(74% 0.238 322.16);
+- --color-fuchsia-50: #fdf4ff;
+- --color-fuchsia-50: lab(97.1083% 4.46236 -4.09335);
+- --color-fuchsia-50: oklch(97.7% 0.017 320.058);
+- --color-fuchsia-500: #e12afb;
+- --color-fuchsia-500: lab(56.4256% 83.132 -64.639);
+- --color-fuchsia-500: oklch(66.7% 0.295 322.15);
+- --color-fuchsia-600: #c600db;
+- --color-fuchsia-600: lab(47.5131% 83.4271 -63.0363);
+- --color-fuchsia-600: oklch(59.1% 0.293 322.896);
+- --color-fuchsia-700: #a600b5;
+- --color-fuchsia-700: lab(39.787% 72.2653 -53.1244);
+- --color-fuchsia-700: oklch(51.8% 0.253 323.949);
+- --color-fuchsia-800: #8a0194;
+- --color-fuchsia-800: lab(32.904% 60.2883 -43.6569);
+- --color-fuchsia-800: oklch(45.2% 0.211 324.591);
+- --color-fuchsia-900: #721378;
+- --color-fuchsia-900: lab(27.755% 48.6174 -34.3553);
+- --color-fuchsia-900: oklch(40.1% 0.17 325.612);
+- --color-fuchsia-950: #4b004f;
+- --color-fuchsia-950: lab(15.7348% 39.0235 -27.4073);
+- --color-fuchsia-950: oklch(29.3% 0.136 325.661);
+- --color-gray-100: #1a1a1a;
+- --color-gray-100: #f2f2f2;
+- --color-gray-100: #f3f4f6;
+- --color-gray-100: lab(96.1596% -.082314 -1.13575);
+- --color-gray-100: oklch(96.7% 0.003 264.542);
+- --color-gray-100:#f3f4f6;
+- --color-gray-100:lab(96.1596% -.082314 -1.13575);
+- --color-gray-1000: #171717;
+- --color-gray-1000: #ededed;
+- --color-gray-200: #1f1f1f;
+- --color-gray-200: #e5e7eb;
+- --color-gray-200: #ebebeb;
+- --color-gray-200: lab(91.6229% -.159085 -2.26791);
+- --color-gray-200: oklch(92.8% 0.006 264.531);
+- --color-gray-200:#e5e7eb;
+- --color-gray-200:lab(91.6229% -.159085 -2.26791);
+- --color-gray-300: #292929;
+- --color-gray-300: #d1d5dc;
+- --color-gray-300: #e6e6e6;
+- --color-gray-300: lab(85.1236% -.612259 -3.7138);
+- --color-gray-300: oklch(87.2% 0.01 258.338);
+- --color-gray-300:#d1d5dc;
+- --color-gray-300:lab(85.1236% -.612259 -3.7138);
+- --color-gray-400: #2e2e2e;
+- --color-gray-400: #99a1af;
+- --color-gray-400: #eaeaea;
+- --color-gray-400: lab(65.9269% -.832707 -8.17474);
+- --color-gray-400: oklch(70.7% 0.022 261.325);
+- --color-gray-400:#99a1af;
+- --color-gray-400:lab(65.9269% -.832707 -8.17474);
+- --color-gray-50: #f9fafb;
+- --color-gray-50: lab(98.2596% -.247031 -.706708);
+- --color-gray-50: oklch(98.5% 0.002 247.839);
+- --color-gray-50:#f9fafb;
+- --color-gray-50:lab(98.2596% -.247031 -.706708);
+- --color-gray-500: #454545;
+- --color-gray-500: #6a7282;
+- --color-gray-500: #c9c9c9;
+- --color-gray-500: lab(47.7841% -.393212 -10.0268);
+- --color-gray-500: oklch(55.1% 0.027 264.364);
+- --color-gray-500:#6a7282;
+- --color-gray-500:lab(47.7841% -.393182 -10.0268)}}}@layer base{*,:after,:before,::backdrop{box-sizing:border-box;
+- --color-gray-500:lab(47.7841% -.393212 -10.0268);
+- --color-gray-600: #4a5565;
+- --color-gray-600: #878787;
+- --color-gray-600: #a8a8a8;
+- --color-gray-600: lab(35.6337% -1.58697 -10.8425);
+- --color-gray-600: oklch(44.6% 0.03 256.802);
+- --color-gray-600:#4a5565;
+- --color-gray-600:lab(35.6337% -1.58697 -10.8425);
+- --color-gray-700: #364153;
+- --color-gray-700: #8f8f8f;
+- --color-gray-700: lab(27.1134% -.956401 -12.3224);
+- --color-gray-700: oklch(37.3% 0.034 259.733);
+- --color-gray-700:#364153;
+- --color-gray-700:lab(27.1134% -.956401 -12.3224);
+- --color-gray-800: #1e2939;
+- --color-gray-800: #7d7d7d;
+- --color-gray-800: lab(16.1051% -1.18239 -11.7533);
+- --color-gray-800: oklch(27.8% 0.033 256.848);
+- --color-gray-800:#1e2939;
+- --color-gray-800:lab(16.1051% -1.18239 -11.7533);
+- --color-gray-900: #101828;
+- --color-gray-900: #666666;
+- --color-gray-900: #a0a0a0;
+- --color-gray-900: lab(8.11897% .811279 -12.254);
+- --color-gray-900: oklch(21% 0.034 264.665);
+- --color-gray-900:#101828;
+- --color-gray-900:lab(8.11897% .811279 -12.254);
+- --color-gray-950: #030712;
+- --color-gray-950: lab(1.90334% .278696 -5.48866);
+- --color-gray-950: oklch(13% 0.028 261.692);
+- --color-gray-alpha-100: rgba(0, 0, 0, 0.05);
+- --color-gray-alpha-100: rgba(255, 255, 255, 0.066);
+- --color-gray-alpha-1000: rgba(0, 0, 0, 0.91);
+- --color-gray-alpha-1000: rgba(255, 255, 255, 0.923);
+- --color-gray-alpha-200: rgba(0, 0, 0, 0.081);
+- --color-gray-alpha-200: rgba(255, 255, 255, 0.087);
+- --color-gray-alpha-300: rgba(0, 0, 0, 0.1);
+- --color-gray-alpha-300: rgba(255, 255, 255, 0.125);
+- --color-gray-alpha-400: rgba(0, 0, 0, 0.08);
+- --color-gray-alpha-400: rgba(255, 255, 255, 0.145);
+- --color-gray-alpha-500: rgba(0, 0, 0, 0.21);
+- --color-gray-alpha-500: rgba(255, 255, 255, 0.239);
+- --color-gray-alpha-600: rgba(0, 0, 0, 0.34);
+- --color-gray-alpha-600: rgba(255, 255, 255, 0.506);
+- --color-gray-alpha-700: rgba(0, 0, 0, 0.44);
+- --color-gray-alpha-700: rgba(255, 255, 255, 0.54);
+- --color-gray-alpha-800: rgba(0, 0, 0, 0.51);
+- --color-gray-alpha-800: rgba(255, 255, 255, 0.47);
+- --color-gray-alpha-900: rgba(0, 0, 0, 0.605);
+- --color-gray-alpha-900: rgba(255, 255, 255, 0.61);
+- --color-green: #4caf50;
+- --color-green-100: #0b2211;
+- --color-green-100: #dcfce7;
+- --color-green-100: #effbef;
+- --color-green-100: lab(96.186% -13.8464 6.52362);
+- --color-green-100: oklch(96.2% 0.044 156.743);
+- --color-green-100:#dcfce7;
+- --color-green-100:lab(96.186% -13.8464 6.52362);
+- --color-green-1000: #18311e;
+- --color-green-1000: #e5fbeb;
+- --color-green-200: #0f2c17;
+- --color-green-200: #b9f8cf;
+- --color-green-200: #eafaea;
+- --color-green-200: lab(92.4222% -26.4702 12.9427);
+- --color-green-200: oklch(92.5% 0.084 155.995);
+- --color-green-300: #11351b;
+- --color-green-300: #7bf1a8;
+- --color-green-300: #dcf6dc;
+- --color-green-300: lab(86.9953% -47.2691 25.0054);
+- --color-green-300: oklch(87.1% 0.15 154.449);
+- --color-green-400: #05df72;
+- --color-green-400: #0c461b;
+- --color-green-400: #c8f1c9;
+- --color-green-400: lab(78.503% -64.9265 39.7492);
+- --color-green-400: oklch(79.2% 0.209 151.711);
+- --color-green-50: #f0fdf4;
+- --color-green-50: lab(98.1563% -5.60117 2.75913);
+- --color-green-50: oklch(98.2% 0.018 155.826);
+- --color-green-50:#f0fdf4;
+- --color-green-50:lab(98.1563% -5.60117 2.75913);
+- --color-green-500: #00c758;
+- --color-green-500: #126427;
+- --color-green-500: #99e59f;
+- --color-green-500: lab(70.5521% -66.5147 45.8072);
+- --color-green-500: oklch(72.3% 0.219 149.579);
+- --color-green-500:#00c758;
+- --color-green-500:lab(70.5521% -66.5147 45.8073);
+- --color-green-600: #00a544;
+- --color-green-600: #1a9338;
+- --color-green-600: #6cda76;
+- --color-green-600: lab(59.0978% -58.6621 41.2579);
+- --color-green-600: oklch(62.7% 0.194 149.214);
+- --color-green-600:#00a544;
+- --color-green-600:lab(59.0978% -58.6621 41.2579);
+- --color-green-700: #008138;
+- --color-green-700: #46a758;
+- --color-green-700: lab(47.0329% -47.0239 31.4788);
+- --color-green-700: oklch(52.7% 0.154 150.069);
+- --color-green-700:#008138;
+- --color-green-700:lab(47.0329% -47.0239 31.4788);
+- --color-green-800: #016630;
+- --color-green-800: #388e4a;
+- --color-green-800: lab(37.4616% -36.7971 22.9692);
+- --color-green-800: oklch(44.8% 0.119 151.328);
+- --color-green-900: #0d542b;
+- --color-green-900: #297c3b;
+- --color-green-900: #63c174;
+- --color-green-900: lab(30.797% -29.6927 17.382);
+- --color-green-900: oklch(39.3% 0.095 152.535);
+- --color-green-950: #032e15;
+- --color-green-950: lab(15.6845% -20.4225 11.7249);
+- --color-green-950: oklch(26.6% 0.065 152.934);
+- --color-hover-alpha-error: hsla(0, 0%, 100%, 0.2);
+- --color-hover-alpha-error-2: hsla(0, 0%, 100%, 0.25);
+- --color-hover-alpha-subtle: hsla(0, 0%, 100%, 0.13);
+- --color-indigo-100: #e0e7ff;
+- --color-indigo-100: lab(91.6577% 1.04591 -12.7199);
+- --color-indigo-100: oklch(93% 0.034 272.788);
+- --color-indigo-200: #c7d2ff;
+- --color-indigo-200: lab(84.4329% 3.18974 -23.9688);
+- --color-indigo-200: oklch(87% 0.065 274.039);
+- --color-indigo-300: #a4b3ff;
+- --color-indigo-300: lab(74.0235% 8.54138 -41.6075);
+- --color-indigo-300: oklch(78.5% 0.115 274.713);
+- --color-indigo-400: #7d87ff;
+- --color-indigo-400: lab(59.866% 22.4833 -64.4485);
+- --color-indigo-400: oklch(67.3% 0.182 276.935);
+- --color-indigo-50: #eef2ff;
+- --color-indigo-50: lab(95.4818% .411302 -6.78529);
+- --color-indigo-50: oklch(96.2% 0.018 272.314);
+- --color-indigo-50:#eef2ff;
+- --color-indigo-50:lab(95.4818% .411302 -6.78529);
+- --color-indigo-500: #625fff;
+- --color-indigo-500: lab(48.295% 38.3129 -81.9673);
+- --color-indigo-500: oklch(58.5% 0.233 277.117);
+- --color-indigo-600: #4f39f6;
+- --color-indigo-600: lab(38.4009% 52.6132 -92.3857);
+- --color-indigo-600: oklch(51.1% 0.262 276.966);
+- --color-indigo-600:#4f39f6;
+- --color-indigo-600:lab(38.4009% 52.6132 -92.3857);
+- --color-indigo-700: #432dd7;
+- --color-indigo-700: lab(32.4486% 49.2217 -84.6695);
+- --color-indigo-700: oklch(45.7% 0.24 277.023);
+- --color-indigo-800: #372aac;
+- --color-indigo-800: lab(26.6645% 37.9804 -68.6402);
+- --color-indigo-800: oklch(39.8% 0.195 277.366);
+- --color-indigo-900: #312c85;
+- --color-indigo-900: lab(23.3911% 24.6978 -50.4719);
+- --color-indigo-900: oklch(35.9% 0.144 278.697);
+- --color-indigo-950: #1e1a4d;
+- --color-indigo-950: lab(12.4853% 14.9672 -31.3418);
+- --color-indigo-950: oklch(25.7% 0.09 281.288);
+- --color-inner-border: #e5484d;
+- --color-inner-border: hsla(0, 0%, 100%, 0.14);
+- --color-inner-border: rgba(245, 158, 11, 0.9);
+- --color-input-min-width:45px;
+- --color-input-min-width:65px}.lil-gui.autoPlace{max-height:100%;
+- --color-input-min-width:65px}}@media (hover:hover){.lil-gui .controller.color .display:hover:before{border:1px solid #fff9;
+- --color-input-width:27%;
+- --color-lime-100: #ecfcca;
+- --color-lime-100: lab(96.8662% -11.7133 22.0854);
+- --color-lime-100: oklch(96.7% 0.067 122.328);
+- --color-lime-200: #d8f999;
+- --color-lime-200: lab(94.0718% -22.5338 42.5238);
+- --color-lime-200: oklch(93.8% 0.127 124.321);
+- --color-lime-300: #bbf451;
+- --color-lime-300: lab(89.9218% -35.6546 68.5254);
+- --color-lime-300: oklch(89.7% 0.196 126.665);
+- --color-lime-400: #9de500;
+- --color-lime-400: lab(83.7876% -45.0447 88.4738);
+- --color-lime-400: oklch(84.1% 0.238 128.85);
+- --color-lime-50: #f7fee7;
+- --color-lime-50: lab(98.7039% -5.32568 10.2149);
+- --color-lime-50: oklch(98.6% 0.031 120.757);
+- --color-lime-500: #80cd00;
+- --color-lime-500: lab(75.3197% -46.6547 86.1778);
+- --color-lime-500: oklch(76.8% 0.233 130.85);
+- --color-lime-600: #62a400;
+- --color-lime-600: lab(61.1055% -41.0235 73.1483);
+- --color-lime-600: oklch(64.8% 0.2 131.684);
+- --color-lime-700: #4b7d00;
+- --color-lime-700: lab(47.246% -32.2589 55.8249);
+- --color-lime-700: oklch(53.2% 0.157 131.589);
+- --color-lime-800: #3d6300;
+- --color-lime-800: lab(37.7655% -25.1694 43.0683);
+- --color-lime-800: oklch(45.3% 0.124 130.933);
+- --color-lime-900: #35530e;
+- --color-lime-900: lab(31.9931% -20.7655 33.7379);
+- --color-lime-900: oklch(40.5% 0.101 131.063);
+- --color-lime-950: #192e03;
+- --color-lime-950: lab(16.5113% -15.1841 22.0145);
+- --color-lime-950: oklch(27.4% 0.072 132.109);
+- --color-mauve-100: #f3f1f3;
+- --color-mauve-100: lab(95.3199% .844359 -.636518);
+- --color-mauve-100: oklch(96% 0.003 325.6);
+- --color-mauve-200: #e7e4e7;
+- --color-mauve-200: lab(90.8851% 1.40756 -1.05976);
+- --color-mauve-200: oklch(92.2% 0.005 325.62);
+- --color-mauve-300: #d7d0d7;
+- --color-mauve-300: lab(84.1787% 3.38051 -2.535);
+- --color-mauve-300: oklch(86.5% 0.012 325.68);
+- --color-mauve-400: #a89ea9;
+- --color-mauve-400: lab(66.2215% 5.18829 -4.27423);
+- --color-mauve-400: oklch(71.1% 0.019 323.02);
+- --color-mauve-50: #fafafa;
+- --color-mauve-50: lab(98.26% 0 0);
+- --color-mauve-50: oklch(98.5% 0 0);
+- --color-mauve-500: #79697b;
+- --color-mauve-500: lab(46.4092% 9.24575 -7.68466);
+- --color-mauve-500: oklch(54.2% 0.034 322.5);
+- --color-mauve-600: #594c5b;
+- --color-mauve-600: lab(34.0653% 7.82093 -6.65652);
+- --color-mauve-600: oklch(43.5% 0.029 321.78);
+- --color-mauve-700: #463947;
+- --color-mauve-700: lab(25.8245% 8.01928 -6.32545);
+- --color-mauve-700: oklch(36.4% 0.029 323.89);
+- --color-mauve-800: #2a212c;
+- --color-mauve-800: lab(14.1786% 6.35938 -5.68258);
+- --color-mauve-800: oklch(26.3% 0.024 320.12);
+- --color-mauve-900: #1d161e;
+- --color-mauve-900: lab(8.33002% 5.1541 -4.30998);
+- --color-mauve-900: oklch(21.2% 0.019 322.12);
+- --color-mauve-950: #0c090c;
+- --color-mauve-950: lab(2.70037% 1.13126 -.853461);
+- --color-mauve-950: oklch(14.5% 0.008 326);
+- --color-mist-100: #f1f3f3;
+- --color-mist-100: lab(95.7289% -.644743 -.229907);
+- --color-mist-100: oklch(96.3% 0.002 197.1);
+- --color-mist-200: #e3e7e8;
+- --color-mist-200: lab(91.3368% -1.38438 -1.08378);
+- --color-mist-200: oklch(92.5% 0.005 214.3);
+- --color-mist-300: #d0d6d8;
+- --color-mist-300: lab(85.1957% -1.8006 -1.71063);
+- --color-mist-300: oklch(87.2% 0.007 219.6);
+- --color-mist-400: #9ca8ab;
+- --color-mist-400: lab(67.9698% -3.85061 -3.02823);
+- --color-mist-400: oklch(72.3% 0.014 214.4);
+- --color-mist-50: #f9fbfb;
+- --color-mist-50: lab(98.5129% -.644743 -.229943);
+- --color-mist-50: oklch(98.7% 0.002 197.1);
+- --color-mist-500: #67787c;
+- --color-mist-500: lab(49.1145% -5.80186 -4.41525);
+- --color-mist-500: oklch(56% 0.021 213.5);
+- --color-mist-600: #4b585b;
+- --color-mist-600: lab(36.3261% -4.71437 -3.54635);
+- --color-mist-600: oklch(45% 0.017 213.2);
+- --color-mist-700: #394447;
+- --color-mist-700: lab(27.9503% -4.00263 -3.35105);
+- --color-mist-700: oklch(37.8% 0.015 216);
+- --color-mist-800: #22292b;
+- --color-mist-800: lab(15.9728% -2.89691 -2.50867);
+- --color-mist-800: oklch(27.5% 0.011 216.9);
+- --color-mist-900: #161b1d;
+- --color-mist-900: lab(9.32863% -1.87988 -2.1017);
+- --color-mist-900: oklch(21.8% 0.008 223.9);
+- --color-mist-950: #090b0c;
+- --color-mist-950: lab(2.93655% -.435196 -.608262);
+- --color-mist-950: oklch(14.8% 0.004 228.8);
+- --color-neutral-100: #f5f5f5;
+- --color-neutral-100: lab(96.52% -.0000596046 0);
+- --color-neutral-100: oklch(97% 0 0);
+- --color-neutral-200: #e5e5e5;
+- --color-neutral-200: lab(90.952% -.0000596046 0);
+- --color-neutral-200: oklch(92.2% 0 0);
+- --color-neutral-300: #d4d4d4;
+- --color-neutral-300: lab(84.92% 0 0);
+- --color-neutral-300: oklch(87% 0 0);
+- --color-neutral-400: #a1a1a1;
+- --color-neutral-400: lab(66.128% -.0000298023 .0000119209);
+- --color-neutral-400: oklch(70.8% 0 0);
+- --color-neutral-50: #fafafa;
+- --color-neutral-50: lab(98.26% 0 0);
+- --color-neutral-50: oklch(98.5% 0 0);
+- --color-neutral-500: #737373;
+- --color-neutral-500: lab(48.496% 0 0);
+- --color-neutral-500: oklch(55.6% 0 0);
+- --color-neutral-600: #525252;
+- --color-neutral-600: lab(34.924% 0 0);
+- --color-neutral-600: oklch(43.9% 0 0);
+- --color-neutral-700: #404040;
+- --color-neutral-700: lab(27.036% 0 0);
+- --color-neutral-700: oklch(37.1% 0 0);
+- --color-neutral-800: #262626;
+- --color-neutral-800: lab(15.204% 0 0);
+- --color-neutral-800: oklch(26.9% 0 0);
+- --color-neutral-900: #171717;
+- --color-neutral-900: lab(7.78201% -.0000149012 0);
+- --color-neutral-900: oklch(20.5% 0 0);
+- --color-neutral-950: #0a0a0a;
+- --color-neutral-950: lab(2.75381% 0 0);
+- --color-neutral-950: oklch(14.5% 0 0);
+- --color-olive-100: #f4f4f0;
+- --color-olive-100: lab(96.0988% -.493288 1.82396);
+- --color-olive-100: oklch(96.6% 0.005 106.5);
+- --color-olive-200: #e8e8e3;
+- --color-olive-200: lab(91.9397% -.686824 2.55625);
+- --color-olive-200: oklch(93% 0.007 106.5);
+- --color-olive-300: #d8d8d0;
+- --color-olive-300: lab(86.1732% -1.07306 4.02399);
+- --color-olive-300: oklch(88% 0.011 106.6);
+- --color-olive-400: #abab9c;
+- --color-olive-400: lab(69.6658% -2.009 7.72947);
+- --color-olive-400: oklch(73.7% 0.021 106.9);
+- --color-olive-50: #fbfbf9;
+- --color-olive-50: lab(98.6338% -.297427 1.09333);
+- --color-olive-50: oklch(98.8% 0.003 106.5);
+- --color-olive-500: #7c7c67;
+- --color-olive-500: lab(51.5272% -2.86698 11.5408);
+- --color-olive-500: oklch(58% 0.031 107.3);
+- --color-olive-600: #5b5b4b;
+- --color-olive-600: lab(38.2553% -2.31099 9.30823);
+- --color-olive-600: oklch(46.6% 0.025 107.3);
+- --color-olive-700: #474739;
+- --color-olive-700: lab(29.8862% -2.11599 8.58277);
+- --color-olive-700: oklch(39.4% 0.023 107.4);
+- --color-olive-800: #2b2b22;
+- --color-olive-800: lab(17.3033% -1.48046 5.96188);
+- --color-olive-800: oklch(28.6% 0.016 107.4);
+- --color-olive-900: #1d1d16;
+- --color-olive-900: lab(10.5512% -1.19986 4.84231);
+- --color-olive-900: oklch(22.8% 0.013 107.4);
+- --color-olive-950: #0c0c09;
+- --color-olive-950: lab(3.26204% -.309289 1.13377);
+- --color-olive-950: oklch(15.3% 0.006 107.1);
+- --color-orange-100: #ffedd5;
+- --color-orange-100: lab(94.7127% 3.58391 14.3151);
+- --color-orange-100: oklch(95.4% 0.038 75.164);
+- --color-orange-200: #ffd7a8;
+- --color-orange-200: lab(88.4871% 9.94918 28.8378);
+- --color-orange-200: oklch(90.1% 0.076 70.697);
+- --color-orange-300: #ffb96d;
+- --color-orange-300: lab(80.8059% 21.7313 50.4455);
+- --color-orange-300: oklch(83.7% 0.128 66.29);
+- --color-orange-400: #ff8b1a;
+- --color-orange-400: lab(70.0429% 42.5156 75.8207);
+- --color-orange-400: oklch(75% 0.183 55.934);
+- --color-orange-50: #fff7ed;
+- --color-orange-50: lab(97.7008% 1.53738 5.90646);
+- --color-orange-50: oklch(98% 0.016 73.684);
+- --color-orange-500: #fe6e00;
+- --color-orange-500: lab(64.272% 57.1788 90.3583);
+- --color-orange-500: oklch(70.5% 0.213 47.604);
+- --color-orange-500:#fe6e00;
+- --color-orange-500:lab(64.272% 57.1788 90.3583);
+- --color-orange-600: #f05100;
+- --color-orange-600: lab(57.1026% 64.2584 89.8886);
+- --color-orange-600: oklch(64.6% 0.222 41.116);
+- --color-orange-700: #c53c00;
+- --color-orange-700: lab(46.4615% 57.7275 70.8507);
+- --color-orange-700: oklch(55.3% 0.195 38.402);
+- --color-orange-800: #9f2d00;
+- --color-orange-800: lab(37.1566% 46.6433 50.5562);
+- --color-orange-800: oklch(47% 0.157 37.304);
+- --color-orange-900: #7e2a0c;
+- --color-orange-900: lab(30.2951% 36.0434 37.671);
+- --color-orange-900: oklch(40.8% 0.123 38.172);
+- --color-orange-950: #441306;
+- --color-orange-950: lab(14.1747% 23.4515 19.4461);
+- --color-orange-950: oklch(26.6% 0.079 36.259);
+- --color-outer-border: #171717;
+- --color-pink-100: #fce7f3;
+- --color-pink-100: lab(93.5864% 9.01193 -3.15077);
+- --color-pink-100: oklch(94.8% 0.028 342.258);
+- --color-pink-200: #fccee8;
+- --color-pink-200: lab(87.4504% 19.6 -6.46662);
+- --color-pink-200: oklch(89.9% 0.061 343.231);
+- --color-pink-200:#fccee8;
+- --color-pink-200:lab(87.4504% 19.6 -6.46662);
+- --color-pink-300: #fda5d5;
+- --color-pink-300: lab(77.8308% 38.525 -10.5394);
+- --color-pink-300: oklch(82.3% 0.12 346.018);
+- --color-pink-400: #fb64b6;
+- --color-pink-400: lab(64.5597% 64.3615 -12.7988);
+- --color-pink-400: oklch(71.8% 0.202 349.761);
+- --color-pink-50: #fdf2f8;
+- --color-pink-50: lab(96.4459% 4.53997 -1.49434);
+- --color-pink-50: oklch(97.1% 0.014 343.198);
+- --color-pink-500: #f6339a;
+- --color-pink-500: lab(56.9303% 76.8162 -8.07021);
+- --color-pink-500: oklch(65.6% 0.241 354.308);
+- --color-pink-500:#f6339a;
+- --color-pink-500:lab(56.9303% 76.8162 -8.07021);
+- --color-pink-600: #e30076;
+- --color-pink-600: lab(49.5493% 79.8381 2.31769);
+- --color-pink-600: oklch(59.2% 0.249 0.584);
+- --color-pink-600:#e30076;
+- --color-pink-600:lab(49.5493% 79.8381 2.31769);
+- --color-pink-700: #c4005c;
+- --color-pink-700: lab(42.1737% 71.8009 7.42233);
+- --color-pink-700: oklch(52.5% 0.223 3.958);
+- --color-pink-800: #a2004c;
+- --color-pink-800: lab(34.9559% 60.2885 5.99639);
+- --color-pink-800: oklch(45.9% 0.187 3.815);
+- --color-pink-900: #861043;
+- --color-pink-900: lab(29.4367% 49.3962 3.35757);
+- --color-pink-900: oklch(40.8% 0.153 2.432);
+- --color-pink-950: #510424;
+- --color-pink-950: lab(15.6116% 35.2166 3.53979);
+- --color-pink-950: oklch(28.4% 0.109 3.907);
+- --color-primary: var(--color-gray-800);
+- --color-primary: var(--color-red-800);
+- --color-purple-100: #f3e8ff;
+- --color-purple-100: lab(93.3333% 6.9744 -9.83434);
+- --color-purple-100: oklch(94.6% 0.033 307.174);
+- --color-purple-200: #e9d5ff;
+- --color-purple-200: lab(87.8405% 13.4282 -18.7159);
+- --color-purple-200: oklch(90.2% 0.063 306.703);
+- --color-purple-300: #d9b3ff;
+- --color-purple-300: lab(78.3298% 26.2195 -34.9499);
+- --color-purple-300: oklch(82.7% 0.119 306.383);
+- --color-purple-300:#d9b3ff;
+- --color-purple-300:lab(78.3298% 26.2195 -34.9499);
+- --color-purple-400: #c07eff;
+- --color-purple-400: lab(63.6946% 47.6127 -59.2066);
+- --color-purple-400: oklch(71.4% 0.203 305.504);
+- --color-purple-50: #faf5ff;
+- --color-purple-50: lab(97.1626% 2.99937 -4.13398);
+- --color-purple-50: oklch(97.7% 0.014 308.299);
+- --color-purple-50:#faf5ff;
+- --color-purple-50:lab(97.1627% 2.99937 -4.13398);
+- --color-purple-500: #ac4bff;
+- --color-purple-500: lab(52.0183% 66.11 -78.2316);
+- --color-purple-500: oklch(62.7% 0.265 303.9);
+- --color-purple-500:#ac4bff;
+- --color-purple-500:lab(52.0183% 66.11 -78.2316);
+- --color-purple-600: #9810fa;
+- --color-purple-600: lab(43.0295% 75.21 -86.5669);
+- --color-purple-600: oklch(55.8% 0.288 302.321);
+- --color-purple-700: #8200da;
+- --color-purple-700: lab(36.1758% 69.8525 -80.0381);
+- --color-purple-700: oklch(49.6% 0.265 301.924);
+- --color-purple-700:#8200da;
+- --color-purple-700:lab(36.1758% 69.8525 -80.0381);
+- --color-purple-800: #6e11b0;
+- --color-purple-800: lab(30.6017% 56.7637 -64.4751);
+- --color-purple-800: oklch(43.8% 0.218 303.724);
+- --color-purple-900: #59168b;
+- --color-purple-900: lab(24.9401% 45.2703 -51.2728);
+- --color-purple-900: oklch(38.1% 0.176 304.987);
+- --color-purple-950: #3c0366;
+- --color-purple-950: lab(14.8253% 38.9005 -44.5861);
+- --color-purple-950: oklch(29.1% 0.149 302.717);
+- --color-purple-950:#3c0366;
+- --color-purple-950:lab(14.8253% 38.9005 -44.5861);
+- --color-red: #f44336;
+- --color-red-100: #2a1314;
+- --color-red-100: #ffe2e2;
+- --color-red-100: #fff0f0;
+- --color-red-100: lab(92.243% 10.2865 3.83865);
+- --color-red-100: oklch(93.6% 0.032 17.717);
+- --color-red-100:#ffe2e2;
+- --color-red-100:lab(92.243% 10.2865 3.83865);
+- --color-red-1000: #381316;
+- --color-red-1000: #ffecee;
+- --color-red-200: #3d1719;
+- --color-red-200: #ffcaca;
+- --color-red-200: #ffebeb;
+- --color-red-200: lab(86.017% 19.8815 7.75869);
+- --color-red-200: oklch(88.5% 0.062 18.334);
+- --color-red-200:#ffcaca;
+- --color-red-200:lab(86.017% 19.8815 7.75869);
+- --color-red-300: #551a1e;
+- --color-red-300: #ffa3a3;
+- --color-red-300: #ffe5e5;
+- --color-red-300: lab(76.5514% 36.4219 15.5335);
+- --color-red-300: oklch(80.8% 0.114 19.571);
+- --color-red-300:#ffa3a3;
+- --color-red-300:lab(76.5514% 36.4219 15.5335);
+- --color-red-400: #671e22;
+- --color-red-400: #fdd8d8;
+- --color-red-400: #ff6568;
+- --color-red-400: lab(63.7053% 60.7449 31.3109);
+- --color-red-400: oklch(70.4% 0.191 22.216);
+- --color-red-400:#ff6568;
+- --color-red-400:lab(63.7053% 60.7449 31.3109);
+- --color-red-50: #fef2f2;
+- --color-red-50: lab(96.5005% 4.18511 1.52329);
+- --color-red-50: oklch(97.1% 0.013 17.38);
+- --color-red-50:#fef2f2;
+- --color-red-500: #822025;
+- --color-red-500: #f8baba;
+- --color-red-500: #fb2c36;
+- --color-red-500: lab(55.4814% 75.0732 48.8528);
+- --color-red-500: oklch(63.7% 0.237 25.331);
+- --color-red-500:#fb2c36;
+- --color-red-500:lab(55.4814% 75.0732 48.8528);
+- --color-red-600: #e40014;
+- --color-red-600: #e5484d;
+- --color-red-600: #f87274;
+- --color-red-600: lab(48.4493% 77.4328 61.5452);
+- --color-red-600: oklch(57.7% 0.245 27.325);
+- --color-red-600:#e40014;
+- --color-red-600:lab(48.4493% 77.4328 61.5452);
+- --color-red-700: #bf000f;
+- --color-red-700: #e5484d;
+- --color-red-700: lab(40.4273% 67.2623 53.7441);
+- --color-red-700: oklch(50.5% 0.213 27.518);
+- --color-red-700:#bf000f;
+- --color-red-700:lab(40.4273% 67.2623 53.7441);
+- --color-red-800: #9f0712;
+- --color-red-800: #da3036;
+- --color-red-800: lab(33.7174% 55.8993 41.0293);
+- --color-red-800: oklch(44.4% 0.177 26.899);
+- --color-red-900: #82181a;
+- --color-red-900: #ca2a30;
+- --color-red-900: #ff6369;
+- --color-red-900: lab(28.5139% 44.5539 29.0463);
+- --color-red-900: oklch(39.6% 0.141 25.723);
+- --color-red-900:#82181a;
+- --color-red-900:lab(28.5139% 44.5539 29.0463);
+- --color-red-950: #460809;
+- --color-red-950: lab(13.003% 29.04 16.7519);
+- --color-red-950: oklch(25.8% 0.092 26.042);
+- --color-rose-100: #ffe4e6;
+- --color-rose-100: lab(92.8221% 9.86832 2.60077);
+- --color-rose-100: oklch(94.1% 0.03 12.58);
+- --color-rose-100:#ffe4e6;
+- --color-rose-100:lab(92.8221% 9.86832 2.60077);
+- --color-rose-200: #ffccd3;
+- --color-rose-200: lab(86.806% 19.1909 4.07754);
+- --color-rose-200: oklch(89.2% 0.058 10.001);
+- --color-rose-300: #ffa2ae;
+- --color-rose-300: lab(76.6339% 38.3549 9.68834);
+- --color-rose-300: oklch(81% 0.117 11.638);
+- --color-rose-400: #ff667f;
+- --color-rose-400: lab(64.4124% 63.0291 19.2068);
+- --color-rose-400: oklch(71.2% 0.194 13.428);
+- --color-rose-50: #fff1f2;
+- --color-rose-50: lab(96.2369% 4.94152 1.28012);
+- --color-rose-50: oklch(96.9% 0.015 12.422);
+- --color-rose-50:#fff1f2;
+- --color-rose-50:lab(96.2369% 4.94152 1.28012);
+- --color-rose-500: #ff2357;
+- --color-rose-500: lab(56.101% 79.4329 31.4532);
+- --color-rose-500: oklch(64.5% 0.246 16.439);
+- --color-rose-500:#ff2357;
+- --color-rose-500:lab(56.101% 79.4329 31.4532);
+- --color-rose-600: #e70044;
+- --color-rose-600: lab(49.1882% 81.577 36.0311);
+- --color-rose-600: oklch(58.6% 0.253 17.585);
+- --color-rose-600:#e70044;
+- --color-rose-600:lab(49.1882% 81.577 36.0311);
+- --color-rose-700: #c20039;
+- --color-rose-700: lab(41.1651% 71.6251 30.3087);
+- --color-rose-700: oklch(51.4% 0.222 16.935);
+- --color-rose-800: #a30037;
+- --color-rose-800: lab(34.6481% 60.802 20.1957);
+- --color-rose-800: oklch(45.5% 0.188 13.697);
+- --color-rose-900: #8b0836;
+- --color-rose-900: lab(29.7104% 51.514 12.6253);
+- --color-rose-900: oklch(41% 0.159 10.272);
+- --color-rose-950: #4d0218;
+- --color-rose-950: lab(14.2323% 34.0086 9.80922);
+- --color-rose-950: oklch(27.1% 0.105 12.094);
+- --color-secondary: var(--color-gray-100);
+- --color-secondary: var(--color-red-100);
+- --color-sky-100: #dff2fe;
+- --color-sky-100: lab(94.3709% -4.56053 -8.23453);
+- --color-sky-100: oklch(95.1% 0.026 236.824);
+- --color-sky-200: #b8e6fe;
+- --color-sky-200: lab(88.6983% -11.3978 -16.8488);
+- --color-sky-200: oklch(90.1% 0.058 230.902);
+- --color-sky-300: #77d4ff;
+- --color-sky-300: lab(80.3307% -20.2945 -31.385);
+- --color-sky-300: oklch(82.8% 0.111 230.318);
+- --color-sky-400: #00bcfe;
+- --color-sky-400: lab(70.687% -23.6078 -45.9483);
+- --color-sky-400: oklch(74.6% 0.16 232.661);
+- --color-sky-50: #f0f9ff;
+- --color-sky-50: lab(97.3623% -2.33799 -4.13098);
+- --color-sky-50: oklch(97.7% 0.013 236.62);
+- --color-sky-500: #00a5ef;
+- --color-sky-500: lab(63.3038% -18.433 -51.0407);
+- --color-sky-500: oklch(68.5% 0.169 237.323);
+- --color-sky-600: #0084cc;
+- --color-sky-600: lab(51.7754% -11.4713 -49.8349);
+- --color-sky-600: oklch(58.8% 0.158 241.966);
+- --color-sky-700: #0069a4;
+- --color-sky-700: lab(41.6013% -9.10804 -42.5648);
+- --color-sky-700: oklch(50% 0.134 242.749);
+- --color-sky-800: #005986;
+- --color-sky-800: lab(35.164% -9.57689 -34.4068);
+- --color-sky-800: oklch(44.3% 0.11 240.79);
+- --color-sky-900: #024a70;
+- --color-sky-900: lab(29.1959% -8.34689 -28.2453);
+- --color-sky-900: oklch(39.1% 0.09 240.876);
+- --color-sky-950: #052f4a;
+- --color-sky-950: lab(17.8299% -5.31271 -21.1584);
+- --color-sky-950: oklch(29.3% 0.066 243.157);
+- --color-slate-100: #f1f5f9;
+- --color-slate-100: lab(96.286% -.852466 -2.46847);
+- --color-slate-100: oklch(96.8% 0.007 247.896);
+- --color-slate-100:#f1f5f9;
+- --color-slate-100:lab(96.286% -.852466 -2.46847);
+- --color-slate-200: #e2e8f0;
+- --color-slate-200: lab(91.7353% -.998765 -4.76968);
+- --color-slate-200: oklch(92.9% 0.013 255.508);
+- --color-slate-200:#e2e8f0;
+- --color-slate-200:lab(91.7353% -.998765 -4.76968);
+- --color-slate-300: #cad5e2;
+- --color-slate-300: lab(84.7652% -1.94535 -7.93337);
+- --color-slate-300: oklch(86.9% 0.022 252.894);
+- --color-slate-400: #90a1b9;
+- --color-slate-400: lab(65.5349% -2.25151 -14.5072);
+- --color-slate-400: oklch(70.4% 0.04 256.788);
+- --color-slate-400:#90a1b9;
+- --color-slate-400:lab(65.5349% -2.25151 -14.5072);
+- --color-slate-50: #f8fafc;
+- --color-slate-50: lab(98.1434% -.369549 -1.05968);
+- --color-slate-50: oklch(98.4% 0.003 247.858);
+- --color-slate-50:#f8fafc;
+- --color-slate-50:lab(98.1434% -.369549 -1.05968);
+- --color-slate-500: #62748e;
+- --color-slate-500: lab(48.0876% -2.03595 -16.5814);
+- --color-slate-500: oklch(55.4% 0.046 257.417);
+- --color-slate-500:#62748e;
+- --color-slate-500:lab(48.0876% -2.03595 -16.5814);
+- --color-slate-600: #45556c;
+- --color-slate-600: lab(35.5623% -1.74978 -15.4316);
+- --color-slate-600: oklch(44.6% 0.043 257.281);
+- --color-slate-600:#45556c;
+- --color-slate-600:lab(35.5623% -1.74978 -15.4316);
+- --color-slate-700: #314158;
+- --color-slate-700: lab(26.9569% -1.47018 -15.6993);
+- --color-slate-700: oklch(37.2% 0.044 257.287);
+- --color-slate-700:#314158;
+- --color-slate-700:lab(26.9569% -1.47018 -15.6993);
+- --color-slate-800: #1d293d;
+- --color-slate-800: lab(16.132% -.318021 -14.6672);
+- --color-slate-800: oklch(27.9% 0.041 260.031);
+- --color-slate-800:#1d293d;
+- --color-slate-800:lab(16.132% -.318021 -14.6672);
+- --color-slate-900: #0f172b;
+- --color-slate-900: lab(7.78673% 1.82346 -15.0537);
+- --color-slate-900: oklch(20.8% 0.042 265.755);
+- --color-slate-900:#0f172b;
+- --color-slate-900:lab(7.78673% 1.82346 -15.0537);
+- --color-slate-950: #020618;
+- --color-slate-950: lab(1.76974% 1.32743 -9.28855);
+- --color-slate-950: oklch(12.9% 0.042 264.695);
+- --color-slate-950:#020618;
+- --color-slate-950:lab(1.76974% 1.32743 -9.28855);
+- --color-stack-notes: #777;
+- --color-stack-notes: #a9a9a9;
+- --color-stone-100: #f5f5f4;
+- --color-stone-100: lab(96.5286% -.0991821 .36428);
+- --color-stone-100: oklch(97% 0.001 106.424);
+- --color-stone-200: #e7e5e4;
+- --color-stone-200: lab(91.055% .663072 .865591);
+- --color-stone-200: oklch(92.3% 0.003 48.717);
+- --color-stone-300: #d6d3d1;
+- --color-stone-300: lab(84.7909% .928015 1.59738);
+- --color-stone-300: oklch(86.9% 0.005 56.366);
+- --color-stone-400: #a6a09b;
+- --color-stone-400: lab(66.2166% 1.88047 3.20325);
+- --color-stone-400: oklch(70.9% 0.01 56.259);
+- --color-stone-50: #fafaf9;
+- --color-stone-50: lab(98.2686% -.0991821 .364304);
+- --color-stone-50: oklch(98.5% 0.001 106.423);
+- --color-stone-500: #79716b;
+- --color-stone-500: lab(48.1164% 2.35698 4.26853);
+- --color-stone-500: oklch(55.3% 0.013 58.071);
+- --color-stone-600: #57534d;
+- --color-stone-600: lab(35.5168% 1.08606 4.07829);
+- --color-stone-600: oklch(44.4% 0.011 73.639);
+- --color-stone-700: #44403b;
+- --color-stone-700: lab(27.3812% 1.32917 3.57789);
+- --color-stone-700: oklch(37.4% 0.01 67.558);
+- --color-stone-800: #292524;
+- --color-stone-800: lab(15.0353% 1.96067 1.53427);
+- --color-stone-800: oklch(26.8% 0.007 34.298);
+- --color-stone-900: #1c1917;
+- --color-stone-900: lab(9.03835% 1.15297 1.92955);
+- --color-stone-900: oklch(21.6% 0.006 56.043);
+- --color-stone-950: #0c0a09;
+- --color-stone-950: lab(2.86037% .455312 .568903);
+- --color-stone-950: oklch(14.7% 0.004 49.25);
+- --color-syntax-comment: #545454;
+- --color-syntax-comment: #a0a0a0;
+- --color-syntax-constant: #171717;
+- --color-syntax-constant: #ededed;
+- --color-syntax-function: #0054ad;
+- --color-syntax-function: #52a9ff;
+- --color-syntax-keyword: #a51850;
+- --color-syntax-keyword: #f76e99;
+- --color-syntax-link: #066056;
+- --color-syntax-link: #0ac5b2;
+- --color-syntax-parameter: #8f3e00;
+- --color-syntax-parameter: #f1a10d;
+- --color-syntax-punctuation: #171717;
+- --color-syntax-punctuation: #ededed;
+- --color-syntax-string: #036157;
+- --color-syntax-string: #0ac5b2;
+- --color-syntax-string-expression: #066056;
+- --color-syntax-string-expression: #0ac5b2;
+- --color-taupe-100: #f3f1f1;
+- --color-taupe-100: lab(95.3391% .644386 .231409);
+- --color-taupe-100: oklch(96% 0.002 17.2);
+- --color-taupe-200: #e8e4e3;
+- --color-taupe-200: lab(90.9149% 1.39001 1.08776);
+- --color-taupe-200: oklch(92.2% 0.005 34.3);
+- --color-taupe-300: #d8d2d0;
+- --color-taupe-300: lab(84.6434% 1.81878 1.71726);
+- --color-taupe-300: oklch(86.8% 0.007 39.5);
+- --color-taupe-400: #aba09c;
+- --color-taupe-400: lab(66.7386% 3.56975 3.57119);
+- --color-taupe-400: oklch(71.4% 0.014 41.2);
+- --color-taupe-50: #fbfaf9;
+- --color-taupe-50: lab(98.3763% .249714 .707853);
+- --color-taupe-50: oklch(98.6% 0.002 67.8);
+- --color-taupe-500: #7c6d67;
+- --color-taupe-500: lab(47.3292% 5.2588 5.60029);
+- --color-taupe-500: oklch(54.7% 0.021 43.1);
+- --color-taupe-600: #5b4f4b;
+- --color-taupe-600: lab(34.6954% 4.49757 4.20509);
+- --color-taupe-600: oklch(43.8% 0.017 39.3);
+- --color-taupe-700: #473c39;
+- --color-taupe-700: lab(26.4543% 4.4374 3.65548);
+- --color-taupe-700: oklch(36.7% 0.016 35.7);
+- --color-taupe-800: #2b2422;
+- --color-taupe-800: lab(15.0089% 3.01887 2.55873);
+- --color-taupe-800: oklch(26.8% 0.011 36.5);
+- --color-taupe-900: #1d1816;
+- --color-taupe-900: lab(8.7711% 2.25864 2.3765);
+- --color-taupe-900: oklch(21.4% 0.009 43.1);
+- --color-taupe-950: #0c0a09;
+- --color-taupe-950: lab(2.86039% .454858 .569314);
+- --color-taupe-950: oklch(14.7% 0.004 49.3);
+- --color-teal-100: #cbfbf1;
+- --color-teal-100: lab(95.1845% -17.4212 -.425434);
+- --color-teal-100: oklch(95.3% 0.051 180.801);
+- --color-teal-200: #96f7e4;
+- --color-teal-200: lab(90.7612% -33.1343 -.542295);
+- --color-teal-200: oklch(91% 0.096 180.426);
+- --color-teal-300: #46ecd5;
+- --color-teal-300: lab(84.8977% -48.1517 -1.3321);
+- --color-teal-300: oklch(85.5% 0.138 181.071);
+- --color-teal-400: #00d3bd;
+- --color-teal-400: lab(76.0109% -53.3483 -2.27907);
+- --color-teal-400: oklch(77.7% 0.152 181.912);
+- --color-teal-50: #f0fdfa;
+- --color-teal-50: lab(98.3189% -4.74921 -.111723);
+- --color-teal-50: oklch(98.4% 0.014 180.72);
+- --color-teal-500: #00baa7;
+- --color-teal-500: lab(67.3859% -49.0983 -2.63511);
+- --color-teal-500: oklch(70.4% 0.14 182.503);
+- --color-teal-500:#00baa7;
+- --color-teal-500:lab(67.3859% -49.0983 -2.63511);
+- --color-teal-600: #009588;
+- --color-teal-600: lab(55.0223% -41.0774 -3.90277);
+- --color-teal-600: oklch(60% 0.118 184.704);
+- --color-teal-700: #00776e;
+- --color-teal-700: lab(44.4134% -33.1436 -4.22149);
+- --color-teal-700: oklch(51.1% 0.096 186.391);
+- --color-teal-800: #005f5a;
+- --color-teal-800: lab(35.5975% -26.6648 -4.34487);
+- --color-teal-800: oklch(43.7% 0.078 188.216);
+- --color-teal-900: #0b4f4a;
+- --color-teal-900: lab(29.506% -21.4706 -3.59886);
+- --color-teal-900: oklch(38.6% 0.063 188.416);
+- --color-teal-950: #022f2e;
+- --color-teal-950: lab(16.6371% -15.3183 -3.81732);
+- --color-teal-950: oklch(27.7% 0.046 192.524);
+- --color-title-color: #1f1f1f;
+- --color-title-color: #fafafa;
+- --color-turbopack-background-blue: #0a1723;
+- --color-turbopack-background-blue: #f6fbff;
+- --color-turbopack-background-red: #250d12;
+- --color-turbopack-background-red: #fff7f9;
+- --color-turbopack-border-blue: #284f80;
+- --color-turbopack-border-blue: #adccea;
+- --color-turbopack-border-red: #6e293b;
+- --color-turbopack-border-red: #f0adbe;
+- --color-turbopack-text-blue: #0096ff;
+- --color-turbopack-text-blue: #45b2ff;
+- --color-turbopack-text-red: #ff1e56;
+- --color-turbopack-text-red: #ff6d92;
+- --color-violet-100: #ede9fe;
+- --color-violet-100: lab(93.0838% 4.35197 -9.88284);
+- --color-violet-100: oklch(94.3% 0.029 294.588);
+- --color-violet-200: #ddd6ff;
+- --color-violet-200: lab(87.0888% 8.53691 -19.4189);
+- --color-violet-200: oklch(89.4% 0.057 293.283);
+- --color-violet-300: #c4b4ff;
+- --color-violet-300: lab(76.7419% 18.391 -37.0706);
+- --color-violet-300: oklch(81.1% 0.111 293.571);
+- --color-violet-400: #a685ff;
+- --color-violet-400: lab(62.8239% 34.9159 -60.0512);
+- --color-violet-400: oklch(70.2% 0.183 293.541);
+- --color-violet-50: #f5f3ff;
+- --color-violet-50: lab(96.2416% 2.28846 -5.51655);
+- --color-violet-50: oklch(96.9% 0.016 293.756);
+- --color-violet-500: #8d54ff;
+- --color-violet-500: lab(49.9355% 55.1777 -81.8963);
+- --color-violet-500: oklch(60.6% 0.25 292.717);
+- --color-violet-600: #7f22fe;
+- --color-violet-600: lab(41.088% 68.9966 -91.995);
+- --color-violet-600: oklch(54.1% 0.281 293.009);
+- --color-violet-700: #7008e7;
+- --color-violet-700: lab(35.2783% 67.9912 -88.793);
+- --color-violet-700: oklch(49.1% 0.27 292.581);
+- --color-violet-800: #5d0ec0;
+- --color-violet-800: lab(29.3188% 57.7986 -76.1493);
+- --color-violet-800: oklch(43.2% 0.232 292.759);
+- --color-violet-900: #4d179a;
+- --color-violet-900: lab(24.3783% 45.7525 -61.4902);
+- --color-violet-900: oklch(38% 0.189 293.745);
+- --color-violet-950: #2f0d68;
+- --color-violet-950: lab(14.0707% 33.3353 -46.7553);
+- --color-violet-950: oklch(28.3% 0.141 291.089);
+- --color-white: #fff;
+- --color-white:#fff;
+- --color-yellow: #ffc107;
+- --color-yellow-100: #fef9c2;
+- --color-yellow-100: lab(97.3564% -4.51407 27.344);
+- --color-yellow-100: oklch(97.3% 0.071 103.193);
+- --color-yellow-200: #fff085;
+- --color-yellow-200: lab(94.3433% -5.00426 52.9663);
+- --color-yellow-200: oklch(94.5% 0.129 101.54);
+- --color-yellow-300: #ffe02a;
+- --color-yellow-300: lab(89.7033% -.480324 84.4917);
+- --color-yellow-300: oklch(90.5% 0.182 98.111);
+- --color-yellow-400: #fac800;
+- --color-yellow-400: lab(83.2664% 8.65132 106.895);
+- --color-yellow-400: oklch(85.2% 0.199 91.936);
+- --color-yellow-50: #fefce8;
+- --color-yellow-50: lab(98.6846% -1.79058 9.77662);
+- --color-yellow-50: oklch(98.7% 0.026 102.212);
+- --color-yellow-500: #edb200;
+- --color-yellow-500: lab(76.3898% 14.5258 98.4589);
+- --color-yellow-500: oklch(79.5% 0.184 86.047);
+- --color-yellow-600: #cd8900;
+- --color-yellow-600: lab(62.7799% 22.4198 86.1544);
+- --color-yellow-600: oklch(68.1% 0.162 75.834);
+- --color-yellow-700: #a36100;
+- --color-yellow-700: lab(47.8202% 25.2426 66.5015);
+- --color-yellow-700: oklch(55.4% 0.135 66.442);
+- --color-yellow-800: #874b00;
+- --color-yellow-800: lab(38.7484% 23.5833 51.4916);
+- --color-yellow-800: oklch(47.6% 0.114 61.907);
+- --color-yellow-900: #733e0a;
+- --color-yellow-900: lab(32.3865% 21.1274 38.5958);
+- --color-yellow-900: oklch(42.1% 0.095 57.708);
+- --color-yellow-950: #432004;
+- --color-yellow-950: lab(16.8146% 15.7422 23.1133);
+- --color-yellow-950: oklch(28.6% 0.066 53.813);
+- --color-zinc-100: #f4f4f5;
+- --color-zinc-100: lab(96.1634% .0993013 -.364029);
+- --color-zinc-100: oklch(96.7% 0.001 286.375);
+- --color-zinc-100:#f4f4f5;
+- --color-zinc-100:lab(96.1634% .0993013 -.364029);
+- --color-zinc-200: #e4e4e7;
+- --color-zinc-200: lab(90.6853% .399202 -1.45452);
+- --color-zinc-200: oklch(92% 0.004 286.32);
+- --color-zinc-200:#e4e4e7;
+- --color-zinc-200:lab(90.6853% .399202 -1.45452);
+- --color-zinc-300: #d4d4d8;
+- --color-zinc-300: lab(84.9837% .601262 -2.17985);
+- --color-zinc-300: oklch(87.1% 0.006 286.286);
+- --color-zinc-300:#d4d4d8;
+- --color-zinc-300:lab(84.9837% .601262 -2.17985);
+- --color-zinc-400: #9f9fa9;
+- --color-zinc-400: lab(65.6464% 1.53494 -5.42429);
+- --color-zinc-400: oklch(70.5% 0.015 286.067);
+- --color-zinc-50: #fafafa;
+- --color-zinc-50: lab(98.26% 0 0);
+- --color-zinc-50: oklch(98.5% 0 0);
+- --color-zinc-500: #71717b;
+- --color-zinc-500: lab(47.8878% 1.65477 -5.77283);
+- --color-zinc-500: oklch(55.2% 0.016 285.938);
+- --color-zinc-600: #52525c;
+- --color-zinc-600: lab(35.1166% 1.7821 -6.1173);
+- --color-zinc-600: oklch(44.2% 0.017 285.786);
+- --color-zinc-700: #3f3f46;
+- --color-zinc-700: lab(26.8019% 1.35386 -4.68303);
+- --color-zinc-700: oklch(37% 0.013 285.805);
+- --color-zinc-800: #27272a;
+- --color-zinc-800: lab(15.7305% .613749 -2.16959);
+- --color-zinc-800: oklch(27.4% 0.006 286.033);
+- --color-zinc-800:#27272a;
+- --color-zinc-800:lab(15.7305% .613749 -2.16959);
+- --color-zinc-900: #18181b;
+- --color-zinc-900: lab(8.30603% .618212 -2.16573);
+- --color-zinc-900: oklch(21% 0.006 285.885);
+- --color-zinc-900:#18181b;
+- --color-zinc-900:lab(8.30603% .618212 -2.16573)}}}@layer base{*,:after,:before,::backdrop{box-sizing:border-box;
+- --color-zinc-950: #09090b;
+- --color-zinc-950: lab(2.51107% .242703 -.886115);
+- --color-zinc-950: oklch(14.1% 0.005 285.823);
+- --container-2xl: 42rem;
+- --container-2xl:42rem;
+- --container-2xs: 18rem;
+- --container-3xl: 48rem;
+- --container-3xl:48rem;
+- --container-3xs: 16rem;
+- --container-4xl: 56rem;
+- --container-4xl:56rem;
+- --container-5xl: 64rem;
+- --container-5xl:64rem;
+- --container-6xl: 72rem;
+- --container-6xl:72rem;
+- --container-7xl: 80rem;
+- --container-7xl:80rem;
+- --container-lg: 32rem;
+- --container-lg:32rem;
+- --container-md: 28rem;
+- --container-md:28rem;
+- --container-sm: 24rem;
+- --container-xl: 36rem;
+- --container-xl:36rem;
+- --container-xs: 20rem;
+- --container-xs:20rem;
+- --default-font-family: --theme(--font-sans, initial);
+- --default-font-family: var(--font-sans);
+- --default-font-family:system-ui,sans-serif;
+- --default-font-family:var(--font-sans);
+- --default-font-feature-settings: --theme( --font-sans--font-feature-settings, initial );
+- --default-font-feature-settings: --theme(--font-sans--font-feature-settings, initial);
+- --default-font-variation-settings: --theme( --font-sans--font-variation-settings, initial );
+- --default-font-variation-settings: --theme(--font-sans--font-variation-settings, initial);
+- --default-mono-font-family: --theme(--font-mono, initial);
+- --default-mono-font-family: var(--font-mono);
+- --default-mono-font-family:ui-monospace,monospace}@supports (color:lab(0% 0 0)){:root,:host{--color-red-500:lab(55.4814% 75.0732 48.8528);
+- --default-mono-font-family:var(--font-mono)}@supports (color:lab(0% 0 0)){:root,:host{--color-red-50:lab(96.5005% 4.18511 1.52329);
+- --default-mono-font-feature-settings: --theme( --font-mono--font-feature-settings, initial );
+- --default-mono-font-feature-settings: --theme(--font-mono--font-feature-settings, initial);
+- --default-mono-font-variation-settings: --theme( --font-mono--font-variation-settings, initial );
+- --default-mono-font-variation-settings: --theme(--font-mono--font-variation-settings, initial);
+- --default-transition-duration: .15s;
+- --default-transition-duration: 150ms;
+- --default-transition-duration:.15s;
+- --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+- --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+- --default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);
+- --default-transition-timing-function:cubic-bezier(.4,0,.2,1);
+- --destructive:#82181a;
+- --destructive:#e40014;
+- --destructive:lab(28.5139% 44.5539 29.0463);
+- --destructive:lab(48.4493% 77.4328 61.5452);
+- --destructive-foreground:#e40014;
+- --destructive-foreground:#fb2c36;
+- --destructive-foreground:lab(48.4493% 77.4328 61.5452);
+- --destructive-foreground:lab(55.4814% 75.0732 48.8528);
+- --drop-shadow: 0 1px 2px rgb(0 0 0 / 0.1), 0 1px 1px rgb(0 0 0 / 0.06);
+- --drop-shadow-2xl: 0 25px 25px #00000026;
+- --drop-shadow-2xl: 0 25px 25px rgb(0 0 0 / 0.15);
+- --drop-shadow-lg: 0 4px 4px #00000026;
+- --drop-shadow-lg: 0 4px 4px rgb(0 0 0 / 0.15);
+- --drop-shadow-md: 0 3px 3px #0000001f;
+- --drop-shadow-md: 0 3px 3px rgb(0 0 0 / 0.12);
+- --drop-shadow-sm: 0 1px 2px #00000026;
+- --drop-shadow-sm: 0 1px 2px rgb(0 0 0 / 0.15);
+- --drop-shadow-xl: 0 9px 7px #0000001a;
+- --drop-shadow-xl: 0 9px 7px rgb(0 0 0 / 0.1);
+- --drop-shadow-xl:0 9px 7px #0000001a;
+- --drop-shadow-xs: 0 1px 1px #0000000d;
+- --drop-shadow-xs: 0 1px 1px rgb(0 0 0 / 0.05);
+- --duration-long: 250ms;
+- --ease-in: cubic-bezier(.4, 0, 1, 1);
+- --ease-in: cubic-bezier(0.4, 0, 1, 1);
+- --ease-in-out: cubic-bezier(.4, 0, .2, 1);
+- --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+- --ease-in-out:cubic-bezier(.4, 0, .2, 1);
+- --ease-out: cubic-bezier(0, 0, .2, 1);
+- --ease-out: cubic-bezier(0, 0, 0.2, 1);
+- --ease-out:cubic-bezier(0, 0, .2, 1);
+- --error:not([aria-disabled="true"]), .nextjs-data-copy-button--error:hover:not([aria-disabled="true"]) { color: var(--color-ansi-red);
+- --error:not([aria-disabled=\"true\"]),\n .nextjs-data-copy-button--error:hover:not([aria-disabled=\"true\"]) {\n color: var(--color-ansi-red);
+- --focus-color: #fff;
+- --focus-color: var(--color-blue-800);
+- --focus-color:#595959;
+- --focus-ring: 2px solid var(--focus-color);
+- --folder-indent:10px;
+- --folder-indent:7px;
+- --font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+- --font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+- --font-family-mono:Menlo,Monaco,Consolas,"Droid Sans Mono",monospace;
+- --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
+- --font-geist-mono:"Geist Mono", "Geist Mono Fallback"} @font-face{font-family:Space Grotesk;
+- --font-geist-sans: "Geist", "Geist Fallback";
+- --font-geist-sans:"Geist", "Geist Fallback"} @font-face{font-family:Geist Mono;
+- --font-mono: 'Fira Code', 'Courier New', Courier, monospace;
+- --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+- --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+- --font-mono: var(--font-geist-mono);
+- --font-mono:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+- --font-mono:var(--font-geist-mono)}@media (prefers-color-scheme:dark){:root{--background:#0a0a0a;
+- --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+- --font-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+- --font-sans: var(--font-geist-sans);
+- --font-sans:var(--font-geist-sans);
+- --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+- --font-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+- --font-size:11px;
+- --font-size:13px;
+- --font-space-grotesk: "Space Grotesk", "Space Grotesk Fallback";
+- --font-stack-monospace: '__nextjs-Geist Mono', 'Geist Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+- --font-stack-sans: '__nextjs-Geist', 'Geist', -apple-system, 'Source Sans Pro', sans-serif;
+- --font-weight-black: 900;
+- --font-weight-black:900;
+- --font-weight-bold: 700;
+- --font-weight-bold:700;
+- --font-weight-extrabold: 800;
+- --font-weight-extrabold:800;
+- --font-weight-extralight: 200;
+- --font-weight-light: 300;
+- --font-weight-medium: 500;
+- --font-weight-medium:500;
+- --font-weight-normal: 400;
+- --font-weight-normal:400;
+- --font-weight-semibold: 600;
+- --font-weight-semibold:600;
+- --font-weight-thin: 100;
+- --foreground: #171717;
+- --foreground: #ededed;
+- --foreground:#0a0a0a;
+- --foreground:#171717;
+- --foreground:#ededed}}body{background:var(--background);
+- --foreground:#fafafa;
+- --foreground:lab(2.75381% 0 0);
+- --foreground:lab(98.26% 0 0);
+- --gap: 8px;
+- --height: 150px;
+- --hover-color:#4f4f4f;
+- --hover-color:var(--widget-color)}.lil-gui-dragging *{cursor:ew-resize!important}.lil-gui-dragging.lil-gui-vertical *{cursor:ns-resize!important}.lil-gui .title{--title-height:calc(var(--widget-height) + var(--spacing)*1.25);
+- --initial:hover:not([aria-disabled="true"]) { cursor: pointer;
+- --initial:hover:not([aria-disabled=\"true\"]) {\n cursor: pointer;
+- --input:#262626;
+- --input:#e5e5e5;
+- --input:lab(15.204% 0 -.00000596046);
+- --input:lab(90.952% 0 -.0000119209);
+- --input-font-size:11px;
+- --input-font-size:16px;
+- --inset-shadow-2xs: inset 0 1px #0000000d;
+- --inset-shadow-2xs: inset 0 1px rgb(0 0 0 / 0.05);
+- --inset-shadow-sm: inset 0 2px 4px #0000000d;
+- --inset-shadow-sm: inset 0 2px 4px rgb(0 0 0 / 0.05);
+- --inset-shadow-xs: inset 0 1px 1px #0000000d;
+- --inset-shadow-xs: inset 0 1px 1px rgb(0 0 0 / 0.05);
+- --leading-loose: 2;
+- --leading-normal: 1.5;
+- --leading-relaxed: 1.625;
+- --leading-relaxed:1.625;
+- --leading-snug: 1.375;
+- --leading-snug:1.375;
+- --leading-tight: 1.25;
+- --leading-tight:1.25;
+- --mark-size: calc(var(--size) - var(--size-2) * 2);
+- --max-width-prose: 65ch;
+- --muted:#262626;
+- --muted:#f5f5f5;
+- --muted:lab(15.204% 0 -.00000596046);
+- --muted:lab(96.52% -.0000298023 .0000119209);
+- --muted-foreground:#737373;
+- --muted-foreground:#a1a1a1;
+- --muted-foreground:lab(48.496% 0 0);
+- --muted-foreground:lab(66.128% -.0000298023 .0000119209);
+- --name-width:45%;
+- --next-dialog-border-width: 1px;
+- --next-dialog-max-width: 540px;
+- --next-dialog-max-width: 720px;
+- --next-dialog-max-width: 960px;
+- --next-dialog-notch-height: 42px;
+- --next-dialog-padding: 12px;
+- --next-dialog-radius: var(--rounded-xl);
+- --next-dialog-row-padding: 16px;
+- --next-error-bg: #0a0a0a;
+- --next-error-bg: #fff;
+- --next-error-btn-bg: #171717;
+- --next-error-btn-bg: #ededed;
+- --next-error-btn-border: none;
+- --next-error-btn-secondary-bg: transparent;
+- --next-error-btn-secondary-border: 1px solid rgba(0,0,0,0.08);
+- --next-error-btn-secondary-border: 1px solid rgba(255,255,255,0.14);
+- --next-error-btn-secondary-text: #171717;
+- --next-error-btn-secondary-text: #ededed;
+- --next-error-btn-text: #0a0a0a;
+- --next-error-btn-text: #fff;
+- --next-error-digest: #666666;
+- --next-error-digest: #a0a0a0;
+- --next-error-message: #171717;
+- --next-error-message: #ededed;
+- --next-error-text: #171717;
+- --next-error-text: #ededed;
+- --next-error-title: #171717;
+- --next-error-title: #ededed;
+- --nextjs-dev-tools-scale: 1;
+- --number-color:#2cc9ff;
+- --padding:4px;
+- --padding:6px;
+- --padding-left: 8px;
+- --perspective-distant: 1200px;
+- --perspective-dramatic: 100px;
+- --perspective-midrange: 800px;
+- --perspective-near: 300px;
+- --perspective-normal: 500px;
+- --polyfill:#5f707f;
+- --polyfill-foreground:#fff}@supports (color:lab(0% 0 0)){.dark{--background:lab(2.75381% 0 0);
+- --polyfill-foreground:#fff}@supports (color:lab(0% 0 0)){:root{--background:lab(100% 0 0);
+- --popover:#0a0a0a;
+- --popover:#fff;
+- --popover:lab(100% 0 0);
+- --popover:lab(2.75381% 0 0);
+- --popover-foreground:#0a0a0a;
+- --popover-foreground:#fafafa;
+- --popover-foreground:lab(2.75381% 0 0);
+- --popover-foreground:lab(98.26% 0 0);
+- --primary:#171717;
+- --primary:#fafafa;
+- --primary:lab(7.78201% -.0000149012 0);
+- --primary:lab(98.26% 0 0);
+- --primary-foreground:#171717;
+- --primary-foreground:#fafafa;
+- --primary-foreground:lab(7.78201% -.0000149012 0);
+- --primary-foreground:lab(98.26% 0 0);
+- --profiler-bg: #1e1e24f5;
+- --profiler-border: #4a4a5a;
+- --profiler-header: #2a2a33;
+- --profiler-header-bg: #2a2a33aa;
+- --radius: 0.25rem;
+- --radius:.625rem;
+- --radius-2xl: 1rem;
+- --radius-2xl:1rem;
+- --radius-3xl: 1.5rem;
+- --radius-3xl:1.5rem;
+- --radius-4xl: 2rem;
+- --radius-lg: .5rem;
+- --radius-lg: 0.5rem;
+- --radius-lg:.5rem;
+- --radius-md: .375rem;
+- --radius-md: 0.375rem;
+- --radius-sm: .25rem;
+- --radius-sm: 0.25rem;
+- --radius-xl: .75rem;
+- --radius-xl: 0.75rem;
+- --radius-xl:.75rem;
+- --radius-xs: .125rem;
+- --radius-xs: 0.125rem;
+- --radius-xs:.125rem;
+- --ring:#525252;
+- --ring:#a1a1a1;
+- --ring:lab(34.924% 0 0);
+- --ring:lab(66.128% -.0000298023 .0000119209);
+- --rounded-2xl: 16px;
+- --rounded-3xl: 24px;
+- --rounded-4xl: 32px;
+- --rounded-full: 9999px;
+- --rounded-lg: 8px;
+- --rounded-md: 4px;
+- --rounded-md-2: 6px;
+- --rounded-none: 0px;
+- --rounded-sm: 2px;
+- --rounded-xl: 12px;
+- --scrollbar-width:5px;
+- --scrollbar-width:7px;
+- --secondary:#262626;
+- --secondary:#f5f5f5;
+- --secondary:lab(15.204% 0 -.00000596046);
+- --secondary:lab(96.52% -.0000298023 .0000119209);
+- --secondary-foreground:#171717;
+- --secondary-foreground:#fafafa;
+- --secondary-foreground:lab(7.78201% -.0000149012 0);
+- --secondary-foreground:lab(98.26% 0 0);
+- --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+- --shadow: 0px 0.925px 0.925px 0px rgba(0, 0, 0, 0.02), 0px 3.7px 7.4px -3.7px rgba(0, 0, 0, 0.04), 0px 14.8px 22.2px -7.4px rgba(0, 0, 0, 0.06);
+- --shadow: 0px 0.925px 0.925px 0px rgba(0, 0, 0, 0.02),\n 0px 3.7px 7.4px -3.7px rgba(0, 0, 0, 0.04),\n 0px 14.8px 22.2px -7.4px rgba(0, 0, 0, 0.06);
+- --shadow-2xl: 0 25px 50px -12px #00000040;
+- --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+- --shadow-2xs: 0 1px #0000000d;
+- --shadow-2xs: 0 1px rgb(0 0 0 / 0.05);
+- --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+- --shadow-lg: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+- --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+- --shadow-md: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
+- --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+- --shadow-menu: 0px 1px 1px rgba(0, 0, 0, 0.02), 0px 4px 8px -4px rgba(0, 0, 0, 0.04), 0px 16px 24px -8px rgba(0, 0, 0, 0.06);
+- --shadow-none: 0 0 #0000;
+- --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+- --shadow-sm: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+- --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+- --shadow-small: 0px 2px 2px rgba(0, 0, 0, 0.04);
+- --shadow-xl: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+- --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+- --shadow-xs: 0 1px 2px 0 #0000000d;
+- --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+- --sidebar:#171717;
+- --sidebar:#fafafa;
+- --sidebar:lab(7.78201% -.0000149012 0);
+- --sidebar:lab(98.26% 0 0);
+- --sidebar-accent:#262626;
+- --sidebar-accent:#f5f5f5;
+- --sidebar-accent:lab(15.204% 0 -.00000596046);
+- --sidebar-accent:lab(96.52% -.0000298023 .0000119209);
+- --sidebar-accent-foreground:#171717;
+- --sidebar-accent-foreground:#fafafa;
+- --sidebar-accent-foreground:lab(7.78201% -.0000149012 0);
+- --sidebar-accent-foreground:lab(98.26% 0 0);
+- --sidebar-border:#262626;
+- --sidebar-border:#e5e5e5;
+- --sidebar-border:lab(15.204% 0 -.00000596046);
+- --sidebar-border:lab(90.952% 0 -.0000119209);
+- --sidebar-foreground:#0a0a0a;
+- --sidebar-foreground:#fafafa;
+- --sidebar-foreground:lab(2.75381% 0 0);
+- --sidebar-foreground:lab(98.26% 0 0);
+- --sidebar-primary:#1447e6;
+- --sidebar-primary:#171717;
+- --sidebar-primary:lab(36.9089% 35.0961 -85.6872);
+- --sidebar-primary:lab(7.78201% -.0000149012 0);
+- --sidebar-primary-foreground:#fafafa;
+- --sidebar-primary-foreground:lab(98.26% 0 0);
+- --sidebar-ring:#525252;
+- --sidebar-ring:#a1a1a1;
+- --sidebar-ring:lab(34.924% 0 0)}}@property --tw-translate-x{syntax:"*";
+- --sidebar-ring:lab(66.128% -.0000298023 .0000119209)}}.dark{--background:#0a0a0a;
+- --size-1: calc(1px / var(--nextjs-dev-tools-scale));
+- --size-10: calc(10px / var(--nextjs-dev-tools-scale));
+- --size-11: calc(11px / var(--nextjs-dev-tools-scale));
+- --size-12: calc(12px / var(--nextjs-dev-tools-scale));
+- --size-13: calc(13px / var(--nextjs-dev-tools-scale));
+- --size-14: calc(14px / var(--nextjs-dev-tools-scale));
+- --size-15: calc(15px / var(--nextjs-dev-tools-scale));
+- --size-16: calc(16px / var(--nextjs-dev-tools-scale));
+- --size-17: calc(17px / var(--nextjs-dev-tools-scale));
+- --size-18: calc(18px / var(--nextjs-dev-tools-scale));
+- --size-2: calc(2px / var(--nextjs-dev-tools-scale));
+- --size-20: calc(20px / var(--nextjs-dev-tools-scale));
+- --size-22: calc(22px / var(--nextjs-dev-tools-scale));
+- --size-24: calc(24px / var(--nextjs-dev-tools-scale));
+- --size-26: calc(26px / var(--nextjs-dev-tools-scale));
+- --size-28: calc(28px / var(--nextjs-dev-tools-scale));
+- --size-3: calc(3px / var(--nextjs-dev-tools-scale));
+- --size-30: calc(30px / var(--nextjs-dev-tools-scale));
+- --size-32: calc(32px / var(--nextjs-dev-tools-scale));
+- --size-34: calc(34px / var(--nextjs-dev-tools-scale));
+- --size-36: calc(36px / var(--nextjs-dev-tools-scale));
+- --size-38: calc(38px / var(--nextjs-dev-tools-scale));
+- --size-4: calc(4px / var(--nextjs-dev-tools-scale));
+- --size-40: calc(40px / var(--nextjs-dev-tools-scale));
+- --size-42: calc(42px / var(--nextjs-dev-tools-scale));
+- --size-44: calc(44px / var(--nextjs-dev-tools-scale));
+- --size-46: calc(46px / var(--nextjs-dev-tools-scale));
+- --size-48: calc(48px / var(--nextjs-dev-tools-scale));
+- --size-5: calc(5px / var(--nextjs-dev-tools-scale));
+- --size-6: calc(6px / var(--nextjs-dev-tools-scale));
+- --size-7: calc(7px / var(--nextjs-dev-tools-scale));
+- --size-8: calc(8px / var(--nextjs-dev-tools-scale));
+- --size-9: calc(9px / var(--nextjs-dev-tools-scale));
+- --slider-input-min-width:45px;
+- --slider-input-min-width:50px;
+- --slider-input-width:27%;
+- --slider-knob-width:2px;
+- --spacing: .25rem;
+- --spacing: 0.25rem;
+- --spacing:.25rem;
+- --spacing:4px;
+- --spacing:6px;
+- --stack-layer-height: 44px;
+- --stack-layer-height-half: calc(var(--stack-layer-height) / 2);
+- --stack-layer-trim: 13px;
+- --stop: 25%;
+- --string-color:#a2db3c;
+- --stroke-color: var(--color-gray-400);
+- --success:not([aria-disabled="true"]) { color: var(--color-ansi-green);
+- --success:not([aria-disabled=\"true\"]) {\n color: var(--color-ansi-green);
+- --text-2xl: 1.5rem;
+- --text-2xl:1.5rem;
+- --text-2xl--line-height: calc(2 / 1.5);
+- --text-2xl--line-height:calc(2 / 1.5);
+- --text-3xl: 1.875rem;
+- --text-3xl:1.875rem;
+- --text-3xl--line-height: calc(2.25 / 1.875);
+- --text-3xl--line-height:calc(2.25 / 1.875);
+- --text-4xl: 2.25rem;
+- --text-4xl:2.25rem;
+- --text-4xl--line-height: calc(2.5 / 2.25);
+- --text-4xl--line-height:calc(2.5 / 2.25);
+- --text-5xl: 3rem;
+- --text-5xl:3rem;
+- --text-5xl--line-height: 1;
+- --text-5xl--line-height:1;
+- --text-6xl: 3.75rem;
+- --text-6xl:3.75rem;
+- --text-6xl--line-height: 1;
+- --text-6xl--line-height:1;
+- --text-7xl: 4.5rem;
+- --text-7xl:4.5rem;
+- --text-7xl--line-height: 1;
+- --text-7xl--line-height:1;
+- --text-8xl: 6rem;
+- --text-8xl:6rem;
+- --text-8xl--line-height: 1;
+- --text-8xl--line-height:1;
+- --text-9xl: 8rem;
+- --text-9xl--line-height: 1;
+- --text-base: 1rem;
+- --text-base:1rem;
+- --text-base--line-height: calc(1.5 / 1);
+- --text-base--line-height:calc(1.5 / 1);
+- --text-color:#ebebeb;
+- --text-lg: 1.125rem;
+- --text-lg:1.125rem;
+- --text-lg--line-height: calc(1.75 / 1.125);
+- --text-lg--line-height:calc(1.75 / 1.125);
+- --text-lg--line-height:calc(1.75/1.125);
+- --text-primary: #e0e0e0;
+- --text-secondary: #9a9aab;
+- --text-shadow-2xs: 0px 1px 0px #00000026;
+- --text-shadow-2xs: 0px 1px 0px rgb(0 0 0 / 0.15);
+- --text-shadow-lg: 0px 1px 2px #0000001a, 0px 3px 2px #0000001a, 0px 4px 8px #0000001a;
+- --text-shadow-lg: 0px 1px 2px rgb(0 0 0 / 0.1), 0px 3px 2px rgb(0 0 0 / 0.1), 0px 4px 8px rgb(0 0 0 / 0.1);
+- --text-shadow-md: 0px 1px 1px #0000001a, 0px 1px 2px #0000001a, 0px 2px 4px #0000001a;
+- --text-shadow-md: 0px 1px 1px rgb(0 0 0 / 0.1), 0px 1px 2px rgb(0 0 0 / 0.1), 0px 2px 4px rgb(0 0 0 / 0.1);
+- --text-shadow-sm: 0px 1px 0px #00000013, 0px 1px 1px #00000013, 0px 2px 2px #00000013;
+- --text-shadow-sm: 0px 1px 0px rgb(0 0 0 / 0.075), 0px 1px 1px rgb(0 0 0 / 0.075), 0px 2px 2px rgb(0 0 0 / 0.075);
+- --text-shadow-xs: 0px 1px 1px #0003;
+- --text-shadow-xs: 0px 1px 1px rgb(0 0 0 / 0.2);
+- --text-sm: .875rem;
+- --text-sm: 0.875rem;
+- --text-sm:.875rem;
+- --text-sm--line-height: calc(1.25 / .875);
+- --text-sm--line-height: calc(1.25 / 0.875);
+- --text-sm--line-height:calc(1.25 / .875);
+- --text-sm--line-height:calc(1.25/.875);
+- --text-xl: 1.25rem;
+- --text-xl:1.25rem;
+- --text-xl--line-height: calc(1.75 / 1.25);
+- --text-xl--line-height:calc(1.75 / 1.25);
+- --text-xs: .75rem;
+- --text-xs: 0.75rem;
+- --text-xs:.75rem;
+- --text-xs--line-height: calc(1 / .75);
+- --text-xs--line-height: calc(1 / 0.75);
+- --text-xs--line-height:calc(1 / .75);
+- --text-xs--line-height:calc(1/.75);
+- --timing: cubic-bezier(0.23, 0.88, 0.26, 0.92);
+- --timing-bounce: linear(0 0%, 0.005871 1%, 0.022058 2%, 0.046612 3%, 0.077823 4%, 0.114199 5%, 0.154441 6%, 0.197431 7.000000000000001%, 0.242208 8%, 0.287959 9%, 0.333995 10%, 0.379743 11%, 0.424732 12%, 0.46858 13%, 0.510982 14.000000000000002%, 0.551702 15%, 0.590564 16%, 0.627445 17%, 0.662261 18%, 0.694971 19%, 0.725561 20%, 0.754047 21%, 0.780462 22%, 0.804861 23%, 0.82731 24%, 0.847888 25%, 0.866679 26%, 0.883775 27%, 0.899272 28.000000000000004%, 0.913267 28.999999999999996%, 0.925856 30%, 0.937137 31%, 0.947205 32%, 0.956153 33%, 0.96407 34%, 0.971043 35%, 0.977153 36%, 0.982479 37%, 0.987094 38%, 0.991066 39%, 0.994462 40%, 0.997339 41%, 0.999755 42%, 1.001761 43%, 1.003404 44%, 1.004727 45%, 1.00577 46%, 1.006569 47%, 1.007157 48%, 1.007563 49%, 1.007813 50%, 1.007931 51%, 1.007939 52%, 1.007855 53%, 1.007697 54%, 1.007477 55.00000000000001%, 1.00721 56.00000000000001%, 1.006907 56.99999999999999%, 1.006576 57.99999999999999%, 1.006228 59%, 1.005868 60%, 1.005503 61%, 1.005137 62%, 1.004776 63%, 1.004422 64%, 1.004078 65%, 1.003746 66%, 1.003429 67%, 1.003127 68%, 1.00284 69%, 1.002571 70%, 1.002318 71%, 1.002082 72%, 1.001863 73%, 1.00166 74%, 1.001473 75%, 1.001301 76%, 1.001143 77%, 1.001 78%, 1.000869 79%, 1.000752 80%, 1.000645 81%, 1.00055 82%, 1.000464 83%, 1.000388 84%, 1.000321 85%, 1.000261 86%, 1.000209 87%, 1.000163 88%, 1.000123 89%, 1.000088 90%);
+- --timing-overlay: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+- --timing-swift: cubic-bezier(0.23, 0.88, 0.26, 0.92);
+- --title-background-color:#111;
+- --title-text-color:#ebebeb;
+- --top-z-index: 2147483647;
+- --tracking-normal: 0em;
+- --tracking-tight: -.025em;
+- --tracking-tight: -0.025em;
+- --tracking-tight:-.025em;
+- --tracking-tighter: -.05em;
+- --tracking-tighter: -0.05em;
+- --tracking-tighter:-.05em;
+- --tracking-wide: .025em;
+- --tracking-wide: 0.025em;
+- --tracking-wide:.025em;
+- --tracking-wider: .05em;
+- --tracking-wider: 0.05em;
+- --tracking-wider:.05em;
+- --tracking-widest: .1em;
+- --tracking-widest: 0.1em;
+- --tracking-widest:.1em;
+- --tw-animation-delay:0s;
+- --tw-animation-direction:normal;
+- --tw-animation-duration:initial;
+- --tw-animation-fill-mode:forwards;
+- --tw-animation-iteration-count:1;
+- --tw-backdrop-blur: blur(12px);
+- --tw-backdrop-blur: blur(2px);
+- --tw-backdrop-blur: blur(var(--blur-2xl));
+- --tw-backdrop-blur: blur(var(--blur-md));
+- --tw-backdrop-blur: blur(var(--blur-sm));
+- --tw-backdrop-blur: blur(var(--blur-xl));
+- --tw-backdrop-blur: initial;
+- --tw-backdrop-blur:blur(12px);
+- --tw-backdrop-blur:blur(2px);
+- --tw-backdrop-blur:blur(var(--blur-2xl));
+- --tw-backdrop-blur:blur(var(--blur-md));
+- --tw-backdrop-blur:blur(var(--blur-sm));
+- --tw-backdrop-blur:blur(var(--blur-xl));
+- --tw-backdrop-blur:initial;
+- --tw-backdrop-brightness: initial;
+- --tw-backdrop-brightness:initial;
+- --tw-backdrop-contrast: initial;
+- --tw-backdrop-contrast:initial;
+- --tw-backdrop-grayscale: initial;
+- --tw-backdrop-grayscale:initial;
+- --tw-backdrop-hue-rotate: initial;
+- --tw-backdrop-hue-rotate:initial;
+- --tw-backdrop-invert: initial;
+- --tw-backdrop-invert:initial;
+- --tw-backdrop-opacity: initial;
+- --tw-backdrop-opacity:initial;
+- --tw-backdrop-saturate: initial;
+- --tw-backdrop-saturate:initial;
+- --tw-backdrop-sepia: initial;
+- --tw-backdrop-sepia:initial;
+- --tw-blur: blur(120px);
+- --tw-blur: blur(150px);
+- --tw-blur: blur(1px);
+- --tw-blur: blur(40px);
+- --tw-blur: blur(60px);
+- --tw-blur: blur(80px);
+- --tw-blur: blur(90px);
+- --tw-blur: blur(var(--blur-2xl));
+- --tw-blur: blur(var(--blur-3xl));
+- --tw-blur: blur(var(--blur-md));
+- --tw-blur: blur(var(--blur-xl));
+- --tw-blur: initial;
+- --tw-blur:blur(120px);
+- --tw-blur:blur(150px);
+- --tw-blur:blur(1px);
+- --tw-blur:blur(40px);
+- --tw-blur:blur(60px);
+- --tw-blur:blur(80px);
+- --tw-blur:blur(90px);
+- --tw-blur:blur(var(--blur-3xl));
+- --tw-blur:blur(var(--blur-md));
+- --tw-blur:blur(var(--blur-xl));
+- --tw-blur:initial;
+- --tw-border-style: dashed;
+- --tw-border-style: solid;
+- --tw-border-style:dashed;
+- --tw-border-style:solid;
+- --tw-brightness: brightness(110%);
+- --tw-brightness: initial;
+- --tw-brightness:initial;
+- --tw-contrast: initial;
+- --tw-contrast:initial;
+- --tw-drop-shadow: drop-shadow(var(--drop-shadow-xl));
+- --tw-drop-shadow: initial;
+- --tw-drop-shadow: var(--tw-drop-shadow-size);
+- --tw-drop-shadow:drop-shadow(var(--drop-shadow-xl));
+- --tw-drop-shadow:initial;
+- --tw-drop-shadow:var(--tw-drop-shadow-size);
+- --tw-drop-shadow-alpha: 100%;
+- --tw-drop-shadow-alpha:100%;
+- --tw-drop-shadow-color: initial;
+- --tw-drop-shadow-color:initial;
+- --tw-drop-shadow-size: drop-shadow(0 0 30px var(--tw-drop-shadow-color, #ff2d2d4d));
+- --tw-drop-shadow-size: drop-shadow(0 30px 60px var(--tw-drop-shadow-color, #dc262626));
+- --tw-drop-shadow-size: drop-shadow(0 9px 7px var(--tw-drop-shadow-color, #0000001a));
+- --tw-drop-shadow-size: initial;
+- --tw-drop-shadow-size:drop-shadow(0 0 30px var(--tw-drop-shadow-color,#ff2d2d4d));
+- --tw-drop-shadow-size:drop-shadow(0 30px 60px var(--tw-drop-shadow-color,#dc262626));
+- --tw-drop-shadow-size:initial;
+- --tw-duration: .2s;
+- --tw-duration: .3s;
+- --tw-duration: .4s;
+- --tw-duration: .5s;
+- --tw-duration: .7s;
+- --tw-duration: initial;
+- --tw-duration:.2s;
+- --tw-duration:.3s;
+- --tw-duration:.4s;
+- --tw-duration:.5s;
+- --tw-duration:.7s;
+- --tw-duration:initial;
+- --tw-ease: initial;
+- --tw-ease: var(--ease-in-out);
+- --tw-ease: var(--ease-out);
+- --tw-ease:initial}}}@layer theme{:root,:host{--font-sans:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+- --tw-ease:var(--ease-in-out);
+- --tw-ease:var(--ease-out);
+- --tw-enter-opacity:1;
+- --tw-enter-rotate:0;
+- --tw-enter-scale:1;
+- --tw-enter-translate-x:0;
+- --tw-enter-translate-x:calc(2*var(--spacing))}.data-\[side\=right\]\:translate-x-1[data-side=right]{--tw-translate-x:calc(var(--spacing)*1);
+- --tw-enter-translate-x:calc(2*var(--spacing)*-1)}.data-\[side\=top\]\:-translate-y-1[data-side=top]{--tw-translate-y:calc(var(--spacing)*-1);
+- --tw-enter-translate-y:0;
+- --tw-enter-translate-y:calc(2*var(--spacing))}.data-\[size\=default\]\:h-9[data-size=default]{height:calc(var(--spacing)*9)}.data-\[size\=sm\]\:h-8[data-size=sm]{height:calc(var(--spacing)*8)}:is(.\*\*\:data-\[slot\=command-input-wrapper\]\:h-12 *)[data-slot=command-input-wrapper]{height:calc(var(--spacing)*12)}:is(.\*\:data-\[slot\=select-value\]\:line-clamp-1>*)[data-slot=select-value]{-webkit-line-clamp:1;
+- --tw-enter-translate-y:calc(2*var(--spacing)*-1)}.data-\[side\=left\]\:-translate-x-1[data-side=left]{--tw-translate-x:calc(var(--spacing)*-1);
+- --tw-exit-opacity:0}.data-\[state\=closed\]\:zoom-out-95[data-state=closed]{--tw-exit-scale:.95}.data-\[state\=on\]\:bg-accent[data-state=on]{background-color:var(--accent)}.data-\[state\=on\]\:text-accent-foreground[data-state=on]{color:var(--accent-foreground)}.data-\[state\=open\]\:animate-in[data-state=open]{animation:enter var(--tw-animation-duration,var(--tw-duration,.15s))var(--tw-ease,ease)var(--tw-animation-delay,0s)var(--tw-animation-iteration-count,1)var(--tw-animation-direction,normal)var(--tw-animation-fill-mode,forwards)}.data-\[state\=open\]\:bg-accent[data-state=open]{background-color:var(--accent)}.data-\[state\=open\]\:text-muted-foreground[data-state=open]{color:var(--muted-foreground)}.data-\[state\=open\]\:fade-in-0[data-state=open]{--tw-enter-opacity:0}.data-\[state\=open\]\:zoom-in-95[data-state=open]{--tw-enter-scale:.95}@media (min-width:40rem){.sm\:max-w-lg{max-width:var(--container-lg)}.sm\:flex-row{flex-direction:row}.sm\:justify-end{justify-content:flex-end}.sm\:text-left{text-align:left}}.dark\:bg-blue-950:is(.dark *){background-color:var(--color-blue-950)}.dark\:bg-input\/30:is(.dark *){background-color:var(--input)}@supports (color:color-mix(in lab, red, red)){.dark\:bg-input\/30:is(.dark *){background-color:color-mix(in oklab,var(--input)30%,transparent)}}.dark\:bg-polyfill\/30:is(.dark *){background-color:var(--polyfill)}@supports (color:color-mix(in lab, red, red)){.dark\:bg-polyfill\/30:is(.dark *){background-color:color-mix(in oklab,var(--polyfill)30%,transparent)}}.dark\:bg-purple-950:is(.dark *){background-color:var(--color-purple-950)}.dark\:text-blue-300:is(.dark *){color:var(--color-blue-300)}.dark\:text-polyfill-foreground:is(.dark *){color:var(--polyfill-foreground)}.dark\:text-purple-300:is(.dark *){color:var(--color-purple-300)}.dark\:ring-blue-300\/20:is(.dark *){--tw-ring-color:#90c5ff33}@supports (color:color-mix(in lab, red, red)){.dark\:ring-blue-300\/20:is(.dark *){--tw-ring-color:color-mix(in oklab,var(--color-blue-300)20%,transparent)}}.dark\:ring-purple-300\/20:is(.dark *){--tw-ring-color:#d9b3ff33}@supports (color:color-mix(in lab, red, red)){.dark\:ring-purple-300\/20:is(.dark *){--tw-ring-color:color-mix(in oklab,var(--color-purple-300)20%,transparent)}}@media (hover:hover){.dark\:hover\:bg-input\/50:is(.dark *):hover{background-color:var(--input)}@supports (color:color-mix(in lab, red, red)){.dark\:hover\:bg-input\/50:is(.dark *):hover{background-color:color-mix(in oklab,var(--input)50%,transparent)}}}.dark\:aria-invalid\:ring-destructive\/40:is(.dark *)[aria-invalid=true]{--tw-ring-color:var(--destructive)}@supports (color:color-mix(in lab, red, red)){.dark\:aria-invalid\:ring-destructive\/40:is(.dark *)[aria-invalid=true]{--tw-ring-color:color-mix(in oklab,var(--destructive)40%,transparent)}}.\[\&_\[cmdk-group-heading\]\]\:px-2 [cmdk-group-heading]{padding-inline:calc(var(--spacing)*2)}.\[\&_\[cmdk-group-heading\]\]\:py-1\.5 [cmdk-group-heading]{padding-block:calc(var(--spacing)*1.5)}.\[\&_\[cmdk-group-heading\]\]\:text-xs [cmdk-group-heading]{font-size:var(--text-xs);
+- --tw-exit-opacity:1;
+- --tw-exit-rotate:0;
+- --tw-exit-scale:1;
+- --tw-exit-translate-x:0;
+- --tw-exit-translate-y:0}}}@layer theme{:root,:host{--color-red-500:#fb2c36;
+- --tw-font-weight: initial;
+- --tw-font-weight: var(--font-space-grotesk);
+- --tw-font-weight: var(--font-weight-black);
+- --tw-font-weight: var(--font-weight-bold);
+- --tw-font-weight: var(--font-weight-extrabold);
+- --tw-font-weight: var(--font-weight-medium);
+- --tw-font-weight: var(--font-weight-normal);
+- --tw-font-weight: var(--font-weight-semibold);
+- --tw-font-weight:initial;
+- --tw-font-weight:var(--font-space-grotesk);
+- --tw-font-weight:var(--font-weight-black);
+- --tw-font-weight:var(--font-weight-bold);
+- --tw-font-weight:var(--font-weight-extrabold);
+- --tw-font-weight:var(--font-weight-medium);
+- --tw-font-weight:var(--font-weight-normal);
+- --tw-font-weight:var(--font-weight-semibold);
+- --tw-gradient-from: #0000;
+- --tw-gradient-from: #0000004d;
+- --tw-gradient-from: #00000080;
+- --tw-gradient-from: #0003;
+- --tw-gradient-from: #0009;
+- --tw-gradient-from: #000c;
+- --tw-gradient-from: #82181a40;
+- --tw-gradient-from: #82181a59;
+- --tw-gradient-from: #e40014e6;
+- --tw-gradient-from: #f9f9f9;
+- --tw-gradient-from: #fb2c361a;
+- --tw-gradient-from: #fb2c3626;
+- --tw-gradient-from: #fbe1e2;
+- --tw-gradient-from: #fef2f280;
+- --tw-gradient-from: #ff2d2d;
+- --tw-gradient-from: #ffffffe6;
+- --tw-gradient-from: color-mix(in oklab, var(--color-black) 20%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-black) 30%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-black) 50%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-black) 60%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-black) 80%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-red-50) 50%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-red-500) 10%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-red-500) 15%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-red-600) 90%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-red-900) 25%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-red-900) 35%, transparent);
+- --tw-gradient-from: color-mix(in oklab, var(--color-white) 90%, transparent);
+- --tw-gradient-from: transparent;
+- --tw-gradient-from: var(--color-black);
+- --tw-gradient-from: var(--color-red-100);
+- --tw-gradient-from: var(--color-red-50);
+- --tw-gradient-from: var(--color-red-500);
+- --tw-gradient-from: var(--color-red-600);
+- --tw-gradient-from: var(--color-red-900);
+- --tw-gradient-from: var(--color-white);
+- --tw-gradient-from:#0000;
+- --tw-gradient-from:#82181a59}@supports (color:color-mix(in lab, red, red)){.hover\:from-red-900\/35:hover{--tw-gradient-from:color-mix(in oklab, var(--color-red-900) 35%, transparent)}}.hover\:from-red-900\/35:hover{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.hover\:to-black:hover{--tw-gradient-to:var(--color-black);
+- --tw-gradient-from:#ff2d2d;
+- --tw-gradient-from-position: 0%;
+- --tw-gradient-from-position:0%;
+- --tw-gradient-position: initial;
+- --tw-gradient-position: to bottom in oklab;
+- --tw-gradient-position: to bottom right in oklab;
+- --tw-gradient-position: to right in oklab;
+- --tw-gradient-position: to top in oklab;
+- --tw-gradient-position: to top right in oklab;
+- --tw-gradient-position:initial;
+- --tw-gradient-position:to bottom in oklab;
+- --tw-gradient-position:to bottom right in oklab;
+- --tw-gradient-position:to right in oklab;
+- --tw-gradient-position:to top in oklab;
+- --tw-gradient-position:to top right in oklab;
+- --tw-gradient-stops: initial;
+- --tw-gradient-stops: var(--tw-gradient-via-stops);
+- --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+- --tw-gradient-stops:initial;
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.to-\[\#f0f0f0\]{--tw-gradient-to:#f0f0f0;
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-\[\#ffffff\]{--tw-gradient-via:#fff;
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-black\/15{--tw-gradient-via:#00000026}@supports (color:color-mix(in lab, red, red)){.via-black\/15{--tw-gradient-via:color-mix(in oklab, var(--color-black) 15%, transparent)}}.via-black\/15{--tw-gradient-via-stops:var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-black\/25{--tw-gradient-via:#00000040}@supports (color:color-mix(in lab, red, red)){.via-black\/25{--tw-gradient-via:color-mix(in oklab, var(--color-black) 25%, transparent)}}.via-black\/25{--tw-gradient-via-stops:var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-black\/5{--tw-gradient-via:#0000000d}@supports (color:color-mix(in lab, red, red)){.via-black\/5{--tw-gradient-via:color-mix(in oklab, var(--color-black) 5%, transparent)}}.via-black\/5{--tw-gradient-via-stops:var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-pink-500{--tw-gradient-via:var(--color-pink-500);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-red-400{--tw-gradient-via:var(--color-red-400);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-red-500{--tw-gradient-via:var(--color-red-500);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-red-600{--tw-gradient-via:var(--color-red-600);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-red-700\/90{--tw-gradient-via:#bf000fe6}@supports (color:color-mix(in lab, red, red)){.via-red-700\/90{--tw-gradient-via:color-mix(in oklab, var(--color-red-700) 90%, transparent)}}.via-red-700\/90{--tw-gradient-via-stops:var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-transparent{--tw-gradient-via:transparent;
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-white\/80{--tw-gradient-via:#fffc}@supports (color:color-mix(in lab, red, red)){.via-white\/80{--tw-gradient-via:color-mix(in oklab, var(--color-white) 80%, transparent)}}.via-white\/80{--tw-gradient-via-stops:var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+- --tw-gradient-stops:var(--tw-gradient-via-stops)}.via-white{--tw-gradient-via:var(--color-white);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-\[\#f9f9f9\]{--tw-gradient-from:#f9f9f9;
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-\[\#fbe1e2\]{--tw-gradient-from:#fbe1e2;
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-\[\#ff2d2d\]{--tw-gradient-from:#ff2d2d;
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-black\/20{--tw-gradient-from:#0003}@supports (color:color-mix(in lab, red, red)){.from-black\/20{--tw-gradient-from:color-mix(in oklab, var(--color-black) 20%, transparent)}}.from-black\/20{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-black\/30{--tw-gradient-from:#0000004d}@supports (color:color-mix(in lab, red, red)){.from-black\/30{--tw-gradient-from:color-mix(in oklab, var(--color-black) 30%, transparent)}}.from-black\/30{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-black\/50{--tw-gradient-from:#00000080}@supports (color:color-mix(in lab, red, red)){.from-black\/50{--tw-gradient-from:color-mix(in oklab, var(--color-black) 50%, transparent)}}.from-black\/50{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-black\/60{--tw-gradient-from:#0009}@supports (color:color-mix(in lab, red, red)){.from-black\/60{--tw-gradient-from:color-mix(in oklab, var(--color-black) 60%, transparent)}}.from-black\/60{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-black\/80{--tw-gradient-from:#000c}@supports (color:color-mix(in lab, red, red)){.from-black\/80{--tw-gradient-from:color-mix(in oklab, var(--color-black) 80%, transparent)}}.from-black\/80{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-50{--tw-gradient-from:var(--color-red-50);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-50\/50{--tw-gradient-from:#fef2f280}@supports (color:color-mix(in lab, red, red)){.from-red-50\/50{--tw-gradient-from:color-mix(in oklab, var(--color-red-50) 50%, transparent)}}.from-red-50\/50{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-100{--tw-gradient-from:var(--color-red-100);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-500\/10{--tw-gradient-from:#fb2c361a}@supports (color:color-mix(in lab, red, red)){.from-red-500\/10{--tw-gradient-from:color-mix(in oklab, var(--color-red-500) 10%, transparent)}}.from-red-500\/10{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-500\/15{--tw-gradient-from:#fb2c3626}@supports (color:color-mix(in lab, red, red)){.from-red-500\/15{--tw-gradient-from:color-mix(in oklab, var(--color-red-500) 15%, transparent)}}.from-red-500\/15{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-600{--tw-gradient-from:var(--color-red-600);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-500{--tw-gradient-from:var(--color-red-500);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-600\/90{--tw-gradient-from:#e40014e6}@supports (color:color-mix(in lab, red, red)){.from-red-600\/90{--tw-gradient-from:color-mix(in oklab, var(--color-red-600) 90%, transparent)}}.from-red-600\/90{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-red-900\/25{--tw-gradient-from:#82181a40}@supports (color:color-mix(in lab, red, red)){.from-red-900\/25{--tw-gradient-from:color-mix(in oklab, var(--color-red-900) 25%, transparent)}}.from-red-900\/25{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-transparent{--tw-gradient-from:transparent;
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-white\/90{--tw-gradient-from:#ffffffe6}@supports (color:color-mix(in lab, red, red)){.from-white\/90{--tw-gradient-from:color-mix(in oklab, var(--color-white) 90%, transparent)}}.from-white\/90{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.via-\[\#f7d7d9\]{--tw-gradient-via:#f7d7d9;
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-white{--tw-gradient-from:var(--color-white);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.hover\:text-red-400:hover{color:var(--color-red-400)}.hover\:text-red-500:hover{color:var(--color-red-500)}.hover\:text-red-600:hover{color:var(--color-red-600)}.hover\:text-white:hover{color:var(--color-white)}.hover\:underline:hover{text-decoration-line:underline}.hover\:opacity-90:hover{opacity:.9}.hover\:opacity-100:hover{opacity:1}.hover\:shadow-2xl:hover{--tw-shadow:0 25px 50px -12px var(--tw-shadow-color,#00000040);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-\[\#f3cbce\]{--tw-gradient-to:#f3cbce;
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-\[\#ff4d4d\]{--tw-gradient-to:#ff4d4d;
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-black\/95{--tw-gradient-to:#000000f2}@supports (color:color-mix(in lab, red, red)){.to-black\/95{--tw-gradient-to:color-mix(in oklab, var(--color-black) 95%, transparent)}}.to-black\/95{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-gray-50{--tw-gradient-to:var(--color-gray-50);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-black{--tw-gradient-to:var(--color-black);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-pink-500\/10{--tw-gradient-to:#f6339a1a}@supports (color:color-mix(in lab, red, red)){.to-pink-500\/10{--tw-gradient-to:color-mix(in oklab, var(--color-pink-500) 10%, transparent)}}.to-pink-500\/10{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-red-50\/30{--tw-gradient-to:#fef2f24d}@supports (color:color-mix(in lab, red, red)){.to-red-50\/30{--tw-gradient-to:color-mix(in oklab, var(--color-red-50) 30%, transparent)}}.to-red-50\/30{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-red-200{--tw-gradient-to:var(--color-red-200);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-pink-500{--tw-gradient-to:var(--color-pink-500);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-red-400{--tw-gradient-to:var(--color-red-400);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-red-500{--tw-gradient-to:var(--color-red-500);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-rose-500{--tw-gradient-to:var(--color-rose-500);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-transparent{--tw-gradient-to:transparent;
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-white{--tw-gradient-to:var(--color-white);
+- --tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-zinc-100\/90{--tw-gradient-to:#f4f4f5e6}@supports (color:color-mix(in lab, red, red)){.to-zinc-100\/90{--tw-gradient-to:color-mix(in oklab, var(--color-zinc-100) 90%, transparent)}}.to-zinc-100\/90{--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.bg-clip-text{-webkit-background-clip:text;
+- --tw-gradient-to: #0000;
+- --tw-gradient-to: #000000f2;
+- --tw-gradient-to: #f0f0f0;
+- --tw-gradient-to: #f3cbce;
+- --tw-gradient-to: #f4f4f5e6;
+- --tw-gradient-to: #f6339a1a;
+- --tw-gradient-to: #fef2f24d;
+- --tw-gradient-to: #ff4d4d;
+- --tw-gradient-to: color-mix(in oklab, var(--color-black) 95%, transparent);
+- --tw-gradient-to: color-mix(in oklab, var(--color-pink-500) 10%, transparent);
+- --tw-gradient-to: color-mix(in oklab, var(--color-red-50) 30%, transparent);
+- --tw-gradient-to: color-mix(in oklab, var(--color-zinc-100) 90%, transparent);
+- --tw-gradient-to: transparent;
+- --tw-gradient-to: var(--color-black);
+- --tw-gradient-to: var(--color-gray-200);
+- --tw-gradient-to: var(--color-gray-50);
+- --tw-gradient-to: var(--color-pink-500);
+- --tw-gradient-to: var(--color-red-200);
+- --tw-gradient-to: var(--color-red-400);
+- --tw-gradient-to: var(--color-red-50);
+- --tw-gradient-to: var(--color-red-500);
+- --tw-gradient-to: var(--color-rose-500);
+- --tw-gradient-to: var(--color-white);
+- --tw-gradient-to: var(--color-zinc-100);
+- --tw-gradient-to:#0000;
+- --tw-gradient-to-position: 100%;
+- --tw-gradient-to-position:100%;
+- --tw-gradient-via: #0000;
+- --tw-gradient-via: #0000000d;
+- --tw-gradient-via: #00000026;
+- --tw-gradient-via: #00000040;
+- --tw-gradient-via: #bf000fe6;
+- --tw-gradient-via: #f7d7d9;
+- --tw-gradient-via: #fff;
+- --tw-gradient-via: #fffc;
+- --tw-gradient-via: color-mix(in oklab, var(--color-black) 15%, transparent);
+- --tw-gradient-via: color-mix(in oklab, var(--color-black) 25%, transparent);
+- --tw-gradient-via: color-mix(in oklab, var(--color-black) 5%, transparent);
+- --tw-gradient-via: color-mix(in oklab, var(--color-red-700) 90%, transparent);
+- --tw-gradient-via: color-mix(in oklab, var(--color-white) 80%, transparent);
+- --tw-gradient-via: transparent;
+- --tw-gradient-via: var(--color-black);
+- --tw-gradient-via: var(--color-pink-500);
+- --tw-gradient-via: var(--color-red-400);
+- --tw-gradient-via: var(--color-red-500);
+- --tw-gradient-via: var(--color-red-600);
+- --tw-gradient-via: var(--color-red-700);
+- --tw-gradient-via: var(--color-white);
+- --tw-gradient-via:#0000;
+- --tw-gradient-via-position: 50%;
+- --tw-gradient-via-position:50%;
+- --tw-gradient-via-stops: initial;
+- --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+- --tw-gradient-via-stops:initial;
+- --tw-gradient-via-stops:var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+- --tw-grayscale: grayscale(0%);
+- --tw-grayscale: grayscale(100%);
+- --tw-grayscale: initial;
+- --tw-grayscale:grayscale(0%);
+- --tw-grayscale:grayscale(100%);
+- --tw-grayscale:initial;
+- --tw-hue-rotate: initial;
+- --tw-hue-rotate:initial;
+- --tw-inset-ring-color: initial;
+- --tw-inset-ring-color:initial;
+- --tw-inset-ring-shadow: 0 0 #0000;
+- --tw-inset-ring-shadow:0 0 #0000;
+- --tw-inset-shadow: 0 0 #0000;
+- --tw-inset-shadow:0 0 #0000;
+- --tw-inset-shadow-alpha: 100%;
+- --tw-inset-shadow-alpha:100%;
+- --tw-inset-shadow-color: initial;
+- --tw-inset-shadow-color:initial;
+- --tw-invert: initial;
+- --tw-invert:initial;
+- --tw-leading: 1.08;
+- --tw-leading: 1.1;
+- --tw-leading: 1.7;
+- --tw-leading: 1;
+- --tw-leading: calc(var(--spacing) * 6);
+- --tw-leading: calc(var(--spacing) * 7);
+- --tw-leading: calc(var(--spacing) * 8);
+- --tw-leading: initial;
+- --tw-leading: var(--leading-relaxed);
+- --tw-leading: var(--leading-snug);
+- --tw-leading: var(--leading-tight);
+- --tw-leading:1.08;
+- --tw-leading:1.1;
+- --tw-leading:1.7;
+- --tw-leading:1;
+- --tw-leading:calc(var(--spacing) * 6);
+- --tw-leading:calc(var(--spacing) * 7);
+- --tw-leading:calc(var(--spacing) * 8);
+- --tw-leading:initial;
+- --tw-leading:var(--leading-relaxed);
+- --tw-leading:var(--leading-snug);
+- --tw-leading:var(--leading-tight);
+- --tw-opacity: initial;
+- --tw-opacity:initial;
+- --tw-outline-style: none;
+- --tw-outline-style:none;
+- --tw-outline-style:solid;
+- --tw-ring-color: #1447e61a;
+- --tw-ring-color: #8200da1a;
+- --tw-ring-color: #90c5ff33;
+- --tw-ring-color: #d9b3ff33;
+- --tw-ring-color: #ff23570d;
+- --tw-ring-color: color-mix(in oklab, var(--color-blue-300) 20%, transparent);
+- --tw-ring-color: color-mix(in oklab, var(--color-blue-700) 10%, transparent);
+- --tw-ring-color: color-mix(in oklab, var(--color-purple-300) 20%, transparent);
+- --tw-ring-color: color-mix(in oklab, var(--color-purple-700) 10%, transparent);
+- --tw-ring-color: color-mix(in oklab, var(--color-rose-500) 5%, transparent);
+- --tw-ring-color: initial;
+- --tw-ring-color: var(--color-blue-300);
+- --tw-ring-color: var(--color-blue-700);
+- --tw-ring-color: var(--color-purple-300);
+- --tw-ring-color: var(--color-purple-700);
+- --tw-ring-color: var(--color-red-500);
+- --tw-ring-color: var(--color-rose-500);
+- --tw-ring-color:#1447e61a}@supports (color:color-mix(in lab, red, red)){.ring-blue-700\/10{--tw-ring-color:color-mix(in oklab,var(--color-blue-700)10%,transparent)}}.ring-polyfill\/20{--tw-ring-color:var(--polyfill)}@supports (color:color-mix(in lab, red, red)){.ring-polyfill\/20{--tw-ring-color:color-mix(in oklab,var(--polyfill)20%,transparent)}}.ring-purple-700\/10{--tw-ring-color:#8200da1a}@supports (color:color-mix(in lab, red, red)){.ring-purple-700\/10{--tw-ring-color:color-mix(in oklab,var(--color-purple-700)10%,transparent)}}.ring-offset-background{--tw-ring-offset-color:var(--background)}.outline-hidden{--tw-outline-style:none;
+- --tw-ring-color:initial;
+- --tw-ring-color:var(--color-red-500);
+- --tw-ring-color:var(--color-red-500)}.focus\:ring-rose-500\/5:focus{--tw-ring-color:#ff23570d}@supports (color:color-mix(in lab, red, red)){.focus\:ring-rose-500\/5:focus{--tw-ring-color:color-mix(in oklab, var(--color-rose-500) 5%, transparent)}}.active\:scale-95:active{--tw-scale-x:95%;
+- --tw-ring-color:var(--destructive)}@supports (color:color-mix(in lab, red, red)){.aria-invalid\:ring-destructive\/20[aria-invalid=true]{--tw-ring-color:color-mix(in oklab,var(--destructive)20%,transparent)}}.data-\[disabled\]\:pointer-events-none[data-disabled]{pointer-events:none}.data-\[disabled\]\:opacity-50[data-disabled]{opacity:.5}.data-\[disabled\=true\]\:pointer-events-none[data-disabled=true]{pointer-events:none}.data-\[disabled\=true\]\:opacity-50[data-disabled=true]{opacity:.5}.data-\[placeholder\]\:text-muted-foreground[data-placeholder]{color:var(--muted-foreground)}.data-\[selected\=true\]\:bg-accent[data-selected=true]{background-color:var(--accent)}.data-\[selected\=true\]\:text-accent-foreground[data-selected=true]{color:var(--accent-foreground)}.data-\[side\=bottom\]\:translate-y-1[data-side=bottom]{--tw-translate-y:calc(var(--spacing)*1);
+- --tw-ring-color:var(--ring)}.focus\:ring-offset-2:focus{--tw-ring-offset-width:2px;
+- --tw-ring-color:var(--ring)}@supports (color:color-mix(in lab, red, red)){.focus-visible\:ring-ring\/50:focus-visible{--tw-ring-color:color-mix(in oklab,var(--ring)50%,transparent)}}.focus-visible\:ring-offset-2:focus-visible{--tw-ring-offset-width:2px;
+- --tw-ring-inset: initial;
+- --tw-ring-inset:initial;
+- --tw-ring-inset:inset}.running{animation-play-state:running}.file\:border-0::file-selector-button{border-style:var(--tw-border-style);
+- --tw-ring-offset-color: #fff;
+- --tw-ring-offset-color:#fff;
+- --tw-ring-offset-shadow: 0 0 #0000;
+- --tw-ring-offset-shadow:0 0 #0000;
+- --tw-ring-offset-shadow:var(--tw-ring-inset,)0 0 0 var(--tw-ring-offset-width)var(--tw-ring-offset-color)}.focus\:outline-hidden:focus{--tw-outline-style:none;
+- --tw-ring-offset-shadow:var(--tw-ring-inset,)0 0 0 var(--tw-ring-offset-width)var(--tw-ring-offset-color)}.focus-visible\:outline-2:focus-visible{outline-style:var(--tw-outline-style);
+- --tw-ring-offset-width: 0px;
+- --tw-ring-offset-width:0px;
+- --tw-ring-shadow: 0 0 #0000;
+- --tw-ring-shadow: var(--tw-ring-inset, ) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+- --tw-ring-shadow: var(--tw-ring-inset, ) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+- --tw-ring-shadow:0 0 #0000;
+- --tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor);
+- --tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor);
+- --tw-ring-shadow:var(--tw-ring-inset,)0 0 0 calc(1px + var(--tw-ring-offset-width))var(--tw-ring-color,currentcolor);
+- --tw-ring-shadow:var(--tw-ring-inset,)0 0 0 calc(2px + var(--tw-ring-offset-width))var(--tw-ring-color,currentcolor);
+- --tw-ring-shadow:var(--tw-ring-inset,)0 0 0 calc(3px + var(--tw-ring-offset-width))var(--tw-ring-color,currentcolor);
+- --tw-rotate-x: initial;
+- --tw-rotate-x:initial;
+- --tw-rotate-y: initial;
+- --tw-rotate-y:initial;
+- --tw-rotate-z: initial;
+- --tw-rotate-z:initial;
+- --tw-saturate: initial;
+- --tw-saturate:initial;
+- --tw-scale-x: 0%;
+- --tw-scale-x: 1;
+- --tw-scale-x: 105%;
+- --tw-scale-x: 110%;
+- --tw-scale-x: 75%;
+- --tw-scale-x: 95%;
+- --tw-scale-x:0%;
+- --tw-scale-x:1;
+- --tw-scale-x:105%;
+- --tw-scale-x:110%;
+- --tw-scale-x:75%;
+- --tw-scale-x:95%;
+- --tw-scale-y: 1;
+- --tw-scale-y: 105%;
+- --tw-scale-y: 110%;
+- --tw-scale-y: 75%;
+- --tw-scale-y: 95%;
+- --tw-scale-y:1;
+- --tw-scale-y:105%;
+- --tw-scale-y:110%;
+- --tw-scale-y:75%;
+- --tw-scale-y:95%;
+- --tw-scale-z: 1;
+- --tw-scale-z: 105%;
+- --tw-scale-z: 110%;
+- --tw-scale-z: 75%;
+- --tw-scale-z: 95%;
+- --tw-scale-z:1;
+- --tw-scale-z:105%;
+- --tw-scale-z:110%;
+- --tw-scale-z:75%;
+- --tw-scale-z:95%;
+- --tw-sepia: initial;
+- --tw-sepia:initial;
+- --tw-shadow: 0 0 #0000;
+- --tw-shadow: 0 0 10px var(--tw-shadow-color, #ff2d2d);
+- --tw-shadow: 0 0 120px var(--tw-shadow-color, #ff2d2d40);
+- --tw-shadow: 0 0 12px var(--tw-shadow-color, #ff2d2db3);
+- --tw-shadow: 0 0 15px var(--tw-shadow-color, #ff2d2d);
+- --tw-shadow: 0 0 18px var(--tw-shadow-color, #ff2d2d38);
+- --tw-shadow: 0 0 22px var(--tw-shadow-color, #ff2d2d3d);
+- --tw-shadow: 0 0 24px var(--tw-shadow-color, #ef44442e);
+- --tw-shadow: 0 0 26px var(--tw-shadow-color, #ff2d2d61);
+- --tw-shadow: 0 0 28px var(--tw-shadow-color, #ff2d2d1a);
+- --tw-shadow: 0 0 30px var(--tw-shadow-color, #ff000014);
+- --tw-shadow: 0 0 40px var(--tw-shadow-color, #f003);
+- --tw-shadow: 0 0 40px var(--tw-shadow-color, #ff00001f);
+- --tw-shadow: 0 0 6px var(--tw-shadow-color, #ff2d2d);
+- --tw-shadow: 0 0 8px var(--tw-shadow-color, white);
+- --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, #0000001a), 0 4px 6px -4px var(--tw-shadow-color, #0000001a);
+- --tw-shadow: 0 10px 28px var(--tw-shadow-color, #ff2d2d38);
+- --tw-shadow: 0 10px 30px var(--tw-shadow-color, #00000059);
+- --tw-shadow: 0 12px 28px var(--tw-shadow-color, #0000000d);
+- --tw-shadow: 0 14px 32px var(--tw-shadow-color, #0000000f);
+- --tw-shadow: 0 14px 34px var(--tw-shadow-color, #0000000d);
+- --tw-shadow: 0 14px 36px var(--tw-shadow-color, #00000014);
+- --tw-shadow: 0 14px 36px var(--tw-shadow-color, #0003);
+- --tw-shadow: 0 16px 36px var(--tw-shadow-color, #00000014);
+- --tw-shadow: 0 16px 40px var(--tw-shadow-color, #0000002e);
+- --tw-shadow: 0 16px 40px var(--tw-shadow-color, #ff2d2d1f);
+- --tw-shadow: 0 18px 40px var(--tw-shadow-color, #00000014);
+- --tw-shadow: 0 18px 42px var(--tw-shadow-color, #ff2d2d1f);
+- --tw-shadow: 0 18px 44px var(--tw-shadow-color, #0000002e);
+- --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, #0000001a), 0 1px 2px -1px var(--tw-shadow-color, #0000001a);
+- --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, #0000001a), 0 8px 10px -6px var(--tw-shadow-color, #0000001a);
+- --tw-shadow: 0 20px 48px var(--tw-shadow-color, #ff2d2d1f);
+- --tw-shadow: 0 20px 50px var(--tw-shadow-color, #ef444426);
+- --tw-shadow: 0 22px 56px var(--tw-shadow-color, #00000038);
+- --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, #00000040);
+- --tw-shadow: 0 26px 70px var(--tw-shadow-color, #0000003d);
+- --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, #0000001a), 0 2px 4px -2px var(--tw-shadow-color, #0000001a);
+- --tw-shadow: 0 6px 20px var(--tw-shadow-color, #ff2d2d59);
+- --tw-shadow: 0 6px 20px var(--tw-shadow-color, #ff2d2d66);
+- --tw-shadow: 0 6px 20px var(--tw-shadow-color, #fff3);
+- --tw-shadow: 0 6px 20px var(--tw-shadow-color, #ffffff29);
+- --tw-shadow: 0 8px 26px var(--tw-shadow-color, #00000047);
+- --tw-shadow:0 0 #0000;
+- --tw-shadow:0 0 10px var(--tw-shadow-color,#ff2d2d);
+- --tw-shadow:0 0 120px var(--tw-shadow-color,#ff2d2d40);
+- --tw-shadow:0 0 12px var(--tw-shadow-color,#ff2d2db3);
+- --tw-shadow:0 0 15px var(--tw-shadow-color,#ff2d2d);
+- --tw-shadow:0 0 18px var(--tw-shadow-color,#ff2d2d38);
+- --tw-shadow:0 0 22px var(--tw-shadow-color,#ff2d2d3d);
+- --tw-shadow:0 0 24px var(--tw-shadow-color,#ef44442e);
+- --tw-shadow:0 0 26px var(--tw-shadow-color,#ff2d2d61);
+- --tw-shadow:0 0 28px var(--tw-shadow-color,#ff2d2d1a);
+- --tw-shadow:0 0 30px var(--tw-shadow-color,#ff000014);
+- --tw-shadow:0 0 40px var(--tw-shadow-color,#f003);
+- --tw-shadow:0 0 40px var(--tw-shadow-color,#ff00001f);
+- --tw-shadow:0 0 6px var(--tw-shadow-color,#ff2d2d);
+- --tw-shadow:0 0 8px var(--tw-shadow-color,white);
+- --tw-shadow:0 10px 15px -3px var(--tw-shadow-color,#0000001a), 0 4px 6px -4px var(--tw-shadow-color,#0000001a);
+- --tw-shadow:0 10px 15px -3px var(--tw-shadow-color,#0000001a),0 4px 6px -4px var(--tw-shadow-color,#0000001a);
+- --tw-shadow:0 10px 28px var(--tw-shadow-color,#ff2d2d38);
+- --tw-shadow:0 10px 30px var(--tw-shadow-color,#00000059);
+- --tw-shadow:0 12px 28px var(--tw-shadow-color,#0000000d);
+- --tw-shadow:0 14px 32px var(--tw-shadow-color,#0000000f);
+- --tw-shadow:0 14px 34px var(--tw-shadow-color,#0000000d);
+- --tw-shadow:0 14px 36px var(--tw-shadow-color,#00000014);
+- --tw-shadow:0 14px 36px var(--tw-shadow-color,#0003);
+- --tw-shadow:0 16px 36px var(--tw-shadow-color,#00000014);
+- --tw-shadow:0 16px 40px var(--tw-shadow-color,#0000002e);
+- --tw-shadow:0 16px 40px var(--tw-shadow-color,#ff2d2d1f);
+- --tw-shadow:0 18px 40px var(--tw-shadow-color,#00000014);
+- --tw-shadow:0 18px 42px var(--tw-shadow-color,#ff2d2d1f);
+- --tw-shadow:0 18px 44px var(--tw-shadow-color,#0000002e);
+- --tw-shadow:0 1px 2px 0 var(--tw-shadow-color,#0000000d);
+- --tw-shadow:0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a);
+- --tw-shadow:0 1px 3px 0 var(--tw-shadow-color,#0000001a),0 1px 2px -1px var(--tw-shadow-color,#0000001a);
+- --tw-shadow:0 20px 25px -5px var(--tw-shadow-color,#0000001a), 0 8px 10px -6px var(--tw-shadow-color,#0000001a);
+- --tw-shadow:0 20px 48px var(--tw-shadow-color,#ff2d2d1f);
+- --tw-shadow:0 20px 50px var(--tw-shadow-color,#ef444426);
+- --tw-shadow:0 22px 56px var(--tw-shadow-color,#00000038);
+- --tw-shadow:0 25px 50px -12px var(--tw-shadow-color,#00000040);
+- --tw-shadow:0 26px 70px var(--tw-shadow-color,#0000003d);
+- --tw-shadow:0 4px 6px -1px var(--tw-shadow-color,#0000001a), 0 2px 4px -2px var(--tw-shadow-color,#0000001a);
+- --tw-shadow:0 4px 6px -1px var(--tw-shadow-color,#0000001a),0 2px 4px -2px var(--tw-shadow-color,#0000001a);
+- --tw-shadow:0 6px 20px var(--tw-shadow-color,#ff2d2d59);
+- --tw-shadow:0 6px 20px var(--tw-shadow-color,#ff2d2d66);
+- --tw-shadow:0 6px 20px var(--tw-shadow-color,#fff3);
+- --tw-shadow:0 6px 20px var(--tw-shadow-color,#ffffff29);
+- --tw-shadow:0 8px 26px var(--tw-shadow-color,#00000047);
+- --tw-shadow-alpha: 100%;
+- --tw-shadow-alpha:100%;
+- --tw-shadow-color: #000;
+- --tw-shadow-color: #0000;
+- --tw-shadow-color: #0000001a;
+- --tw-shadow-color: #0000004d;
+- --tw-shadow-color: #82181a;
+- --tw-shadow-color: #82181a66;
+- --tw-shadow-color: #e2e8f0;
+- --tw-shadow-color: #e40014;
+- --tw-shadow-color: #e4001433;
+- --tw-shadow-color: #e5e7eb;
+- --tw-shadow-color: #e5e7eb80;
+- --tw-shadow-color: #f1f5f9;
+- --tw-shadow-color: #fb2c36;
+- --tw-shadow-color: #fb2c360d;
+- --tw-shadow-color: #fb2c361a;
+- --tw-shadow-color: #fb2c3633;
+- --tw-shadow-color: #fb2c364d;
+- --tw-shadow-color: #fb2c3666;
+- --tw-shadow-color: #ff2357;
+- --tw-shadow-color: #ff235733;
+- --tw-shadow-color: #ffcaca;
+- --tw-shadow-color: #ffe2e2;
+- --tw-shadow-color: #ffe2e233;
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-black) 10%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-black) 30%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-gray-200) 50%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-100) 20%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 0%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 10%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 20%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 30%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 40%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 5%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-600) 20%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-900) 40%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-rose-500) 20%, transparent) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-black) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-gray-200) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-red-100) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-red-200) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-red-500) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-red-600) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-red-900) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-rose-500) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-slate-100) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: color-mix(in oklab, var(--color-slate-200) var(--tw-shadow-alpha), transparent);
+- --tw-shadow-color: initial;
+- --tw-shadow-color: lab(28.5139% 44.5539 29.0463);
+- --tw-shadow-color: lab(48.4493% 77.4328 61.5452);
+- --tw-shadow-color: lab(55.4814% 75.0732 48.8528);
+- --tw-shadow-color: lab(56.101% 79.4329 31.4532);
+- --tw-shadow-color: lab(86.017% 19.8815 7.75869);
+- --tw-shadow-color: lab(91.6229% -.159085 -2.26791);
+- --tw-shadow-color: lab(91.7353% -.998765 -4.76968);
+- --tw-shadow-color: lab(92.243% 10.2865 3.83865);
+- --tw-shadow-color: lab(96.286% -.852466 -2.46847);
+- --tw-shadow-color:#0000001a}@supports (color:color-mix(in lab, red, red)){.shadow-black\/10{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-black) 10%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-gray-200\/50{--tw-shadow-color:#e5e7eb80}@supports (color:color-mix(in lab, red, red)){.shadow-gray-200\/50{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-gray-200) 50%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-red-100\/20{--tw-shadow-color:#ffe2e233}@supports (color:color-mix(in lab, red, red)){.shadow-red-100\/20{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-100) 20%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-red-200{--tw-shadow-color:#ffcaca}@supports (color:lab(0% 0 0)){.shadow-red-200{--tw-shadow-color:lab(86.017% 19.8815 7.75869)}}@supports (color:color-mix(in lab, red, red)){.shadow-red-200{--tw-shadow-color:color-mix(in oklab, var(--color-red-200) var(--tw-shadow-alpha), transparent)}}.shadow-red-500\/0{--tw-shadow-color:#0000}@supports (color:color-mix(in lab, red, red)){.shadow-red-500\/0{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 0%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-red-500\/5{--tw-shadow-color:#fb2c360d}@supports (color:color-mix(in lab, red, red)){.shadow-red-500\/5{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 5%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-red-500\/20{--tw-shadow-color:#fb2c3633}@supports (color:color-mix(in lab, red, red)){.shadow-red-500\/20{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 20%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-red-600\/20{--tw-shadow-color:#e4001433}@supports (color:color-mix(in lab, red, red)){.shadow-red-600\/20{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-600) 20%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-red-900\/40{--tw-shadow-color:#82181a66}@supports (color:color-mix(in lab, red, red)){.shadow-red-900\/40{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-900) 40%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-rose-500\/20{--tw-shadow-color:#ff235733}@supports (color:color-mix(in lab, red, red)){.shadow-rose-500\/20{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-rose-500) 20%, transparent) var(--tw-shadow-alpha), transparent)}}.shadow-slate-100{--tw-shadow-color:#f1f5f9}@supports (color:lab(0% 0 0)){.shadow-slate-100{--tw-shadow-color:lab(96.286% -.852466 -2.46847)}}@supports (color:color-mix(in lab, red, red)){.shadow-slate-100{--tw-shadow-color:color-mix(in oklab, var(--color-slate-100) var(--tw-shadow-alpha), transparent)}}.shadow-slate-200{--tw-shadow-color:#e2e8f0}@supports (color:lab(0% 0 0)){.shadow-slate-200{--tw-shadow-color:lab(91.7353% -.998765 -4.76968)}}@supports (color:color-mix(in lab, red, red)){.shadow-slate-200{--tw-shadow-color:color-mix(in oklab, var(--color-slate-200) var(--tw-shadow-alpha), transparent)}}.blur-2xl{--tw-blur:blur(var(--blur-2xl));
+- --tw-shadow-color:#0000004d}@supports (color:color-mix(in lab, red, red)){.hover\:shadow-black\/30:hover{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-black) 30%, transparent) var(--tw-shadow-alpha), transparent)}}.hover\:shadow-red-500\/10:hover{--tw-shadow-color:#fb2c361a}@supports (color:color-mix(in lab, red, red)){.hover\:shadow-red-500\/10:hover{--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 10%, transparent) var(--tw-shadow-alpha), transparent)}}.hover\:brightness-110:hover{--tw-brightness:brightness(110%);
+- --tw-shadow-color:#fb2c364d}@supports (color:color-mix(in lab, red, red)){.group-hover\:shadow-red-500\/30:is(:where(.group):hover *){--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 30%, transparent) var(--tw-shadow-alpha), transparent)}}.group-hover\:shadow-red-500\/40:is(:where(.group):hover *){--tw-shadow-color:#fb2c3666}@supports (color:color-mix(in lab, red, red)){.group-hover\:shadow-red-500\/40:is(:where(.group):hover *){--tw-shadow-color:color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 40%, transparent) var(--tw-shadow-alpha), transparent)}}.group-hover\:drop-shadow-xl:is(:where(.group):hover *){--tw-drop-shadow-size:drop-shadow(0 9px 7px var(--tw-drop-shadow-color,#0000001a));
+- --tw-shadow-color:initial;
+- --tw-skew-x: initial;
+- --tw-skew-x:initial;
+- --tw-skew-y: initial;
+- --tw-skew-y:initial;
+- --tw-space-x-reverse: 0;
+- --tw-space-x-reverse:0;
+- --tw-space-y-reverse: 0;
+- --tw-space-y-reverse:0;
+- --tw-tracking: -.01em;
+- --tw-tracking: -.02em;
+- --tw-tracking: -.03em;
+- --tw-tracking: -.06em;
+- --tw-tracking: .12em;
+- --tw-tracking: .13em;
+- --tw-tracking: .15em;
+- --tw-tracking: .18em;
+- --tw-tracking: .22em;
+- --tw-tracking: .24em;
+- --tw-tracking: .25em;
+- --tw-tracking: .2em;
+- --tw-tracking: .34em;
+- --tw-tracking: .35em;
+- --tw-tracking: .3em;
+- --tw-tracking: .42em;
+- --tw-tracking: initial;
+- --tw-tracking: var(--tracking-tight);
+- --tw-tracking: var(--tracking-tighter);
+- --tw-tracking: var(--tracking-wide);
+- --tw-tracking: var(--tracking-wider);
+- --tw-tracking: var(--tracking-widest);
+- --tw-tracking:-.01em;
+- --tw-tracking:-.02em;
+- --tw-tracking:-.03em;
+- --tw-tracking:-.06em;
+- --tw-tracking:.12em;
+- --tw-tracking:.13em;
+- --tw-tracking:.15em;
+- --tw-tracking:.18em;
+- --tw-tracking:.22em;
+- --tw-tracking:.24em;
+- --tw-tracking:.25em;
+- --tw-tracking:.2em;
+- --tw-tracking:.34em;
+- --tw-tracking:.3em;
+- --tw-tracking:initial;
+- --tw-tracking:var(--tracking-tight);
+- --tw-tracking:var(--tracking-tighter);
+- --tw-tracking:var(--tracking-wide);
+- --tw-tracking:var(--tracking-wider);
+- --tw-tracking:var(--tracking-widest);
+- --tw-translate-x: 0;
+- --tw-translate-x: calc(1 / 2 * 100%);
+- --tw-translate-x: calc(calc(1 / 2 * 100%) * -1);
+- --tw-translate-x: calc(var(--spacing) * .5);
+- --tw-translate-x: calc(var(--spacing) * 0);
+- --tw-translate-x: calc(var(--spacing) * 1);
+- --tw-translate-x:0;
+- --tw-translate-x:-50%;
+- --tw-translate-x:calc(1 / 2 * 100%);
+- --tw-translate-x:calc(calc(1 / 2 * 100%) * -1);
+- --tw-translate-x:calc(var(--spacing) * .5);
+- --tw-translate-x:calc(var(--spacing) * 0);
+- --tw-translate-x:calc(var(--spacing) * 1);
+- --tw-translate-y: 0;
+- --tw-translate-y: -4px;
+- --tw-translate-y: 8px;
+- --tw-translate-y: calc(8px * -1);
+- --tw-translate-y: calc(calc(1 / 2 * 100%) * -1);
+- --tw-translate-y: calc(var(--spacing) * -.5);
+- --tw-translate-y: calc(var(--spacing) * -2);
+- --tw-translate-y:0;
+- --tw-translate-y:-4px;
+- --tw-translate-y:-50%;
+- --tw-translate-y:8px;
+- --tw-translate-y:calc(8px * -1);
+- --tw-translate-y:calc(calc(1 / 2 * 100%) * -1);
+- --tw-translate-y:calc(calc(1/2*100%)*-1);
+- --tw-translate-y:calc(var(--spacing) * -.5);
+- --tw-translate-y:calc(var(--spacing) * -2);
+- --tw-translate-z: 0;
+- --tw-translate-z:0;
+- --tw-variant-check:1]`)),j=N.filter((Y,q)=>P[q]===null);
+- --tw-variant-check:1]`)),M=N.filter((Y,G)=>_[G]===null);
+- --val : val--;
+- --widget-border-radius:2px;
+- --widget-color:#424242;
+- --widget-height:20px;
+- --widget-height:28px;
+- --widget-padding:0 0 0 3px;
