@@ -28,7 +28,7 @@ function WhyCard({ number, title, description }) {
         {number}
       </div>
       <div className="relative p-6">
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
+        <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{title}</h3>
         <p className="mt-3 text-gray-600">{description}</p>
       </div>
     </div>
@@ -187,7 +187,7 @@ export default function ValidatorPage() {
 
         {/* LEFT TEXT */}
         <div>
-          <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
+          <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
             Own a Piece of <br />
             <span className="text-red-500">MST Blockchain</span>
           </h1>
@@ -234,7 +234,7 @@ export default function ValidatorPage() {
 
       
       <section className="relative z-10 max-w-6xl mx-auto px-6 py-16 space-y-20">
-        <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
+        <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
             From Sign-Up to<br />
             <span className="text-red-500">Rewards in Minutes </span>
           </h1>
@@ -246,7 +246,7 @@ export default function ValidatorPage() {
                 <Icon />
               </div>
 
-              <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mt-6">{title}</h2>
+              <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 mt-6">{title}</h2>
               <p className="text-gray-500 mt-3">{description}</p>
             </div>
 
@@ -377,7 +377,7 @@ export default function ValidatorPage() {
 
       {/* 🔴 SECURE YOUR FRACTION */}
       <section className="relative z-10 w-full pb-24">
-        <div className="relative w-full overflow-hidden border-y border-red-100 bg-white/60 backdrop-blur-sm">
+        <div className="relative w-full overflow-hidden border-y border-red-500/15 border-2 bg-white/60 backdrop-blur-sm">
           {/* subtle grid */}
           <div
             className="absolute inset-0 opacity-[0.22]"
@@ -392,9 +392,22 @@ export default function ValidatorPage() {
           <div className="absolute left-1/2 top-1/2 h-[360px] w-[680px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-300/20 blur-[120px]" />
 
           {/* geometric accents */}
-          <div className="absolute -left-10 top-10 h-40 w-40 rotate-12 rounded-3xl border border-red-200/40 bg-white/10" />
-          <div className="absolute left-16 bottom-10 h-56 w-56 -rotate-12 rounded-3xl border border-red-200/30 bg-white/10" />
-          <div className="absolute -right-16 top-16 h-64 w-64 rotate-6 rounded-3xl border border-red-200/30 bg-white/10" />
+          <div className="absolute -left-50 top-10 h-40 w-40 rotate-12 rounded-3xl border border-red-400 bg-red-400/30 blur-sm" />
+          <div className="absolute left-16 bottom-10 h-56 w-56 -rotate-12 rounded-3xl border border-red-400 bg-red-400/30 blur" />
+          <div className="absolute -right-16 top-16 h-64 w-64 rotate-6 rounded-3xl border border-red-400 bg-red-400/30 blur" />
+          {/* Additional geometric accents for background */}
+          <div className="absolute left-1/4 top-1/3 h-32 w-32 rotate-3 rounded-3xl border border-red-400 bg-red-400/30 blur-sm" />
+          <div className="absolute right-24 bottom-24 h-28 w-28 -rotate-6 rounded-3xl border border-red-400 bg-red-400/30 blur" />
+          <div className="absolute left-1/2 top-1/4 h-24 w-24 rotate-12 rounded-3xl border border-red-400 bg-red-400/30 blur-sm" />
+          <div className="absolute right-1/3 top-1/2 h-36 w-36 -rotate-3 rounded-3xl border border-red-400 bg-red-400/30 blur" />
+          {/* Even more geometric accents with random sizes and positions */}
+          <div className="absolute left-10 top-1/2 h-16 w-16 rotate-2 rounded-3xl border border-red-400 bg-red-400/30 blur-sm" />
+          <div className="absolute right-1/4 top-1/5 h-20 w-28 -rotate-9 rounded-3xl border border-red-400 bg-red-400/30 blur" />
+          <div className="absolute left-2/3 bottom-10 h-12 w-24 rotate-6 rounded-3xl border border-red-400 bg-red-400/30 blur-sm" />
+          <div className="absolute right-10 top-1/3 h-40 w-20 -rotate-12 rounded-3xl border border-red-400 bg-red-400/30 blur" />
+          <div className="absolute left-1/5 bottom-1/4 h-24 w-12 rotate-8 rounded-3xl border border-red-400 bg-red-400/30 blur-sm" />
+          <div className="absolute right-1/2 top-1/6 h-10 w-10 rotate-4 rounded-3xl border border-red-400 bg-red-400/30 blur-sm" />
+          <div className="absolute left-1/3 bottom-1/6 h-32 w-10 -rotate-7 rounded-3xl border border-red-400 bg-red-400/30 blur" />
 
           <div className="relative max-w-7xl mx-auto px-6 py-16 md:px-10 md:py-20">
             <h2 className="text-center text-4xl md:text-6xl font-bold leading-tight text-gray-900">
@@ -410,8 +423,6 @@ export default function ValidatorPage() {
           </div>
         </div>
       </section>
-
-
     </div>
   );
 }

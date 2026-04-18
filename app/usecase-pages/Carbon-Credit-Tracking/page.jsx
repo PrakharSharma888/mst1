@@ -87,25 +87,13 @@ function FeatureCard({ title, description, icon: Icon }) {
     <motion.article
       whileHover={{ y: -6, scale: 1.01 }}
       transition={{ duration: 0.25 }}
-      className="group rounded-2xl border h-70 w-100 border-white/10 bg-black/90 p-6 text-center  text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md transition-all duration-300 hover:border-[#ff2d2d]/50 hover:shadow-[0_20px_48px_rgba(255,45,45,0.12)]"
+      className="group flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-black/90 p-6 text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md transition-all duration-300 hover:border-[#ff2d2d]/50 hover:bg-red-600 hover:shadow-[0_20px_48px_rgba(255,45,45,0.12)] w-full min-h-[260px] sm:min-h-[280px] md:min-h-[320px] lg:min-h-[340px]"
     >
-      <div className="mb-4 inline-flex rounded-xl border border-[#ff2d2d]/20 bg-[#ff2d2d]/8 p-2.5">
+      <div className="group-hover:bg-black mb-4 inline-flex rounded-xl border border-[#ff2d2d]/20 bg-[#ff2d2d]/8 p-2.5">
         <Icon className="h-5 w-5 text-[#ff2d2d]" />
       </div>
-      <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-white font-extrabold uppercase mb-5">
-        {typeof title === 'string' && title.includes(' ') ? (
-          <>
-            {title.split(' ').map((word, idx) =>
-              idx === 1 ? (
-                <span key={idx} className="text-red-600">{word}</span>
-              ) : (
-                ' ' + word
-              )
-            )}
-          </>
-        ) : title}
-      </h3>
-      <p className="mt-3 text-sm leading-relaxed text-white/68">{description}</p>
+      <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-white font-extrabold uppercase mb-5 text-center w-full">{title}</h3>
+      <p className="mt-3 text-sm leading-relaxed text-white/68 text-center w-full">{description}</p>
     </motion.article>
   );
 }
@@ -256,7 +244,7 @@ const [formType, setFormType] = useState("General Enquiry");
       </section>
 
       {/* FEATURES */}
-      <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16">
+      <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16 hover">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -304,7 +292,7 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* PROOFS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16">
         <SectionFade className="space-y-3">
-          <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase"> <span className="text-red-600">Proofs</span> of <span className="text-red-600">Concept</span> </h2>
+          <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase"> Proofs<span className="text-red-600"> of </span>Concept</h2>
           <p className="max-w-2xl text-base leading-8 text-black/68">
             Real-world examples showing how this use case works in practice across different industries and regions.
           </p>

@@ -88,13 +88,13 @@ function FeatureCard({ title, description, icon: Icon }) {
     <motion.article
       whileHover={{ y: -6, scale: 1.01 }}
       transition={{ duration: 0.25 }}
-      className="group rounded-2xl border border-white/10 bg-black/90 p-6 text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md transition-all duration-300 hover:border-[#ff2d2d]/50 hover:shadow-[0_20px_48px_rgba(255,45,45,0.12)]"
+      className="group flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-black/90 p-6 text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md transition-all duration-300 hover:border-[#ff2d2d]/50 hover:bg-red-600 hover:shadow-[0_20px_48px_rgba(255,45,45,0.12)] w-full min-h-[260px] sm:min-h-[280px] md:min-h-[320px] lg:min-h-[340px]"
     >
-      <div className="mb-4 inline-flex rounded-xl border border-[#ff2d2d]/20 bg-[#ff2d2d]/8 p-2.5">
+      <div className="group-hover:bg-black mb-4 inline-flex rounded-xl border border-[#ff2d2d]/20 bg-[#ff2d2d]/8 p-2.5">
         <Icon className="h-5 w-5 text-[#ff2d2d]" />
       </div>
-      <h3 className="font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">{title}</h3>
-      <p className="mt-3 text-sm leading-relaxed text-white/68">{description}</p>
+      <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-white font-extrabold uppercase mb-5 text-center w-full">{title}</h3>
+      <p className="mt-3 text-sm leading-relaxed text-white/68 text-center w-full">{description}</p>
     </motion.article>
   );
 }
@@ -158,7 +158,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="relative mx-auto max-w-[90rem] space-y-6">
           <div className="max-w-4xl space-y-5">
             <div className="relative inline-block">
-              <h1 className="font-[var(--font-space-grotesk)] text-4xl font-extrabold tracking-[-0.06em] text-black sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+              <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
                   Decentralized
  
@@ -264,7 +264,7 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* INTRO */}
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">
+          <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
          What is Decentralized Voting on MST?
 
           </h2>
@@ -305,7 +305,7 @@ const [formType, setFormType] = useState("General Enquiry");
 
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
-        <h2 className="font-[var(--font-space-grotesk)] text-3xl font-extrabold tracking-[-0.03em] text-black sm:text-4xl mb-2">
+        <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
           Why Build This on MST — Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
@@ -360,14 +360,14 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* PROBLEM + SOLUTION */}
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">
+          <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
             The Problem: Nobody Trusts Digital Voting
           </h2>
           <p className="text-base leading-8 text-black/70">
            Even when digital voting systems work correctly, they are hard to trust because participants cannot see inside them. Results can be disputed. Administrators can be accused of bias. Systems can be hacked. Traditional paper voting is slow and expensive. The current state creates doubt, and doubt undermines the entire point of an election or governance decision.
           </p>
 
-          <h3 className="pt-2 font-[var(--font-space-grotesk)] text-2xl font-bold text-black">How MST Specifically Solves It</h3>
+          <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Specifically Solves It</h3>
           <p className="text-base leading-8 text-black/70">
           MST's Satva Shuffle Protocol randomly selects validators — making it impossible for any single entity to control the counting process. Klethesia maintains ballot secrecy while making the aggregate count publicly auditable — something no Web2 system has achieved. SARAL eliminates centralized voter databases. The result: a voting system where the integrity is mathematically provable, not just promised.
           </p>
@@ -393,7 +393,7 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,45,45,0.18),transparent_38%),radial-gradient(circle_at_bottom_right,rgba(255,255,255,0.10),transparent_40%),linear-gradient(to_bottom,rgba(0,0,0,0.0),rgba(0,0,0,0.22))]" />
 
             <div className="relative">
-              <h2 className="font-[var(--font-space-grotesk)] text-3xl font-extrabold tracking-[-0.03em] text-white sm:text-4xl">
+              <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-white font-extrabold uppercase mb-5">
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
@@ -439,7 +439,7 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* PROOFS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16">
         <SectionFade className="space-y-3">
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">Proofs of Concept</h2>
+          <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">Proofs of Concept</h2>
           <p className="max-w-2xl text-base leading-8 text-black/68">
             Real-world applications showing how MST blockchain delivers this use case across different industries and contexts.
           </p>

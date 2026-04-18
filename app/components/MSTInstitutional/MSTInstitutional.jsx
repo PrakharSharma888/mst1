@@ -87,7 +87,7 @@ export default function MSTInstitutional() {
         {/* LEFT CONTENT */}
         <div className="relative z-10 max-w-xl">
           <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
-             Join Our <span className="text-red-500">Validator</span> Program 
+             Join Our <span className="text-red-600">Validator</span> Program 
           </h2>
 
          

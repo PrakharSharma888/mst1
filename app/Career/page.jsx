@@ -146,10 +146,10 @@ export default function CareersPage() {
           <div className="relative ml-auto w-full max-w-[420px] pl-5 ">
             <div
               aria-hidden="true"
-              className="absolute -inset-x-3 -top-3 -bottom-35 md:-bottom-35 translate-x-3 translate-y-3 rounded-2xl bg-white border border-slate-300 shadow-sm pointer-events-none"
+              className="absolute -inset-x-3 -top-3 -bottom-35 md:-bottom-35 translate-x-3 translate-y-3 rounded-2xl bg-white border border-black/50 shadow-sm pointer-events-none"
             />
 
-            <div className="relative pt-8 md:pt-10 space-y-6">
+            <div className="relative pt-10 md:pt-12 space-y-6">
               <h2 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase flex items-center gap-3">
                 <Users className="text-rose-500 w-6 h-6" />
                 Talent Acquisition

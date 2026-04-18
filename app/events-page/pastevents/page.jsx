@@ -546,7 +546,7 @@ export default function PastEventsPage() {
         {/* HERO SECTION */}
         <section className="text-center pt-36 md:pt-44 pb-20 px-6 md:px-16">
           <h1 className="text-[60px] md:text-[100px] font-bold leading-none">
-            THE <span className="text-red-500">EVENT</span> GALLERY
+            THE <span className="text-red-600">EVENT</span> GALLERY
           </h1>
 
           <p className="text-gray-600 mt-6 max-w-2xl mx-auto">

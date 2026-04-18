@@ -118,13 +118,13 @@ function FeatureCard({ title, description, icon: Icon }) {
     <motion.article
       whileHover={{ y: -6, scale: 1.01 }}
       transition={{ duration: 0.25 }}
-      className="group rounded-2xl border border-white/10 bg-black/90 p-6 text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md transition-all duration-300 hover:border-[#ff2d2d]/50 hover:shadow-[0_20px_48px_rgba(255,45,45,0.12)]"
+      className="group flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-black/90 p-6 text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md transition-all duration-300 hover:border-[#ff2d2d]/50 hover:bg-red-600 hover:shadow-[0_20px_48px_rgba(255,45,45,0.12)] w-full min-h-[260px] sm:min-h-[280px] md:min-h-[320px] lg:min-h-[340px]"
     >
-      <div className="mb-4 inline-flex rounded-xl border border-[#ff2d2d]/20 bg-[#ff2d2d]/8 p-2.5">
+      <div className="group-hover:bg-black mb-4 inline-flex rounded-xl border border-[#ff2d2d]/20 bg-[#ff2d2d]/8 p-2.5">
         <Icon className="h-5 w-5 text-[#ff2d2d]" />
       </div>
-      <h3 className="font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">{title}</h3>
-      <p className="mt-3 text-sm leading-relaxed text-white/68">{description}</p>
+      <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-white font-extrabold uppercase mb-5 text-center w-full">{title}</h3>
+      <p className="mt-3 text-sm leading-relaxed text-white/68 text-center w-full">{description}</p>
     </motion.article>
   );
 }
@@ -147,7 +147,7 @@ function ProofCard({ title, description, image, alt }) {
         />
       </div>
       <div className="p-5">
-        <h3 className="font-[var(--font-space-grotesk)] text-lg font-bold text-black">{title}</h3>
+        <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-black/68">{description}</p>
         <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#ff2d2d] transition-transform duration-300 group-hover:translate-x-1">
           Read More <ArrowRight className="h-4 w-4" />
@@ -160,7 +160,7 @@ function ProofCard({ title, description, image, alt }) {
 function StepFlow({ title, steps, accent = false }) {
   return (
     <div className="rounded-2xl border border-black/10 bg-white p-6 shadow-[0_14px_34px_rgba(0,0,0,0.05)]">
-      <h3 className="font-[var(--font-space-grotesk)] text-2xl font-bold tracking-[-0.02em] text-black">{title}</h3>
+      <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{title}</h3>
       <div className="mt-6 space-y-4">
         {steps.map((step, index) => (
           <div key={step} className="flex items-start gap-3">
@@ -190,7 +190,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="relative mx-auto max-w-[90rem] space-y-6">
           <div className="max-w-4xl space-y-5">
             <div className="relative inline-block">
-              <h1 className="font-[var(--font-space-grotesk)] text-4xl font-extrabold tracking-[-0.06em] text-black sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+              <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
                Tokenized
                 </span>
@@ -295,7 +295,7 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* INTRO */}
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">
+          <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
         What is Tokenized Real Estate on MST?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
@@ -335,7 +335,7 @@ const [formType, setFormType] = useState("General Enquiry");
 
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
-        <h2 className="font-[var(--font-space-grotesk)] text-3xl font-extrabold tracking-[-0.03em] text-black sm:text-4xl mb-2">
+        <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 mb-2">
          Why Build This on MST — Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
@@ -390,14 +390,14 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* PROBLEM + SOLUTION */}
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">
+          <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
            The Problem: India's Real Estate Market Has a Trust and Access Crisis
           </h2>
           <p className="text-base leading-8 text-black/70">
           Property transactions involve mountains of paperwork, expensive legal fees, and long waiting periods. Most Indians are completely locked out as investors. Land records in many states are still paper-based — duplicate titles, forged deeds, and ownership disputes drain courts and families alike. The World Bank estimates India loses $13 billion annually to land disputes.
           </p>
 
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">How MST Specifically Solves It</h2>
+          <h2 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">How MST Specifically Solves It</h2>
           <p className="text-base leading-8 text-black/70">
          MST's FortunaX consensus makes duplicate titles technically impossible — the chain only accepts ownership records consistent with the existing verified history. mUSD stablecoin means rental distributions are stable in value — not subject to crypto price swings. Fractional node ownership on MST means even the validation of these property records is decentralized and not controlled by any single government or corporation.
           </p>
@@ -469,7 +469,7 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* PROOFS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16">
         <SectionFade className="space-y-3">
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">Proofs of Concept</h2>
+          <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">Proofs of Concept</h2>
           <p className="max-w-2xl text-base leading-8 text-black/68">
             Real-world applications showing how MST blockchain delivers this use case across different industries and contexts.
           </p>

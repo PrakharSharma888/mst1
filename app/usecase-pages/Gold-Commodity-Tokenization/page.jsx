@@ -87,13 +87,13 @@ function FeatureCard({ title, description, icon: Icon }) {
     <motion.article
       whileHover={{ y: -6, scale: 1.01 }}
       transition={{ duration: 0.25 }}
-      className="group rounded-2xl border border-white/10 bg-black/90 p-6 text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md transition-all duration-300 hover:border-[#ff2d2d]/50 hover:shadow-[0_20px_48px_rgba(255,45,45,0.12)]"
+      className="group flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-black/90 p-6 text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md transition-all duration-300 hover:border-[#ff2d2d]/50 hover:bg-red-600 hover:shadow-[0_20px_48px_rgba(255,45,45,0.12)] w-full min-h-[260px] sm:min-h-[280px] md:min-h-[320px] lg:min-h-[340px]"
     >
-      <div className="mb-4 inline-flex rounded-xl border border-[#ff2d2d]/20 bg-[#ff2d2d]/8 p-2.5">
+      <div className="group-hover:bg-black mb-4 inline-flex rounded-xl border border-[#ff2d2d]/20 bg-[#ff2d2d]/8 p-2.5">
         <Icon className="h-5 w-5 text-[#ff2d2d]" />
       </div>
-      <h3 className="font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">{title}</h3>
-      <p className="mt-3 text-sm leading-relaxed text-white/68">{description}</p>
+      <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-white font-extrabold uppercase mb-5 text-center w-full">{title}</h3>
+      <p className="mt-3 text-sm leading-relaxed text-white/68 text-center w-full">{description}</p>
     </motion.article>
   );
 }
@@ -116,7 +116,7 @@ function ProofCard({ title, description, image, alt }) {
         />
       </div>
       <div className="p-5 flex flex-col flex-1">
-        <h3 className="font-[var(--font-space-grotesk)] text-lg font-bold text-black">{title}</h3>
+        <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-black/68">{description}</p>
         <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#ff2d2d] transition-transform duration-300 group-hover:translate-x-1">
           Read More <ArrowRight className="h-4 w-4" />
@@ -129,7 +129,7 @@ function ProofCard({ title, description, image, alt }) {
 function StepFlow({ title, steps, accent = false }) {
   return (
     <div className="rounded-2xl border border-black/10 bg-white p-6 shadow-[0_14px_34px_rgba(0,0,0,0.05)] min-h-[340px] flex flex-col h-full">
-      <h3 className="font-[var(--font-space-grotesk)] text-2xl font-bold tracking-[-0.02em] text-black">{title}</h3>
+      <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{title}</h3>
       <div className="mt-6 space-y-4">
         {steps.map((step, index) => (
           <div key={step} className="flex items-start gap-3">
@@ -157,7 +157,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="relative mx-auto max-w-[90rem] space-y-6">
           <div className="max-w-4xl space-y-5">
             <div className="relative inline-block">
-              <h1 className="font-[var(--font-space-grotesk)] text-4xl font-extrabold tracking-[-0.06em] text-black sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+              <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
                   Gold & Commodity
                 </span>
@@ -194,7 +194,7 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* INTRO */}
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">
+          <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
            What is Commodity Tokenization?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
@@ -242,7 +242,7 @@ const [formType, setFormType] = useState("General Enquiry");
             Buying physical gold requires finding a reputable dealer, paying a premium, arranging secure storage, and accepting that selling it will be slow and involve further fees. Most commodity markets are built for institutional investors with large capital. For everyday people, accessing the value-preserving properties of gold and other commodities is either impractical or entirely impossible.
           </p>
 
-          <h3 className="pt-2 font-[var(--font-space-grotesk)] text-2xl font-bold text-black">How MST Fixes It </h3>
+          <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Fixes It </h3>
           <p className="text-base leading-8 text-black/70">
            On MST Blockchain, a verified custodian holds the physical commodity in a secure, auditable reserve. Equivalent digital tokens are issued on-chain — each one representing a real, redeemable amount of the commodity. Users can buy, hold, transfer, or redeem tokens through a simple digital interface. Every token issuance, reserve audit, and transfer is permanently recorded on the blockchain — giving users the same transparency they would have if they could see inside the vault themselves.
           </p>
@@ -264,7 +264,7 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* PROOFS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16">
         <SectionFade className="space-y-3">
-          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">Proofs of Concept</h2>
+          <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">Proofs of Concept</h2>
           <p className="max-w-2xl text-base leading-8 text-black/68">
             Real-world examples showing how this use case works in practice across different industries and regions.
           </p>
