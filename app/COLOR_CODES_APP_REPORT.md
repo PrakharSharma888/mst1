@@ -1,0 +1,313 @@
+﻿# Color Codes Report (auto-generated)
+
+Scanned: 60 files under C:\mstblockchain\MST\app
+Generated: 2026-04-17T15:11:40
+
+## Hex colors
+Total: 37
+
+- #000000a1
+- #0a0a0a
+- #0b0b0b
+- #0b1a36
+- #111
+- #171717
+- #191919
+- #1a1a1a
+- #1a2745
+- #1da1f2
+- #2dd4bf
+- #5227ff
+- #b3c2e0
+- #e9eef7
+- #ea2828
+- #ededed
+- #f0f0f0
+- #f3cbce
+- #f5eaea
+- #f5f5f5
+- #f5f5f6
+- #f7d7d9
+- #f8f9fa
+- #f8fafc
+- #f8fafd
+- #f9f9f9
+- #fafafa
+- #fbe1e2
+- #fcfcfd
+- #fef2f2
+- #ff2727
+- #ff2d2d
+- #ff4d4d
+- #fff
+- #fff3f3
+- #fffaff
+- #ffffff
+
+## rgb/rgba/hsl/hsla()
+Total: 25
+
+- rgb(${r},${g},${b})
+- rgba(0, 0, 0, 0.08)
+- rgba(0, 0, 0, 0.12)
+- rgba(0, 0, 0, 0.25)
+- rgba(0, 0, 0, 0.65)
+- rgba(0, 0, 0, 0.75)
+- rgba(0,0,0,0.0)
+- rgba(0,0,0,0.04)
+- rgba(0,0,0,0.05)
+- rgba(0,0,0,0.06)
+- rgba(0,0,0,0.10)
+- rgba(0,0,0,0.22)
+- rgba(0,0,0,0.7)
+- rgba(239,68,68,0.12)
+- rgba(255, 45, 45, 0.15)
+- rgba(255,255,255,0.04)
+- rgba(255,255,255,0.08)
+- rgba(255,255,255,0.10)
+- rgba(255,255,255,0.12)
+- rgba(255,45,45,0.08)
+- rgba(255,45,45,0.10)
+- rgba(255,45,45,0.16)
+- rgba(255,45,45,0.18)
+- rgba(255,45,45,0.22)
+- rgba(255,45,45,0.25)
+
+## Tailwind color tokens found
+Total: 221
+
+- bg-black
+- bg-black/10
+- bg-black/15
+- bg-black/20
+- bg-black/25
+- bg-black/45
+- bg-black/5
+- bg-black/55
+- bg-black/70
+- bg-black/80
+- bg-black/90
+- bg-black/95
+- bg-blue-100
+- bg-blue-50
+- bg-gray-100
+- bg-gray-100/80
+- bg-gray-300
+- bg-gray-50
+- bg-gray-50/50
+- bg-gray-800
+- bg-gray-900
+- bg-green-100
+- bg-green-50
+- bg-indigo-50
+- bg-pink-600
+- bg-red-100
+- bg-red-200/20
+- bg-red-300
+- bg-red-300/20
+- bg-red-400
+- bg-red-400/10
+- bg-red-50
+- bg-red-500
+- bg-red-500/10
+- bg-red-500/20
+- bg-red-500/40
+- bg-red-500/5
+- bg-red-600
+- bg-red-600/10
+- bg-red-600/5
+- bg-red-700
+- bg-red-900
+- bg-rose-50
+- bg-slate-100
+- bg-slate-50
+- bg-slate-900
+- bg-slate-950
+- bg-teal-500/10
+- bg-white
+- bg-white/10
+- bg-white/20
+- bg-white/3
+- bg-white/30
+- bg-white/40
+- bg-white/5
+- bg-white/50
+- bg-white/55
+- bg-white/60
+- bg-white/70
+- bg-white/80
+- bg-white/90
+- bg-zinc-800
+- border-black
+- border-black/10
+- border-black/12
+- border-black/20
+- border-black/30
+- border-black/5
+- border-black/50
+- border-gray-100
+- border-gray-200
+- border-gray-300
+- border-gray-500
+- border-green-100
+- border-pink-200/50
+- border-red-100
+- border-red-200
+- border-red-200/30
+- border-red-200/40
+- border-red-200/50
+- border-red-200/70
+- border-red-300
+- border-red-300/20
+- border-red-300/25
+- border-red-300/70
+- border-red-400
+- border-red-50
+- border-red-500
+- border-red-500/10
+- border-red-500/20
+- border-red-500/25
+- border-red-500/30
+- border-red-500/35
+- border-red-500/40
+- border-red-500/50
+- border-red-500/60
+- border-red-500/70
+- border-red-500/80
+- border-red-600
+- border-red-600/50
+- border-rose-100
+- border-rose-500
+- border-slate-100
+- border-slate-200
+- border-white
+- border-white/10
+- border-white/15
+- border-white/20
+- border-white/30
+- border-white/50
+- border-white/60
+- border-white/70
+- border-zinc-200
+- from-black/20
+- from-black/30
+- from-black/35
+- from-black/40
+- from-black/50
+- from-black/55
+- from-black/70
+- from-black/80
+- from-black/90
+- from-red-100
+- from-red-50
+- from-red-50/50
+- from-red-500
+- from-red-500/10
+- from-red-500/15
+- from-red-600
+- from-red-600/90
+- from-red-900/25
+- from-red-900/35
+- from-white
+- from-white/90
+- ring-black/10
+- ring-black/5
+- ring-red-500
+- ring-red-500/30
+- ring-rose-500/5
+- text-black
+- text-black/50
+- text-black/60
+- text-black/68
+- text-black/70
+- text-black/74
+- text-black/75
+- text-black/80
+- text-blue-500
+- text-blue-600
+- text-gray-200
+- text-gray-300
+- text-gray-400
+- text-gray-500
+- text-gray-600
+- text-gray-700
+- text-gray-800
+- text-gray-900
+- text-green-600
+- text-green-700
+- text-indigo-600
+- text-red-100
+- text-red-300
+- text-red-400
+- text-red-400/60
+- text-red-400/90
+- text-red-50
+- text-red-500
+- text-red-500/10
+- text-red-500/30
+- text-red-500/60
+- text-red-500/90
+- text-red-600
+- text-rose-500
+- text-rose-600
+- text-slate-200
+- text-slate-400
+- text-slate-500
+- text-slate-600
+- text-slate-700
+- text-slate-800
+- text-slate-900
+- text-white
+- text-white/25
+- text-white/40
+- text-white/50
+- text-white/55
+- text-white/60
+- text-white/65
+- text-white/68
+- text-white/70
+- text-white/80
+- text-white/85
+- text-white/90
+- text-zinc-300
+- text-zinc-900
+- to-black
+- to-black/95
+- to-gray-200
+- to-gray-50
+- to-pink-500
+- to-pink-500/10
+- to-red-200
+- to-red-400
+- to-red-50/30
+- to-red-500
+- to-rose-500
+- to-white
+- to-zinc-100/90
+- via-black/0
+- via-black/10
+- via-black/15
+- via-black/25
+- via-black/40
+- via-black/5
+- via-pink-500
+- via-red-400
+- via-red-500
+- via-red-600
+- via-red-700/90
+- via-white
+- via-white/80
+
+## CSS variable definitions found
+Total: 10
+
+- --accent: #FF2D2D;
+- --background: #0a0a0a;
+- --background: #ffffff;
+- --color-accent: var(--accent);
+- --color-background: var(--background);
+- --color-foreground: var(--foreground);
+- --font-mono: var(--font-geist-mono);
+- --font-sans: var(--font-geist-sans);
+- --foreground: #171717;
+- --foreground: #ededed;

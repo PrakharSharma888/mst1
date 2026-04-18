@@ -107,7 +107,7 @@ export default function CareersPage() {
           className="absolute bottom-[20%] left-[10%] flex items-center gap-2 opacity-50"
         >
           <span className="relative inline-flex rounded-full h-1 w-1 bg-black"></span>
-          <span className="text-[8px] font-bold tracking-[0.25em] text-red-300 whitespace-nowrap">POSA Consensus</span>
+          <span className="text-[8px] font-bold tracking-[0.25em] text-red-300 whitespace-nowrap">POSA Consensus </span>
         </motion.div>
       </motion.div>
 
@@ -142,37 +142,46 @@ export default function CareersPage() {
       {/* --- MAIN CONTENT --- */}
       <main className="max-w-7xl mx-auto px-6 pb-24 grid lg:grid-cols-12 gap-12 relative z-10">
         {/* LEFT: HR Info */}
-        <div className="lg:col-span-4 space-y-6">
-          <h2 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase flex items-center gap-3">
-            <Users className="text-rose-500 w-6 h-6" />
-            Talent Acquisition
-          </h2>
+        <div className="lg:col-span-4">
+          <div className="relative ml-auto w-full max-w-[420px] pl-5 ">
+            <div
+              aria-hidden="true"
+              className="absolute -inset-x-3 -top-3 -bottom-35 md:-bottom-35 translate-x-3 translate-y-3 rounded-2xl bg-white border border-slate-300 shadow-sm pointer-events-none"
+            />
 
-          <div className="space-y-4">
-            {careerBenefits.map((item, i) => (
-              <a
-                key={i}
-                href={item.href}
-                className="group flex items-center p-5 bg-white border border-slate-300 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <div className={`p-4  rounded-xl mr-5 ${item.color}`}>{item.icon}</div>
-                <div>
-                  <p className="font-aeonik font-normal text-[11px] font-semibold uppercase tracking-wider text-black">{item.label}</p>
-                  <p className="font-aeonik font-normal font-semibold text-slate-700 group-hover:text-rose-600 transition-colors">{item.text}</p>
+            <div className="relative pt-8 md:pt-10 space-y-6">
+              <h2 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase flex items-center gap-3">
+                <Users className="text-rose-500 w-6 h-6" />
+                Talent Acquisition
+              </h2>
+
+              <div className="space-y-4">
+                {careerBenefits.map((item, i) => (
+                  <a
+                    key={i}
+                    href={item.href}
+                    className="group flex w-full items-center p-6 bg-white border border-slate-300 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300"
+                  >
+                    <div className={`p-5 rounded-xl mr-5 ${item.color}`}>{item.icon}</div>
+                    <div>
+                      <p className="font-aeonik font-normal text-[11px] font-semibold uppercase tracking-wider text-black">{item.label}</p>
+                      <p className="font-aeonik font-normal font-semibold text-slate-700 group-hover:text-rose-600 transition-colors">{item.text}</p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+
+              <div className="w-full p-7 bg-white border border-slate-300 rounded-2xl shadow-sm">
+                <div className="flex items-center gap-3 mb-3 text-slate-800">
+                  <MapPin className="text-rose-500 w-5 h-5" />
+                  <span className="font-aeonik font-normal font-semibold">Work Location</span>
                 </div>
-              </a>
-            ))}
-          </div>
-
-          <div className="p-6 bg-white border border-slate-300 rounded-2xl shadow-sm">
-            <div className="flex items-center gap-3 mb-3 text-slate-800">
-              <MapPin className="text-rose-500 w-5 h-5" />
-              <span className="font-aeonik font-normal font-semibold">Work Location</span>
+                <p className="font-aeonik font-normal text-sm leading-relaxed text-slate-500">
+                  Pimpri, Pune, India. <br />
+                  <span className="text-rose-600 font-medium mt-2 block underline">Hybrid & Remote options available.</span>
+                </p>
+              </div>
             </div>
-            <p className="font-aeonik font-normal text-sm leading-relaxed text-slate-500">
-              Pimpri, Pune, India. <br />
-              <span className="text-rose-600 font-medium mt-2 block underline">Hybrid & Remote options available.</span>
-            </p>
           </div>
         </div>
 
