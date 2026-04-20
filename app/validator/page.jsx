@@ -24,7 +24,7 @@ function WhyCard({ number, title, description }) {
   return (
     <div className="relative rounded-2xl border border-red-200/70 bg-white/70 backdrop-blur-sm shadow-lg overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-red-50 via-white to-white" />
-      <div className="absolute -right-0 -bottom-5 text-[5rem] font-bold leading-none text-red-500/10 select-none">
+      <div className="absolute -right-6 -bottom-10 text-[5rem] font-bold leading-none text-red-500/20 select-none">
         {number}
       </div>
       <div className="relative p-6">

@@ -272,7 +272,7 @@ export default function MSTEventSection() {
         {/* Header */}
         <div className="mb-8 sm:mb-10">
           <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
-            ALL <span className="text-red-500">EVENTS</span>
+            ALL <span className="text-red-600">EVENTS</span>
           </h2>
           <p className="mt-4 max-w-2xl text-sm text-black/60" style={{ fontFamily: 'Poppins', fontWeight: 400 }}>
             Track what’s next, revisit what shipped
