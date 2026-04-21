@@ -18,15 +18,15 @@ const stats = [
 
 const team = [
   {
-    name: 'Promod Borate',
-    role: 'Founder & CEO',
+    name: 'Pramod Borate',
+    role: 'Chairman ,Founder & CEO',
     image:
       '/assets/Pramod Sir (2).png',
     bio:
-      'Promod Borate leads MST Blockchain with a strong focus on building a scalable, reliable, and user-centric blockchain ecosystem. He drives the vision across protocol development, product innovation, and ecosystem growth, ensuring MST remains production-ready and accessible for real-world adoption.',
+      'Pramod Borate leads MST Blockchain with a strong focus on building a scalable, reliable, and user-centric blockchain ecosystem. He drives the vision across protocol development, product innovation, and ecosystem growth, ensuring MST remains production-ready and accessible for real-world adoption.',
     bio2:
-      'Beyond his leadership role, Promod is passionate about simplifying complex systems into practical solutions and actively mentors emerging builders in the Web3 space, helping them turn ideas into impactful products.',
-    linkedinHandle: '@Pramod Borate',
+      'Beyond his leadership role, Pramod is passionate about simplifying complex systems into practical solutions and actively mentors emerging builders in the Web3 space, helping them turn ideas into impactful products.',
+    linkedinHandle: '@Pramod_Borate',
     linkedinHref: 'https://www.linkedin.com/in/pramod-borate?utm_source=share_via&utm_content=profile&utm_medium=member_ios'
   },
   {
@@ -288,6 +288,7 @@ const AboutUs = () => {
           </p>
           <span className="pointer-events-none absolute left-1/2 top-full h-0 w-0 -translate-x-1/2 border-l-[16px] border-r-[16px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#1a1a1a]" />
         </div>
+        
 
         <div className="mx-auto max-w-6xl">
           {team.map((member, idx) => (

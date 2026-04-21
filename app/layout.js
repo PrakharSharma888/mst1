@@ -19,11 +19,6 @@ const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
 });
 
-
-
-import { useEffect } from "react";
-
-
 export default function RootLayout({ children }) {
   return (
     <html

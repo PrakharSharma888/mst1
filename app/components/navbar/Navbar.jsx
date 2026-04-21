@@ -119,7 +119,7 @@ const productsResources = [
   {
     name: 'BridgeKey',
     description: 'Cross-chain asset bridging',
-    href: 'https://bridgekey.io/'
+    link: 'https://bridgekey.io/'
   },
   {
     name: 'MST Buddy',
@@ -166,9 +166,9 @@ function MegaMenuItem({ href, label, description, icon: Icon, prefix }) {
     <motion.li variants={itemVariants}>
       {isExternal ? (
         <a href={href} {...commonProps}>
-          <span className="flex min-w-0 items-start gap-3">
+          <span className="flex min-w-0 items-center gap-3">
             {Icon ? (
-              <span className="mt-0.5 inline-flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-white/10 bg-white/5 text-red-500/90 transition-colors duration-300 group-hover:text-red-400">
+              <span className=" inline-flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-white/10 bg-white/5 text-red-500/90 transition-colors duration-300 group-hover:text-red-400">
                 <Icon className="h-4 w-4" />
               </span>
             ) : null}
@@ -197,9 +197,10 @@ function MegaMenuItem({ href, label, description, icon: Icon, prefix }) {
         </a>
       ) : (
         <Link href={href} {...commonProps}>
-          <span className="flex min-w-0 items-start gap-3">
+          <span className="flex min-w-0 items-center gap-3">
+            
             {Icon ? (
-              <span className="mt-0.5 inline-flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-white/10 bg-white/5 text-red-500/90 transition-colors duration-300 group-hover:text-red-400">
+              <span className=" inline-flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-white/10 bg-white/5 text-red-500/90 transition-colors duration-300 group-hover:text-red-400">
                 <Icon className="h-4 w-4" />
               </span>
             ) : null}
@@ -520,7 +521,7 @@ export default function Navbar() {
   const renderLearnDropdown = () => (
     <MegaMenu
       menuId="learn"
-      widthClass="w-[1040px] max-w-[calc(100vw-2rem)]"
+      widthClass="w-[1040px] h-full max-w-[calc(100vw-2rem)]"
       anchorRef={learnButtonRef}
       positionStrategy="fixed"
       viewportMargin={16}
@@ -575,7 +576,8 @@ export default function Navbar() {
         description: productsResources[0]?.description ?? 'Cross-chain asset bridging',
         href: productsResources[0]?.href ?? '#',
         cta: 'View product',
-        icon: productIconByName[productsResources[0]?.name] ?? FiLink
+        icon: productIconByName[productsResources[0]?.name] ?? FiLink,
+        asLink: true
       }}
     />
   );

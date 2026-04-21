@@ -25,7 +25,7 @@ export default function Footer() {
                   <motion.div
                     animate={{ rotate: [360, 0] }}
                     transition={{ duration: 60, repeat: Infinity, ease: 'linear' }}
-                    className="absolute -top-[10%] -left-[20%] w-[100%] h-[120%] border-[0.5px] border-red-500/20 rounded-full hidden lg:flex items-center justify-center"
+                    className="absolute -top-[10%] -left-[20%] w-[100%] h-[120%] border-[0.5px] border-red-500/20 rounded-full hidden lg:flex items-center justify-center z-0"
                   >
                     <div className="absolute w-[6px] h-[6px] bg-red-600 rounded-full bottom-[18%] right-[8%] shadow-[0_0_10px_#ff2d2d]" />
                     <motion.div
@@ -45,7 +45,7 @@ export default function Footer() {
                   <motion.div
                     animate={{ rotate: [0, 360] }}
                     transition={{ duration: 45, repeat: Infinity, ease: 'linear' }}
-                    className="absolute -top-[20%] -left-[30%] w-[120%] h-[140%] border-[0.5px] border-black/10 rounded-full border-dashed hidden lg:flex items-center justify-center"
+                    className="absolute -top-[20%] -left-[30%] w-[120%] h-[140%] border-[0.5px] border-black/10 rounded-full border-dashed hidden lg:flex items-center justify-center absolute inset-0 z-0 "
                   >
                     <div className="absolute w-2 h-2 bg-red-500 rounded-full top-[12%] shadow-[0_0_15px_#ff2d2d]" />
                     <motion.div
@@ -58,7 +58,7 @@ export default function Footer() {
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
                       </span>
-                      <span className="text-[10px] font-black tracking-[0.2em] text-black whitespace-nowrap">9+ Active Nodes</span>
+                      <span className="text-[10px] font-black tracking-[0.2em] text-black whitespace-nowrap z-0">9+ Active Nodes</span>
                     </motion.div>
                   </motion.div>
         
@@ -66,7 +66,7 @@ export default function Footer() {
                   <motion.div
                     animate={{ rotate: [0, 360] }}
                     transition={{ duration: 90, repeat: Infinity, ease: 'linear' }}
-                    className="absolute -top-[30%] -left-[40%] w-[150%] h-[160%] border-[0.5px] border-black/10 rounded-full hidden lg:flex items-center justify-center"
+                    className="absolute -top-[30%] -left-[40%] w-[150%] h-[160%] border-[0.5px] border-black/10 rounded-full hidden lg:flex items-center justify-center absolute inset-0 z-0 "
                   >
                     <motion.div
                       animate={{ rotate: [360, 0] }}
@@ -82,13 +82,13 @@ export default function Footer() {
                   <motion.div
                     animate={{ y: [-15, 15, -15], x: [-10, 10, -10], rotate: [0, 90, 0] }}
                     transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
-                    className="absolute top-10 right-20 w-24 h-24 border border-red-500/20 rounded-full flex items-center justify-center opacity-40"
+                    className="absolute top-10 right-20 w-24 h-24 border border-red-500/20 rounded-full flex items-center justify-center opacity-40 absolute inset-0 z-0 "
                   >
                     <div className="w-16 h-16 border border-red-500/10 rounded-full" />
                     <div className="absolute w-1.5 h-1.5 bg-red-500 rounded-full shadow-[0_0_10px_#ff2d2d] top-0" />
                   </motion.div>
                 </div>
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-10 items-start">
             
             {/* BRAND */}
@@ -111,7 +111,7 @@ export default function Footer() {
             </div>
 
             {/* ECOSYSTEM */}
-            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-center">
+            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-start">
               <h4 className="bungee-regular text-lg md:text-lg leading-tight tracking-tight text-red-600 font-extrabold uppercase mb-6" >Ecosystem</h4>
               <ul className="space-y-4  text-gray-600 text-sm">
                 <li><Link href="/validator" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Validators</Link></li>
@@ -123,7 +123,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal"
                   >
-                    Developer Support Forum
+                    Dev Support Forum
                   </a>
                 </li>
                 <li><Link href="/events-page/pastevents" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Events</Link></li>
@@ -132,22 +132,24 @@ export default function Footer() {
             </div>
 
             {/* USE CASES */}
-            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-center">
+            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-start">
               <h4 className="bungee-regular text-lg md:text-lg leading-tight tracking-tight text-red-600 font-extrabold uppercase mb-6" style={{ fontFamily: 'Montserrat', fontWeight: 800 }}>Use Cases</h4>
               <ul className="space-y-4 text-gray-600 text-sm">
                 <li><Link href="/usecase-pages/Supply-Chain-Transparency" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Supply Chain</Link></li>
                 <li><Link href="/usecase-pages/Tokenized-Real-Estate" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Real Estate Tokenization</Link></li>
-                <li><Link href="/defi" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">DeFi Liquidity</Link></li>
                 <li><Link href="/usecase-pages/Healthcare-Records" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Secure Healthcare</Link></li>
                 <li><Link href="/usecase-pages/Digital-Identity-KYC" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Digital Identity</Link></li>
-                <li><Link href="/lending" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Lending Pools</Link></li>
+                
               </ul>
             </div>
 
             {/* RESOURCES */}
-            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-center">
+            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-start">
               <h4 className="bungee-regular text-lg md:text-lg leading-tight tracking-tight text-red-600 font-extrabold uppercase mb-6">Resources</h4>
               <ul className="space-y-4 text-gray-600 text-sm">
+                <li>
+                  <Link href="/about" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">About Us</Link>
+                </li>
                 <li>
                   <a
                     href="https://github.com/mst-chain/whitepaper/blob/main/WHITEPAPER.md"
@@ -158,7 +160,7 @@ export default function Footer() {
                     Whitepaper
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://docs.mstblockchain.com/"
                     target="_blank"
@@ -167,14 +169,11 @@ export default function Footer() {
                   >
                     Docs
                   </a>
-                </li>
+                  </li> */}
+                  <li>
+                    <Link href="/contact" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Contact Us</Link>
+                  </li>
                 <li><Link href="/contact" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Support</Link></li>
-                <li>
-                  <Link href="/about" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">About Us</Link>
-                </li>
-                <li>
-                  <Link href="/contact" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Contact Us</Link>
-                </li>
                 <li>
                   <Link href="/Career" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Careers</Link>
                 </li>
@@ -190,13 +189,13 @@ export default function Footer() {
                   <input
                     type="email"
                     placeholder="YOUR EMAIL"
-                    className="rounded-full px-5 py-3 border border-red-300 bg-white flex-1 text-black outline-none placeholder:text-gray-400 focus:border-red-500 transition"
-                    style={{ fontFamily: 'Poppins', fontWeight: 400 }}
+                    className="rounded-full px-5 py-2 border border-red-300 bg-white flex-1 text-black outline-none placeholder:text-gray-400 focus:border-red-500 transition"
+                    style={{ fontFamily: 'aeonik', fontWeight: 400 }}
                   />
 
                   <button
                     type="button"
-                    className="bg-red-500 text-white px-6 py-3 rounded-full hover:bg-red-600 transition flex-shrink-0"
+                    className="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-red-600 transition flex-shrink-0"
                   >
                     SUBMIT 
                   </button>

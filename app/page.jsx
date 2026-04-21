@@ -8,7 +8,7 @@ import MSTInstitutional from './components/MSTInstitutional/MSTInstitutional';
 import ProductShowcase from './components/productSection/ProductShowcase';
 
 import UseCases from './components/UseCases/UseCase';
-import StructuralPurity from './components/Whitepaper/StructuralPurity';
+// import StructuralPurity from './components/Whitepaper/StructuralPurity';
 import FAQSection from './components/Faq/FAQSection';
 
 export default function HomePage() {
@@ -16,8 +16,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-white text-black relative">
       
       <HeroSection />
-{/* <<<<<<< HEAD */}
-{/* ======= */}
+
       <WhatIsMST />
       <ProductShowcase/>
       <UseCases/>
@@ -29,7 +28,7 @@ export default function HomePage() {
       <MSTEventSection/>
       <MSTInstitutional/>
       <FAQSection/>
-{/* >>>>>>> 464d08086313c4017d87e5cb72665f336717e512 */}
+
     </main>
   );
 }

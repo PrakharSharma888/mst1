@@ -135,30 +135,30 @@ function MegaMenuItem({ href, label, description, icon: Icon, prefix }) {
     <motion.li variants={itemVariants}>
       <Link
         href={href}
-        className="group flex items-start justify-between gap-4 rounded-xl px-3 py-2.5 text-left text-sm font-medium text-white transition-all duration-300 hover:bg-red-500/10 hover:text-red-400"
+        className="group flex items-center justify-between gap-4 rounded-xl px-3 py-2.5 text-left text-sm font-medium text-white transition-all duration-300 hover:bg-red-500/10 hover:text-red-400"
         {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       >
-        <span className="flex min-w-0 items-start gap-3">
+        <span className="flex min-w-0 items-center gap-3 text-left">
           {Icon ? (
-            <span className="mt-0.5 inline-flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-white/10 bg-white/5 text-red-500/90 transition-colors duration-300 group-hover:text-red-400">
+            <span className="inline-flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-white/10 bg-white/5 text-red-500/90 transition-colors duration-300 group-hover:text-red-400">
               <Icon className="h-4 w-4" />
             </span>
           ) : null}
 
-          <span className="min-w-0">
-            <span className="flex items-center gap-2">
+          <span className="min-w-0 text-left">
+            <span className="flex items-center gap-2 text-left">
               {prefix ? (
                 <span className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-500/90">
                   {prefix}
                 </span>
               ) : null}
-              <span className="block truncate transition-transform duration-300 group-hover:translate-x-1">
+              <span className="block truncate transition-transform duration-300 group-hover:translate-x-1 text-left">
                 {label}
               </span>
             </span>
 
             {description ? (
-              <span className="mt-1 block text-xs font-normal text-white/55 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-white/70">
+              <span className="mt-1 block text-xs font-normal text-white/55 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-white/70 text-left">
                 {description}
               </span>
             ) : null}
@@ -167,7 +167,7 @@ function MegaMenuItem({ href, label, description, icon: Icon, prefix }) {
 
         <ChevronRight
           size={16}
-          className="mt-0.5 flex-none text-white/25 transition-all duration-300 group-hover:translate-x-1 group-hover:text-red-400"
+          className="flex-none text-white/25 transition-all duration-300 group-hover:translate-x-1 group-hover:text-red-400"
         />
       </Link>
     </motion.li>
@@ -319,7 +319,7 @@ function MegaMenu({
         ref={panelRef}
         {...panelMotion}
         transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-        className={`${widthClass} h-[440px] rounded-3xl border border-red-500/20 bg-black/90 p-8 text-white shadow-[0_0_40px_rgba(255,0,0,0.2)] backdrop-blur-xl`}
+        className={`${widthClass} rounded-3xl border border-red-500/20 bg-black/90 p-2 text-white shadow-[0_0_40px_rgba(255,0,0,0.2)] backdrop-blur-xl`}
       >
         <div className="grid h-full min-h-0 grid-cols-1 gap-8 lg:grid-cols-3">
           <div
@@ -329,7 +329,7 @@ function MegaMenu({
           >
             {sections?.map((section) => (
               <div key={section.title} className="min-w-0">
-                <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-red-500">
+                <p className="text-[10px] font-extrabold uppercase tracking-[0.22em]  text-red-500">
                   {section.title}
                 </p>
 
@@ -491,7 +491,7 @@ export default function Navbar() {
   const renderLearnDropdown = () => (
     <MegaMenu
       menuId="learn"
-      widthClass="w-[1040px] max-w-[calc(100vw-2rem)]"
+      widthClass="w-[1040px] h-full max-w-[calc(100vw-2rem)]"
       anchorRef={learnButtonRef}
       positionStrategy="fixed"
       viewportMargin={16}
