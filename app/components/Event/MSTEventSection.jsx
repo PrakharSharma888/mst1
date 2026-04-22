@@ -142,18 +142,10 @@ function EventCard({ event, variant }) {
           </p>
         </div>
 
-        <div className="mt-auto flex flex-wrap gap-3 pt-5">
-          <a
-            href={event.href ?? '#'}
-            className="inline-flex min-w-[160px] flex-1 items-center justify-center rounded-xl bg-gradient-to-r from-red-600 to-red-500 px-4 py-3 text-[10px] font-bold uppercase tracking-[0.2em] text-white shadow-[0_10px_28px_rgba(255,45,45,0.22)] transition-all duration-300 hover:brightness-110 hover:shadow-[0_0_26px_rgba(255,45,45,0.38)] active:scale-[0.99]"
-            style={{ fontFamily: 'Montserrat', fontWeight: 700 }}
-          >
-            {isUpcoming ? 'Join Now' : 'View Recap'}
-          </a>
-
+        <div className="mt-auto flex justify-center pt-5">
           <a
             href={exploreHref}
-            className="inline-flex min-w-[160px] flex-1 items-center justify-center rounded-xl border border-red-500/40 bg-transparent px-4 py-3 text-[10px] font-bold uppercase tracking-[0.2em] text-white/90 transition-all duration-300 hover:border-red-500/60 hover:bg-red-500/10 hover:text-white hover:shadow-[0_0_22px_rgba(255,45,45,0.24)] active:scale-[0.99]"
+            className="inline-flex items-center justify-center rounded-xl bg-red-500 border-2 border-red-700 px-14 py-3 text-base font-bold uppercase tracking-wide text-white transition-all duration-300 hover:bg-red-600 hover:border-red-800 hover:shadow-lg active:scale-95"
             style={{ fontFamily: 'Montserrat', fontWeight: 700 }}
           >
             Explore

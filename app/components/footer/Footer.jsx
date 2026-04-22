@@ -150,6 +150,9 @@ export default function Footer() {
                 <li>
                   <Link href="/about" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">About Us</Link>
                 </li>
+                 <li>
+                    <Link href="/contact" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Contact Us</Link>
+                  </li>
                 <li>
                   <a
                     href="https://github.com/mst-chain/whitepaper/blob/main/WHITEPAPER.md"

@@ -149,7 +149,7 @@ export default function CareersPage() {
               className="absolute -inset-x-3 -top-3 -bottom-35 md:-bottom-35 translate-x-3 translate-y-3 rounded-2xl bg-white border border-black/50 shadow-sm pointer-events-none"
             />
 
-            <div className="relative pt-10 md:pt-12 space-y-6">
+            <div className="relative pt-9 md:pt-9 space-y-6" style={{ minHeight: '495px' }}>
               <h2 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase flex items-center gap-3">
                 <Users className="text-rose-500 w-6 h-6" />
                 Talent Acquisition
@@ -178,7 +178,9 @@ export default function CareersPage() {
                 </div>
                 <p className="font-aeonik font-normal text-sm leading-relaxed text-slate-500">
                   Pimpri, Pune, India. <br />
-                  <span className="text-rose-600 font-medium mt-2 block underline">Hybrid & Remote options available.</span>
+                  <span className="text-rose-600 font-medium mt-2 block underline">
+
+                  </span>
                 </p>
               </div>
             </div>

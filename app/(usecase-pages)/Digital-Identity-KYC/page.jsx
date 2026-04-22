@@ -172,7 +172,7 @@ const [formType, setFormType] = useState("General Enquiry");
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
 
                       {/* CONTACT */}
-                      <button
+                      {/* <button
                         onClick={() => {
                           setFormType("General Enquiry");
                           setOpenForm(true);
@@ -180,7 +180,7 @@ const [formType, setFormType] = useState("General Enquiry");
                         className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105"
                       >
                         Contact Us / Enquire
-                      </button>
+                      </button> */}
 
                       {/* DEMO */}
                       <button

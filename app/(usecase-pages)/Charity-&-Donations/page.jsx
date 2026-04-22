@@ -86,25 +86,13 @@ const galleryItems = [
     subtitle: 'Distribution and audit teams collaborate for transparency.',
     image: '/img3.jpeg',
     alt: 'Field coordination meeting'
-  },
-  {
-    title: 'Donor Reporting',
-    subtitle: 'Live dashboards and reporting sessions for fund transparency.',
-    image: '/1.png',
-    alt: 'Donor report dashboard'
-  },
-  {
-    title: 'Office Operations',
-    subtitle: 'The team supports every program end-to-end from the office.',
-    image: '/hero-visual-1.svg',
-    alt: 'Office team working together'
   }
 ];
 
 function GalleryCard({ title, subtitle, image, alt }) {
   return (
-    <article className="group overflow-hidden rounded-[2rem] border border-black/10 bg-white shadow-[0_16px_40px_rgba(0,0,0,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_48px_rgba(0,0,0,0.12)]">
-      <div className="relative h-64 overflow-hidden bg-slate-100">
+    <article className="group overflow-hidden rounded-[2rem] border border-black/10 bg-white shadow-[0_16px_40px_rgba(0,0,0,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_48px_rgba(0,0,0,0.12)] w-full h-[420px]">
+      <div className="relative h-56 overflow-hidden bg-slate-100">
         <Image
           src={image}
           alt={alt}
@@ -114,7 +102,6 @@ function GalleryCard({ title, subtitle, image, alt }) {
         />
       </div>
       <div className="p-6">
-        <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#ff2d2d]">Program Gallery</p>
         <h3 className="mt-3 text-xl font-bold text-black">{title}</h3>
         <p className="mt-3 text-sm leading-6 text-black/70">{subtitle}</p>
       </div>
@@ -158,24 +145,21 @@ function ProofCard({ title, description, image, alt }) {
     <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
-      className="group overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[370px] flex flex-col"
+      className="group overflow-hidden rounded-[2rem] border border-black/10 bg-white shadow-[0_16px_40px_rgba(0,0,0,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_48px_rgba(0,0,0,0.12)] w-full h-[400px]"
     >
-      <div className="relative h-[170px] overflow-hidden bg-[linear-gradient(135deg,rgba(255,45,45,0.16),rgba(0,0,0,0.04))]">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,45,45,0.25),transparent_65%)]" />
+      <div className="relative h-48 overflow-hidden bg-slate-100">
         <Image
           src={image}
           alt={alt}
           fill
           sizes="(max-width: 768px) 100vw, 33vw"
-          className="object-cover object-center transition-transform duration-300 group-hover:scale-105"
+          className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
         />
       </div>
-      <div className="p-5 flex flex-col flex-1">
-        <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase ">{title}</h3>
-        <p className="mt-2 text-sm leading-relaxed text-black/68">{description}</p>
-        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#ff2d2d] transition-transform duration-300 group-hover:translate-x-1">
-          Read More <ArrowRight className="h-4 w-4" />
-        </span>
+      <div className="p-6">
+        <h3 className="mt-3 text-xl font-bold text-black">{title}</h3>
+        <p className="mt-3 text-sm leading-6 text-black/70">{description}</p>
+        <a href="#" className="mt-4 inline-block text-sm font-semibold text-[#ff2d2d] hover:underline">Read More</a>
       </div>
     </motion.article>
   );

@@ -373,15 +373,6 @@ function MegaMenu({
               </div>
             ))}
           </div>
-
-          <div className="min-h-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:border-l lg:border-white/10 lg:pl-8">
-            <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-red-500">
-              {highlight?.sectionTitle ?? 'HIGHLIGHT'}
-            </p>
-            <div className="mt-5">
-              <HighlightCard highlight={highlight} />
-            </div>
-          </div>
         </div>
       </motion.div>
     </div>
@@ -898,16 +889,6 @@ export default function Navbar() {
                               <ChevronRight size={12} className="text-white/25 transition-transform duration-300 group-hover:translate-x-0.5" />
                             </Link>
                           ))}
-                        </div>
-                      </div>
-
-                      <div className="space-y-2">
-                        <p className="px-2 text-[10px] font-extrabold uppercase tracking-[0.22em] text-red-500">HIGHLIGHTS</p>
-                        <div className="rounded-none border border-white/15 bg-white/10 p-4">
-                          <div className="mb-3 text-[10px] font-bold uppercase tracking-[0.18em] text-white/50">LATEST TWEET</div>
-                          <div className="flex h-[120px] items-center justify-center border border-white/10 bg-black/20 text-xs text-white/60">
-                            {latestTweet || 'Tweet content coming soon'}
-                          </div>
                         </div>
                       </div>
                     </div>
