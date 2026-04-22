@@ -28,19 +28,19 @@ const proofItems = [
   {
     title: 'Land Title Registration',
     description: 'Government land titles secured with blockchain hashes — buyers and legal firms verify authenticity instantly without relying on paper documents.',
-    image: '/img3.jpeg',
+    image: '/land-records/Land Title Registration.jpg',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Tanzania Revenue Authority',
     description: 'TRA-issued tax and property documents secured with immutable blockchain records — eliminating counterfeiting and misuse.',
-    image: '/placeholder.png',
+    image: '/land-records/Tanzania Revenue Authority.jpg',
     alt: 'Express shipping supply chain'
   },
   {
     title: 'Municipal Corporation Certificates',
     description: 'Civic, compliance, and operational certificates from municipal authorities anchored on MST for instant verification and fraud prevention.',
-    image: '/hero-visual-1.svg',
+    image: '/land-records/Municipal Corporation Certificates.jpg',
     alt: 'Food and agriculture supply chain'
   }
 ];
@@ -211,7 +211,7 @@ const [formType, setFormType] = useState("General Enquiry");
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.04),transparent_40%,rgba(0,0,0,0.22))]" />
               <div className="relative h-full w-full overflow-hidden rounded-3xl border border-white/10">
                 <Image
-                  src="/imgbanner.jpg"
+                  src="/land-records/land Records.jpg"
                   alt="Supply chain banner"
                   fill
                   priority
@@ -238,7 +238,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[260px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.04))] sm:h-[330px]">
             <Image
-              src="/img1.webp"
+              src="/land-records/What are Blockchain Land Records_.jpg"
               alt="Supply chain intro"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -284,7 +284,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[280px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.05))] sm:h-[340px]">
             <Image
-              src="/img2.jpg"
+              src="/land-records/land Disputes and Title.jpg"
               alt="Problem and solution visual"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

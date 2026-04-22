@@ -28,19 +28,19 @@ const proofItems = [
   {
     title: 'Corporate Carbon Offsetting',
     description: 'Companies purchase and retire verified carbon credits on MST — with publicly auditable retirement records for every tonne claimed.',
-    image: '/img3.jpeg',
+    image: '/carbon-credit/Corporate CarbonOffsetting.jpg',
     alt: 'Digital Gold Savings Products'
   },
   {
     title: 'Renewable Energy Certificates',
     description: 'Energy producers issue renewable energy certificates on-chain — buyers can verify the source, generation date, and retirement status instantly.',
-    image: '/placeholder.png',
+    image: '/carbon-credit/Renewable EnergyCertificates.jpg',
     alt: 'Commodity-Backed Collaterals'
   },
   {
     title: 'Forest Conservation Credits',
     description: 'Reforestation and conservation projects issue verified credits with satellite and on-ground verification data anchored to each credit on MST.',
-    image: '/hero-visual-1.svg',
+    image: '/carbon-credit/Forest ConservationCredits.jpg',
     alt: 'Cross-Border Commodity Tradings'
   }
 ];
@@ -206,7 +206,7 @@ const [formType, setFormType] = useState("General Enquiry");
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.04),transparent_40%,rgba(0,0,0,0.22))]" />
               <div className="relative h-full w-full overflow-hidden rounded-3xl border border-white/10">
                 <Image
-                  src="/imgbanner.jpg"
+                  src="/carbon-credit/carbon Credit Tracking.jpg"
                   alt="Supply chain banner"
                   fill
                   priority
@@ -233,7 +233,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[260px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.04))] sm:h-[330px]">
             <Image
-              src="/img1.webp"
+              src="/carbon-credit/What is Blockchain Carbon Credit Tracking.jpg"
               alt="Supply chain intro"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -279,7 +279,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[280px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.05))] sm:h-[340px]">
             <Image
-              src="/img2.jpg"
+              src="/carbon-credit/Carbon Markets are Riddled with Credibility Issues.jpg"
               alt="Problem and solution visual"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

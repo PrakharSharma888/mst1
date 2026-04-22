@@ -29,19 +29,19 @@ const proofItems = [
   {
     title: 'Creator Community Platform',
     description: 'Content creator communities with MST on-chain membership tokens, direct audience monetization via smart contracts, and portable reputation across compatible platforms.',
-    image: '/img3.jpeg',
+    image: '/decentralized-social/Creator Community Platform.jpg',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Professional Network with Verified Credentials',
     description: 'Professional profiles with MST-verified credential display, skill reputation scores, and connection history — independent of any single professional network platform.',
-    image: '/1.png',
+    image: '/decentralized-social/Professional Network Credentials.jpg',
     alt: 'Express shipping supply chain'
   },
   {
     title: 'Fan Membership Communities',
     description: 'Artist and creator fan clubs with blockchain membership tokens, exclusive on-chain access rights, and transparent governance over community rules via MST voting smart contracts.',
-    image: '/hero-visual-1.svg',
+    image: '/decentralized-social/Fan Membership Communities.jpg',
     alt: 'Food and agriculture supply chain'
   }
 ];
@@ -208,7 +208,7 @@ const [formType, setFormType] = useState("General Enquiry");
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.04),transparent_40%,rgba(0,0,0,0.22))]" />
               <div className="relative h-full w-full overflow-hidden rounded-3xl border border-white/10">
                 <Image
-                  src="/imgbanner.jpg"
+                  src="/decentralized-social/Decentralized Social Platforms.jpg"
                   alt="Supply chain banner"
                   fill
                   priority
@@ -279,7 +279,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[260px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.04))] sm:h-[330px]">
             <Image
-              src="/img1.webp"
+              src="/decentralized-social/What is a Decentralized Social Platform.jpg"
               alt="Supply chain intro"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -379,7 +379,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[280px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.05))] sm:h-[340px]">
             <Image
-              src="/img2.jpg"
+              src="/decentralized-social/4.9 Billion People Own Nothing on Social Platforms They Built.jpg"
               alt="Problem and solution visual"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

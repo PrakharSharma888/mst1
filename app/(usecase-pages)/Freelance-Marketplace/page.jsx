@@ -28,19 +28,19 @@ const proofItems = [
   {
     title: 'Global Software Development',
     description: 'International client-developer projects with milestone-based smart contract escrow — automatic payment on delivery confirmation.',
-    image: '/img3.jpeg',
+    image: '/freelance/Global Software Development.jpg',
     alt: 'Digital Gold Savings Products'
   },
   {
     title: 'Creative Services Marketplace',
     description: 'Design, writing, and media projects with transparent deliverable definitions and automated payment release on approval.',
-    image: '/placeholder.png',
+    image: '/freelance/Creative Services Marketplace.jpg',
     alt: 'Commodity-Backed Collaterals'
   },
   {
     title: 'Consulting & Professional Services',
     description: 'Phased consulting engagements with on-chain agreements, milestone tracking, and automatic fee release at each stage.',
-    image: '/hero-visual-1.svg',
+    image: '/freelance/Consulting & Professional Services.jpg',
     alt: 'Cross-Border Commodity Tradings'
   }
 ];
@@ -214,7 +214,7 @@ const [formType, setFormType] = useState("General Enquiry");
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.04),transparent_40%,rgba(0,0,0,0.22))]" />
               <div className="relative h-full w-full overflow-hidden rounded-3xl border border-white/10">
                 <Image
-                  src="/imgbanner.jpg"
+                  src="/freelance/Freelance Marketplace.jpg"
                   alt="Supply chain banner"
                   fill
                   priority
@@ -243,7 +243,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[260px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.04))] sm:h-[330px]">
             <Image
-              src="/img1.webp"
+              src="/freelance/What is a Blockchain Freelance Marketplace.jpg"
               alt="Supply chain intro"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -289,7 +289,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[280px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.05))] sm:h-[340px]">
             <Image
-              src="/img2.jpg"
+              src="/freelance/Freelancers Often Do Not Get Paid.jpg"
               alt="Problem and solution visual"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

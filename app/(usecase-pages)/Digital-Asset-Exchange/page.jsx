@@ -28,19 +28,19 @@ const proofItems = [
   {
     title: 'MST Ecosystem Token Exchange',
     description: 'Native MST ecosystem tokens trade on-chain with fully transparent order books, smart contract matching, and instant FortunaX settlement.',
-    image: '/img3.jpeg',
+    image: '/digital-asset/Mst Ecosystem Token Exchange.png',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Tokenized Real-World Asset Trading',
     description: 'Property tokens, gold tokens, and commodity tokens trade on MST exchange with verified ownership transfer recorded on-chain at settlement.',
-    image: '/placeholder.png',
+    image: '/digital-asset/Tokenized Real-World Asset Trading.jpg',
     alt: 'Express shipping supply chain'
   },
   {
     title: 'Community Asset Marketplace',
     description: 'Gaming assets, NFT tickets, and community tokens trade peer-to-peer with smart contract escrow and atomic settlement via MST.',
-    image: '/hero-visual-1.svg',
+    image: '/digital-asset/Community Asset Marketplace.jpg',
     alt: 'Food and agriculture supply chain'
   }
 ];
@@ -233,7 +233,7 @@ const [formType, setFormType] = useState("General Enquiry");
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.04),transparent_40%,rgba(0,0,0,0.22))]" />
               <div className="relative h-full w-full overflow-hidden rounded-3xl border border-white/10">
                 <Image
-                  src="/imgbanner.jpg"
+                  src="/digital-asset/Digital Asset Exchange.png"
                   alt="Supply chain banner"
                   fill
                   priority
@@ -303,7 +303,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[260px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.04))] sm:h-[330px]">
             <Image
-              src="/img1.webp"
+              src="/digital-asset/What is a Blockchain Digital Asset Exchange on MST.png"
               alt="Supply chain intro"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -403,7 +403,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[280px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.05))] sm:h-[340px]">
             <Image
-              src="/img2.jpg"
+              src="/digital-asset/Centralized Exchanges.jpg"
               alt="Problem and solution visual"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

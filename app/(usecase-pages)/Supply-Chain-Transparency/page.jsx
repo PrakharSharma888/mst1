@@ -28,19 +28,19 @@ const proofItems = [
   {
     title: 'National Car Manufacturer',
     description: 'Vehicle parts are tracked from production to delivery with a verified history for every batch.',
-    image: '/img3.jpeg',
+    image: '/supply-chain-transperancy/National Car Manufacturer.jpg',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Express Post & Shipping',
     description: 'Package custody and transfer events are recorded to improve transparency and dispute handling.',
-    image: '/placeholder.png',
+    image: '/supply-chain-transperancy/Express Post & Shipping.jpg',
     alt: 'Express shipping supply chain'
   },
   {
     title: 'Food & Agriculture Tracking',
     description: 'Farm-to-shelf visibility helps reduce spoilage, fraud, and recall time with trusted provenance.',
-    image: '/hero-visual-1.svg',
+    image: '/supply-chain-transperancy/Food & Agriculture Tracking.jpg',
     alt: 'Food and agriculture supply chain'
   }
 ];
@@ -214,7 +214,7 @@ const [formType, setFormType] = useState("General Enquiry");
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.04),transparent_40%,rgba(0,0,0,0.22))]" />
               <div className="relative h-full w-full overflow-hidden rounded-3xl border border-white/10">
                 <Image
-                  src="/imgbanner.jpg"
+                  src="/supply-chain-transperancy/Supply chain Transparency.jpg"
                   alt="Supply chain banner"
                   fill
                   priority
@@ -241,7 +241,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[260px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.04))] sm:h-[330px]">
             <Image
-              src="/img1.webp"
+              src="/supply-chain-transperancy/What is Blockchain Supply Chain Transparency.jpg"
               alt="Supply chain intro"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -287,7 +287,7 @@ const [formType, setFormType] = useState("General Enquiry");
         <SectionFade className="group overflow-hidden rounded-3xl border border-black/10 bg-white p-2 shadow-[0_14px_36px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.01]">
           <div className="relative h-[280px] overflow-hidden rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(255,45,45,0.08),rgba(0,0,0,0.05))] sm:h-[340px]">
             <Image
-              src="/img2.jpg"
+              src="/supply-chain-transperancy/Supply Chains are Full of Blind Spots.jpg"
               alt="Problem and solution visual"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
