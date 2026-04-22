@@ -155,7 +155,7 @@ const itemVariants = {
   show: { opacity: 1, x: 0 }
 };
 
-function MegaMenuItem({ href, label, description, icon: Icon, prefix }) {
+function MegaMenuItem({ href = '#', label, description, icon: Icon, prefix }) {
   // Use <a> for external links, <Link> for internal
   const isExternal = href?.startsWith('http');
   const commonProps = {
@@ -505,16 +505,6 @@ export default function Navbar() {
           icon: buildIconByLabel[item.label]
         }))
       }))}
-      highlight={{
-        sectionTitle: 'LATEST UPDATE',
-        eyebrow: 'BUILD ON MST',
-        title: 'Ship faster with MST tooling',
-        description:
-          'Access grants, testnet resources, and developer programs — designed for teams building production-grade Web3 products.',
-        href: '/grant',
-        cta: 'View grant program',
-        icon: FiZap
-      }}
     />
   );
 
@@ -535,16 +525,6 @@ export default function Navbar() {
           icon: learnIconByLabel[item.label]
         }))
       }))}
-      highlight={{
-        sectionTitle: 'LATEST UPDATE',
-        eyebrow: 'LATEST TWEET',
-        title: 'Latest Tweet',
-        description:
-          latestTweet || 'Tweet content coming soon',
-        cta: 'View on Twitter',
-        href: 'https://twitter.com/MasterStrokeTec',
-        icon: FiBookOpen
-      }}
     />
   );
 

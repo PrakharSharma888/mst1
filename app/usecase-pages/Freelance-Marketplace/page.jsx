@@ -103,7 +103,7 @@ function ProofCard({ title, description, image, alt }) {
     <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
-      className="group overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[370px] flex flex-col"
+      className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
     >
       <div className="relative h-[170px] overflow-hidden bg-[linear-gradient(135deg,rgba(255,45,45,0.16),rgba(0,0,0,0.04))]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,45,45,0.25),transparent_65%)]" />
@@ -171,6 +171,42 @@ const [formType, setFormType] = useState("General Enquiry");
             </p>
           </div>
 
+                  {/* Responsive Button Group */}
+          <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
+
+                      {/* CONTACT */}
+                      {/* <button
+                        onClick={() => {
+                          setFormType("General Enquiry");
+                          setOpenForm(true);
+                        }}
+                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105"
+                      >
+                        Contact Us / Enquire
+                      </button> */}
+
+                      {/* DEMO */}
+                      <button
+                        onClick={() => {
+                          setFormType("Book a Demo");
+                          setOpenForm(true);
+                        }}
+                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+                      >
+                        Book a Demo
+                      </button>
+
+                      {/* EXPERT */}
+                      <button
+                        onClick={() => {
+                          setFormType("Talk to Expert");
+                          setOpenForm(true);
+                        }}
+                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#FF2D2D]"
+                      >
+                        Talk to an Expert
+                      </button>
+            </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -190,6 +226,8 @@ const [formType, setFormType] = useState("General Enquiry");
           </div>
         </SectionFade>
       </section>
+
+      
 
       {/* INTRO */}
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
