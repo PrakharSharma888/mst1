@@ -3,8 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  FiShield, FiCpu, FiLayers, FiGlobe, 
-  FiArrowRight, FiCheckCircle, FiLinkedin, FiCode 
+  FiShield, FiCpu, FiLayers, FiGlobe,
+  FiArrowRight, FiCheckCircle, FiLinkedin, FiCode
 } from "react-icons/fi";
 
 /** * DATA CONFIGURATION
@@ -77,7 +77,7 @@ const team = [
     linkedinHandle: '@kalika_Prasad',
     linkedinHref: 'https://www.linkedin.com/in/kalika-prasad-mishra-036b27103?utm_source=share_via&utm_content=profile&utm_medium=member_ios'
   },
-   {
+  {
     name: 'Ashish Kumar Jain',
     role: 'CMO',
     image:
@@ -103,11 +103,11 @@ const advisors = [
     // linkedinHref: '',
   },
   {
-  name: 'Adv. Ishita Sharma',
-  role: 'Legal Advisor',
-  image: '/assets/Ishita.png',
-  bio: 'She advises MST Blockchain on legal frameworks, compliance strategy, and regulatory alignment within the evolving Web3 ecosystem.',
-  bio2: 'Her expertise ensures that innovation is backed by strong legal foundations, enabling secure, compliant, and scalable growth across markets.'
+    name: 'Adv. Ishita Sharma',
+    role: 'Legal Advisor',
+    image: '/assets/Ishita.png',
+    bio: 'Ishita Sharma advises MST Blockchain on legal frameworks, compliance strategy, and regulatory alignment within the evolving Web3 ecosystem.',
+    bio2: 'Her expertise ensures that innovation is backed by strong legal foundations, enabling secure, compliant, and scalable growth across markets.'
     // linkedinHandle: '',
     // linkedinHref: '',
   },
@@ -156,7 +156,7 @@ const AboutUs = () => {
     <div className="bg-[#fffaff] text-gray-900 selection:bg-red-100 overflow-x-hidden">
 
       {/* 1. HERO SECTION */}
-        <section className="relative min-h-[90vh] flex items-center pt-20">
+      <section className="relative min-h-[90vh] flex items-center pt-20">
         {/* Animated Background Orbits */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
           <motion.div
@@ -172,7 +172,7 @@ const AboutUs = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center relative z-10 mb-8 sm:mb-12 md:mb-0">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -181,7 +181,7 @@ const AboutUs = () => {
               POWERING THE DECENTRALIZED FUTURE
             </span>
             <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-              About <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-pink-500">MST Blockchain</span>
+              About <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-500">MST Blockchain</span>
             </h1>
 
             <p className="mt-8 text-gray-600 text-xl leading-relaxed max-w-xl">
@@ -190,7 +190,7 @@ const AboutUs = () => {
 
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -226,13 +226,13 @@ const AboutUs = () => {
       <section className="py-32">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8">
           {[
-            { 
-              title: "Our Mission", 
+            {
+              title: "Our Mission",
               text: "To democratize finance by creating a global, permissionless infrastructure that is lightning-fast and cost-effective.",
               icon: <FiCode className="w-10 h-10 text-red-500" />
             },
-            { 
-              title: "Our Vision", 
+            {
+              title: "Our Vision",
               text: "A world where digital ownership is absolute, and technology empowers individuals over centralized entities.",
               icon: <FiGlobe className="w-10 h-10 text-red-500" />
             }
@@ -288,7 +288,7 @@ const AboutUs = () => {
           </p>
           <span className="pointer-events-none absolute left-1/2 top-full h-0 w-0 -translate-x-1/2 border-l-[16px] border-r-[16px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#1a1a1a]" />
         </div>
-        
+
 
         <div className="mx-auto max-w-6xl">
           {team.map((member, idx) => (
@@ -452,7 +452,7 @@ const AboutUs = () => {
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-4 p-5 rounded-2xl bg-white shadow-sm hover:shadow-md transition-shadow">
                 <div className="bg-green-100 p-1 rounded-full">
-                   <FiCheckCircle className="text-green-600" />
+                  <FiCheckCircle className="text-green-600" />
                 </div>
                 <span className="font-bold text-gray-700">{item}</span>
               </div>
@@ -462,8 +462,8 @@ const AboutUs = () => {
       </section>
 
       {/* 7. FINAL CALL TO ACTION */}
-      <section className="pt-8 pb-32 px-6">
-        <motion.div 
+      <section className="py-32 px-6">
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -473,17 +473,20 @@ const AboutUs = () => {
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-600 rounded-full blur-[150px] opacity-10 -ml-32 -mb-32" />
 
           <div className="relative z-10">
-            <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-white font-extrabold uppercase">Ready to Build <br />the Future?</h2>
+            <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-white font-extrabold uppercase">Ready to <span className="text-red-600">Build</span> <br />the <span className="text-red-600">Future?</span></h2>
             <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
               Join thousands of developers and visionaries building on the world's most scalable blockchain protocol.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
-              <button className="bg-red-600 text-white px-12 py-5 rounded-2xl font-bold hover:bg-red-500 transition-all shadow-xl shadow-red-900/40 text-lg">
-                Join our Telegram 
+              <button className="bg-red-600 text-white px-8 py-3 rounded-2xl font-semibold hover:bg-red-500 transition-all shadow-xl shadow-red-900/40 text-lg">
+                Join our Telegram
               </button>
-              <button className="bg-white/5 text-white border border-white/20 px-12 py-5 rounded-2xl font-bold hover:bg-white/10 transition-all backdrop-blur-md text-lg">
-                Developer Discord
-              </button>
+              <a href="https://whatsapp.com/channel/0029Vb6jTUk0VycBIjCEe11x"
+                rel="noopener noreferrer"
+                target="_blank">
+                <button className="bg-green-600 text-white border border-white/20  px-8 py-3 rounded-2xl font-semibold hover:bg-green-500 shadow-xl shadow-green-900/40 transition-all backdrop-blur-md text-lg">
+                  Join Our Community
+                </button></a>
             </div>
           </div>
         </motion.div>

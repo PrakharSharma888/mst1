@@ -30,7 +30,7 @@ const cards = [
     description:
       'Post-quantum cryptography (PQC) protocols are cryptographic algorithms designed to secure digital communications against future, powerful quantum computers, which are expected to break current public-key encryption methods like RSA and ECC. These protocols are primarily being standardized by the National Institute of Standards and Technology (NIST) and are designed to run on classical hardware while resisting quantum-based attacks.',
     link: '/Protocol',
-     ctaText: 'Explore',
+    ctaText: 'Explore',
     icon: Cpu
   }
 ];
@@ -106,13 +106,13 @@ export default function WhatIsMST() {
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-[90rem] px-4 py-12 sm:px-5 lg:px-6">
-       
+
         <h2 className="bungee-regular text-4xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
           What is <span className='text-transparent bg-clip-text bg-red-600'> MST?</span>
         </h2>
 
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-black/70 md:text-lg">
-          MST Blockchain (MSTC) is a public, EVM-compatible Layer 1 blockchain developed by India-based Masterstroke Technosoft, designed for high-speed (2000+ TPS) and low-cost decentralized applications. Using Proof of Stake Authority (PoSA), it focuses on security and efficiency for enterprise, fintech, supply chain, and digital identity use cases
+          MST Blockchain (MST) is a public, EVM-compatible Layer 1 blockchain developed by India-based Masterstroke Technosoft, designed for high-speed (400 TPS) and low-cost decentralized applications. Using Proof of Stake Authority (PoSA), it focuses on security and efficiency for enterprise, fintech, supply chain, and digital identity use cases
         </p>
 
         <motion.div

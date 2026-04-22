@@ -172,11 +172,11 @@ export default function ProtocolPage() {
             </h2>
 
             <p className="text-[#ff2d2d] font-semibold mb-2">
-              Future-Proof Security Against Quantum Attacks
+              Safeguarding Data with Advanced Quantum-Resistant Encryption
             </p>
 
             <p className="text-black/75 leading-[1.7]">
-             Post-quantum cryptography (PQC) protocols are cryptographic algorithms designed to secure digital communications against future, powerful quantum computers, which are expected to break current public-key encryption methods like RSA and ECC. These protocols are primarily being standardized by the National Institute of Standards and Technology (NIST) and are designed to run on classical hardware while resisting quantum-based attacks.
+              Post-quantum cryptography (PQC) protocols are cryptographic algorithms designed to secure digital communications against future, powerful quantum computers, which are expected to break current public-key encryption methods like RSA and ECC. These protocols are primarily being standardized by the National Institute of Standards and Technology (NIST) and are designed to run on classical hardware while resisting quantum-based attacks.
             </p>
           </div>
 

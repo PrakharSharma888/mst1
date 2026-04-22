@@ -37,25 +37,27 @@ const navItems = [
 ];
 
 const usecases = [
-  { id: '01', title: 'Carbon Credit Tracking', link: 'Carbon-Credit-Tracking' },
-  { id: '02', title: 'Charity & Donations', link: 'Charity-&-Donations' },
-  { id: '03', title: 'Decentralized Social Platforms', link: 'Decentralized-Social-Platforms' },
-  { id: '04', title: 'Decentralized Voting', link: 'Decentralized-Voting' },
-  { id: '05', title: 'Digital Asset Exchange', link: 'Digital-Asset-Exchange' },
-  { id: '06', title: 'Digital Identity KYC', link: 'Digital-Identity-KYC' },
-  { id: '07', title: 'Education Credentials', link: 'Education-Credentials' },
-  { id: '08', title: 'Enterprise Workflow Automation', link: 'Enterprise-Workflow-Automation' },
-  { id: '09', title: 'Freelance Marketplace', link: 'Freelance-Marketplace' },
-  { id: '10', title: 'Gaming Asset Ownership', link: 'Gaming-Asset-Ownership' },
-  { id: '11', title: 'Gold Commodity Tokenization', link: 'Gold-Commodity-Tokenization' },
-  { id: '12', title: 'Healthcare Records', link: 'Healthcare-Records' },
-  { id: '13', title: 'Insurance Automation', link: 'Insurance-Automation' },
-  { id: '14', title: 'Land Records', link: 'Land-Records' },
-  { id: '15', title: 'Loyalty Rewards', link: 'Loyalty-Rewards' },
-  { id: '16', title: 'NFT Ticketing', link: 'NFT-Ticketing' },
-  { id: '17', title: 'On-Chain Certificate', link: 'On-Chain-Certificate' },
-  { id: '18', title: 'Supply Chain Transparency', link: 'Supply-Chain-Transparency' },
-  { id: '19', title: 'Tokenized Real Estate', link: 'Tokenized-Real-Estate' }
+  { id: '01', title: 'On-Chain Certificate', link: 'On-Chain-Certificate' },
+  { id: '02', title: 'Supply Chain Transparency', link: 'Supply-Chain-Transparency' },
+  { id: '03', title: 'Tokenized Real Estate', link: 'Tokenized-Real-Estate' },
+  { id: '04', title: 'Insurance Automation', link: 'Insurance-Automation' },
+  { id: '05', title: 'NFT Ticketing', link: 'NFT-Ticketing' },
+  { id: '06', title: 'Carbon Credit Tracking', link: 'Carbon-Credit-Tracking' },
+  { id: '07', title: 'Charity & Donations', link: 'Charity-&-Donations' },
+  { id: '08', title: 'Decentralized Social Platforms', link: 'Decentralized-Social-Platforms' },
+  { id: '09', title: 'Decentralized Voting', link: 'Decentralized-Voting' },
+  { id: '10', title: 'Digital Asset Exchange', link: 'Digital-Asset-Exchange' },
+  { id: '11', title: 'Digital Identity KYC', link: 'Digital-Identity-KYC' },
+  { id: '12', title: 'Education Credentials', link: 'Education-Credentials' },
+  { id: '13', title: 'Enterprise Workflow Automation', link: 'Enterprise-Workflow-Automation' },
+  { id: '14', title: 'Freelance Marketplace', link: 'Freelance-Marketplace' },
+  { id: '15', title: 'Gaming Asset Ownership', link: 'Gaming-Asset-Ownership' },
+  { id: '16', title: 'Gold Commodity Tokenization', link: 'Gold-Commodity-Tokenization' },
+  { id: '17', title: 'Healthcare Records', link: 'Healthcare-Records' },
+  { id: '18', title: 'Land Records', link: 'Land-Records' },
+  { id: '19', title: 'Loyalty Rewards', link: 'Loyalty-Rewards' },
+
+
 ];
 
 const buildResources = [

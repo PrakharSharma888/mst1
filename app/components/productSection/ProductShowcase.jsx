@@ -104,6 +104,9 @@ const LogoFlipSection = () => {
       <div className="sticky top-0 h-screen items-center overflow-hidden ">
 
         <div className="container mx-auto px-6 lg:px-16 relative z-10">
+          <h2 className="bungee-regular text-4xl md:text-6xl leading-tight tracking-tight text-black mt-20 font-extrabold uppercase">
+            Our <span className='text-transparent bg-clip-text bg-red-600'>Products</span>
+          </h2>
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
             {/* LEFT → ATTRACTIVE & INTERACTIVE 3D LOGO AREA */}

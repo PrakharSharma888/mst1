@@ -82,9 +82,9 @@ const headings = [
 ];
 
 const stats = [
-  { label: 'Finality', value: 400, suffix: 'ms', active: true },
-  { label: 'Active Validators', value: 70000, suffix: '+', active: true },
-  { label: 'Total Value', value: 4.2, prefix: '$', suffix: 'B+', active: true }
+  { label: 'Average Block Time', value: 3.0, suffix: 's', decimals: 1, active: true },
+  { label: 'Active Validators', value: 70000, suffix: '+', decimals: 0, active: true },
+  { label: 'Average Tx Fees', value: 0.001, suffix: ' MSTC', decimals: 3, active: true }
 ];
 
 // 🔥 LOGOS
@@ -100,12 +100,11 @@ const partnerImages = [
 function CountUp({ value, prefix = '', suffix = '', decimals = 0 }) {
   const count = useMotionValue(0);
 
-  const rounded = useTransform(count, (latest) => {
-    const formatted = latest.toLocaleString(undefined, {
+  const formatted = useTransform(count, (latest) => {
+    return latest.toLocaleString(undefined, {
       minimumFractionDigits: decimals,
       maximumFractionDigits: decimals,
     });
-    return `${prefix}${formatted}${suffix}`;
   });
 
   const ref = useRef(null);
@@ -121,7 +120,17 @@ function CountUp({ value, prefix = '', suffix = '', decimals = 0 }) {
     }
   }, [count, value, isInView]);
 
-  return <motion.span ref={ref}>{rounded}</motion.span>;
+  return (
+    <span ref={ref} className="inline-flex items-baseline">
+      {prefix && <span>{prefix}</span>}
+      <motion.span>{formatted}</motion.span>
+      {suffix && (
+        <span className="text-[10px] sm:text-[16px] font-bold ml-1 opacity-80 uppercase tracking-tight">
+          {suffix.trim()}
+        </span>
+      )}
+    </span>
+  );
 }
 
 // highlight words
@@ -214,7 +223,7 @@ export default function HeroSection() {
               return (
                 <h1 className="bungee-regular text-4xl md:text-7xl w-full tracking-tight text-black font-extrabold uppercase">
                   {typewriter.format(headings[typewriter.index])}
-                  <span className="inline-block w-[4px] h-12 md:h-12 mb-2 bg-black align-middle animate-pulse ml-2" style={{verticalAlign:'middle',opacity:1}} />
+                  <span className="inline-block w-[4px] h-12 md:h-12 mb-2 bg-black align-middle animate-pulse ml-2" style={{ verticalAlign: 'middle', opacity: 1 }} />
                 </h1>
               );
             })()}
@@ -226,7 +235,7 @@ export default function HeroSection() {
               href="#ProductShowcase"
               className="text-center px-4 sm:px-8 py-2.5 sm:py-3 bg-black text-white text-[9px] sm:text-[11px] font-bold uppercase tracking-wide sm:tracking-widest rounded-full hover:bg-red-500 transition-all shadow-md sm:shadow-lg shadow-black/10"
             >
-             Products
+              Products
             </a>
 
             <a
@@ -258,7 +267,7 @@ export default function HeroSection() {
                     value={stat.value}
                     prefix={stat.prefix}
                     suffix={stat.suffix}
-                    decimals={stat.value % 1 !== 0 ? 1 : 0}
+                    decimals={stat.decimals}
                   />
                 </p>
               </div>
@@ -276,7 +285,7 @@ export default function HeroSection() {
       {/* 🔥 PERFECT MARQUEE */}
       <div className="absolute bottom-0 w-full py-2 sm z-10 overflow-hidden">
 
-        <PartnerMarquee/>
+        <PartnerMarquee />
 
       </div>
 

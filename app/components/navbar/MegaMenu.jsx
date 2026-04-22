@@ -29,26 +29,25 @@ const navItems = [
 ];
 
 const usecases = [
-  { id: '01', title: 'Supply Chain Logistics', link: '/usecases/supply-chain' },
-  { id: '02', title: 'Real Estate Tokenization', link: '/usecases/real-estate' },
-  { id: '03', title: 'DeFi Liquidity', link: '/usecases/defi-liquidity' },
-  { id: '04', title: 'Secure Healthcare', link: '/usecases/healthcare' },
-  { id: '05', title: 'Metaverse Gaming', link: '/usecases/metaverse' },
-  { id: '06', title: 'Digital Identity', link: '/usecases/digital-identity' },
-  { id: '07', title: 'Yield Aggregators', link: '/usecases/yield' },
-  { id: '08', title: 'Carbon Credits', link: '/usecases/carbon' },
-  { id: '09', title: 'Cross-border Pay', link: '/usecases/cross-border' },
-  { id: '10', title: 'Asset Management', link: '/usecases/asset-management' },
-  { id: '11', title: 'Oracle Networks', link: '/usecases/oracles' },
-  { id: '12', title: 'DAO Governance', link: '/usecases/dao' },
-  { id: '13', title: 'Privacy Layers', link: '/usecases/privacy' },
-  { id: '14', title: 'Escrow Services', link: '/usecases/escrow' },
-  { id: '15', title: 'Insurance Claims', link: '/usecases/insurance' },
-  { id: '16', title: 'NFT Marketplace', link: '/usecases/nft' },
-  { id: '17', title: 'Staking Protocols', link: '/usecases/staking' },
-  { id: '18', title: 'Token Vesting', link: '/usecases/vesting' },
-  { id: '19', title: 'ZK Proofs', link: '/usecases/zk' },
-  { id: '20', title: 'Lending Pools', link: '/usecases/lending' }
+  { id: '01', title: 'On-Chain Certificate', link: 'On-Chain-Certificate' },
+  { id: '02', title: 'Supply Chain Transparency', link: 'Supply-Chain-Transparency' },
+  { id: '03', title: 'Tokenized Real Estate', link: 'Tokenized-Real-Estate' },
+  { id: '04', title: 'Insurance Automation', link: 'Insurance-Automation' },
+  { id: '05', title: 'NFT Ticketing', link: 'NFT-Ticketing' },
+  { id: '06', title: 'Carbon Credit Tracking', link: 'Carbon-Credit-Tracking' },
+  { id: '07', title: 'Charity & Donations', link: 'Charity-&-Donations' },
+  { id: '08', title: 'Decentralized Social Platforms', link: 'Decentralized-Social-Platforms' },
+  { id: '09', title: 'Decentralized Voting', link: 'Decentralized-Voting' },
+  { id: '10', title: 'Digital Asset Exchange', link: 'Digital-Asset-Exchange' },
+  { id: '11', title: 'Digital Identity KYC', link: 'Digital-Identity-KYC' },
+  { id: '12', title: 'Education Credentials', link: 'Education-Credentials' },
+  { id: '13', title: 'Enterprise Workflow Automation', link: 'Enterprise-Workflow-Automation' },
+  { id: '14', title: 'Freelance Marketplace', link: 'Freelance-Marketplace' },
+  { id: '15', title: 'Gaming Asset Ownership', link: 'Gaming-Asset-Ownership' },
+  { id: '16', title: 'Gold Commodity Tokenization', link: 'Gold-Commodity-Tokenization' },
+  { id: '17', title: 'Healthcare Records', link: 'Healthcare-Records' },
+  { id: '18', title: 'Land Records', link: 'Land-Records' },
+  { id: '19', title: 'Loyalty Rewards', link: 'Loyalty-Rewards' },
 ];
 
 const buildResources = [
@@ -734,18 +733,18 @@ export default function Navbar() {
       transition-all duration-300 ease-out
       hover:shadow-[0_6px_20px_rgba(255,255,255,0.2)]
       hover:scale-[1.05] active:scale-95"
-    >
-      <span>get started</span>
-      <svg
-        className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-      </svg>
-    </Link>
-  </div>
+                >
+                  <span>get started</span>
+                  <svg
+                    className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </Link>
+              </div>
 
             </div>
 
