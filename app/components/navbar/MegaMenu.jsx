@@ -35,7 +35,7 @@ const usecases = [
   { id: '04', title: 'Insurance Automation', link: 'Insurance-Automation' },
   { id: '05', title: 'NFT Ticketing', link: 'NFT-Ticketing' },
   { id: '06', title: 'Carbon Credit Tracking', link: 'Carbon-Credit-Tracking' },
-  { id: '07', title: 'Charity & Donations', link: 'Charity-&-Donations' },
+  { id: '07', title: 'Charity & Donations', link: 'Charity-Donations' },
   { id: '08', title: 'Decentralized Social Platforms', link: 'Decentralized-Social-Platforms' },
   { id: '09', title: 'Decentralized Voting', link: 'Decentralized-Voting' },
   { id: '10', title: 'Digital Asset Exchange', link: 'Digital-Asset-Exchange' },
