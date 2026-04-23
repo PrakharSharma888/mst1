@@ -8,18 +8,18 @@ import FormModal from "@/app/components/form/FormModal";
 
 const featureItems = [
   {
-    title: 'Real Ownership — Not a Licence',
-    description: 'Every item on MST is a verifiable blockchain asset in the player/s own wallet. The game company cannot take it away, modify its properties, or delete it — the player/s ownership is cryptographic.',
+    title: 'Real Ownership , Not a Licence',
+    description: 'Every item on MST is a verifiable blockchain asset in the player/s own wallet. The game company cannot take it away, modify its properties, or delete it , the player/s ownership is cryptographic.',
     icon: CheckCircle2
   },
   {
     title: 'Rarity That is Mathematically Provable',
-    description: 'Scarcity is enforced by MST smart contracts. Rarity claims are verifiable on the blockchain explorer — players know for certain how many of an item exist, with no hidden minting by developers.',
+    description: 'Scarcity is enforced by MST smart contracts. Rarity claims are verifiable on the blockchain explorer , players know for certain how many of an item exist, with no hidden minting by developers.',
     icon: ShieldCheck
   },
   {
     title: 'Developers Earn on Every Resale',
-    description: 'MST smart contracts automatically pay developer royalties on every secondary market sale. Developers build thriving economies where they earn ongoing revenue — not just initial sales.',
+    description: 'MST smart contracts automatically pay developer royalties on every secondary market sale. Developers build thriving economies where they earn ongoing revenue , not just initial sales.',
     icon: Database
   }
 ];
@@ -39,7 +39,7 @@ const proofItems = [
   },
   {
     title: 'Achievement & Badge Tokens',
-    description: 'In-game achievements anchored on-chain as verifiable credentials — portable across compatible game platforms.',
+    description: 'In-game achievements anchored on-chain as verifiable credentials , portable across compatible game platforms.',
     image: '/gaming-asset/Achievement & Badge Tokens.jpg',
     alt: 'Food and agriculture supply chain'
   }
@@ -49,7 +49,7 @@ const creatorSteps = [
   'Developer mints the asset collection on MST with defined rarity tiers and utility rules',
   'Smart contract governs transfer conditions, secondary market royalties, and any burn mechanics',
   'Assets are linked to player accounts through an integrated game wallet or profile system',
-  'Players earn or buy assets — ownership is recorded on the blockchain the moment of acquisition',
+  'Players earn or buy assets , ownership is recorded on the blockchain the moment of acquisition',
   'Developer dashboard tracks distribution, market activity, and automatic royalty accrual in real time'
 ];
 
@@ -57,7 +57,7 @@ const verifierSteps = [
   'Player views their owned assets in the in-game inventory or their blockchain wallet',
   'They check item rarity, full provenance history, and the complete previous ownership chain',
   'They list the item on a marketplace or initiate a direct peer-to-peer transfer',
-  'Buyer confirms the purchase — smart contract executes the transfer and pays the developer royalty',
+  'Buyer confirms the purchase , smart contract executes the transfer and pays the developer royalty',
   'Both parties receive cryptographic confirmation; the full record is permanently logged on MST'
 ];
 
@@ -74,7 +74,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -101,7 +101,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -149,7 +149,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function HealthcarePage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -160,9 +160,9 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="relative inline-block">
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
-                 Gaming Asset
- 
- <span className="text-[#ff2d2d]"> Ownership</span>
+                  Gaming Asset
+
+                  <span className="text-[#ff2d2d]"> Ownership</span>
                 </span>
                 {/* <span className="mt-2 block text-[#ff2d2d]">
                  Certificate
@@ -170,34 +170,34 @@ const [formType, setFormType] = useState("General Enquiry");
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-           Your sword. Your skin. Your character. Actually yours — on the blockchain.
+              Your sword. Your skin. Your character. Actually yours , on the blockchain.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -227,7 +227,7 @@ const [formType, setFormType] = useState("General Enquiry");
               <div className="relative">
                 <p className="text-3xl font-extrabold tracking-[-0.03em] sm:text-4xl">$3.7B</p>
                 <p className="mt-2 text-sm font-medium text-white/70">Citizens Distrust Electronic Voting
-</p>
+                </p>
                 <p className="mt-1 text-xs italic text-white/50">MIT Election Lab 2024</p>
               </div>
             </div>
@@ -266,11 +266,11 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-         What is Blockchain Gaming Asset Ownership?
+            What is Blockchain Gaming Asset Ownership?
 
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-         In every traditional game, the items you earn or buy belong to the game company — not you. They exist in that company's database. If the game shuts down, a server goes offline, or your account gets banned, everything is gone. Blockchain gaming changes this completely. When game assets are minted on MST Blockchain, they are yours — truly, permanently. They live in your wallet, not in a company's database. You can sell them, trade them, or hold them across any game that supports them.
+            In every traditional game, the items you earn or buy belong to the game company , not you. They exist in that company's database. If the game shuts down, a server goes offline, or your account gets banned, everything is gone. Blockchain gaming changes this completely. When game assets are minted on MST Blockchain, they are yours , truly, permanently. They live in your wallet, not in a company's database. You can sell them, trade them, or hold them across any game that supports them.
           </p>
         </SectionFade>
 
@@ -307,10 +307,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-          Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -323,10 +323,10 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Players spend $3.7B on items they legally own nothing of — platform licence only</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Players spend $3.7B on items they legally own nothing of , platform licence only</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST items are owned by the player, recorded permanently on blockchain — provably theirs</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST items are owned by the player, recorded permanently on blockchain , provably theirs</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
@@ -334,15 +334,15 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Game shutdown = total loss of all purchased items with no compensation possible</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST items exist on blockchain — independent of any game server or company decision</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST items exist on blockchain , independent of any game server or company decision</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Rarity claims unverifiable — developers can secretly mint more items of any type</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Rarity claims unverifiable , developers can secretly mint more items of any type</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract enforces total supply — no developer can mint beyond what was declared</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract enforces total supply , no developer can mint beyond what was declared</span></span>
                 </td>
               </tr>
               <tr>
@@ -350,7 +350,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Grey market trading exposes players to scams with zero purchase protection </span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract escrow on MST — trades execute atomically with zero counterparty risk</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract escrow on MST , trades execute atomically with zero counterparty risk</span></span>
                 </td>
               </tr>
             </tbody>
@@ -365,12 +365,12 @@ const [formType, setFormType] = useState("General Enquiry");
             The Problem: Players Own Nothing
           </h2>
           <p className="text-base leading-8 text-black/70">
-           The global gaming market generates hundreds of billions in revenue — much of it from players buying in-game items. But players own none of it. The items are just entries in a company's database. Game studios can modify item values, remove items entirely, or shut down the game with no compensation to players. Meanwhile, thriving grey markets of unregulated item trading expose players to fraud and scams with zero protection.
+            The global gaming market generates hundreds of billions in revenue , much of it from players buying in-game items. But players own none of it. The items are just entries in a company's database. Game studios can modify item values, remove items entirely, or shut down the game with no compensation to players. Meanwhile, thriving grey markets of unregulated item trading expose players to fraud and scams with zero protection.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Fixes It</h3>
           <p className="text-base leading-8 text-black/70">
-          MST allows game developers to mint in-game items as blockchain assets. Rarity, utility, and transfer rules are defined in smart contracts. Once minted, ownership transfers to the player and is permanently recorded on the blockchain. Players can trade freely on open marketplaces. Developers earn programmable royalties on every secondary sale. When a game evolves, items can persist and carry value across compatible platforms.
+            MST allows game developers to mint in-game items as blockchain assets. Rarity, utility, and transfer rules are defined in smart contracts. Once minted, ownership transfers to the player and is permanently recorded on the blockchain. Players can trade freely on open marketplaces. Developers earn programmable royalties on every secondary sale. When a game evolves, items can persist and carry value across compatible platforms.
           </p>
         </SectionFade>
 
@@ -398,17 +398,17 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MST's unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MST's unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">WASMify Protocol</p>
                   <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-white font-extrabold uppercase mb-5 mt-3">
-                   Any Game Language Can Mint Items
+                    Any Game Language Can Mint Items
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   WASMify's multi-language WASM support means game developers in Unity, Unreal, or any engine can mint MST blockchain assets without learning Solidity or adopting a new tech stack.
+                    WASMify's multi-language WASM support means game developers in Unity, Unreal, or any engine can mint MST blockchain assets without learning Solidity or adopting a new tech stack.
                   </p>
                 </div>
 
@@ -418,7 +418,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     High-Frequency Gaming Transactions
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   Gaming requires thousands of item transactions per second. MST's FortunaX consensus handles high-throughput in-game economies at transaction fees so low that even ₹1 micro-items are viable.
+                    Gaming requires thousands of item transactions per second. MST's FortunaX consensus handles high-throughput in-game economies at transaction fees so low that even ₹1 micro-items are viable.
                   </p>
                 </div>
 
@@ -428,7 +428,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Mainstream Players Onboard Instantly
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    The Bridge-Key Wallet eliminates the Web3 onboarding barrier — mainstream players with no crypto experience can own, trade, and hold MST game assets from day one using familiar interfaces.
+                    The Bridge-Key Wallet eliminates the Web3 onboarding barrier , mainstream players with no crypto experience can own, trade, and hold MST game assets from day one using familiar interfaces.
                   </p>
                 </div>
               </div>

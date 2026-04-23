@@ -76,7 +76,7 @@ export default function ValidatorPage() {
     <div className="bg-[#f5f5f5] text-black min-h-screen relative overflow-hidden">
 
       {/* 🔴 BACKGROUND EFFECTS */}
-      
+
       {/* Soft gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-red-100 via-white to-white"></div>
 
@@ -193,21 +193,21 @@ export default function ValidatorPage() {
           </h1>
 
           <p className="mt-6 text-gray-600 text-lg max-w-lg">
-            Start receiving validator rewards by owning a fraction of a node — no hardware, no coding required.
+            Start receiving validator rewards by owning a fraction of a node , no hardware, no coding required.
           </p>
         </div>
 
-   
+
       </section>
 
       {/* 🔴 STEPS SECTION */}
 
-      
+
       <section className="relative z-10 max-w-6xl mx-auto px-6 py-16 space-y-20">
         <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-            From Sign-Up to<br />
-            <span className="text-red-600">Rewards in Minutes </span>
-          </h1>
+          From Sign-Up to<br />
+          <span className="text-red-600">Rewards in Minutes </span>
+        </h1>
 
         {steps.map(({ key, Icon, title, description, imageSrc, imageAlt }) => (
           <div key={key} className="grid md:grid-cols-2 gap-10 items-center">
@@ -388,7 +388,7 @@ export default function ValidatorPage() {
 
             <p className="mx-auto mt-6 max-w-3xl text-center text-lg md:text-xl text-gray-700">
               Validator node fractions are limited. Once sold out, rewards are distributed to the
-              holders — permanently recorded on-chain.
+              holders , permanently recorded on-chain.
             </p>
           </div>
         </div>

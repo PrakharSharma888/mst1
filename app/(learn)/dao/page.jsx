@@ -64,7 +64,7 @@ export default function BlockValidationPage() {
     <>
 
       <main className="relative text-black overflow-hidden bg-white z-0 relative">
-        
+
         {/* 🔴 GLOBAL ORBITAL BACKGROUND (Fixed so it stays while scrolling) */}
         <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
           {/* Orbit 1: Inner Ring */}
@@ -99,7 +99,7 @@ export default function BlockValidationPage() {
 
         {/* --- CONTENT LAYER --- */}
         <div className="relative z-10">
-          
+
           {/* 1. HERO SECTION */}
           <section className="min-h-screen flex items-center justify-center px-2 pt-16 pb-8">
             <div className="max-w-7xl mx-auto w-full">
@@ -132,10 +132,10 @@ export default function BlockValidationPage() {
           <section className="py-12 px-2 bg-gray-50/50 backdrop-blur-md">
             <div className="max-w-7xl mx-auto">
               <div className="grid md:grid-cols-2 gap-16 items-center">
-                <motion.div 
-                  initial={{ opacity: 0, x: -50 }} 
-                  whileInView={{ opacity: 1, x: 0 }} 
-                  viewport={{ once: true }} 
+                <motion.div
+                  initial={{ opacity: 0, x: -50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
                   className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl"
                 >
                   <img src="/dao/Decentralized Auto- Square.jpg" alt="Backbone" className="w-full h-full object-cover" />
@@ -172,7 +172,7 @@ export default function BlockValidationPage() {
                 {[
                   { num: "01", text: "MST Chain's DAO lets the community shape the future of the network." },
                   { num: "02", text: "Validators, developers, and token holders can submit proposals." },
-                  { num: "03", text: "Every decision — from upgrades to reward changes — is voted on." },
+                  { num: "03", text: "Every decision , from upgrades to reward changes , is voted on." },
                   { num: "04", text: "All votes are recorded on-chain for full transparency." }
                 ].map((item, i) => (
                   <motion.div key={i} whileHover={{ y: -5 }} className="p-8 rounded-2xl border border-red-100 bg-white hover:border-red-500/50 transition-all">
@@ -196,7 +196,7 @@ export default function BlockValidationPage() {
                   { step: "Implementation", desc: "Code is automatically updated on-chain." }
                 ].map((item, i) => (
                   <div key={i} className="p-6 rounded-2xl border border-gray-100 bg-white shadow-lg hover:shadow-red-500/10 transition-all group">
-                    <div className="w-10 h-10 rounded-lg bg-red-500 text-white flex items-center justify-center font-bold mb-4">{i+1}</div>
+                    <div className="w-10 h-10 rounded-lg bg-red-500 text-white flex items-center justify-center font-bold mb-4">{i + 1}</div>
                     <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{item.step}</h3>
                     <p className="text-sm text-gray-500">{item.desc}</p>
                   </div>
@@ -262,10 +262,10 @@ export default function BlockValidationPage() {
                 </div>
               </motion.div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1730808822974-b21a29d64055?q=80&w=1032&auto=format&fit=crop" 
-                  className="w-full h-full object-cover" 
-                  alt="Vote UI" 
+                <img
+                  src="https://images.unsplash.com/photo-1730808822974-b21a29d64055?q=80&w=1032&auto=format&fit=crop"
+                  className="w-full h-full object-cover"
+                  alt="Vote UI"
                 />
               </div>
             </div>

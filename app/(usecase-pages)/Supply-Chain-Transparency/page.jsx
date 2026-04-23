@@ -100,7 +100,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -148,7 +148,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -167,14 +167,14 @@ const [formType, setFormType] = useState("General Enquiry");
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-              Know exactly where products are, where they came from, and who handled them — with a modern blockchain layer built for trust, traceability, and operational clarity.
+              Know exactly where products are, where they came from, and who handled them , with a modern blockchain layer built for trust, traceability, and operational clarity.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
 
-                      {/* CONTACT
+            {/* CONTACT
                       <button
                         onClick={() => {
                           setFormType("General Enquiry");
@@ -185,28 +185,28 @@ const [formType, setFormType] = useState("General Enquiry");
                         Contact Us / Enquire
                       </button> */}
 
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -350,11 +350,11 @@ const [formType, setFormType] = useState("General Enquiry");
         </SectionFade>
       </section>
 
-      <FormModal 
-  open={openForm} 
-  setOpen={setOpenForm} 
-  formType={formType}
-/>
+      <FormModal
+        open={openForm}
+        setOpen={setOpenForm}
+        formType={formType}
+      />
     </main>
   );
 }

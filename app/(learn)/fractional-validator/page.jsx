@@ -120,7 +120,7 @@ export default function SupplyChainPage() {
                 transition={{ delay: 0.2 }}
                 className="text-gray-600 max-w-2xl text-lg"
               >
-                Start receiving validator rewards by owning a fraction of a node — no hardware, no coding required.
+                Start receiving validator rewards by owning a fraction of a node , no hardware, no coding required.
               </motion.p>
             </motion.div>
 
@@ -258,7 +258,7 @@ export default function SupplyChainPage() {
               { text: "Fully on-chain ownership with transparent rewards.", icon: <FaShieldAlt className="text-red-500 group-hover:text-red-300 transition-colors duration-300" /> },
               { text: "Receive a share of 200 MST block rewards.", icon: <FaCoins className="text-red-500 group-hover:text-red-300 transition-colors duration-300" /> },
               { text: "No expensive hardware or uptime needed.", icon: <FaServer className="text-red-500 group-hover:text-red-300 transition-colors duration-300" /> },
-              { text: "Start small — even 1 fraction.", icon: <FaSeedling className="text-red-500 group-hover:text-red-300 transition-colors duration-300" /> },
+              { text: "Start small , even 1 fraction.", icon: <FaSeedling className="text-red-500 group-hover:text-red-300 transition-colors duration-300" /> },
             ].map((item, i) => (
               <motion.div
                 key={i}

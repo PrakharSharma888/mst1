@@ -1,19 +1,19 @@
 'use client';
 
-import React, { useEffect, useRef } from "react"; 
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import gsap from "gsap"; 
-import { ScrollTrigger } from "gsap/ScrollTrigger"; 
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger); 
+gsap.registerPlugin(ScrollTrigger);
 
 import {
-  FiShield, FiCpu, FiLayers, FiGlobe, 
-  FiArrowRight, FiCheckCircle, FiLinkedin, FiTwitter, FiCode 
+  FiShield, FiCpu, FiLayers, FiGlobe,
+  FiArrowRight, FiCheckCircle, FiLinkedin, FiTwitter, FiCode
 } from "react-icons/fi";
 
 /** DATA CONFIGURATION */
-// (NO CHANGE — your code 그대로 same)
+// (NO CHANGE , your code 그대로 same)
 
 /** * DATA CONFIGURATION
  */
@@ -67,7 +67,7 @@ const team = [
     image:
       '/assets/nigelsir.jpeg',
     bio:
-      'Suresh Nair oversees operations at MST Blockchain, ensuring a seamless alignment between product strategy, execution, and user experience. He plays a key role in shaping how builders and community members interact with the ecosystem—making MST intuitive, accessible, and efficient at every touchpoint.',
+      'Suresh Nair oversees operations at MST Blockchain, ensuring a seamless alignment between product strategy, execution, and user experience. He plays a key role in shaping how builders and community members interact with the ecosystem,making MST intuitive, accessible, and efficient at every touchpoint.',
     bio2:
       'Driven by a vision of delivering a premium and user-centric experience, he ensures that every interaction within MST reflects quality, precision, and ease of use.',
     twitterHandle: '@mst_Suresh',
@@ -85,7 +85,7 @@ const team = [
     twitterHandle: '@mst_Kalika',
     twitterHref: '#'
   },
-   {
+  {
     name: 'Ashish Kumar Jain',
     role: 'CMO',
     image:
@@ -140,73 +140,73 @@ const staggerContainer = {
 
 const AboutUs = () => {
 
-  const containerRef = useRef(null); 
-
-  
+  const containerRef = useRef(null);
 
 
 
-useEffect(() => {
-  const cards = gsap.utils.toArray(".team-card");
 
-cards.forEach((card, index) => {
 
-  const isLast = index === cards.length - 1;
+  useEffect(() => {
+    const cards = gsap.utils.toArray(".team-card");
 
-  ScrollTrigger.create({
-    trigger: card,
-    start: "top top+=80",
-    end: isLast ? "bottom+=1 top" : "bottom top", // 🔥 FIX HERE
-    pin: true,
-    pinSpacing: false,
-    scrub: true,
-    invalidateOnRefresh: true,
-  });
+    cards.forEach((card, index) => {
 
-  if (!isLast) {
-    gsap.to(card, {
-      yPercent: -20,
-      ease: "none",
-      scrollTrigger: {
+      const isLast = index === cards.length - 1;
+
+      ScrollTrigger.create({
         trigger: card,
-        start: "top top",
-        end: "+=500",
+        start: "top top+=80",
+        end: isLast ? "bottom+=1 top" : "bottom top", // 🔥 FIX HERE
+        pin: true,
+        pinSpacing: false,
         scrub: true,
+        invalidateOnRefresh: true,
+      });
+
+      if (!isLast) {
+        gsap.to(card, {
+          yPercent: -20,
+          ease: "none",
+          scrollTrigger: {
+            trigger: card,
+            start: "top top",
+            end: "+=500",
+            scrub: true,
+          }
+        });
+      }
+
+      // smooth overlap movement
+      if (index !== cards.length - 1) {
+        gsap.to(card, {
+          yPercent: -20,
+          ease: "none",
+          scrollTrigger: {
+            trigger: card,
+            start: "top top",
+            end: "+=500",
+            scrub: true,
+          }
+        });
       }
     });
-  }
 
-    // smooth overlap movement
-    if (index !== cards.length - 1) {
-      gsap.to(card, {
-        yPercent: -20, 
-        ease: "none",
-        scrollTrigger: {
-          trigger: card,
-          start: "top top",
-          end: "+=500",
-          scrub: true,
-        }
-      });
-    }
-  });
+    // stop overlap after last card
+    ScrollTrigger.create({
+      trigger: ".team-card:last-child",
+      start: "bottom bottom",
+      end: "bottom bottom",
+    });
 
-  // stop overlap after last card
-  ScrollTrigger.create({
-    trigger: ".team-card:last-child",
-    start: "bottom bottom",
-    end: "bottom bottom",
-  });
-
-}, []);
+  }, []);
 
 
   return (
     <div className="bg-[#fffaff] text-gray-900 selection:bg-red-100 overflow-x-hidden">
-      
+
       {/* ALL YOUR CODE SAME ABOVE */}
       {/* 1. HERO SECTION */}
-        <section className="relative min-h-[90vh] flex items-center pt-20">
+      <section className="relative min-h-[90vh] flex items-center pt-20">
         {/* Animated Background Orbits */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
           <motion.div
@@ -222,7 +222,7 @@ cards.forEach((card, index) => {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center relative z-10">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -248,7 +248,7 @@ cards.forEach((card, index) => {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -282,13 +282,13 @@ cards.forEach((card, index) => {
       <section className="py-32">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8">
           {[
-            { 
-              title: "Our Mission", 
+            {
+              title: "Our Mission",
               text: "To democratize finance by creating a global, permissionless infrastructure that is lightning-fast and cost-effective.",
               icon: <FiCode className="w-10 h-10 text-red-500" />
             },
-            { 
-              title: "Our Vision", 
+            {
+              title: "Our Vision",
               text: "A world where digital ownership is absolute, and technology empowers individuals over centralized entities.",
               icon: <FiGlobe className="w-10 h-10 text-red-500" />
             }
@@ -335,10 +335,10 @@ cards.forEach((card, index) => {
       </section>
 
       {/* 5. MEET THE TEAM (SCREENSHOT-STYLE) */}
-      <section 
-  className="bg-gray-100 bg-fixed bg-center bg-cover" 
-  ref={containerRef}
->
+      <section
+        className="bg-gray-100 bg-fixed bg-center bg-cover"
+        ref={containerRef}
+      >
         <div className="sticky top-0 z-50 bg-[#1a1a1a] py-10 text-center">
           <p className="text-sm font-black uppercase tracking-[0.42em] text-white md:text-base">
             Meet the Core Team
@@ -415,7 +415,7 @@ cards.forEach((card, index) => {
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-4 p-5 rounded-2xl bg-white shadow-sm hover:shadow-md transition-shadow">
                 <div className="bg-green-100 p-1 rounded-full">
-                   <FiCheckCircle className="text-green-600" />
+                  <FiCheckCircle className="text-green-600" />
                 </div>
                 <span className="font-bold text-gray-700">{item}</span>
               </div>
@@ -426,7 +426,7 @@ cards.forEach((card, index) => {
 
       {/* 7. FINAL CALL TO ACTION */}
       <section className="py-32 px-6">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -442,7 +442,7 @@ cards.forEach((card, index) => {
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <button className="bg-red-600 text-white px-12 py-5 rounded-2xl font-bold hover:bg-red-500 transition-all shadow-xl shadow-red-900/40 text-lg">
-                Join our Telegram 
+                Join our Telegram
               </button>
               <button className="bg-white/5 text-white border border-white/20 px-12 py-5 rounded-2xl font-bold hover:bg-white/10 transition-all backdrop-blur-md text-lg">
                 Developer Discord

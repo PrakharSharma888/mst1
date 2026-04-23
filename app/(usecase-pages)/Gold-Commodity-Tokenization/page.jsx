@@ -14,12 +14,12 @@ const featureItems = [
   },
   {
     title: 'Fractional Ownership for Everyone',
-    description: 'Buy as little or as much as you want. Tokenization removes minimum investment barriers — anyone can own a fraction of a commodity asset.',
+    description: 'Buy as little or as much as you want. Tokenization removes minimum investment barriers , anyone can own a fraction of a commodity asset.',
     icon: ShieldCheck
   },
   {
     title: 'nstant Transfer and Settlement',
-    description: 'Transfer commodity-backed tokens to anyone, anywhere, in seconds. No dealers, no shipping, no storage arrangements — just fast, transparent digital movement.',
+    description: 'Transfer commodity-backed tokens to anyone, anywhere, in seconds. No dealers, no shipping, no storage arrangements , just fast, transparent digital movement.',
     icon: Database
   }
 ];
@@ -33,13 +33,13 @@ const proofItems = [
   },
   {
     title: 'Commodity-Backed Collateral',
-    description: 'Commodity tokens used as collateral in DeFi applications — unlocking financial utility from physical asset holdings.',
+    description: 'Commodity tokens used as collateral in DeFi applications , unlocking financial utility from physical asset holdings.',
     image: '/gold-commodity/Commodity-Backed Collateral.jpg',
     alt: 'Commodity-Backed Collaterals'
   },
   {
     title: 'Cross-Border Commodity Trading',
-    description: 'Commodity tokens transferred instantly across borders — eliminating the friction of international physical commodity markets.',
+    description: 'Commodity tokens transferred instantly across borders , eliminating the friction of international physical commodity markets.',
     image: '/gold-commodity/Cross-Border Commodity Trading.jpg',
     alt: 'Cross-Border Commodity Tradings'
   }
@@ -47,7 +47,7 @@ const proofItems = [
 
 const creatorSteps = [
   'A verified custodian establishes and audits a physical commodity reserve.',
-  'Equivalent digital tokens are issued on MST blockchain — one token per defined unit of commodity.',
+  'Equivalent digital tokens are issued on MST blockchain , one token per defined unit of commodity.',
   'Token issuance and reserve details are permanently recorded on-chain for public auditability.',
   'Users buy, hold, and transfer tokens through a simple digital wallet interface.',
   'Redemption requests are processed against the physical reserve with on-chain confirmation.'
@@ -58,7 +58,7 @@ const verifierSteps = [
   'Tokens appear in their digital wallet immediately with reserve backing confirmation.',
   'User can transfer tokens to any other wallet instantly at any time.',
   'User views on-chain reserve audit records to verify their tokens are fully backed.',
-  'Redemption request submitted on-chain — physical commodity dispatched from verified reserve.'
+  'Redemption request submitted on-chain , physical commodity dispatched from verified reserve.'
 ];
 
 const stats = [
@@ -100,7 +100,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -148,7 +148,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -170,7 +170,7 @@ const [formType, setFormType] = useState("General Enquiry");
               The trust of gold. The accessibility of a digital wallet. The transparency of the blockchain.
             </p>
           </div>
- 
+
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -195,10 +195,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-           What is Commodity Tokenization?
+            What is Commodity Tokenization?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-           Commodity tokenization simply means representing a real physical asset — like gold, silver, or oil — as digital tokens on the blockchain. Each token represents a verified amount of the underlying commodity held in a secure physical reserve. You can own, transfer, or use these tokens exactly like cash in a wallet. You can own a fraction of a gold bar for the price of a cup of coffee. Every token is backed by real commodity reserves, and the blockchain records every issuance, transfer, and redemption permanently.
+            Commodity tokenization simply means representing a real physical asset , like gold, silver, or oil , as digital tokens on the blockchain. Each token represents a verified amount of the underlying commodity held in a secure physical reserve. You can own, transfer, or use these tokens exactly like cash in a wallet. You can own a fraction of a gold bar for the price of a cup of coffee. Every token is backed by real commodity reserves, and the blockchain records every issuance, transfer, and redemption permanently.
           </p>
         </SectionFade>
 
@@ -244,7 +244,7 @@ const [formType, setFormType] = useState("General Enquiry");
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Fixes It </h3>
           <p className="text-base leading-8 text-black/70">
-           On MST Blockchain, a verified custodian holds the physical commodity in a secure, auditable reserve. Equivalent digital tokens are issued on-chain — each one representing a real, redeemable amount of the commodity. Users can buy, hold, transfer, or redeem tokens through a simple digital interface. Every token issuance, reserve audit, and transfer is permanently recorded on the blockchain — giving users the same transparency they would have if they could see inside the vault themselves.
+            On MST Blockchain, a verified custodian holds the physical commodity in a secure, auditable reserve. Equivalent digital tokens are issued on-chain , each one representing a real, redeemable amount of the commodity. Users can buy, hold, transfer, or redeem tokens through a simple digital interface. Every token issuance, reserve audit, and transfer is permanently recorded on the blockchain , giving users the same transparency they would have if they could see inside the vault themselves.
           </p>
         </SectionFade>
 
@@ -314,11 +314,11 @@ const [formType, setFormType] = useState("General Enquiry");
         </SectionFade>
       </section>
 
-      <FormModal 
-  open={openForm} 
-  setOpen={setOpenForm} 
-  formType={formType}
-/>
+      <FormModal
+        open={openForm}
+        setOpen={setOpenForm}
+        formType={formType}
+      />
     </main>
   );
 }

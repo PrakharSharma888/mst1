@@ -129,13 +129,14 @@ export default function ChatBot() {
     document.addEventListener("mousemove", handleMouseMove);
     document.addEventListener("touchmove", handleTouchMove);
 
-    const clock = new THREE.Clock();
+    const timer = new THREE.Timer();
     let timeCounter = 0;
 
     function animate() {
       requestAnimationFrame(animate);
 
-      const delta = clock.getDelta();
+      timer.update();
+      const delta = timer.getDelta();
       timeCounter += delta;
 
       if (modelReady) {

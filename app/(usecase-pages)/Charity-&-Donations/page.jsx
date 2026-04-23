@@ -9,7 +9,7 @@ import FormModal from "@/app/components/form/FormModal";
 const featureItems = [
   {
     title: 'Every Rupee is Traceable in Real Time',
-    description: 'All donations, transfers, and disbursements are recorded on MST the moment they happen. Donors log in and see their moneys exact location in the pipeline — not just a year-end report.',
+    description: 'All donations, transfers, and disbursements are recorded on MST the moment they happen. Donors log in and see their moneys exact location in the pipeline , not just a year-end report.',
     icon: CheckCircle2
   },
   {
@@ -19,7 +19,7 @@ const featureItems = [
   },
   {
     title: 'Permanent Public Audit Trail',
-    description: 'The complete disbursement history is permanently on MST blockchain — accessible to donors, tax authorities, regulators, and the general public for full independent verification at any time.',
+    description: 'The complete disbursement history is permanently on MST blockchain , accessible to donors, tax authorities, regulators, and the general public for full independent verification at any time.',
     icon: Database
   }
 ];
@@ -27,38 +27,38 @@ const featureItems = [
 const proofItems = [
   {
     title: 'NGO Campaign Fundraising',
-    description: 'Charitable campaigns with on-chain milestone gates, live fund tracking, and transparent donor impact dashboards — every rupee verifiable by any donor at any time.',
+    description: 'Charitable campaigns with on-chain milestone gates, live fund tracking, and transparent donor impact dashboards , every rupee verifiable by any donor at any time.',
     image: '/charity-donation/handshake-with-colorful.jpg',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Humanitarian Aid Distribution',
-    description: 'Emergency relief management with verified beneficiary disbursements logged immutably at every distribution point — proving aid reached the right people.',
+    description: 'Emergency relief management with verified beneficiary disbursements logged immutably at every distribution point , proving aid reached the right people.',
     image: '/charity-donation/digital-heart-hands.jpg',
     alt: 'Express shipping supply chain'
   },
   {
     title: 'Community Crowdfunding',
-    description: 'Local community fundraising with full on-chain transparency and milestone-locked fund release — building local trust in small-scale organized giving.',
+    description: 'Local community fundraising with full on-chain transparency and milestone-locked fund release , building local trust in small-scale organized giving.',
     image: '/charity-donation/3d-rendering-hand.jpg',
     alt: 'Food and agriculture supply chain'
   }
 ];
 
 const creatorSteps = [
-  'Campaign created using SARAL Protocol — any NGO launches in minutes with no blockchain expertise needed',
+  'Campaign created using SARAL Protocol , any NGO launches in minutes with no blockchain expertise needed',
   'Smart contract configured with funding goals, milestone definitions, and beneficiary payment structure',
-  'mUSD stablecoin used for donations — ensures stable value throughout campaign duration',
-  'Donations received and recorded on MST via FortunaX consensus — real-time on-chain confirmation for donors',
-  'Smart contract evaluates milestones and auto-releases funds — every disbursement permanently publicly logged'
+  'mUSD stablecoin used for donations , ensures stable value throughout campaign duration',
+  'Donations received and recorded on MST via FortunaX consensus , real-time on-chain confirmation for donors',
+  'Smart contract evaluates milestones and auto-releases funds , every disbursement permanently publicly logged'
 ];
 
 const verifierSteps = [
-  'Donor views campaign page with live on-chain funding progress and milestone status — not static estimates',
-  'Donates in mUSD (rupee-stable) — transaction confirmed on MST in seconds with on-chain receipt',
-  'Donor dashboard shows real-time fund pipeline — sees their rupees moving toward the milestone',
+  'Donor views campaign page with live on-chain funding progress and milestone status , not static estimates',
+  'Donates in mUSD (rupee-stable) , transaction confirmed on MST in seconds with on-chain receipt',
+  'Donor dashboard shows real-time fund pipeline , sees their rupees moving toward the milestone',
   'Milestone completion verified on-chain; beneficiary payout confirmed and publicly visible immediately',
-  'Donor receives permanent on-chain record of contribution — provable impact for tax purposes and personal records'
+  'Donor receives permanent on-chain record of contribution , provable impact for tax purposes and personal records'
 ];
 
 const stats = [
@@ -115,7 +115,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -189,7 +189,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -214,26 +214,26 @@ const [formType, setFormType] = useState("General Enquiry");
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
             {/* DEMO */}
             <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -304,7 +304,7 @@ const [formType, setFormType] = useState("General Enquiry");
             What is <span className="text-red-600">Blockchain </span>Charity on <span className="text-red-600">MST</span>?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-            When you donate to a cause, you usually just have to trust that the money is being used properly. MST changes this completely. Every rupee of every donation is traceable — in real time, by anyone. Fundraising is recorded on-chain. Fund releases are automated by smart contracts that only unlock money when defined milestones are genuinely met. Donors do not just receive a thank-you email — they watch their money move, milestone by milestone, to the beneficiary.
+            When you donate to a cause, you usually just have to trust that the money is being used properly. MST changes this completely. Every rupee of every donation is traceable , in real time, by anyone. Fundraising is recorded on-chain. Fund releases are automated by smart contracts that only unlock money when defined milestones are genuinely met. Donors do not just receive a thank-you email , they watch their money move, milestone by milestone, to the beneficiary.
           </p>
         </SectionFade>
 
@@ -341,10 +341,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-          Why Build This on MST — <span className="text-red-600">Not the Traditional Way?</span> 
+          Why Build This on MST , <span className="text-red-600">Not the Traditional Way?</span>
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -357,34 +357,34 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Donors receive an annual report — no way to verify how funds were actually used</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Donors receive an annual report , no way to verify how funds were actually used</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Live on-chain tracking — donors see every transaction the moment it occurs</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Live on-chain tracking , donors see every transaction the moment it occurs</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Admin costs average 20–30% of donations — platforms and banks take their share    </span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Admin costs average 20–30% of donations , platforms and banks take their share    </span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract automation reduces overhead to under 2% — more reaches beneficiaries</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract automation reduces overhead to under 2% , more reaches beneficiaries</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> No mechanism to enforce milestone-based fund release — organizations access funds freely</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> No mechanism to enforce milestone-based fund release , organizations access funds freely</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Escrow smart contracts hold funds until milestone verification — structurally enforced</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Escrow smart contracts hold funds until milestone verification , structurally enforced</span></span>
                 </td>
               </tr>
               <tr>
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd] rounded-bl-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Donation receipts are PDFs any organization can fabricate — unverifiable</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Donation receipts are PDFs any organization can fabricate , unverifiable</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST receipts are on-chain records — every rupees movement independently verifiable</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST receipts are on-chain records , every rupees movement independently verifiable</span></span>
                 </td>
               </tr>
             </tbody>
@@ -396,15 +396,15 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-            The Problem: 63% of Donors Stop Giving Due to Opacity   
+            The Problem: 63% of Donors Stop Giving Due to Opacity
           </h2>
           <p className="text-base leading-8 text-black/70">
-           The most common reason people stop donating is that they do not know where their money went. Annual reports are vague. Administrative costs are buried. Fund misuse is a documented problem in large-scale charitable operations globally. Even genuinely good organizations struggle to communicate their impact because the systems to prove it simply do not exist.
+            The most common reason people stop donating is that they do not know where their money went. Annual reports are vague. Administrative costs are buried. Fund misuse is a documented problem in large-scale charitable operations globally. Even genuinely good organizations struggle to communicate their impact because the systems to prove it simply do not exist.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Specifically Solves It</h3>
           <p className="text-base leading-8 text-black/70">
-         MSTs milestone-locked smart contracts structurally prevent fund misuse — not by trusting the organization, but by making it technically impossible to access funds before milestones are met. mUSD stablecoin ensures donation value is preserved in rupees throughout the campaign. SARAL Protocol means any NGO from a small village organization to a national foundation can launch in minutes without technical help. The transparency is not optional — it is built into the architecture.
+            MSTs milestone-locked smart contracts structurally prevent fund misuse , not by trusting the organization, but by making it technically impossible to access funds before milestones are met. mUSD stablecoin ensures donation value is preserved in rupees throughout the campaign. SARAL Protocol means any NGO from a small village organization to a national foundation can launch in minutes without technical help. The transparency is not optional , it is built into the architecture.
           </p>
         </SectionFade>
 
@@ -432,27 +432,27 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MSTs unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MSTs unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">FortunaX Consensus</p>
                   <h3 className="mt-3 font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">
-                  Instant Transaction Confirmation
+                    Instant Transaction Confirmation
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    Donation transactions are confirmed on MST in seconds via FortunaX — donors receive real-time confirmation and the on-chain record is immediately visible to all authorized parties.
+                    Donation transactions are confirmed on MST in seconds via FortunaX , donors receive real-time confirmation and the on-chain record is immediately visible to all authorized parties.
                   </p>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">mUSD Stablecoin</p>
                   <h3 className="mt-3 font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">
-                   Stable Donation Value in Rupees
+                    Stable Donation Value in Rupees
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                  Donations made in mUSD maintain stable rupee value throughout the campaign — donors know their contribution is not subject to crypto volatility before it reaches beneficiaries.
+                    Donations made in mUSD maintain stable rupee value throughout the campaign , donors know their contribution is not subject to crypto volatility before it reaches beneficiaries.
                   </p>
                 </div>
 
@@ -462,7 +462,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Any NGO Can Launch in Minutes
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                  MSTs SARAL Protocol means any registered NGO, regardless of technical capacity, can launch a fully transparent on-chain donation campaign — with no blockchain expertise required.
+                    MSTs SARAL Protocol means any registered NGO, regardless of technical capacity, can launch a fully transparent on-chain donation campaign , with no blockchain expertise required.
                   </p>
                 </div>
               </div>
@@ -503,7 +503,7 @@ const [formType, setFormType] = useState("General Enquiry");
             See Our Programs and Office in Action
           </h2>
           <p className="max-w-3xl text-base leading-8 text-black/70">
-            A visual showcase of how MST supports every program stage — from planning and verification to field coordination and donor transparency.
+            A visual showcase of how MST supports every program stage , from planning and verification to field coordination and donor transparency.
           </p>
         </SectionFade>
 
@@ -561,7 +561,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   Ready to Build On-Chain Certificate on MST?
                 </h2>
                 <p className="mt-3 text-sm leading-7 text-white/85">
-                  Our team will walk you through exactly how MST&apos;s protocols — SARAL, WASMify, Klethesia, and FortunaX — deliver this use case for your organization.
+                  Our team will walk you through exactly how MST&apos;s protocols , SARAL, WASMify, Klethesia, and FortunaX , deliver this use case for your organization.
                 </p>
               </div>
 

@@ -26,7 +26,7 @@ export default function AmbassadorPage() {
 
       {/* ================= HERO ================= */}
       <section className="relative min-h-[85vh] flex items-center pt-20 overflow-hidden bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-red-50/50 via-transparent to-transparent">
-        
+
         {/* Decorative Background Blur */}
         <div className="absolute top-20 right-[-10%] w-[400px] h-[400px] bg-red-200/20 blur-[120px] rounded-full -z-10" />
 
@@ -45,7 +45,7 @@ export default function AmbassadorPage() {
             <p className="mt-10 text-slate-500 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed font-medium">
               The MST Community brings together developers, entrepreneurs, researchers,
               and everyday users who believe in building a decentralized, real-world ready
-              blockchain. Whether you’re here to experiment, launch, or simply learn—
+              blockchain. Whether you’re here to experiment, launch, or simply learn,
               you’ll find your place here.
             </p>
           </motion.div>
@@ -76,8 +76,8 @@ export default function AmbassadorPage() {
             </p>
 
             <div className="bg-white border border-black/20 p-6 rounded-2xl shadow-sm mb-10">
-               <p className="text-slate-600">
-                <span className="text-red-600 font-bold uppercase text-sm tracking-wider mr-2">You’ll Get:</span> 
+              <p className="text-slate-600">
+                <span className="text-red-600 font-bold uppercase text-sm tracking-wider mr-2">You’ll Get:</span>
                 Recognition as a City Ambassador, event support, networking with global leaders, and early access to MST updates.
               </p>
             </div>
@@ -129,7 +129,7 @@ export default function AmbassadorPage() {
 
             <div className="bg-white border border-black/20 p-6 rounded-2xl shadow-sm mb-10">
               <p className="text-slate-600">
-                <span className="text-red-600 font-bold uppercase text-sm tracking-wider mr-2">You’ll Get:</span> 
+                <span className="text-red-600 font-bold uppercase text-sm tracking-wider mr-2">You’ll Get:</span>
                 Official certificate, mentorship opportunities, access to grants, and exclusive learning sessions.
               </p>
             </div>
@@ -167,7 +167,7 @@ export default function AmbassadorPage() {
 
             <div className="bg-white border border-black/20 p-6 rounded-2xl shadow-sm mb-10">
               <p className="text-slate-600">
-                <span className="text-red-600 font-bold uppercase text-sm tracking-wider mr-2">You’ll Get:</span> 
+                <span className="text-red-600 font-bold uppercase text-sm tracking-wider mr-2">You’ll Get:</span>
                 Official certificate, mentorship opportunities, access to grants, and exclusive learning sessions.
               </p>
             </div>
@@ -190,7 +190,7 @@ export default function AmbassadorPage() {
       {/* ================= WHY JOIN ================= */}
       <section className=" bg-red-800 text-white overflow-hidden relative">
         <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10 pointer-events-none"></div>
-        
+
         <div className="max-w-7xl mx-auto px-6 py-6 relative z-10">
           <h2 className="bungee-regular text-4xl md:text-6xl leading-tight tracking-tight text-white font-extrabold uppercase mb-16 m-0 p-0">Why Join?</h2>
 
@@ -267,7 +267,7 @@ export default function AmbassadorPage() {
                     <div className="w-24 h-24 rounded-3xl bg-white border border-slate-100 shadow-xl shadow-slate-100 flex items-center justify-center mb-8 group-hover:bg-red-600 group-hover:text-white transition-all duration-300">
                       <span className="text-3xl bungee-regular">0{i + 1}</span>
                     </div>
-                    
+
                     <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-red-600 font-extrabold uppercase m-0 p-0 mb-4">Step {i + 1}</h3>
                     <p className="text-slate-600 text-lg leading-relaxed font-medium px-4 md:px-0">
                       {text}
@@ -279,7 +279,7 @@ export default function AmbassadorPage() {
           </div>
         </div>
       </section>
-      
+
       {/* Subtle Footer */}
       <footer className="py-12 border-t border-slate-100 text-center">
         <p className="text-slate-400 text-sm font-medium tracking-wide uppercase">© 2024 MST Community Protocol</p>

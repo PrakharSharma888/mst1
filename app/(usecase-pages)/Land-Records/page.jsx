@@ -27,13 +27,13 @@ const featureItems = [
 const proofItems = [
   {
     title: 'Land Title Registration',
-    description: 'Government land titles secured with blockchain hashes — buyers and legal firms verify authenticity instantly without relying on paper documents.',
+    description: 'Government land titles secured with blockchain hashes , buyers and legal firms verify authenticity instantly without relying on paper documents.',
     image: '/land-records/Land Title Registration.jpg',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Tanzania Revenue Authority',
-    description: 'TRA-issued tax and property documents secured with immutable blockchain records — eliminating counterfeiting and misuse.',
+    description: 'TRA-issued tax and property documents secured with immutable blockchain records , eliminating counterfeiting and misuse.',
     image: '/land-records/Tanzania Revenue Authority.jpg',
     alt: 'Express shipping supply chain'
   },
@@ -148,7 +148,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -159,7 +159,7 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="relative inline-block">
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
-                Land Records
+                  Land Records
                 </span>
               </h1>
             </div>
@@ -171,8 +171,8 @@ const [formType, setFormType] = useState("General Enquiry");
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
 
-                      {/* CONTACT */}
-                      {/* <button
+            {/* CONTACT */}
+            {/* <button
                         onClick={() => {
                           setFormType("General Enquiry");
                           setOpenForm(true);
@@ -182,28 +182,28 @@ const [formType, setFormType] = useState("General Enquiry");
                         Contact Us / Enquire
                       </button> */}
 
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -228,10 +228,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-         What are Blockchain Land Records?
+            What are Blockchain Land Records?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-           Blockchain land records work exactly like a traditional land registry — except that the records are stored permanently on the blockchain and cannot be altered, duplicated, or destroyed. When a property is registered on MST, the ownership record is locked with a unique digital fingerprint. Transfers of ownership create new records linked to the original. Buyers, governments, legal firms, and banks can verify the current and historical ownership of any property instantly — without relying on paper documents or a single centralized government database.
+            Blockchain land records work exactly like a traditional land registry , except that the records are stored permanently on the blockchain and cannot be altered, duplicated, or destroyed. When a property is registered on MST, the ownership record is locked with a unique digital fingerprint. Transfers of ownership create new records linked to the original. Buyers, governments, legal firms, and banks can verify the current and historical ownership of any property instantly , without relying on paper documents or a single centralized government database.
           </p>
         </SectionFade>
 
@@ -269,15 +269,15 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-           The Problem: Land Disputes and Title Fraud are Endemic
+            The Problem: Land Disputes and Title Fraud are Endemic
           </h2>
           <p className="text-base leading-8 text-black/70">
-          In many regions across the world, land ownership records are still maintained on paper or in poorly secured digital systems. This creates enormous opportunities for fraud — duplicate titles, forged deeds, and deliberate ownership disputes. Legal battles over land can drag on for years and cost families their savings. In many cases, the fraudulent record is indistinguishable from the genuine one because both exist in the same vulnerable system.
+            In many regions across the world, land ownership records are still maintained on paper or in poorly secured digital systems. This creates enormous opportunities for fraud , duplicate titles, forged deeds, and deliberate ownership disputes. Legal battles over land can drag on for years and cost families their savings. In many cases, the fraudulent record is indistinguishable from the genuine one because both exist in the same vulnerable system.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Fixes It</h3>
           <p className="text-base leading-8 text-black/70">
-          MST anchors land ownership records on the blockchain with a unique hash. Whenever ownership transfers, the new ownership is recorded in a way that links directly to the previous record — creating an unbroken chain of provenance. Anyone can verify the current owner and the complete ownership history instantly. Duplicate titles cannot exist because the blockchain only accepts records that are consistent with the existing chain. Fraud becomes structurally impossible.
+            MST anchors land ownership records on the blockchain with a unique hash. Whenever ownership transfers, the new ownership is recorded in a way that links directly to the previous record , creating an unbroken chain of provenance. Anyone can verify the current owner and the complete ownership history instantly. Duplicate titles cannot exist because the blockchain only accepts records that are consistent with the existing chain. Fraud becomes structurally impossible.
           </p>
         </SectionFade>
 
@@ -296,7 +296,7 @@ const [formType, setFormType] = useState("General Enquiry");
 
       {/* PROOFS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16">
-        
+
         <SectionFade className="space-y-3">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">Proofs of Concept</h2>
           <p className="max-w-2xl text-base leading-8 text-black/68">
@@ -320,47 +320,47 @@ const [formType, setFormType] = useState("General Enquiry");
       </section>
 
       {/* STEPS */}
-          <section className='mx-auto text-center w-full max-w-[90rem] px-6 py-16 md:px-16'>
-                  <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">See How It Works Step by Step</h3>
+      <section className='mx-auto text-center w-full max-w-[90rem] px-6 py-16 md:px-16'>
+        <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">See How It Works Step by Step</h3>
         <p className="text-base leading-8 text-black/70">
-         Two simple flows — one for whoever is issuing or creating, and one for whoever is verifying or using. Both powered by MST blockchain behind the scenes.
-          </p>
+          Two simple flows , one for whoever is issuing or creating, and one for whoever is verifying or using. Both powered by MST blockchain behind the scenes.
+        </p>
 
-<section
-  className="mx-auto w-full max-w-[90rem] px-2 py-10 sm:px-6 sm:py-16 md:px-16
+        <section
+          className="mx-auto w-full max-w-[90rem] px-2 py-10 sm:px-6 sm:py-16 md:px-16
     grid grid-cols-1 gap-6
     lg:grid-cols-2 lg:gap-6
     min-h-0"
->
+        >
 
-  {/* LEFT */}
+          {/* LEFT */}
 
-  <SectionFade className="h-full min-h-0 flex flex-col">
-    <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
-      {/* Header (fixed) */}
-      <div className="p-4 border-b font-semibold">Creator / Issuer Flow</div>
-      {/* Scrollable content */}
-      <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
-        <StepFlow steps={creatorSteps} />
-      </div>
-    </div>
-  </SectionFade>
+          <SectionFade className="h-full min-h-0 flex flex-col">
+            <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
+              {/* Header (fixed) */}
+              <div className="p-4 border-b font-semibold">Creator / Issuer Flow</div>
+              {/* Scrollable content */}
+              <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
+                <StepFlow steps={creatorSteps} />
+              </div>
+            </div>
+          </SectionFade>
 
-  {/* RIGHT */}
+          {/* RIGHT */}
 
-  <SectionFade className="h-full min-h-0 flex flex-col">
-    <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
-      {/* Header (fixed) */}
-      <div className="p-4 border-b font-semibold">User / Verifier Flow</div>
-      {/* Scrollable content */}
-      <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
-        <StepFlow steps={verifierSteps} accent />
-      </div>
-    </div>
-  </SectionFade>
+          <SectionFade className="h-full min-h-0 flex flex-col">
+            <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
+              {/* Header (fixed) */}
+              <div className="p-4 border-b font-semibold">User / Verifier Flow</div>
+              {/* Scrollable content */}
+              <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
+                <StepFlow steps={verifierSteps} accent />
+              </div>
+            </div>
+          </SectionFade>
 
-</section>
-          </section>
+        </section>
+      </section>
 
       {/* STATS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pb-20 pt-6 md:px-16">

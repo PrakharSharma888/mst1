@@ -9,17 +9,17 @@ import FormModal from "@/app/components/form/FormModal";
 const featureItems = [
   {
     title: 'Tokens Customers Actually Own',
-    description: 'MST loyalty tokens are digital assets in the customer/s own Bridge-Key Wallet — not points in a brands database. The brand cannot expire them without the customers consent.',
+    description: 'MST loyalty tokens are digital assets in the customer/s own Bridge-Key Wallet , not points in a brands database. The brand cannot expire them without the customers consent.',
     icon: CheckCircle2
   },
   {
-    title: 'Rules Written in Code — Never Changed',
+    title: 'Rules Written in Code , Never Changed',
     description: 'Earn conditions, expiry logic, tier upgrades, and redemption terms are encoded in MST smart contracts. Brands literally cannot change the rules after a customer has earned their tokens.',
     icon: ShieldCheck
   },
   {
     title: 'Spend Across the Entire Partner Network',
-    description: 'MST tokens can be redeemed across any brand in the partner ecosystem. Customers build value that works for them — not points locked to one overpriced catalogue.',
+    description: 'MST tokens can be redeemed across any brand in the partner ecosystem. Customers build value that works for them , not points locked to one overpriced catalogue.',
     icon: Database
   }
 ];
@@ -27,7 +27,7 @@ const featureItems = [
 const proofItems = [
   {
     title: 'Retail Rewards Programme',
-    description: 'Tokenized loyalty points earned across retail purchases — redeemable with partner brands and fully tracked on-chain.',
+    description: 'Tokenized loyalty points earned across retail purchases , redeemable with partner brands and fully tracked on-chain.',
     image: '/loyalty-rewards/Retail Rewards Programme.jpg',
     alt: 'National car manufacturer supply chain'
   },
@@ -39,7 +39,7 @@ const proofItems = [
   },
   {
     title: 'Community Engagement Tokens',
-    description: 'Rewards for active community participation, referrals, and contributions — with transparent on-chain leaderboards.',
+    description: 'Rewards for active community participation, referrals, and contributions , with transparent on-chain leaderboards.',
     image: '/loyalty-rewards/Community Engagement Tokens.jpg',
     alt: 'Food and agriculture supply chain'
   }
@@ -47,18 +47,18 @@ const proofItems = [
 
 const creatorSteps = [
   'Brand sets up a loyalty campaign with earn rules, token supply, and reward tiers',
-  'Smart contract encodes all conditions — expiry logic, partner redemption terms, and tier upgrades',
+  'Smart contract encodes all conditions , expiry logic, partner redemption terms, and tier upgrades',
   'Customers automatically earn tokens through qualifying purchases or actions',
   'Tokens appear instantly in the customer\'s wallet or loyalty app account',
   'Brand dashboard tracks all token activity, redemptions, and real-time campaign performance'
 ];
 
 const verifierSteps = [
-  'Customer completes a qualifying action — a purchase, referral, or engagement activity',
+  'Customer completes a qualifying action , a purchase, referral, or engagement activity',
   'Tokens are credited to their loyalty wallet instantly via smart contract',
   'Customer browses available rewards across the brand and its partner network',
   'They redeem tokens for offers, exclusive access, or partner brand benefits',
-  'Full transaction history is visible in their profile — every earn and spend recorded'
+  'Full transaction history is visible in their profile , every earn and spend recorded'
 ];
 
 const stats = [
@@ -74,7 +74,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -149,7 +149,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function HealthcarePage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -161,8 +161,8 @@ const [formType, setFormType] = useState("General Enquiry");
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
                   Loyalty &
- 
- <span className="text-[#ff2d2d]"> Rewards</span>
+
+                  <span className="text-[#ff2d2d]"> Rewards</span>
                 </span>
                 {/* <span className="mt-2 block text-[#ff2d2d]">
                  Certificate
@@ -170,34 +170,34 @@ const [formType, setFormType] = useState("General Enquiry");
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-           Loyalty tokens with real value. No expiry surprises. No locked-in redemptions.
+              Loyalty tokens with real value. No expiry surprises. No locked-in redemptions.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -246,7 +246,7 @@ const [formType, setFormType] = useState("General Enquiry");
                 <p className="text-3xl font-extrabold tracking-[-0.03em] sm:text-4xl">$2T</p>
                 <p className="mt-2 text-sm font-medium text-white/70">Annual Loyalty Programme Market Spend</p>
                 <p className="mt-1 text-xs italic text-white/50">Deloitte Insights 2024
-</p>
+                </p>
               </div>
             </div>
 
@@ -255,9 +255,9 @@ const [formType, setFormType] = useState("General Enquiry");
               <div className="relative">
                 <p className="text-3xl font-extrabold tracking-[-0.03em] sm:text-4xl">45%</p>
                 <p className="mt-2 text-sm font-medium text-white/70">Higher Retention with Blockchain Loyalty
-</p>
+                </p>
                 <p className="mt-1 text-xs italic text-white/50">Gartner Research 2024
-</p>
+                </p>
               </div>
             </div>
           </div>
@@ -268,11 +268,11 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-         What are Blockchain Loyalty Rewards?
+            What are Blockchain Loyalty Rewards?
 
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-         Most loyalty points are basically monopoly money — locked to one brand, with confusing terms, and a habit of quietly expiring before you use them. Blockchain loyalty rewards are different. When a brand issues tokens on MST Blockchain, those tokens belong to you just like cash in a wallet. You can spend them, transfer them, or stack them across multiple partner brands. The rules are written in smart contracts — code that cannot be changed secretly by the brand after the fact.
+            Most loyalty points are basically monopoly money , locked to one brand, with confusing terms, and a habit of quietly expiring before you use them. Blockchain loyalty rewards are different. When a brand issues tokens on MST Blockchain, those tokens belong to you just like cash in a wallet. You can spend them, transfer them, or stack them across multiple partner brands. The rules are written in smart contracts , code that cannot be changed secretly by the brand after the fact.
           </p>
         </SectionFade>
 
@@ -313,10 +313,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 mb-2">
-          Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -329,34 +329,34 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Points quietly expire — $48B worth goes unclaimed globally every year</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Points quietly expire , $48B worth goes unclaimed globally every year</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Expiry logic is in smart contract code — transparent, immutable, enforced exactly as agreed</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Expiry logic is in smart contract code , transparent, immutable, enforced exactly as agreed</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Redemption locked to one brand's limited catalogue — rarely what customers want</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Redemption locked to one brand's limited catalogue , rarely what customers want</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Cross-brand redemption across the entire MST partner ecosystem — real flexibility</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Cross-brand redemption across the entire MST partner ecosystem , real flexibility</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Brands change reward rules after points are earned — customers have no recourse</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Brands change reward rules after points are earned , customers have no recourse</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Rules encoded in smart contracts — brands cannot modify terms retroactively ever</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Rules encoded in smart contracts , brands cannot modify terms retroactively ever</span></span>
                 </td>
               </tr>
               <tr>
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd] rounded-bl-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>No secondary market — points are worthless if you leave the brand</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>No secondary market , points are worthless if you leave the brand</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST tokens can be transferred to friends, family, or sold — they have real market value</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST tokens can be transferred to friends, family, or sold , they have real market value</span></span>
                 </td>
               </tr>
             </tbody>
@@ -371,12 +371,12 @@ const [formType, setFormType] = useState("General Enquiry");
             The Problem: Nobody Actually Uses Their Loyalty Points
           </h2>
           <p className="text-base leading-8 text-black/70">
-           Research consistently shows that billions of loyalty points expire unused every single year. Customers find redemption options too limited, conditions too complicated, or points too small to bother with. Brands spend significant money running programmes that generate almost no genuine loyalty. The existing system benefits neither the customer nor the business in any meaningful way.
+            Research consistently shows that billions of loyalty points expire unused every single year. Customers find redemption options too limited, conditions too complicated, or points too small to bother with. Brands spend significant money running programmes that generate almost no genuine loyalty. The existing system benefits neither the customer nor the business in any meaningful way.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Fixes It</h3>
           <p className="text-base leading-8 text-black/70">
-          On MST Blockchain, loyalty tokens are real digital assets — not points in a database that a brand controls. Customers earn them through purchases or engagement, and they sit in a wallet that belongs to the customer. Redemption options can span multiple partner brands. Earn conditions and expiry rules are written into smart contracts — the brand cannot change them retroactively. Customers can even transfer tokens to friends or family.
+            On MST Blockchain, loyalty tokens are real digital assets , not points in a database that a brand controls. Customers earn them through purchases or engagement, and they sit in a wallet that belongs to the customer. Redemption options can span multiple partner brands. Earn conditions and expiry rules are written into smart contracts , the brand cannot change them retroactively. Customers can even transfer tokens to friends or family.
           </p>
         </SectionFade>
 
@@ -404,17 +404,17 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MST's unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MST's unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">Bridge-Key Wallet</p>
                   <h3 className="mt-3 font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">
-                  Customers Never Need to Know It's Blockchain
+                    Customers Never Need to Know It's Blockchain
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   The Bridge-Key Wallet gives customers a seamless loyalty app experience — they earn, hold, and spend tokens without any awareness that blockchain is powering it underneath.
+                    The Bridge-Key Wallet gives customers a seamless loyalty app experience , they earn, hold, and spend tokens without any awareness that blockchain is powering it underneath.
                   </p>
                 </div>
 
@@ -424,17 +424,17 @@ const [formType, setFormType] = useState("General Enquiry");
                     Stable Token Value Across Brands
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   MST loyalty tokens can be denominated in mUSD — the hybrid reserve-backed stablecoin — giving cross-brand token value that doesn't fluctuate with crypto markets.
+                    MST loyalty tokens can be denominated in mUSD , the hybrid reserve-backed stablecoin , giving cross-brand token value that doesn't fluctuate with crypto markets.
                   </p>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">SARAL Protocol</p>
                   <h3 className="mt-3 font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">
-                   Brands Launch in Days Not Months
+                    Brands Launch in Days Not Months
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    SARAL Protocol's simple integration framework means any retail brand can launch a blockchain-powered loyalty programme in days — connecting their existing POS and CRM systems.
+                    SARAL Protocol's simple integration framework means any retail brand can launch a blockchain-powered loyalty programme in days , connecting their existing POS and CRM systems.
                   </p>
                 </div>
               </div>
@@ -502,7 +502,7 @@ const [formType, setFormType] = useState("General Enquiry");
       </section>
 
       {/* CTA */}
-       <section className="mx-auto w-full max-w-[90rem] px-6 pb-8 md:px-16">
+      <section className="mx-auto w-full max-w-[90rem] px-6 pb-8 md:px-16">
         <SectionFade>
           <div className="relative overflow-hidden rounded-3xl bg-[#ff2d2d] px-6 py-7 text-white md:px-10 md:py-9">
             <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
@@ -529,7 +529,7 @@ const [formType, setFormType] = useState("General Enquiry");
             </div>
           </div>
         </SectionFade>
-      </section> 
+      </section>
 
       <FormModal open={openForm} setOpen={setOpenForm} formType={formType} />
     </main>

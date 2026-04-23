@@ -478,7 +478,7 @@ export default function Navbar() {
         eyebrow: 'BUILD ON MST',
         title: 'Ship faster with MST tooling',
         description:
-          'Access grants, testnet resources, and developer programs — designed for teams building production-grade Web3 products.',
+          'Access grants, testnet resources, and developer programs , designed for teams building production-grade Web3 products.',
         href: '/grant',
         cta: 'View grant program',
         icon: FiZap
@@ -508,7 +508,7 @@ export default function Navbar() {
         eyebrow: learnHighlights.label,
         title: 'Knowledge drops are coming',
         description:
-          'A premium learning experience is on the way — deep dives, validator guides, and product walkthroughs.',
+          'A premium learning experience is on the way , deep dives, validator guides, and product walkthroughs.',
         cta: 'Explore learning',
         icon: FiBookOpen
       }}

@@ -13,13 +13,13 @@ const featureItems = [
     icon: CheckCircle2
   },
   {
-    title: 'Counting by Code — Not People',
+    title: 'Counting by Code , Not People',
     description: 'Smart contracts count every vote using the same logic, with zero human involvement. The tally is automatic, instant, and independently verifiable by anyone with authorization.',
     icon: ShieldCheck
   },
   {
     title: 'SARAL Identity Verification',
-    description: 'Only verified, eligible voters gain access through the SARAL Protocols identity layer. Duplicate submissions are cryptographically impossible — each verified identity votes exactly once.',
+    description: 'Only verified, eligible voters gain access through the SARAL Protocols identity layer. Duplicate submissions are cryptographically impossible , each verified identity votes exactly once.',
     icon: Database
   }
 ];
@@ -27,7 +27,7 @@ const featureItems = [
 const proofItems = [
   {
     title: 'DAO Governance Voting',
-    description: 'Decentralized organization votes with on-chain proposals, discussion records, and immutable outcome logging — fully transparent to all token holders.',
+    description: 'Decentralized organization votes with on-chain proposals, discussion records, and immutable outcome logging , fully transparent to all token holders.',
     image: '/voting/DAO Governance Voting.jpg',
     alt: 'National car manufacturer supply chain'
   },
@@ -47,17 +47,17 @@ const proofItems = [
 
 const creatorSteps = [
   'Admin configures ballot, eligible voters, and time window using SARAL Protocol integration',
-  'Smart contract deployed with predefined logic — Satva Shuffle randomly assigns validator nodes',
+  'Smart contract deployed with predefined logic , Satva Shuffle randomly assigns validator nodes',
   'Eligible voters verified via SARAL decentralized identity before access is granted',
-  'Voting opens — every ballot immediately anchored on MST by FortunaX consensus',
+  'Voting opens , every ballot immediately anchored on MST by FortunaX consensus',
   'Smart contract tallies results at close; Klethesia ensures secrecy while keeping audit public'
 ];
 
 const verifierSteps = [
-  'Eligible voter verified via SARAL Protocol — no central database of their details',
-  'Ballot presented through secure interface — completely standard browser or mobile experience',
-  'Vote cast — FortunaX consensus seals it permanently on-chain within seconds',
-  'Cryptographic participation receipt issued — voter can prove they voted without revealing choice',
+  'Eligible voter verified via SARAL Protocol , no central database of their details',
+  'Ballot presented through secure interface , completely standard browser or mobile experience',
+  'Vote cast , FortunaX consensus seals it permanently on-chain within seconds',
+  'Cryptographic participation receipt issued , voter can prove they voted without revealing choice',
   'Results published transparently on-chain; any authorized party audits independently'
 ];
 
@@ -74,7 +74,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -149,7 +149,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -161,8 +161,8 @@ const [formType, setFormType] = useState("General Enquiry");
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
                   Decentralized
- 
- <span className="text-[#ff2d2d]"> Voting</span>
+
+                  <span className="text-[#ff2d2d]"> Voting</span>
                 </span>
                 {/* <span className="mt-2 block text-[#ff2d2d]">
                  Certificate
@@ -170,34 +170,34 @@ const [formType, setFormType] = useState("General Enquiry");
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-            When votes live on the blockchain, results cannot be disputed, altered, or hidden.
+              When votes live on the blockchain, results cannot be disputed, altered, or hidden.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -265,11 +265,11 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-         What is Decentralized Voting on MST?
+            What is Decentralized Voting on MST?
 
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-          Every vote cast is recorded permanently on MST blockchain — not in a system that one administrator controls. Think of it like a sealed, public notice board where every vote is stamped and sealed the moment it is cast. No one can go back and change it. Counting is done automatically by a smart contract — code that applies the same rules to every single vote with zero human interference. The result is not just claimed to be accurate — it is mathematically provable.
+            Every vote cast is recorded permanently on MST blockchain , not in a system that one administrator controls. Think of it like a sealed, public notice board where every vote is stamped and sealed the moment it is cast. No one can go back and change it. Counting is done automatically by a smart contract , code that applies the same rules to every single vote with zero human interference. The result is not just claimed to be accurate , it is mathematically provable.
           </p>
         </SectionFade>
 
@@ -306,10 +306,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-          Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -322,7 +322,7 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Electronic voting results can be disputed — no independent verification possible</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Electronic voting results can be disputed , no independent verification possible</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Every ballot on MST is independently verifiable on the public blockchain explorer</span></span>
@@ -330,10 +330,10 @@ const [formType, setFormType] = useState("General Enquiry");
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Centralized voting servers are single points of failure — hackable and corruptible</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Centralized voting servers are single points of failure , hackable and corruptible</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Votes distributed across MST's decentralized node network — no single point of attack</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Votes distributed across MST's decentralized node network , no single point of attack</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
@@ -341,15 +341,15 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Vote counting involves manual processes and human administrators with potential bias</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract counting has no human involvement — same rules, every vote, no exceptions</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract counting has no human involvement , same rules, every vote, no exceptions</span></span>
                 </td>
               </tr>
               <tr>
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd] rounded-bl-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Voter identity verification relies on centralized government databases — breach-prone</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Voter identity verification relies on centralized government databases , breach-prone</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">SARAL Protocol keeps voter data decentralized — no central database of voter records</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">SARAL Protocol keeps voter data decentralized , no central database of voter records</span></span>
                 </td>
               </tr>
             </tbody>
@@ -364,12 +364,12 @@ const [formType, setFormType] = useState("General Enquiry");
             The Problem: Nobody Trusts Digital Voting
           </h2>
           <p className="text-base leading-8 text-black/70">
-           Even when digital voting systems work correctly, they are hard to trust because participants cannot see inside them. Results can be disputed. Administrators can be accused of bias. Systems can be hacked. Traditional paper voting is slow and expensive. The current state creates doubt, and doubt undermines the entire point of an election or governance decision.
+            Even when digital voting systems work correctly, they are hard to trust because participants cannot see inside them. Results can be disputed. Administrators can be accused of bias. Systems can be hacked. Traditional paper voting is slow and expensive. The current state creates doubt, and doubt undermines the entire point of an election or governance decision.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Specifically Solves It</h3>
           <p className="text-base leading-8 text-black/70">
-          MST's Satva Shuffle Protocol randomly selects validators — making it impossible for any single entity to control the counting process. Klethesia maintains ballot secrecy while making the aggregate count publicly auditable — something no Web2 system has achieved. SARAL eliminates centralized voter databases. The result: a voting system where the integrity is mathematically provable, not just promised.
+            MST's Satva Shuffle Protocol randomly selects validators , making it impossible for any single entity to control the counting process. Klethesia maintains ballot secrecy while making the aggregate count publicly auditable , something no Web2 system has achieved. SARAL eliminates centralized voter databases. The result: a voting system where the integrity is mathematically provable, not just promised.
           </p>
         </SectionFade>
 
@@ -397,17 +397,17 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MST's unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MST's unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">SARAL PROTOCOL</p>
                   <h3 className="mt-3 font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">
-                   Voter Identity Without Central Database
+                    Voter Identity Without Central Database
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    SARAL's decentralized key management means voter identities are verified without storing sensitive data in any central database — dramatically reducing breach risk.
+                    SARAL's decentralized key management means voter identities are verified without storing sensitive data in any central database , dramatically reducing breach risk.
                   </p>
                 </div>
 
@@ -417,7 +417,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Random, Fair Validator Selection
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   MST's Satva Shuffle Protocol ensures validators counting the vote are randomly selected — no party can stack the validation process in their favor.
+                    MST's Satva Shuffle Protocol ensures validators counting the vote are randomly selected , no party can stack the validation process in their favor.
                   </p>
                 </div>
 
@@ -427,7 +427,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Ballot Secrecy With Public Auditability
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    Klethesia's privacy-preserving framework keeps individual ballot choices secret while making the aggregate count publicly auditable — the holy grail of voting systems.
+                    Klethesia's privacy-preserving framework keeps individual ballot choices secret while making the aggregate count publicly auditable , the holy grail of voting systems.
                   </p>
                 </div>
               </div>
@@ -499,7 +499,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   Ready to Build On-Chain Certificate on MST?
                 </h2>
                 <p className="mt-3 text-sm leading-7 text-white/85">
-                  Our team will walk you through exactly how MST&apos;s protocols — SARAL, WASMify, Klethesia, and FortunaX — deliver this use case for your organization.
+                  Our team will walk you through exactly how MST&apos;s protocols , SARAL, WASMify, Klethesia, and FortunaX , deliver this use case for your organization.
                 </p>
               </div>
 

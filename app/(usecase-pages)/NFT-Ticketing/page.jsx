@@ -9,12 +9,12 @@ import FormModal from "@/app/components/form/FormModal";
 const featureItems = [
   {
     title: 'Cryptographically Unique Every Time',
-    description: 'Each ticket minted on MST has a unique blockchain identity. Copying a ticket is cryptographically impossible — duplicate QR codes simply will not validate at the gate.',
+    description: 'Each ticket minted on MST has a unique blockchain identity. Copying a ticket is cryptographically impossible , duplicate QR codes simply will not validate at the gate.',
     icon: CheckCircle2
   },
   {
     title: 'Organizer Sets All Rules',
-    description: 'Resale price caps, transfer windows, maximum transfers, and post-event utility are all encoded into smart contracts. Rules enforce themselves — no staff required.',
+    description: 'Resale price caps, transfer windows, maximum transfers, and post-event utility are all encoded into smart contracts. Rules enforce themselves , no staff required.',
     icon: ShieldCheck
   },
   {
@@ -39,26 +39,26 @@ const proofItems = [
   },
   {
     title: 'Conference & Professional Events',
-    description: 'Professional event credentials with identity-linked entry and verifiable attendance records — useful for CPD points and professional accreditation.',
+    description: 'Professional event credentials with identity-linked entry and verifiable attendance records , useful for CPD points and professional accreditation.',
     image: '/NFT-Tickiting/Conference & Professional Events.jpg',
     alt: 'Food and agriculture supply chain'
   }
 ];
 
 const creatorSteps = [
-  'Organizer mints tickets on MST via SARAL Protocol integration — sets all rules in smart contract',
+  'Organizer mints tickets on MST via SARAL Protocol integration , sets all rules in smart contract',
   'FortunaX consensus confirms ticket creation on-chain with near-instant finality',
   'Tickets distributed to buyers via Bridge-Key Wallet or existing app with no crypto setup needed',
-  'Gate scanners verify each ticket against blockchain in real time — any duplicate rejected immediately',
-  'Post-event smart contracts activate — tickets unlock rewards, collectible status, or community access'
+  'Gate scanners verify each ticket against blockchain in real time , any duplicate rejected immediately',
+  'Post-event smart contracts activate , tickets unlock rewards, collectible status, or community access'
 ];
 
 const verifierSteps = [
-  'Fan receives ticket in Bridge-Key Wallet or existing linked app — no crypto knowledge needed',
+  'Fan receives ticket in Bridge-Key Wallet or existing linked app , no crypto knowledge needed',
   'QR code generated from their wallet for presenting at the venue entrance gate',
-  'Gate scanner verifies ticket authenticity on MST blockchain — result in milliseconds',
+  'Gate scanner verifies ticket authenticity on MST blockchain , result in milliseconds',
   'Smart contract confirms valid entry, marks ticket as used, prevents any rescan',
-  'Post-event rewards activate automatically — fan receives collectible or loyalty token in their wallet'
+  'Post-event rewards activate automatically , fan receives collectible or loyalty token in their wallet'
 ];
 
 const stats = [
@@ -74,7 +74,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -101,7 +101,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -149,7 +149,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -168,34 +168,34 @@ const [formType, setFormType] = useState("General Enquiry");
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-             Every ticket is a unique on-chain asset. No fakes. No scalping. No lost entry. Real ownership for every fan.
+              Every ticket is a unique on-chain asset. No fakes. No scalping. No lost entry. Real ownership for every fan.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -253,7 +253,7 @@ const [formType, setFormType] = useState("General Enquiry");
                 <p className="text-3xl font-extrabold tracking-[-0.03em] sm:text-4xl">Zero</p>
                 <p className="mt-2 text-sm font-medium text-white/70">Counterfeit Rate on MST NFT Tickets</p>
                 <p className="mt-1 text-xs italic text-white/50">Blockchain by Design
-</p>
+                </p>
               </div>
             </div>
           </div>
@@ -264,10 +264,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-          What is NFT Ticketing on MST?
+            What is NFT Ticketing on MST?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-         An NFT ticket is a digital ticket that lives on the blockchain. Unlike a PDF or a barcode that can be copied, each MST ticket has a unique cryptographic identity that cannot be duplicated. When someone buys a ticket on MST Blockchain, it belongs to them — provably, permanently. At the gate, it is scanned and verified in real time against the blockchain. After the event, it can become a collectible, a loyalty reward, or an access pass to exclusive communities.
+            An NFT ticket is a digital ticket that lives on the blockchain. Unlike a PDF or a barcode that can be copied, each MST ticket has a unique cryptographic identity that cannot be duplicated. When someone buys a ticket on MST Blockchain, it belongs to them , provably, permanently. At the gate, it is scanned and verified in real time against the blockchain. After the event, it can become a collectible, a loyalty reward, or an access pass to exclusive communities.
           </p>
         </SectionFade>
 
@@ -304,10 +304,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 mb-2">
-          Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -323,31 +323,31 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> PDF and barcode tickets copied and resold hundreds of times with zero detection</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Each MST ticket has a unique on-chain identity — duplication fails at first scan</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Each MST ticket has a unique on-chain identity , duplication fails at first scan</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Organizers lose all visibility once a ticket is sold — no data on resales or holders</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Organizers lose all visibility once a ticket is sold , no data on resales or holders</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Full on-chain transfer history — organizers see every hand a ticket has passed through</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Full on-chain transfer history , organizers see every hand a ticket has passed through</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Scalpers use bots to buy in bulk and resell at 2–3x price — fans pay the penalty</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Scalpers use bots to buy in bulk and resell at 2–3x price , fans pay the penalty</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract resale caps and transfer limits enforced automatically — no bots possible</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contract resale caps and transfer limits enforced automatically , no bots possible</span></span>
                 </td>
               </tr>
               <tr>
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd] rounded-bl-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Ticket has zero value post-event — disposable and forgotten</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Ticket has zero value post-event , disposable and forgotten</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST tickets unlock post-event utility — collectibles, community access, loyalty rewards</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST tickets unlock post-event utility , collectibles, community access, loyalty rewards</span></span>
                 </td>
               </tr>
             </tbody>
@@ -359,15 +359,15 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-           The Problem: The Ticketing Industry is Broken
+            The Problem: The Ticketing Industry is Broken
           </h2>
           <p className="text-base leading-8 text-black/70">
-           Fake tickets cost event organizers millions every year and destroy fan trust. Once a ticket is sold through traditional systems, organizers lose all visibility. Scalpers buy thousands of tickets using bots and resell at inflated prices. Genuine fans either pay too much or arrive with fraudulent tickets and get turned away at the gate.
+            Fake tickets cost event organizers millions every year and destroy fan trust. Once a ticket is sold through traditional systems, organizers lose all visibility. Scalpers buy thousands of tickets using bots and resell at inflated prices. Genuine fans either pay too much or arrive with fraudulent tickets and get turned away at the gate.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Specifically Solves It</h3>
           <p className="text-base leading-8 text-black/70">
-           MST's FortunaX consensus verifies tickets against the blockchain in milliseconds — fast enough for any venue gate. The Bridge-Key Wallet means even fans who have never heard of crypto can use MST tickets with a simple app. SARAL Protocol connectors integrate with Ticketmaster, EventBrite, and custom ticketing systems without requiring organizers to rebuild anything. This is not a blockchain ticket layered on top of the old system — it replaces the vulnerability at the source.
+            MST's FortunaX consensus verifies tickets against the blockchain in milliseconds , fast enough for any venue gate. The Bridge-Key Wallet means even fans who have never heard of crypto can use MST tickets with a simple app. SARAL Protocol connectors integrate with Ticketmaster, EventBrite, and custom ticketing systems without requiring organizers to rebuild anything. This is not a blockchain ticket layered on top of the old system , it replaces the vulnerability at the source.
           </p>
         </SectionFade>
 
@@ -395,7 +395,7 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MST&apos;s unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MST&apos;s unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -405,7 +405,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Real-Time Gate Verification
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    MST's FortunaX protocol provides near-instant finality — gate scans verify against the blockchain in milliseconds, meaning zero delays at busy venue entrances.
+                    MST's FortunaX protocol provides near-instant finality , gate scans verify against the blockchain in milliseconds, meaning zero delays at busy venue entrances.
                   </p>
                 </div>
 
@@ -415,7 +415,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Non-Crypto Fans Can Participate
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    MST's Bridge-Key Wallet lets fans who have never used crypto buy, hold, and scan NFT tickets using familiar Web2 interfaces — no wallet setup required.
+                    MST's Bridge-Key Wallet lets fans who have never used crypto buy, hold, and scan NFT tickets using familiar Web2 interfaces , no wallet setup required.
                   </p>
                 </div>
 
@@ -425,7 +425,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Simple Integration for Promoters
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   Event promoters integrate MST ticketing into existing platforms using SARAL Protocol connectors. No blockchain development team needed — just API access.
+                    Event promoters integrate MST ticketing into existing platforms using SARAL Protocol connectors. No blockchain development team needed , just API access.
                   </p>
                 </div>
               </div>
@@ -465,7 +465,7 @@ const [formType, setFormType] = useState("General Enquiry");
             The Journey: How It Unfolds
           </h2>
           <p className="max-w-3xl text-base leading-8 text-black/68">
-            Follow the journey from both sides — how the platform sets up the system and how the user experiences it in practice.
+            Follow the journey from both sides , how the platform sets up the system and how the user experiences it in practice.
           </p>
         </SectionFade>
 
@@ -527,7 +527,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   Ready to Build NFT Ticketing on MST?
                 </h2>
                 <p className="mt-3 text-sm leading-7 text-white/85">
-                  Our team will walk you through exactly how MST&apos;s protocols — SARAL, WASMify, Klethesia, and FortunaX — deliver this use case for your organization.
+                  Our team will walk you through exactly how MST&apos;s protocols , SARAL, WASMify, Klethesia, and FortunaX , deliver this use case for your organization.
                 </p>
               </div>
 

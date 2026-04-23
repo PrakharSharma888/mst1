@@ -9,17 +9,17 @@ import { useState } from "react";
 const featureItems = [
   {
     title: 'Automatic Claim Triggering',
-    description: 'Define conditions in the smart contract. When verified events occur — delay, weather event, medical procedure — the payout triggers automatically with no forms required.',
+    description: 'Define conditions in the smart contract. When verified events occur , delay, weather event, medical procedure , the payout triggers automatically with no forms required.',
     icon: ShieldCheck
   },
   {
     title: 'Full Policy Transparency',
-    description: 'Policy terms are written in smart contract code that is publicly verifiable. Policyholders see exactly what conditions trigger their coverage — no fine print surprises.',
+    description: 'Policy terms are written in smart contract code that is publicly verifiable. Policyholders see exactly what conditions trigger their coverage , no fine print surprises.',
     icon: CheckCircle2
   },
   {
     title: 'Faster Payouts',
-    description: 'Automated claims eliminate weeks of manual processing. Eligible policyholders receive payouts in hours instead of weeks — dramatically improving trust and satisfaction.',
+    description: 'Automated claims eliminate weeks of manual processing. Eligible policyholders receive payouts in hours instead of weeks , dramatically improving trust and satisfaction.',
     icon: Home
   }
 ];
@@ -27,7 +27,7 @@ const featureItems = [
 const proofItems = [
   {
     title: 'Flight Delay Insurance',
-    description: 'Policies that automatically pay out when verified flight delay data meets the defined threshold — no claims process required from the policyholder.',
+    description: 'Policies that automatically pay out when verified flight delay data meets the defined threshold , no claims process required from the policyholder.',
     image: '/insurance-automation/Flight Delay Insurance.jpg',
     alt: 'National car manufacturer supply chain'
   },
@@ -39,8 +39,8 @@ const proofItems = [
   },
   {
     title: 'Parametric Weather Insurance',
-    description: 'Agricultural and business insurance that pays automatically when weather oracle data crosses defined thresholds — protecting farmers and businesses from crop loss.',
-      image: '/insurance-automation/Parametric Weather Insurance.jpg',
+    description: 'Agricultural and business insurance that pays automatically when weather oracle data crosses defined thresholds , protecting farmers and businesses from crop loss.',
+    image: '/insurance-automation/Parametric Weather Insurance.jpg',
     alt: 'Food and agriculture supply chain'
   }
 ];
@@ -48,16 +48,16 @@ const proofItems = [
 const creatorSteps = [
   'Insurance policy terms and trigger conditions are written into an MST smart contract',
   'Policy is issued to the customer with all terms transparently recorded on-chain',
-  'Claim event occurs — data from oracles or verified sources is submitted to the smart contract',
+  'Claim event occurs , data from oracles or verified sources is submitted to the smart contract',
   'Smart contract evaluates the data against policy conditions automatically',
   'If conditions are met, payout is triggered and executed automatically; full record logged on-chain'
 ];
 
 const verifierSteps = [
-  'Policyholder purchases insurance — policy terms and coverage immediately visible on-chain',
-  'Triggering event occurs — policyholder or oracle data submits the event to the smart contract',
-'Smart contract evaluates eligibility in real time with no manual review required',
-  'Policyholder receives instant notification of outcome — approved or details of why not met',
+  'Policyholder purchases insurance , policy terms and coverage immediately visible on-chain',
+  'Triggering event occurs , policyholder or oracle data submits the event to the smart contract',
+  'Smart contract evaluates eligibility in real time with no manual review required',
+  'Policyholder receives instant notification of outcome , approved or details of why not met',
   'Payout credited automatically if approved; complete audit trail available for any review'
 ];
 
@@ -100,7 +100,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -148,7 +148,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -159,7 +159,7 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="relative inline-block">
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
-                Insurance Automation
+                  Insurance Automation
                 </span>
               </h1>
             </div>
@@ -171,39 +171,39 @@ const [formType, setFormType] = useState("General Enquiry");
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
 
-                      {/* CONTACT */}
-                      <button
-                        onClick={() => {
-                          setFormType("General Enquiry");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105"
-                      >
-                        Contact Us / Enquire
-                      </button>
+            {/* CONTACT */}
+            <button
+              onClick={() => {
+                setFormType("General Enquiry");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105"
+            >
+              Contact Us / Enquire
+            </button>
 
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -228,10 +228,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-         What is Blockchain Insurance Automation?
+            What is Blockchain Insurance Automation?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-           Blockchain insurance automation means writing your policy conditions into a smart contract — self-executing code on the blockchain that triggers claims automatically when defined conditions are met. Imagine buying flight delay insurance. Instead of filing a claim, uploading boarding passes, and waiting two weeks for a decision, the smart contract monitors your flight data. If your flight is delayed by more than two hours, it automatically releases your payout. No forms. No waiting. No dispute.
+            Blockchain insurance automation means writing your policy conditions into a smart contract , self-executing code on the blockchain that triggers claims automatically when defined conditions are met. Imagine buying flight delay insurance. Instead of filing a claim, uploading boarding passes, and waiting two weeks for a decision, the smart contract monitors your flight data. If your flight is delayed by more than two hours, it automatically releases your payout. No forms. No waiting. No dispute.
           </p>
         </SectionFade>
 
@@ -272,12 +272,12 @@ const [formType, setFormType] = useState("General Enquiry");
             The Problem: Insurance Claims are Slow, Manual, and Frustrating
           </h2>
           <p className="text-base leading-8 text-black/70">
-          Most people who have filed an insurance claim know the frustration — gathering documents, filling long forms, waiting for assessment, arguing with adjusters, and still not knowing when or whether they will be paid. This process is expensive for insurers to run and genuinely painful for customers to navigate. It erodes trust in insurance as a concept, and leaves many legitimate claimants without timely support.
+            Most people who have filed an insurance claim know the frustration , gathering documents, filling long forms, waiting for assessment, arguing with adjusters, and still not knowing when or whether they will be paid. This process is expensive for insurers to run and genuinely painful for customers to navigate. It erodes trust in insurance as a concept, and leaves many legitimate claimants without timely support.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Fixes It</h3>
           <p className="text-base leading-8 text-black/70">
-          An insurance policy on MST is built as a smart contract with clearly defined trigger conditions written into the code. When an event occurs — a flight delay, a weather threshold, a verified medical procedure — the trigger condition is checked against on-chain or oracle-sourced data. If conditions are met, the payout executes automatically. The policyholder can track every stage in real time and always knows exactly where their claim stands.
+            An insurance policy on MST is built as a smart contract with clearly defined trigger conditions written into the code. When an event occurs , a flight delay, a weather threshold, a verified medical procedure , the trigger condition is checked against on-chain or oracle-sourced data. If conditions are met, the payout executes automatically. The policyholder can track every stage in real time and always knows exactly where their claim stands.
           </p>
         </SectionFade>
 
@@ -296,7 +296,7 @@ const [formType, setFormType] = useState("General Enquiry");
 
       {/* PROOFS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16">
-        
+
         <SectionFade className="space-y-3">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">Proofs of Concept</h2>
           <p className="max-w-2xl text-base leading-8 text-black/68">
@@ -320,47 +320,47 @@ const [formType, setFormType] = useState("General Enquiry");
       </section>
 
       {/* STEPS */}
-          <section className='mx-auto text-center w-full max-w-[90rem] px-6 py-16 md:px-16'>
-                  <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">See How It Works Step by Step</h3>
+      <section className='mx-auto text-center w-full max-w-[90rem] px-6 py-16 md:px-16'>
+        <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">See How It Works Step by Step</h3>
         <p className="text-base leading-8 text-black/70">
-         Two simple flows — one for whoever is issuing or creating, and one for whoever is verifying or using. Both powered by MST blockchain behind the scenes.
-          </p>
+          Two simple flows , one for whoever is issuing or creating, and one for whoever is verifying or using. Both powered by MST blockchain behind the scenes.
+        </p>
 
-<section
-  className="mx-auto w-full max-w-[90rem] px-2 py-10 sm:px-6 sm:py-16 md:px-16
+        <section
+          className="mx-auto w-full max-w-[90rem] px-2 py-10 sm:px-6 sm:py-16 md:px-16
     grid grid-cols-1 gap-6
     lg:grid-cols-2 lg:gap-6
     min-h-0"
->
+        >
 
-  {/* LEFT */}
+          {/* LEFT */}
 
-  <SectionFade className="h-full min-h-0 flex flex-col">
-    <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
-      {/* Header (fixed) */}
-      <div className="p-4 border-b font-semibold">Creator / Issuer Flow</div>
-      {/* Scrollable content */}
-      <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
-        <StepFlow steps={creatorSteps} />
-      </div>
-    </div>
-  </SectionFade>
+          <SectionFade className="h-full min-h-0 flex flex-col">
+            <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
+              {/* Header (fixed) */}
+              <div className="p-4 border-b font-semibold">Creator / Issuer Flow</div>
+              {/* Scrollable content */}
+              <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
+                <StepFlow steps={creatorSteps} />
+              </div>
+            </div>
+          </SectionFade>
 
-  {/* RIGHT */}
+          {/* RIGHT */}
 
-  <SectionFade className="h-full min-h-0 flex flex-col">
-    <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
-      {/* Header (fixed) */}
-      <div className="p-4 border-b font-semibold">User / Verifier Flow</div>
-      {/* Scrollable content */}
-      <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
-        <StepFlow steps={verifierSteps} accent />
-      </div>
-    </div>
-  </SectionFade>
+          <SectionFade className="h-full min-h-0 flex flex-col">
+            <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
+              {/* Header (fixed) */}
+              <div className="p-4 border-b font-semibold">User / Verifier Flow</div>
+              {/* Scrollable content */}
+              <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
+                <StepFlow steps={verifierSteps} accent />
+              </div>
+            </div>
+          </SectionFade>
 
-</section>
-          </section>
+        </section>
+      </section>
 
       {/* STATS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pb-20 pt-6 md:px-16">

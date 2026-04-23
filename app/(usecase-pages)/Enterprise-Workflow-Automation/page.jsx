@@ -9,17 +9,17 @@ import FormModal from "@/app/components/form/FormModal";
 const featureItems = [
   {
     title: 'Always-On, Real-Time Audit Trail',
-    description: 'Every action, approval, and escalation in every workflow is permanently recorded on MST the moment it occurs. Audit preparation stops being a project — it becomes an automatic byproduct of doing business.',
+    description: 'Every action, approval, and escalation in every workflow is permanently recorded on MST the moment it occurs. Audit preparation stops being a project , it becomes an automatic byproduct of doing business.',
     icon: CheckCircle2
   },
   {
-    title: 'Automatic Escalation — No Manual Chasing',
-    description: 'Smart contracts automatically escalate stalled approvals, send notifications to required participants, and advance workflows at every stage — no project manager needed to chase the process.',
+    title: 'Automatic Escalation , No Manual Chasing',
+    description: 'Smart contracts automatically escalate stalled approvals, send notifications to required participants, and advance workflows at every stage , no project manager needed to chase the process.',
     icon: ShieldCheck
   },
   {
     title: 'WASMify Connects Existing Enterprise Systems',
-    description: "MST's WASMify Protocol connects existing ERP, CRM, and procurement platforms — SAP, Oracle, Salesforce — to blockchain workflows without any replacement or disruption of current systems.",
+    description: "MST's WASMify Protocol connects existing ERP, CRM, and procurement platforms , SAP, Oracle, Salesforce , to blockchain workflows without any replacement or disruption of current systems.",
     icon: Database
   }
 ];
@@ -27,19 +27,19 @@ const featureItems = [
 const proofItems = [
   {
     title: 'Multi-Department Purchase Approval',
-    description: 'Procurement workflows with MST-recorded approvals at every level — automatic escalation on delays, complete audit trail from requisition to purchase order approval.',
+    description: 'Procurement workflows with MST-recorded approvals at every level , automatic escalation on delays, complete audit trail from requisition to purchase order approval.',
     image: '/Enterprise-workflow/Multi-Department Purchase Approval.jpg',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Vendor Onboarding & Compliance',
-    description: 'Vendor verification, legal review, compliance certification, and contract approval — all on MST with permanent records and automatic progression between stages.',
+    description: 'Vendor verification, legal review, compliance certification, and contract approval , all on MST with permanent records and automatic progression between stages.',
     image: '/Enterprise-workflow/Vendor Onboarding & Compliance.jpg',
     alt: 'Express shipping supply chain'
   },
   {
     title: 'Cross-Organization Contract Management',
-    description: 'Multi-party contract review, negotiation, and sign-off workflows with permanent on-chain records — replacing fragmented email chains with auditable, transparent process execution.',
+    description: 'Multi-party contract review, negotiation, and sign-off workflows with permanent on-chain records , replacing fragmented email chains with auditable, transparent process execution.',
     image: '/Enterprise-workflow/Cross-Organization Contract Management.jpg',
     alt: 'Food and agriculture supply chain'
   }
@@ -47,18 +47,18 @@ const proofItems = [
 
 const creatorFlow = [
   "Workflow configured with participants, stages, conditions, and escalation rules via SARAL Protocol interface",
-  "Smart contract deployed on MST encoding complete workflow logic — Fortunax provides sub-second finality",
-  "WASMify connects existing SAP, Oracle, or Salesforce — workflow events triggered by ERP system actions automatically",
-  "Each participant action recorded on-chain the moment it occurs — Klethesia protects sensitive business data",
-  "Complete workflow completion record permanently on MST — instant audit access for compliance teams",
+  "Smart contract deployed on MST encoding complete workflow logic , Fortunax provides sub-second finality",
+  "WASMify connects existing SAP, Oracle, or Salesforce , workflow events triggered by ERP system actions automatically",
+  "Each participant action recorded on-chain the moment it occurs , Klethesia protects sensitive business data",
+  "Complete workflow completion record permanently on MST , instant audit access for compliance teams",
 ];
 
 const userFlow = [
-  "Participant receives workflow notification in existing enterprise interface — no new system to learn",
-  "Previews documents and approval requirements — linked from on-chain workflow record via existing ERP",
-  "Approves, rejects, or escalates — action recorded on MST immediately with identity and timestamp",
-  "Workflow auto-advances to next stage — next participant notified, all parties see updated state in real time",
-  "Compliance team accesses permanent on-chain audit trail on demand — no reconstruction, no gaps",
+  "Participant receives workflow notification in existing enterprise interface , no new system to learn",
+  "Previews documents and approval requirements , linked from on-chain workflow record via existing ERP",
+  "Approves, rejects, or escalates , action recorded on MST immediately with identity and timestamp",
+  "Workflow auto-advances to next stage , next participant notified, all parties see updated state in real time",
+  "Compliance team accesses permanent on-chain audit trail on demand , no reconstruction, no gaps",
 ];
 
 const stats = [
@@ -74,7 +74,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -101,7 +101,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -149,7 +149,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -168,34 +168,34 @@ const [formType, setFormType] = useState("General Enquiry");
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-             MST smart contracts replace slow manual approvals with automated workflows and instant audit trails.
+              MST smart contracts replace slow manual approvals with automated workflows and instant audit trails.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -263,10 +263,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-         What is Blockchain Enterprise Workflow Automation on MST?
+            What is Blockchain Enterprise Workflow Automation on MST?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-         Enterprise workflow automation on MST means encoding your business processes — purchase approvals, vendor onboarding, compliance checks, multi-department sign-offs — into smart contracts on the blockchain. Instead of emails in inboxes, documents sitting on desks, and approval status being unknown, every step executes automatically with every action permanently recorded. Every participant sees exactly where a process is at any moment.
+            Enterprise workflow automation on MST means encoding your business processes , purchase approvals, vendor onboarding, compliance checks, multi-department sign-offs , into smart contracts on the blockchain. Instead of emails in inboxes, documents sitting on desks, and approval status being unknown, every step executes automatically with every action permanently recorded. Every participant sees exactly where a process is at any moment.
           </p>
         </SectionFade>
 
@@ -303,10 +303,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-          Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -319,34 +319,34 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> 60% of finance team time spent on manual process management — enormous human cost</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> 60% of finance team time spent on manual process management , enormous human cost</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contracts automate execution — finance teams focus on analysis, not chasing approvals</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Smart contracts automate execution , finance teams focus on analysis, not chasing approvals</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> 47-day average procurement cycle — each day costs large enterprises in opportunity cost and delay</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> 47-day average procurement cycle , each day costs large enterprises in opportunity cost and delay</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST automated approval chains with FortunaX finality — procurement cycles dramatically shorter</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST automated approval chains with FortunaX finality , procurement cycles dramatically shorter</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Audit trails reconstructed after the fact — compliance teams spend months assembling evidence</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Audit trails reconstructed after the fact , compliance teams spend months assembling evidence</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST records every action in real time — audit evidence is always complete and instantly accessible</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST records every action in real time , audit evidence is always complete and instantly accessible</span></span>
                 </td>
               </tr>
               <tr>
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd] rounded-bl-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Process visibility requires manual status update meetings — nobody has the real picture</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Process visibility requires manual status update meetings , nobody has the real picture</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Complete workflow state visible to all authorized participants in real time — always up to date</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Complete workflow state visible to all authorized participants in real time , always up to date</span></span>
                 </td>
               </tr>
             </tbody>
@@ -358,15 +358,15 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-           The Problem: Manual Enterprise Processes Cost $1.7 Trillion Annually
+            The Problem: Manual Enterprise Processes Cost $1.7 Trillion Annually
           </h2>
           <p className="text-base leading-8 text-black/70">
-           Multi-step enterprise approvals involve dozens of people, fragmented systems, and manual tracking that nobody owns completely. Things get lost. Approvals are delayed with no reason. Audit trails are reconstructed after the fact. 60% of finance team time goes to managing these manual processes rather than the work that creates value.
+            Multi-step enterprise approvals involve dozens of people, fragmented systems, and manual tracking that nobody owns completely. Things get lost. Approvals are delayed with no reason. Audit trails are reconstructed after the fact. 60% of finance team time goes to managing these manual processes rather than the work that creates value.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Specifically Solves It</h3>
           <p className="text-base leading-8 text-black/70">
-          WASMify connects SAP, Oracle, and Salesforce without replacement — enterprises get blockchain benefits without infrastructure disruption. FortunaX finality means workflow confirmations appear in under a second. Klethesia keeps commercially sensitive terms private while keeping execution records auditable. The combination turns a 47-day procurement cycle into a process that moves at the speed of approval decisions — not paper.
+            WASMify connects SAP, Oracle, and Salesforce without replacement , enterprises get blockchain benefits without infrastructure disruption. FortunaX finality means workflow confirmations appear in under a second. Klethesia keeps commercially sensitive terms private while keeping execution records auditable. The combination turns a 47-day procurement cycle into a process that moves at the speed of approval decisions , not paper.
           </p>
         </SectionFade>
 
@@ -394,7 +394,7 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MST&apos;s unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MST&apos;s unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -404,7 +404,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Connects SAP, Oracle, Salesforce
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   WASMify's multi-language compatibility connects MST blockchain workflows to SAP, Oracle, Salesforce, and any custom enterprise system — without requiring enterprises to replace or rebuild existing infrastructure.
+                    WASMify's multi-language compatibility connects MST blockchain workflows to SAP, Oracle, Salesforce, and any custom enterprise system , without requiring enterprises to replace or rebuild existing infrastructure.
                   </p>
                 </div>
 
@@ -414,7 +414,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Sub-Second Workflow State Updates
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    FortunaX finality means workflow state changes are confirmed on MST in under a second — participants see approval confirmations, escalations, and completions in near real time.
+                    FortunaX finality means workflow state changes are confirmed on MST in under a second , participants see approval confirmations, escalations, and completions in near real time.
                   </p>
                 </div>
 
@@ -424,7 +424,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Sensitive Business Data Stays Private
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                  Klethesia ensures commercially sensitive workflow data — pricing, vendor terms, strategic decisions — remains private while the workflow execution record is auditably transparent to authorized parties.
+                    Klethesia ensures commercially sensitive workflow data , pricing, vendor terms, strategic decisions , remains private while the workflow execution record is auditably transparent to authorized parties.
                   </p>
                 </div>
               </div>
@@ -459,78 +459,78 @@ const [formType, setFormType] = useState("General Enquiry");
 
       {/* JOURNEY */}
       <section className="w-full bg-white py-20">
-      <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6">
 
-        {/* Heading */}
-        <div className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-semibold text-black">
-            Step-by-Step: Creator & Verifier Flows
-          </h2>
-          <p className="text-gray-500 mt-2 max-w-2xl">
-            Two parallel flows — one for the issuer or creator, one for the user or verifier — both powered by MST blockchain infrastructure.
-          </p>
-        </div>
-
-        {/* Grid */}
-        <div className="grid md:grid-cols-2 gap-12">
-
-          {/* CREATOR FLOW */}
-          <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-1 h-5 bg-red-600" />
-              <h3 className="text-sm tracking-wider font-semibold text-black uppercase">
-                Creator / Issuer Flow
-              </h3>
-            </div>
-
-            <div className="space-y-6">
-              {creatorFlow.map((item, index) => (
-                <div key={index} className="flex items-start gap-4">
-
-                  {/* Number */}
-                  <div className="w-8 h-8 flex items-center justify-center rounded-full bg-black text-white text-sm font-semibold">
-                    {index + 1}
-                  </div>
-
-                  {/* Text */}
-                  <p className="text-gray-700 text-sm leading-relaxed">
-                    {item}
-                  </p>
-                </div>
-              ))}
-            </div>
+          {/* Heading */}
+          <div className="mb-12">
+            <h2 className="text-2xl md:text-3xl font-semibold text-black">
+              Step-by-Step: Creator & Verifier Flows
+            </h2>
+            <p className="text-gray-500 mt-2 max-w-2xl">
+              Two parallel flows , one for the issuer or creator, one for the user or verifier , both powered by MST blockchain infrastructure.
+            </p>
           </div>
 
-          {/* USER FLOW */}
-          <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-1 h-5 bg-red-600" />
-              <h3 className="text-sm tracking-wider font-semibold text-black uppercase">
-                User / Verifier Flow
-              </h3>
-            </div>
+          {/* Grid */}
+          <div className="grid md:grid-cols-2 gap-12">
 
-            <div className="space-y-6">
-              {userFlow.map((item, index) => (
-                <div key={index} className="flex items-start gap-4">
+            {/* CREATOR FLOW */}
+            <div>
+              <div className="flex items-center gap-2 mb-6">
+                <div className="w-1 h-5 bg-red-600" />
+                <h3 className="text-sm tracking-wider font-semibold text-black uppercase">
+                  Creator / Issuer Flow
+                </h3>
+              </div>
 
-                  {/* Number */}
-                  <div className="w-8 h-8 flex items-center justify-center rounded-full bg-red-600 text-white text-sm font-semibold">
-                    {index + 1}
+              <div className="space-y-6">
+                {creatorFlow.map((item, index) => (
+                  <div key={index} className="flex items-start gap-4">
+
+                    {/* Number */}
+                    <div className="w-8 h-8 flex items-center justify-center rounded-full bg-black text-white text-sm font-semibold">
+                      {index + 1}
+                    </div>
+
+                    {/* Text */}
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      {item}
+                    </p>
                   </div>
-
-                  {/* Text */}
-                  <p className="text-gray-700 text-sm leading-relaxed">
-                    {item}
-                  </p>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
 
+            {/* USER FLOW */}
+            <div>
+              <div className="flex items-center gap-2 mb-6">
+                <div className="w-1 h-5 bg-red-600" />
+                <h3 className="text-sm tracking-wider font-semibold text-black uppercase">
+                  User / Verifier Flow
+                </h3>
+              </div>
+
+              <div className="space-y-6">
+                {userFlow.map((item, index) => (
+                  <div key={index} className="flex items-start gap-4">
+
+                    {/* Number */}
+                    <div className="w-8 h-8 flex items-center justify-center rounded-full bg-red-600 text-white text-sm font-semibold">
+                      {index + 1}
+                    </div>
+
+                    {/* Text */}
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      {item}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
       {/* STATS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pb-20 pt-6 md:px-16">
@@ -561,7 +561,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   Ready to Build NFT Ticketing on MST?
                 </h2>
                 <p className="mt-3 text-sm leading-7 text-white/85">
-                  Our team will walk you through exactly how MST&apos;s protocols — SARAL, WASMify, Klethesia, and FortunaX — deliver this use case for your organization.
+                  Our team will walk you through exactly how MST&apos;s protocols , SARAL, WASMify, Klethesia, and FortunaX , deliver this use case for your organization.
                 </p>
               </div>
 

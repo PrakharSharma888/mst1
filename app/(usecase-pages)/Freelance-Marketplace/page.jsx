@@ -14,12 +14,12 @@ const featureItems = [
   },
   {
     title: 'Transparent Agreement on Chain',
-    description: 'The project scope, milestone definitions, and payment terms are all recorded on-chain at the start. No he-said-she-said — the blockchain has the original agreement.',
+    description: 'The project scope, milestone definitions, and payment terms are all recorded on-chain at the start. No he-said-she-said , the blockchain has the original agreement.',
     icon: ShieldCheck
   },
   {
     title: 'Automatic Payment Release',
-    description: 'When a milestone is approved, the corresponding payment releases automatically — no chasing invoices, no waiting for bank transfers, no platform delays.',
+    description: 'When a milestone is approved, the corresponding payment releases automatically , no chasing invoices, no waiting for bank transfers, no platform delays.',
     icon: Database
   }
 ];
@@ -27,7 +27,7 @@ const featureItems = [
 const proofItems = [
   {
     title: 'Global Software Development',
-    description: 'International client-developer projects with milestone-based smart contract escrow — automatic payment on delivery confirmation.',
+    description: 'International client-developer projects with milestone-based smart contract escrow , automatic payment on delivery confirmation.',
     image: '/freelance/Global Software Development.jpg',
     alt: 'Digital Gold Savings Products'
   },
@@ -47,17 +47,17 @@ const proofItems = [
 
 const creatorSteps = [
   'Client creates a project agreement with milestones, deliverables, and payment amounts for each stage',
-  'Total payment is locked in smart contract escrow — freelancer sees the funds are secured',
+  'Total payment is locked in smart contract escrow , freelancer sees the funds are secured',
   'Freelancer completes the first milestone and submits work through the platform',
-  'Client reviews and approves the milestone — smart contract automatically releases that milestones payment',
-  'Process repeats for each milestone until project is complete — full record on-chain throughout'
+  'Client reviews and approves the milestone , smart contract automatically releases that milestones payment',
+  'Process repeats for each milestone until project is complete , full record on-chain throughout'
 ];
 
 const verifierSteps = [
   'Freelancer sees an available project with transparent terms and locked escrow confirmed',
-  'They accept the agreement — terms are recorded on-chain and both parties are bound',
+  'They accept the agreement , terms are recorded on-chain and both parties are bound',
   'They complete the first milestone and submit their work for client review',
-  'Client approves — payment for that milestone releases to the freelancers wallet automatically',
+  'Client approves , payment for that milestone releases to the freelancers wallet automatically',
   'Freelancer can see the complete payment history and outstanding milestone schedule at any time'
 ];
 
@@ -148,7 +148,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -159,10 +159,10 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="relative inline-block">
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
-                 Freelance 
+                  Freelance
                 </span>
                 <span className="mt-2 block text-[#ff2d2d]">
-                 Marketplace
+                  Marketplace
                 </span>
               </h1>
             </div>
@@ -171,11 +171,11 @@ const [formType, setFormType] = useState("General Enquiry");
             </p>
           </div>
 
-                  {/* Responsive Button Group */}
+          {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
 
-                      {/* CONTACT */}
-                      {/* <button
+            {/* CONTACT */}
+            {/* <button
                         onClick={() => {
                           setFormType("General Enquiry");
                           setOpenForm(true);
@@ -185,28 +185,28 @@ const [formType, setFormType] = useState("General Enquiry");
                         Contact Us / Enquire
                       </button> */}
 
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#FF2D2D]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#FF2D2D]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -227,16 +227,16 @@ const [formType, setFormType] = useState("General Enquiry");
         </SectionFade>
       </section>
 
-      
+
 
       {/* INTRO */}
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-         What is a Blockchain Freelance Marketplace?
+            What is a Blockchain Freelance Marketplace?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-         A blockchain freelance marketplace uses smart contracts to replace the need for a trusted middleman between a client and a freelancer. Instead of hoping the client will pay after delivery, the payment is locked in a smart contract escrow at the start. Once the defined milestones are completed and approved, the contract automatically releases the payment to the freelancer. No chasing invoices. No disputes about whether payment was due. No platform taking 20% for being in the middle.
+            A blockchain freelance marketplace uses smart contracts to replace the need for a trusted middleman between a client and a freelancer. Instead of hoping the client will pay after delivery, the payment is locked in a smart contract escrow at the start. Once the defined milestones are completed and approved, the contract automatically releases the payment to the freelancer. No chasing invoices. No disputes about whether payment was due. No platform taking 20% for being in the middle.
           </p>
         </SectionFade>
 
@@ -274,15 +274,15 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
           <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">
-           The Problem: Freelancers Often Do Not Get Paid — and Clients Often Get Burned Too
+            The Problem: Freelancers Often Do Not Get Paid , and Clients Often Get Burned Too
           </h2>
           <p className="text-base leading-8 text-black/70">
-            The global freelance economy is enormous — but it runs on informal trust that frequently breaks down. Freelancers complete work and wait weeks for payment. Clients pay upfront and receive work that does not match what was agreed. Disputes spiral with no fair resolution mechanism. Existing platforms charge high fees to provide basic trust infrastructure — and still do not guarantee outcomes.
+            The global freelance economy is enormous , but it runs on informal trust that frequently breaks down. Freelancers complete work and wait weeks for payment. Clients pay upfront and receive work that does not match what was agreed. Disputes spiral with no fair resolution mechanism. Existing platforms charge high fees to provide basic trust infrastructure , and still do not guarantee outcomes.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Fixes It </h3>
           <p className="text-base leading-8 text-black/70">
-           On MST Blockchain, a client creates a project with clearly defined milestones and payment amounts for each. The total payment is locked into a smart contract escrow. As the freelancer completes each milestone and the client confirms it, the corresponding payment is automatically released — no delay, no argument, no invoice. If a dispute arises, the transparent on-chain record of exactly what was agreed and what was delivered provides a clear basis for fair resolution.
+            On MST Blockchain, a client creates a project with clearly defined milestones and payment amounts for each. The total payment is locked into a smart contract escrow. As the freelancer completes each milestone and the client confirms it, the corresponding payment is automatically released , no delay, no argument, no invoice. If a dispute arises, the transparent on-chain record of exactly what was agreed and what was delivered provides a clear basis for fair resolution.
           </p>
         </SectionFade>
 
@@ -352,11 +352,11 @@ const [formType, setFormType] = useState("General Enquiry");
         </SectionFade>
       </section>
 
-      <FormModal 
-  open={openForm} 
-  setOpen={setOpenForm} 
-  formType={formType}
-/>
+      <FormModal
+        open={openForm}
+        setOpen={setOpenForm}
+        formType={formType}
+      />
     </main>
   );
 }

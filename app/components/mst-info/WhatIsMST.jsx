@@ -10,7 +10,7 @@ const cards = [
   {
     title: 'SARAL Protocol',
     description:
-      'SARAL Protocol is a non-custodial key management solution designed to deliver a seamless user experience—much like OAuth does for Web2. By leveraging Multi-Party Computation (MPC), SARAL empowers developers to securely manage blockchain transactions and Web3 authentication without compromising user control or privacy.',
+      'SARAL Protocol is a non-custodial key management solution designed to deliver a seamless user experience,much like OAuth does for Web2. By leveraging Multi-Party Computation (MPC), SARAL empowers developers to securely manage blockchain transactions and Web3 authentication without compromising user control or privacy.',
     ctaText: 'Explore',
     link: '/Protocol',
     icon: Blocks
@@ -18,7 +18,7 @@ const cards = [
   {
     title: 'WASMify',
     description:
-      'WASMify enables real-world applications and blockchain networks to communicate seamlessly and securely. By leveraging zero-knowledge (ZK) technology, it ensures data privacy and trustless execution—bringing strong guarantees of security to every interaction.',
+      'WASMify enables real-world applications and blockchain networks to communicate seamlessly and securely. By leveraging zero-knowledge (ZK) technology, it ensures data privacy and trustless execution,bringing strong guarantees of security to every interaction.',
     ctaText: 'Explore',
     href: '#',
     link: '/Protocol',

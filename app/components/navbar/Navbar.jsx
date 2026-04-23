@@ -605,16 +605,16 @@ export default function Navbar() {
 
           <nav className="relative z-20 flex h-16 w-full items-center justify-between px-4 lg:px-8">
 
-            <a href="/" className="-ml-1 flex items-center gap-2 group">
-              <img
-                src="https://ik.imagekit.io/avboeabnm1/images/logo.png"
+            <Link href="/" className="-ml-5 flex items-center h-full group overflow-visible">
+              <Image
+                src="/mstlogoo.png"
                 alt="MST logo"
-                width={100}
-                height={100}
-                className="h-[40px] w-auto object-contain transition-all duration-300 group-hover:drop-shadow-xl"
-                loading='lazy'
+                width={250}
+                height={80}
+                className="h-[100px] w-auto object-contain transition-all duration-500 translate-y-1 group-hover:drop-shadow-[0_0_20px_rgba(255,45,45,0.4)] t-10"
+                priority
               />
-            </a>
+            </Link>
 
             <ul className="hidden items-center gap-10 lg:flex">
               {navItems.map((item) => (

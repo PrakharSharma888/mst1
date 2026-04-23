@@ -9,12 +9,12 @@ import FormModal from "@/app/components/form/FormModal";
 const featureItems = [
   {
     title: 'No More Double-Counting',
-    description: 'Once a carbon credit is retired on MST, the record is permanently locked. It cannot be re-used, re-sold, or claimed by any other party — ever.',
+    description: 'Once a carbon credit is retired on MST, the record is permanently locked. It cannot be re-used, re-sold, or claimed by any other party , ever.',
     icon: CheckCircle2
   },
   {
     title: 'Verifiable Sustainability Claims',
-    description: 'Organizations can prove their carbon offset claims by pointing to specific on-chain retirement records — accessible to regulators and the public.',
+    description: 'Organizations can prove their carbon offset claims by pointing to specific on-chain retirement records , accessible to regulators and the public.',
     icon: ShieldCheck
   },
   {
@@ -27,13 +27,13 @@ const featureItems = [
 const proofItems = [
   {
     title: 'Corporate Carbon Offsetting',
-    description: 'Companies purchase and retire verified carbon credits on MST — with publicly auditable retirement records for every tonne claimed.',
+    description: 'Companies purchase and retire verified carbon credits on MST , with publicly auditable retirement records for every tonne claimed.',
     image: '/carbon-credit/Corporate CarbonOffsetting.jpg',
     alt: 'Digital Gold Savings Products'
   },
   {
     title: 'Renewable Energy Certificates',
-    description: 'Energy producers issue renewable energy certificates on-chain — buyers can verify the source, generation date, and retirement status instantly.',
+    description: 'Energy producers issue renewable energy certificates on-chain , buyers can verify the source, generation date, and retirement status instantly.',
     image: '/carbon-credit/Renewable EnergyCertificates.jpg',
     alt: 'Commodity-Backed Collaterals'
   },
@@ -47,7 +47,7 @@ const proofItems = [
 
 const creatorSteps = [
   'Emission reduction activity is verified by an approved third-party auditor',
-  'Carbon credits are issued as unique tokens on MST — one token per tonne of verified CO₂ reduction',
+  'Carbon credits are issued as unique tokens on MST , one token per tonne of verified CO₂ reduction',
   'Issuance details and verification data are permanently anchored on-chain for public access',
   'Credits are transferred between buyers and sellers with every transaction logged immutably',
   'When a credit is retired by an organization, the retirement is permanently locked on-chain and publicly visible'
@@ -55,10 +55,10 @@ const creatorSteps = [
 
 const verifierSteps = [
   'Buyer browses available carbon credits with full issuance and verification details on-chain',
-  'They purchase credits — transaction recorded on MST with complete provenance from issuance',
+  'They purchase credits , transaction recorded on MST with complete provenance from issuance',
   'Credits appear in their organizational sustainability portfolio.',
-  'When ready to offset, they initiate retirement — smart contract locks the credit permanently.',
-  'Public retirement record is immediately visible on-chain — proof of genuine offset for any audit.'
+  'When ready to offset, they initiate retirement , smart contract locks the credit permanently.',
+  'Public retirement record is immediately visible on-chain , proof of genuine offset for any audit.'
 ];
 
 const stats = [
@@ -176,7 +176,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -187,7 +187,7 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="relative inline-block">
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
                 <span className="block">
-                  Carbon Credit 
+                  Carbon Credit
                 </span>
                 <span className="mt-2 block text-[#ff2d2d]">
                   Tracking
@@ -198,7 +198,7 @@ const [formType, setFormType] = useState("General Enquiry");
               No more double-counting. No more greenwashing. Carbon claims that are actually provable.
             </p>
           </div>
- 
+
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -223,10 +223,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-6xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase">
-          What is <span className="text-red-600">Blockchain</span> Carbon <span className="text-red-600">Credit</span> Tracking?
+            What is <span className="text-red-600">Blockchain</span> Carbon <span className="text-red-600">Credit</span> Tracking?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-          A carbon credit represents one tonne of carbon dioxide reduced or removed from the atmosphere. Organizations buy these credits to offset their own emissions. The problem is that existing carbon markets are opaque — credits get double-counted, retirement records are unreliable, and organizations cannot always prove that the credits they bought are genuinely retired. MST Blockchain solves this by creating a transparent, permanent, publicly verifiable record for every carbon credit from issuance through to retirement.
+            A carbon credit represents one tonne of carbon dioxide reduced or removed from the atmosphere. Organizations buy these credits to offset their own emissions. The problem is that existing carbon markets are opaque , credits get double-counted, retirement records are unreliable, and organizations cannot always prove that the credits they bought are genuinely retired. MST Blockchain solves this by creating a transparent, permanent, publicly verifiable record for every carbon credit from issuance through to retirement.
           </p>
         </SectionFade>
 
@@ -264,7 +264,7 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-           <span className="text-red-600">The Problem:</span> Carbon Markets are Riddled with Credibility Issues
+            <span className="text-red-600">The Problem:</span> Carbon Markets are Riddled with Credibility Issues
           </h2>
           <p className="text-base leading-8 text-black/70">
             Studies have found that a significant portion of carbon credits sold on voluntary markets do not represent genuine emission reductions. Credits get double-counted across different registries. Retirement records are easy to manipulate. Companies claiming carbon neutrality often cannot actually prove that their purchased offsets were genuinely retired. This undermines the entire purpose of carbon markets and erodes public trust in corporate sustainability claims.
@@ -272,7 +272,7 @@ const [formType, setFormType] = useState("General Enquiry");
 
           <h3 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">How <span className="text-red-600">MST</span> Fixes It </h3>
           <p className="text-base leading-8 text-black/70">
-           Every carbon credit issued on MST gets a unique on-chain token representing one tonne of verified CO₂ reduction. Every transfer between organizations is recorded. When a credit is retired, the retirement is permanently locked on-chain — it cannot be used again, transferred, or claimed by anyone else. External data sources like satellite imagery, IoT sensors, and third-party auditor reports can be fed into the system via WASMify to verify the underlying emission reduction activities.
+            Every carbon credit issued on MST gets a unique on-chain token representing one tonne of verified CO₂ reduction. Every transfer between organizations is recorded. When a credit is retired, the retirement is permanently locked on-chain , it cannot be used again, transferred, or claimed by anyone else. External data sources like satellite imagery, IoT sensors, and third-party auditor reports can be fed into the system via WASMify to verify the underlying emission reduction activities.
           </p>
         </SectionFade>
 
@@ -342,11 +342,11 @@ const [formType, setFormType] = useState("General Enquiry");
         </SectionFade>
       </section>
 
-      <FormModal 
-  open={openForm} 
-  setOpen={setOpenForm} 
-  formType={formType}
-/>
+      <FormModal
+        open={openForm}
+        setOpen={setOpenForm}
+        formType={formType}
+      />
     </main>
   );
 }

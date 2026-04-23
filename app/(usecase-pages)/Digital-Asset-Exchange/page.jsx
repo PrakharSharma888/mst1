@@ -8,18 +8,18 @@ import FormModal from "@/app/components/form/FormModal";
 
 const featureItems = [
   {
-    title: 'Non-Custodial — You Keep Your Assets',
-    description: 'Users maintain custody of all assets until the exact moment a trade executes — at which point an atomic on-chain swap occurs simultaneously. No exchange ever holds your funds.',
+    title: 'Non-Custodial , You Keep Your Assets',
+    description: 'Users maintain custody of all assets until the exact moment a trade executes , at which point an atomic on-chain swap occurs simultaneously. No exchange ever holds your funds.',
     icon: CheckCircle2
   },
   {
     title: 'Every Trade on MST Blockchain',
-    description: 'Every order, match, and settlement is permanently recorded on MST via FortunaX consensus. Market activity is fully transparent — any participant independently verifies any trade.',
+    description: 'Every order, match, and settlement is permanently recorded on MST via FortunaX consensus. Market activity is fully transparent , any participant independently verifies any trade.',
     icon: ShieldCheck
   },
   {
     title: 'Fast Finality, Minimal Fees',
-    description: "MST's FortunaX consensus provides near-instant finality — trades settle in seconds. Low network fees make high-frequency and small-value trading economically viable for all participants.",
+    description: "MST's FortunaX consensus provides near-instant finality , trades settle in seconds. Low network fees make high-frequency and small-value trading economically viable for all participants.",
     icon: Database
   }
 ];
@@ -48,46 +48,46 @@ const proofItems = [
 const issuerSteps = [
   {
     title: "Issuer: Step 1",
-    desc: "Assets listed in MST exchange smart contract — WASMify enables any tokenized asset type to be listed",
+    desc: "Assets listed in MST exchange smart contract , WASMify enables any tokenized asset type to be listed",
   },
   {
     title: "Issuer: Step 2",
-    desc: "Users connect Bridge-Key Wallet — assets remain fully in user custody, not transferred to any exchange",
+    desc: "Users connect Bridge-Key Wallet , assets remain fully in user custody, not transferred to any exchange",
   },
   {
     title: "Issuer: Step 3",
-    desc: "Order placed and submitted to smart contract order book — visible on-chain to all participants immediately",
+    desc: "Order placed and submitted to smart contract order book , visible on-chain to all participants immediately",
   },
   {
     title: "Issuer: Step 4",
-    desc: "Smart contract matches best available counter-order — both sides verified eligible before execution",
+    desc: "Smart contract matches best available counter-order , both sides verified eligible before execution",
   },
   {
     title: "Issuer: Step 5",
-    desc: "Atomic swap executes on MST via Fortunax — both parties receive assets simultaneously, no counterparty risk",
+    desc: "Atomic swap executes on MST via Fortunax , both parties receive assets simultaneously, no counterparty risk",
   },
 ];
 
 const userSteps = [
   {
     title: "User: Step 1",
-    desc: "Trader connects Bridge-Key Wallet — assets visible in wallet, not deposited to any exchange account",
+    desc: "Trader connects Bridge-Key Wallet , assets visible in wallet, not deposited to any exchange account",
   },
   {
     title: "User: Step 2",
-    desc: "Views MST on-chain order book — fully transparent, every order verifiable by any participant",
+    desc: "Views MST on-chain order book , fully transparent, every order verifiable by any participant",
   },
   {
     title: "User: Step 3",
-    desc: "Places buy or sell order — submitted to smart contract, visible on MST blockchain immediately",
+    desc: "Places buy or sell order , submitted to smart contract, visible on MST blockchain immediately",
   },
   {
     title: "User: Step 4",
-    desc: "Smart contract matches order — atomic swap executes, Fortunax confirms settlement in seconds",
+    desc: "Smart contract matches order , atomic swap executes, Fortunax confirms settlement in seconds",
   },
   {
     title: "User: Step 5",
-    desc: "Asset appears in Bridge-Key Wallet immediately — no settlement delay, no withdrawal waiting period",
+    desc: "Asset appears in Bridge-Key Wallet immediately , no settlement delay, no withdrawal waiting period",
   },
 ];
 
@@ -104,7 +104,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -179,7 +179,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -198,34 +198,34 @@ const [formType, setFormType] = useState("General Enquiry");
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-             Trade on MST with confidence — non-custodial, instant settlement, and every transaction permanently verifiable.
+              Trade on MST with confidence , non-custodial, instant settlement, and every transaction permanently verifiable.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -293,10 +293,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-        What is a Blockchain Digital Asset Exchange on MST?
+            What is a Blockchain Digital Asset Exchange on MST?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-         A digital asset exchange on MST is a trading platform where buying, selling, and settlement happen on-chain — with full transparency and without any need to trust a centralized operator with your funds. Think of it like a stock exchange where trades are matched by smart contract logic and settled permanently on MST — visible to anyone who wants to verify them. Users keep custody of their assets until the exact moment a trade executes.
+            A digital asset exchange on MST is a trading platform where buying, selling, and settlement happen on-chain , with full transparency and without any need to trust a centralized operator with your funds. Think of it like a stock exchange where trades are matched by smart contract logic and settled permanently on MST , visible to anyone who wants to verify them. Users keep custody of their assets until the exact moment a trade executes.
           </p>
         </SectionFade>
 
@@ -333,10 +333,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-          Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -349,18 +349,18 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> FTX collapse cost customers $8B — centralized exchanges hold your funds with no accountability</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> FTX collapse cost customers $8B , centralized exchanges hold your funds with no accountability</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST non-custodial design — exchange never holds funds; atomic swap eliminates counterparty risk entirely</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST non-custodial design , exchange never holds funds; atomic swap eliminates counterparty risk entirely</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Centralized exchange price manipulation documented globally — order book opacity enables unfair practices</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Centralized exchange price manipulation documented globally , order book opacity enables unfair practices</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Every order and match on MST is on-chain — market manipulation visible to any participant instantly</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Every order and match on MST is on-chain , market manipulation visible to any participant instantly</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
@@ -368,15 +368,15 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>High trading fees (0.5–2% on centralized exchanges) make small-value trading uneconomical</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST fees under 0.1% — micro-trades and frequent trading economically viable for retail participants</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST fees under 0.1% , micro-trades and frequent trading economically viable for retail participants</span></span>
                 </td>
               </tr>
               <tr>
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd] rounded-bl-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Settlement takes 1–3 business days on traditional platforms — capital locked unproductively</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Settlement takes 1–3 business days on traditional platforms , capital locked unproductively</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">FortunaX finality — MST trades settle in seconds, freeing capital for immediate redeployment</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">FortunaX finality , MST trades settle in seconds, freeing capital for immediate redeployment</span></span>
                 </td>
               </tr>
             </tbody>
@@ -388,15 +388,15 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-           The Problem: Centralized Exchanges Are a Single Point of Trust — That Keeps Failing
+            The Problem: Centralized Exchanges Are a Single Point of Trust , That Keeps Failing
           </h2>
           <p className="text-base leading-8 text-black/70">
-        Traditional centralized exchanges require users to deposit funds into the exchange's control. FTX alone lost $8 billion in customer funds. Exchanges can manipulate prices, halt trading unfairly, or collapse without warning. Settlement is opaque. Users have no way to verify their funds actually exist until withdrawal — which may be blocked when they need it most.
+            Traditional centralized exchanges require users to deposit funds into the exchange's control. FTX alone lost $8 billion in customer funds. Exchanges can manipulate prices, halt trading unfairly, or collapse without warning. Settlement is opaque. Users have no way to verify their funds actually exist until withdrawal , which may be blocked when they need it most.
           </p>
 
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">How MST Specifically Solves It</h2>
           <p className="text-base leading-8 text-black/70">
-          MST's non-custodial architecture eliminates the fundamental vulnerability — no exchange ever holds user funds. WASMify enables any tokenized asset type to trade on the same infrastructure — real estate, commodities, gaming assets, carbon credits. Satva Shuffle prevents validator manipulation. FortunaX settles trades in seconds. The result is an exchange where the FTX scenario is structurally impossible.
+            MST's non-custodial architecture eliminates the fundamental vulnerability , no exchange ever holds user funds. WASMify enables any tokenized asset type to trade on the same infrastructure , real estate, commodities, gaming assets, carbon credits. Satva Shuffle prevents validator manipulation. FortunaX settles trades in seconds. The result is an exchange where the FTX scenario is structurally impossible.
           </p>
         </SectionFade>
 
@@ -424,7 +424,7 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MST's unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MST's unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -434,17 +434,17 @@ const [formType, setFormType] = useState("General Enquiry");
                     Sub-Second Trade Settlement
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                  FortunaX provides near-instant finality for trade settlement — far faster than most blockchain competitors. Assets are in the buyer's wallet in seconds after a match is found.
+                    FortunaX provides near-instant finality for trade settlement , far faster than most blockchain competitors. Assets are in the buyer's wallet in seconds after a match is found.
                   </p>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">WASMify Protocol</p>
                   <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-white font-extrabold uppercase mb-5 mt-3">
-                   Any Asset Type Can Be Listed
+                    Any Asset Type Can Be Listed
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    WASMify's multi-language support enables any tokenized asset — real estate tokens, commodity tokens, gaming assets, carbon credits — to be traded on MST exchange using consistent smart contract infrastructure.
+                    WASMify's multi-language support enables any tokenized asset , real estate tokens, commodity tokens, gaming assets, carbon credits , to be traded on MST exchange using consistent smart contract infrastructure.
                   </p>
                 </div>
 
@@ -454,7 +454,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Fair and Random Validator Selection
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                 Satva Shuffle ensures the validators confirming trades are randomly selected — no entity can stack the validation process to front-run or manipulate trade settlement in their favor.
+                    Satva Shuffle ensures the validators confirming trades are randomly selected , no entity can stack the validation process to front-run or manipulate trade settlement in their favor.
                   </p>
                 </div>
               </div>
@@ -488,63 +488,63 @@ const [formType, setFormType] = useState("General Enquiry");
       </section>
 
       {/* JOURNEY */}
-   <section className="w-full bg-white py-20">
-      <div className="max-w-4xl mx-auto px-6 relative">
+      <section className="w-full bg-white py-20">
+        <div className="max-w-4xl mx-auto px-6 relative">
 
-        {/* Vertical Line */}
-        <div className="absolute left-6 top-0 bottom-0 w-[2px] bg-gray-300" />
+          {/* Vertical Line */}
+          <div className="absolute left-6 top-0 bottom-0 w-[2px] bg-gray-300" />
 
-        {/* ISSUER STEPS */}
-        <div className="space-y-10">
-          {issuerSteps.map((step, index) => (
-            <div key={index} className="flex items-start gap-6 relative">
+          {/* ISSUER STEPS */}
+          <div className="space-y-10">
+            {issuerSteps.map((step, index) => (
+              <div key={index} className="flex items-start gap-6 relative">
 
-              {/* Circle */}
-              <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-black text-white font-semibold">
-                {index + 1}
+                {/* Circle */}
+                <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-black text-white font-semibold">
+                  {index + 1}
+                </div>
+
+                {/* Content */}
+                <div>
+                  <h4 className="font-semibold text-black">
+                    {step.title}
+                  </h4>
+                  <p className="text-gray-600 text-sm max-w-xl">
+                    {step.desc}
+                  </p>
+                </div>
               </div>
+            ))}
+          </div>
 
-              {/* Content */}
-              <div>
-                <h4 className="font-semibold text-black">
-                  {step.title}
-                </h4>
-                <p className="text-gray-600 text-sm max-w-xl">
-                  {step.desc}
-                </p>
+          {/* Spacer */}
+          <div className="h-12" />
+
+          {/* USER STEPS */}
+          <div className="space-y-10">
+            {userSteps.map((step, index) => (
+              <div key={index} className="flex items-start gap-6 relative">
+
+                {/* Circle */}
+                <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-red-600 text-white font-semibold">
+                  {index + 1}
+                </div>
+
+                {/* Content */}
+                <div>
+                  <h4 className="font-semibold text-black">
+                    {step.title}
+                  </h4>
+                  <p className="text-gray-600 text-sm max-w-xl">
+                    {step.desc}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
         </div>
-
-        {/* Spacer */}
-        <div className="h-12" />
-
-        {/* USER STEPS */}
-        <div className="space-y-10">
-          {userSteps.map((step, index) => (
-            <div key={index} className="flex items-start gap-6 relative">
-
-              {/* Circle */}
-              <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-red-600 text-white font-semibold">
-                {index + 1}
-              </div>
-
-              {/* Content */}
-              <div>
-                <h4 className="font-semibold text-black">
-                  {step.title}
-                </h4>
-                <p className="text-gray-600 text-sm max-w-xl">
-                  {step.desc}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-
-      </div>
-    </section>
+      </section>
 
       {/* STATS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pb-20 pt-6 md:px-16">
@@ -575,7 +575,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   Ready to Build NFT Ticketing on MST?
                 </h2>
                 <p className="mt-3 text-sm leading-7 text-white/85">
-                  Our team will walk you through exactly how MST&apos;s protocols — SARAL, WASMify, Klethesia, and FortunaX — deliver this use case for your organization.
+                  Our team will walk you through exactly how MST&apos;s protocols , SARAL, WASMify, Klethesia, and FortunaX , deliver this use case for your organization.
                 </p>
               </div>
 

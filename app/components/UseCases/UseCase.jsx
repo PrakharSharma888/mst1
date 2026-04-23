@@ -7,11 +7,11 @@ import { useRouter } from "next/navigation";
 const useCases = [
   { id: "01", title: "On-Chain Certificate", desc: "Every certificate gets a unique fingerprint locked on the blockchain. Fraud becomes structurally impossible.", size: "tall", icon: "chain" },
   { id: "02", title: "NFT Ticketing", desc: "Every ticket is a unique on-chain asset. No fakes. No scalping. No lost entry. Real ownership for every fan.", size: "medium", icon: "building" },
-  { id: "03", title: "Tokenized Real Estate", desc: "Real estate on MST blockchain — fractional, transparent, and permanently verifiable.", size: "small", icon: "droplet" },
+  { id: "03", title: "Tokenized Real Estate", desc: "Real estate on MST blockchain , fractional, transparent, and permanently verifiable.", size: "small", icon: "droplet" },
   { id: "04", title: "Decentralized Voting", desc: "When votes live on the blockchain, results cannot be disputed, altered, or hidden.", size: "medium", icon: "shield" },
   { id: "05", title: "Healthcare Records", desc: "You control your medical records. Doctors get what they need instantly. MST is the secure bridge.", size: "tall", icon: "gamepad" },
   { id: "06", title: "Loyalty & Rewards", desc: "Loyalty tokens with real value. Transparent rules. No expiry surprises. Spend across any partner brand.", size: "small", icon: "fingerprint" },
-  { id: "07", title: "Gaming Asset Ownership", desc: "Your sword. Your skin. Your character. Actually yours — on MST blockchain. Forever.", size: "medium", icon: "layers" },
+  { id: "07", title: "Gaming Asset Ownership", desc: "Your sword. Your skin. Your character. Actually yours , on MST blockchain. Forever.", size: "medium", icon: "layers" },
   { id: "08", title: "Charity & Donations", desc: "Complete transparency in charitable giving. Donors watch their money reach its destination in real time.", size: "tall", icon: "leaf" },
   { id: "09", title: "Digital Identity & KYC", desc: "One MST verification. Trusted on every platform. Your data stays in your wallet.", size: "small", icon: "globe" },
   { id: "10", title: "Supply Chain Transparency", desc: "Complete supply chain visibility on MST. Every movement verified. Every record permanent.", size: "medium", icon: "briefcase" },
@@ -22,7 +22,7 @@ const useCases = [
   { id: "15", title: "Freelance Marketplace", desc: "Work. Deliver. Get paid automatically. MST smart contracts replace informal trust in global freelancing.", size: "medium", icon: "umbrella" },
   { id: "16", title: "Carbon Credit Tracking", desc: "No double-counting. No greenwashing. Carbon offset claims that are actually mathematically provable.", size: "tall", icon: "diamond" },
   { id: "17", title: "Enterprise Workflow Automation", desc: "MST smart contracts replace slow manual approvals with automated workflows and instant audit trails.", size: "small", icon: "coins" },
-  { id: "18", title: "Digital Asset Exchange", desc: "Trade on MST with confidence — non-custodial, instant settlement, and every transaction permanently verifiable.", size: "medium", icon: "clock" },
+  { id: "18", title: "Digital Asset Exchange", desc: "Trade on MST with confidence , non-custodial, instant settlement, and every transaction permanently verifiable.", size: "medium", icon: "clock" },
   { id: "19", title: "Decentralized Social Platforms", desc: "Your identity. Your content. Your community. All on MST blockchain. All permanently yours.", size: "tall", icon: "eye" },
 ];
 

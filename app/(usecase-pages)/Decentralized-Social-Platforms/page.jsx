@@ -9,18 +9,18 @@ import FormModal from "@/app/components/form/FormModal";
 
 const featureItems = [
   {
-    title: 'Your Identity — Owned by You on MST',
-    description: 'Your social profile is a verifiable credential in your Bridge-Key Wallet. No platform can delete it, suppress it, or restrict it without your consent — it is cryptographically yours on MST blockchain.',
+    title: 'Your Identity , Owned by You on MST',
+    description: 'Your social profile is a verifiable credential in your Bridge-Key Wallet. No platform can delete it, suppress it, or restrict it without your consent , it is cryptographically yours on MST blockchain.',
     icon: CheckCircle2
   },
   {
     title: 'Content Authorship Anchored On-Chain',
-    description: 'Content references and ownership are permanently recorded on MST. Your creative work has a verifiable authorship record — portable across any platform that reads MST blockchain.',
+    description: 'Content references and ownership are permanently recorded on MST. Your creative work has a verifiable authorship record , portable across any platform that reads MST blockchain.',
     icon: ShieldCheck
   },
   {
     title: 'Direct Creator Monetization via Smart Contracts',
-    description: 'Monetization runs directly between creators and their audience via MST smart contracts. No platform takes a majority cut — 100% of agreed monetization flows to the creator who created the value.',
+    description: 'Monetization runs directly between creators and their audience via MST smart contracts. No platform takes a majority cut , 100% of agreed monetization flows to the creator who created the value.',
     icon: Database
   }
 ];
@@ -34,7 +34,7 @@ const proofItems = [
   },
   {
     title: 'Professional Network with Verified Credentials',
-    description: 'Professional profiles with MST-verified credential display, skill reputation scores, and connection history — independent of any single professional network platform.',
+    description: 'Professional profiles with MST-verified credential display, skill reputation scores, and connection history , independent of any single professional network platform.',
     image: '/decentralized-social/Professional Network Credentials.jpg',
     alt: 'Express shipping supply chain'
   },
@@ -47,19 +47,19 @@ const proofItems = [
 ];
 
 const creatorSteps = [
-  'User creates portable MST identity-linked social profile via Bridge-Key Wallet — familiar app interface',
-  'Content authorship and community memberships anchored on MST as user engages — no extra steps',
-  'Community governance smart contracts deployed — same rules enforced for every member on MST',
-  'Creator configures monetization smart contract — sets terms directly with audience, platform not involved',
-  'All identity, content, and community records on MST — user takes full history to any compatible platform'
+  'User creates portable MST identity-linked social profile via Bridge-Key Wallet , familiar app interface',
+  'Content authorship and community memberships anchored on MST as user engages , no extra steps',
+  'Community governance smart contracts deployed , same rules enforced for every member on MST',
+  'Creator configures monetization smart contract , sets terms directly with audience, platform not involved',
+  'All identity, content, and community records on MST , user takes full history to any compatible platform'
 ];
 
 const verifierSteps = [
-  'User signs up with Bridge-Key Wallet MST identity — no new account creation, no repeated verification',
-  'Joins communities by acquiring on-chain membership tokens — membership is theirs, on MST, not the platform',
-  'Consumes content and engages — interaction history built on MST, belongs to user not platform',
-  'Supports creators directly via MST smart contract monetization — agreed terms, automatic execution',
-  'Changes platform — full MST identity, all community memberships, complete content history travels with them'
+  'User signs up with Bridge-Key Wallet MST identity , no new account creation, no repeated verification',
+  'Joins communities by acquiring on-chain membership tokens , membership is theirs, on MST, not the platform',
+  'Consumes content and engages , interaction history built on MST, belongs to user not platform',
+  'Supports creators directly via MST smart contract monetization , agreed terms, automatic execution',
+  'Changes platform , full MST identity, all community memberships, complete content history travels with them'
 ];
 
 const stats = [
@@ -75,7 +75,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -150,7 +150,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -162,16 +162,16 @@ const [formType, setFormType] = useState("General Enquiry");
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
                   Decentralized
-    </span>
- <span className="text-[#ff2d2d]"> Social Platforms</span>
-                
+                </span>
+                <span className="text-[#ff2d2d]"> Social Platforms</span>
+
                 {/* <span className="mt-2 block text-[#ff2d2d]">
                  Certificate
                 </span> */}
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-            Your identity. Your content. Your community. All on MST blockchain. All permanently yours.
+              Your identity. Your content. Your community. All on MST blockchain. All permanently yours.
 
 
             </p>
@@ -179,28 +179,28 @@ const [formType, setFormType] = useState("General Enquiry");
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -268,11 +268,11 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-        What is a Decentralized Social Platform on MST?
+            What is a Decentralized Social Platform on MST?
 
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-          A decentralized social platform on MST is one where your profile, your content, and your community memberships live on the blockchain — not in a companies database the company controls. You cannot be deplatformed from your own identity. Your followers and content history travel with you. Community rules run in smart contracts that apply equally to everyone. Creator monetization flows directly — no platform taking the majority of advertising revenue generated from your content.
+            A decentralized social platform on MST is one where your profile, your content, and your community memberships live on the blockchain , not in a companies database the company controls. You cannot be deplatformed from your own identity. Your followers and content history travel with you. Community rules run in smart contracts that apply equally to everyone. Creator monetization flows directly , no platform taking the majority of advertising revenue generated from your content.
           </p>
         </SectionFade>
 
@@ -309,10 +309,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-          Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -325,34 +325,34 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Platforms own your account — deletion can happen without warning or appeal</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Platforms own your account , deletion can happen without warning or appeal</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST identity in Bridge-Key Wallet — no platform can delete what they never controlled</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST identity in Bridge-Key Wallet , no platform can delete what they never controlled</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Creator content generates platform ad revenue — creators receive 0% of that revenue</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Creator content generates platform ad revenue , creators receive 0% of that revenue</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST smart contract monetization — creator and audience agree terms directly, zero platform cut</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST smart contract monetization , creator and audience agree terms directly, zero platform cut</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Followers are owned by the platform — switching platforms means starting over from zero</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Followers are owned by the platform , switching platforms means starting over from zero</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">On-chain community memberships travel with user — followers exist on MST, not on any platform</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">On-chain community memberships travel with user , followers exist on MST, not on any platform</span></span>
                 </td>
               </tr>
               <tr>
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd] rounded-bl-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Moderation rules set unilaterally by platform — can change without notice or community consent</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Moderation rules set unilaterally by platform , can change without notice or community consent</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Community governance rules in smart contracts — same rules for every member, no unilateral platform changes</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Community governance rules in smart contracts , same rules for every member, no unilateral platform changes</span></span>
                 </td>
               </tr>
             </tbody>
@@ -367,12 +367,12 @@ const [formType, setFormType] = useState("General Enquiry");
             The Problem: 4.9 Billion People Own Nothing on Social Platforms They Built
           </h2>
           <p className="text-base leading-8 text-black/70">
-          On every major social platform, the company owns everything — your account, your followers, your content, your monetization access. Accounts are deleted without due process. Algorithmic suppression happens without explanation. Creators build audiences over years only to have access revoked overnight. The platform captures 100% of advertising revenue generated from your content.
+            On every major social platform, the company owns everything , your account, your followers, your content, your monetization access. Accounts are deleted without due process. Algorithmic suppression happens without explanation. Creators build audiences over years only to have access revoked overnight. The platform captures 100% of advertising revenue generated from your content.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Specifically Solves It</h3>
           <p className="text-base leading-8 text-black/70">
-         Bridge-Key Wallet makes the user experience identical to any existing social app — users manage on-chain identity without knowing what a blockchain is. SARAL Protocol means existing platforms can adopt MST identity without rebuilding. Klethesia protects privacy while enabling public proof of authorship. Smart contract monetization eliminates the platform intermediary — the $131B advertising market gets redistributed toward the creators who generate the content.
+            Bridge-Key Wallet makes the user experience identical to any existing social app , users manage on-chain identity without knowing what a blockchain is. SARAL Protocol means existing platforms can adopt MST identity without rebuilding. Klethesia protects privacy while enabling public proof of authorship. Smart contract monetization eliminates the platform intermediary , the $131B advertising market gets redistributed toward the creators who generate the content.
           </p>
         </SectionFade>
 
@@ -400,17 +400,17 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MSTs unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MSTs unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">Bridge-Key Wallet</p>
                   <h3 className="mt-3 font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">
-                   Users Never Need to Know Its Blockchain
+                    Users Never Need to Know Its Blockchain
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   The Bridge-Key Wallet gives users a standard social app experience — they manage their on-chain profile and monetization through a familiar interface without any blockchain awareness required.
+                    The Bridge-Key Wallet gives users a standard social app experience , they manage their on-chain profile and monetization through a familiar interface without any blockchain awareness required.
                   </p>
                 </div>
 
@@ -420,7 +420,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Any Social Platform Integrates MST Identity
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                 SARAL Protocol connectors enable any social platform to support MST-based portable identity and content ownership — giving existing platforms the option to adopt user ownership without rebuilding from scratch.
+                    SARAL Protocol connectors enable any social platform to support MST-based portable identity and content ownership , giving existing platforms the option to adopt user ownership without rebuilding from scratch.
                   </p>
                 </div>
 
@@ -430,7 +430,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Private User Data, Public Proof of Authorship
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                  Klethesia ensures user personal data remains private while content authorship and community membership proofs are publicly verifiable — protecting user privacy without sacrificing transparency.
+                    Klethesia ensures user personal data remains private while content authorship and community membership proofs are publicly verifiable , protecting user privacy without sacrificing transparency.
                   </p>
                 </div>
               </div>
@@ -502,7 +502,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   Ready to Build On-Chain Certificate on MST?
                 </h2>
                 <p className="mt-3 text-sm leading-7 text-white/85">
-                  Our team will walk you through exactly how MST&apos;s protocols — SARAL, WASMify, Klethesia, and FortunaX — deliver this use case for your organization.
+                  Our team will walk you through exactly how MST&apos;s protocols , SARAL, WASMify, Klethesia, and FortunaX , deliver this use case for your organization.
                 </p>
               </div>
 

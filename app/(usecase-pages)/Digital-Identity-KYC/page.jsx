@@ -9,17 +9,17 @@ import { useState } from "react";
 const featureItems = [
   {
     title: 'Verify Once, Use Everywhere',
-    description: 'Complete identity verification one time and carry a trusted digital credential to every new platform — no repeated forms, no repeated document uploads.',
+    description: 'Complete identity verification one time and carry a trusted digital credential to every new platform , no repeated forms, no repeated document uploads.',
     icon: ShieldCheck
   },
   {
     title: 'Your Data Stays Yours',
-    description: 'SARAL Protocol keeps credentials in your own wallet. Platforms get the verification confirmation they need — without ever holding your personal documents.',
+    description: 'SARAL Protocol keeps credentials in your own wallet. Platforms get the verification confirmation they need , without ever holding your personal documents.',
     icon: CheckCircle2
   },
   {
     title: 'Instant Onboarding',
-    description: 'New users verify in seconds instead of days. Platforms get compliance-ready confirmations instantly — without the overhead of running their own KYC.',
+    description: 'New users verify in seconds instead of days. Platforms get compliance-ready confirmations instantly , without the overhead of running their own KYC.',
     icon: Home
   }
 ];
@@ -27,7 +27,7 @@ const featureItems = [
 const proofItems = [
   {
     title: 'Fintech & Exchange Onboarding',
-    description: 'Users verify once and onboard to multiple financial platforms without repeating KYC — dramatically reducing drop-off at signup.',
+    description: 'Users verify once and onboard to multiple financial platforms without repeating KYC , dramatically reducing drop-off at signup.',
     image: '/Digital-identity-kyc/Fintech & Exchange Onboarding.jpg',
     alt: 'National car manufacturer supply chain'
   },
@@ -39,7 +39,7 @@ const proofItems = [
   },
   {
     title: 'Government Service Portals',
-    description: 'Citizens use a single verified digital identity to access multiple government services — securely and instantly.',
+    description: 'Citizens use a single verified digital identity to access multiple government services , securely and instantly.',
     image: '/Digital-identity-kyc/Government Service Portals.jpg',
     alt: 'Food and agriculture supply chain'
   }
@@ -49,14 +49,14 @@ const creatorSteps = [
   'User completes identity verification through an MST-approved onboarding flow',
   'A verifiable credential (digital proof of identity) is issued and anchored on MST blockchain',
   'User stores the credential in their own wallet via SARAL Protocol',
-  'When signing up for a new service, user shares the credential — no documents sent',
+  'When signing up for a new service, user shares the credential , no documents sent',
   'The new service checks the blockchain to confirm the credential is valid and compliant'
 ];
 
 const verifierSteps = [
   'User arrives at a new platforms signup page  ',
   'Instead of uploading documents, they present their MST identity credential',
-  'Platform checks the credential on the blockchain — instant verification result',
+  'Platform checks the credential on the blockchain , instant verification result',
   'User gains access or compliance clearance without the traditional KYC wait',
   'All credential interactions are logged with user-controlled permissions for full auditability'
 ];
@@ -100,7 +100,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -148,7 +148,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -159,7 +159,7 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="relative inline-block">
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
-                Digital Identity & KYC
+                  Digital Identity & KYC
                 </span>
               </h1>
             </div>
@@ -171,8 +171,8 @@ const [formType, setFormType] = useState("General Enquiry");
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
 
-                      {/* CONTACT */}
-                      {/* <button
+            {/* CONTACT */}
+            {/* <button
                         onClick={() => {
                           setFormType("General Enquiry");
                           setOpenForm(true);
@@ -182,28 +182,28 @@ const [formType, setFormType] = useState("General Enquiry");
                         Contact Us / Enquire
                       </button> */}
 
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -228,10 +228,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-         What is Blockchain-Based Digital Identity?
+            What is Blockchain-Based Digital Identity?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-           Every time you sign up for a new service — a bank, an exchange, a healthcare platform — you go through the same identity verification process all over again. Upload your ID, take a selfie, wait for approval. It is repetitive, slow, and your sensitive documents end up stored in dozens of different company databases. MST Blockchain makes it possible to verify your identity once, get a digital credential that lives in your own wallet, and simply present that credential to any new service — instantly, without sharing your documents again.
+            Every time you sign up for a new service , a bank, an exchange, a healthcare platform , you go through the same identity verification process all over again. Upload your ID, take a selfie, wait for approval. It is repetitive, slow, and your sensitive documents end up stored in dozens of different company databases. MST Blockchain makes it possible to verify your identity once, get a digital credential that lives in your own wallet, and simply present that credential to any new service , instantly, without sharing your documents again.
           </p>
         </SectionFade>
 
@@ -272,12 +272,12 @@ const [formType, setFormType] = useState("General Enquiry");
             The Problem: KYC is Repetitive, Expensive, and Insecure
           </h2>
           <p className="text-base leading-8 text-black/70">
-          Traditional Know Your Customer (KYC) processes cost businesses enormous time and money — and still fail regularly. Customers abandon signups because verification takes too long. Centralized identity databases become major targets for data breaches. Sensitive personal documents get stored by dozens of companies, most of which never needed to hold them in the first place.
+            Traditional Know Your Customer (KYC) processes cost businesses enormous time and money , and still fail regularly. Customers abandon signups because verification takes too long. Centralized identity databases become major targets for data breaches. Sensitive personal documents get stored by dozens of companies, most of which never needed to hold them in the first place.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Fixes It</h3>
           <p className="text-base leading-8 text-black/70">
-          With MST's Digital Identity system, a user goes through verification once with an approved provider. A verifiable credential is issued — essentially a digital proof that says "this person's identity has been verified" — and it is anchored on the blockchain. The user stores this in their own wallet via the SARAL Protocol. When they sign up for a new service, they simply share the credential. The new service checks the blockchain to confirm it is valid — no documents shared, no data stored.
+            With MST's Digital Identity system, a user goes through verification once with an approved provider. A verifiable credential is issued , essentially a digital proof that says "this person's identity has been verified" , and it is anchored on the blockchain. The user stores this in their own wallet via the SARAL Protocol. When they sign up for a new service, they simply share the credential. The new service checks the blockchain to confirm it is valid , no documents shared, no data stored.
           </p>
         </SectionFade>
 
@@ -296,7 +296,7 @@ const [formType, setFormType] = useState("General Enquiry");
 
       {/* PROOFS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 py-16 md:px-16">
-        
+
         <SectionFade className="space-y-3">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">Proofs of Concept</h2>
           <p className="max-w-2xl text-base leading-8 text-black/68">
@@ -320,47 +320,47 @@ const [formType, setFormType] = useState("General Enquiry");
       </section>
 
       {/* STEPS */}
-          <section className='mx-auto text-center w-full max-w-[90rem] px-6 py-16 md:px-16'>
-                  <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">See How It Works Step by Step</h3>
+      <section className='mx-auto text-center w-full max-w-[90rem] px-6 py-16 md:px-16'>
+        <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">See How It Works Step by Step</h3>
         <p className="text-base leading-8 text-black/70">
-         Two simple flows — one for whoever is issuing or creating, and one for whoever is verifying or using. Both powered by MST blockchain behind the scenes.
-          </p>
+          Two simple flows , one for whoever is issuing or creating, and one for whoever is verifying or using. Both powered by MST blockchain behind the scenes.
+        </p>
 
-<section
-  className="mx-auto w-full max-w-[90rem] px-2 py-10 sm:px-6 sm:py-16 md:px-16
+        <section
+          className="mx-auto w-full max-w-[90rem] px-2 py-10 sm:px-6 sm:py-16 md:px-16
     grid grid-cols-1 gap-6
     lg:grid-cols-2 lg:gap-6
     min-h-0"
->
+        >
 
-  {/* LEFT */}
+          {/* LEFT */}
 
-  <SectionFade className="h-full min-h-0 flex flex-col">
-    <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
-      {/* Header (fixed) */}
-      <div className="p-4 border-b font-semibold">Creator / Issuer Flow</div>
-      {/* Scrollable content */}
-      <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
-        <StepFlow steps={creatorSteps} />
-      </div>
-    </div>
-  </SectionFade>
+          <SectionFade className="h-full min-h-0 flex flex-col">
+            <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
+              {/* Header (fixed) */}
+              <div className="p-4 border-b font-semibold">Creator / Issuer Flow</div>
+              {/* Scrollable content */}
+              <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
+                <StepFlow steps={creatorSteps} />
+              </div>
+            </div>
+          </SectionFade>
 
-  {/* RIGHT */}
+          {/* RIGHT */}
 
-  <SectionFade className="h-full min-h-0 flex flex-col">
-    <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
-      {/* Header (fixed) */}
-      <div className="p-4 border-b font-semibold">User / Verifier Flow</div>
-      {/* Scrollable content */}
-      <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
-        <StepFlow steps={verifierSteps} accent />
-      </div>
-    </div>
-  </SectionFade>
+          <SectionFade className="h-full min-h-0 flex flex-col">
+            <div className="flex flex-col h-full min-h-0 flex-1 bg-white rounded-xl overflow-hidden">
+              {/* Header (fixed) */}
+              <div className="p-4 border-b font-semibold">User / Verifier Flow</div>
+              {/* Scrollable content */}
+              <div className="flex-1 w-full min-h-0 overflow-y-auto p-4">
+                <StepFlow steps={verifierSteps} accent />
+              </div>
+            </div>
+          </SectionFade>
 
-</section>
-          </section>
+        </section>
+      </section>
 
       {/* STATS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pb-20 pt-6 md:px-16">

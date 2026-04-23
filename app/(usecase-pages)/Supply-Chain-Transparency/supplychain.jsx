@@ -1,4 +1,4 @@
- 'use client';
+'use client';
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -98,7 +98,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -163,7 +163,7 @@ export default function SupplyChainPage() {
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-              Know exactly where products are, where they came from, and who handled them — with a modern blockchain layer built for trust, traceability, and operational clarity.
+              Know exactly where products are, where they came from, and who handled them , with a modern blockchain layer built for trust, traceability, and operational clarity.
             </p>
           </div>
 

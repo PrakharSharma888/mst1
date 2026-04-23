@@ -79,7 +79,7 @@ const upcomingEvents = [
     format: "Hybrid",
     audience: "Enterprise • Creators • Community",
     about:
-      "A curated showcase of MST use-cases: enterprise workflows, tokenization, on-chain transparency, and community-led products—plus a lightning-pitch segment.",
+      "A curated showcase of MST use-cases: enterprise workflows, tokenization, on-chain transparency, and community-led products,plus a lightning-pitch segment.",
     highlights: [
       "Real-world case studies",
       "Lightning pitches + community voting",
@@ -187,7 +187,7 @@ export default function UpcomingEventsPage() {
           </div>
 
           <div className="relative mx-auto max-w-6xl">
-            
+
 
             <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-black md:text-6xl">
               Upcoming <span className="text-red-600">Events</span>

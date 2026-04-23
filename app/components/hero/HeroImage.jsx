@@ -145,7 +145,7 @@ export default function HeroImage() {
                   fill
                   className="object-cover"
                   style={{objectFit:'cover', width:'100%', height:'100%'}}
-                  priority={activeIndex === 0}
+                  priority={activeIndex === 0 || activeIndex === 1}
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </motion.div>

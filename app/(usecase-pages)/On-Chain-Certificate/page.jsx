@@ -14,12 +14,12 @@ const featureItems = [
   },
   {
     title: 'Verify in Under 2 Seconds',
-    description: 'Scan the QR code on any certificate for an instant answer — real or fake. No calls, no waiting, no uncertainty — anywhere in the world.',
+    description: 'Scan the QR code on any certificate for an instant answer , real or fake. No calls, no waiting, no uncertainty , anywhere in the world.',
     icon: ShieldCheck
   },
   {
     title: 'Batch Issuance at Scale',
-    description: 'Universities and training providers can issue thousands of credentials simultaneously through MSTs smart contract infrastructure — at a fraction of traditional cost.',
+    description: 'Universities and training providers can issue thousands of credentials simultaneously through MSTs smart contract infrastructure , at a fraction of traditional cost.',
     icon: Database
   }
 ];
@@ -27,19 +27,19 @@ const featureItems = [
 const proofItems = [
   {
     title: 'University Degree Certificates',
-    description: 'Universities issue degrees with MST blockchain verification built in — employers worldwide confirm authenticity in seconds without contacting the institution.',
+    description: 'Universities issue degrees with MST blockchain verification built in , employers worldwide confirm authenticity in seconds without contacting the institution.',
     image: '/onchain-usecase/futuristic-digital-graduation-concept.jpg',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Professional Certifications',
-    description: 'Industry certifications for regulated sectors — verifiable, tamper-proof, accepted across borders without expensive third-party agencies.',
+    description: 'Industry certifications for regulated sectors , verifiable, tamper-proof, accepted across borders without expensive third-party agencies.',
     image: '/placeholder.png',
     alt: 'Express shipping supply chain'
   },
   {
     title: 'Training & Event Completion',
-    description: 'Course completion and conference credentials issued as permanent on-chain records — as trusted as any institutional certificate.',
+    description: 'Course completion and conference credentials issued as permanent on-chain records , as trusted as any institutional certificate.',
     image: '/hero-visual-1.svg',
     alt: 'Food and agriculture supply chain'
   }
@@ -54,7 +54,7 @@ const creatorSteps = [
 ];
 
 const verifierSteps = [
-  'Recipient or verifier scans the QR code on the certificate — any standard QR reader works',
+  'Recipient or verifier scans the QR code on the certificate , any standard QR reader works',
   'Redirected to MST results page showing all credential details from the blockchain',
   'Visual inspection confirms the document matches its blockchain record exactly',
   'Option to independently validate the unique hash directly on MST blockchain explorer',
@@ -74,7 +74,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -149,7 +149,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -160,42 +160,42 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="relative inline-block">
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
-                  On-Chain 
+                  On-Chain
                 </span>
                 <span className="mt-2 block text-[#ff2d2d]">
-                 Certificate
+                  Certificate
                 </span>
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-             Every certificate gets a unique fingerprint locked on the blockchain. Fraud becomes structurally impossible.
+              Every certificate gets a unique fingerprint locked on the blockchain. Fraud becomes structurally impossible.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -263,10 +263,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-          What is an On-Chain Certificate?
+            What is an On-Chain Certificate?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-          Think of it like a digital certificate that has a unique fingerprint locked on the blockchain forever. When MST issues a degree, a professional licence, or a training badge, it gets a permanent, unchangeable record. Anyone — an employer, a university, a government body — can scan a simple QR code on the certificate and instantly know if it is real. No phone calls. No waiting for days. No guesswork.
+            Think of it like a digital certificate that has a unique fingerprint locked on the blockchain forever. When MST issues a degree, a professional licence, or a training badge, it gets a permanent, unchangeable record. Anyone , an employer, a university, a government body , can scan a simple QR code on the certificate and instantly know if it is real. No phone calls. No waiting for days. No guesswork.
           </p>
         </SectionFade>
 
@@ -303,10 +303,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 mb-2">
-          Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -319,10 +319,10 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Certificates stored in centralized databases — one breach exposes millions</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Certificates stored in centralized databases , one breach exposes millions</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST anchors each certificate independently — no central point of failure</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">MST anchors each certificate independently , no central point of failure</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
@@ -330,7 +330,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Manual verification takes 2–5 days per request and costs institutions heavily</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Instant QR verification by anyone, anywhere — zero cost at the point of checking</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Instant QR verification by anyone, anywhere , zero cost at the point of checking</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
@@ -338,7 +338,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> PDF certificates can be edited in any design tool within minutes</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Blockchain fingerprint makes any alteration immediately detectable — always</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Blockchain fingerprint makes any alteration immediately detectable , always</span></span>
                 </td>
               </tr>
               <tr>
@@ -346,7 +346,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span> Cross-border recognition requires expensive third-party verification agencies</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745] rounded-br-2xl">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">One blockchain record — globally recognized, instantly verifiable by any party</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">One blockchain record , globally recognized, instantly verifiable by any party</span></span>
                 </td>
               </tr>
             </tbody>
@@ -361,12 +361,12 @@ const [formType, setFormType] = useState("General Enquiry");
             The Problem: Certificates Are Easy to Fake
           </h2>
           <p className="text-base leading-8 text-black/70">
-            Every year, thousands of people use fake degrees and forged certificates to get jobs, access services, or cross borders. Manual checking is slow, expensive, and unreliable — especially across different countries. Even digital PDFs can be edited in minutes.
+            Every year, thousands of people use fake degrees and forged certificates to get jobs, access services, or cross borders. Manual checking is slow, expensive, and unreliable , especially across different countries. Even digital PDFs can be edited in minutes.
           </p>
 
           <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 pt-2">How MST Specifically Solves It</h3>
           <p className="text-base leading-8 text-black/70">
-           MST uses its FortunaX consensus to ensure each certificate hash is anchored with near-instant finality. The SARAL Protocol allows any institution to integrate without blockchain expertise. Klethesia keeps credential data private while making proofs public. Unlike generic blockchain solutions, MST's entire stack was designed for real-world document verification — not adapted from DeFi tooling.
+            MST uses its FortunaX consensus to ensure each certificate hash is anchored with near-instant finality. The SARAL Protocol allows any institution to integrate without blockchain expertise. Klethesia keeps credential data private while making proofs public. Unlike generic blockchain solutions, MST's entire stack was designed for real-world document verification , not adapted from DeFi tooling.
           </p>
         </SectionFade>
 
@@ -394,7 +394,7 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MST&apos;s unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MST&apos;s unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -404,7 +404,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Easiest DApp Onboarding
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    Institutions with no blockchain experience can issue verified credentials using MST&apos;s SARAL-powered tooling — no technical team required.
+                    Institutions with no blockchain experience can issue verified credentials using MST&apos;s SARAL-powered tooling , no technical team required.
                   </p>
                 </div>
 
@@ -424,7 +424,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Integrates with Any System
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    Existing student management systems, HR platforms, and government registries connect to MST through WASMify — no replacement of existing infrastructure needed.
+                    Existing student management systems, HR platforms, and government registries connect to MST through WASMify , no replacement of existing infrastructure needed.
                   </p>
                 </div>
               </div>
@@ -496,7 +496,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   Ready to Build On-Chain Certificate on MST?
                 </h2>
                 <p className="mt-3 text-sm leading-7 text-white/85">
-                  Our team will walk you through exactly how MST&apos;s protocols — SARAL, WASMify, Klethesia, and FortunaX — deliver this use case for your organization.
+                  Our team will walk you through exactly how MST&apos;s protocols , SARAL, WASMify, Klethesia, and FortunaX , deliver this use case for your organization.
                 </p>
               </div>
 

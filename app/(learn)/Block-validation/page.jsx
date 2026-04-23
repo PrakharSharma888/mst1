@@ -165,7 +165,7 @@ export default function BlockValidationPage() {
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.8, delay: 0.4 }}
                 >
-                  From transaction to final block — <span className="text-red-400">secure</span>, <span className="text-red-400">fast</span>, and <span className="text-red-400">transparent</span>.
+                  From transaction to final block , <span className="text-red-400">secure</span>, <span className="text-red-400">fast</span>, and <span className="text-red-400">transparent</span>.
                 </motion.p>
 
                 <motion.div
@@ -318,7 +318,7 @@ export default function BlockValidationPage() {
                 >
                   <div className="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-br from-red-500/15 via-transparent to-red-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute -top-10 -right-10 w-32 h-32 bg-red-500/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  
+
                   <div className="relative z-10">
                     <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-red-500/30 to-red-500/10 text-2xl font-bold text-red-500 mb-5 group-hover:from-red-500/50 group-hover:to-red-500/20 transition-all duration-300">
                       {item.num}
@@ -476,7 +476,7 @@ export default function BlockValidationPage() {
                   <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-red-500/20 rounded-full blur-2xl opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
 
                   <div className="relative z-10">
-                    <motion.div 
+                    <motion.div
                       className="text-5xl md:text-6xl mb-6 inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-red-500/30 to-red-500/10 group-hover:from-red-500/50 group-hover:to-red-500/30 transition-all duration-300"
                       whileHover={{ rotate: 12, scale: 1.1 }}
                     >
@@ -557,7 +557,7 @@ export default function BlockValidationPage() {
                   <div className="absolute -bottom-8 -left-8 w-28 h-28 bg-red-500/20 rounded-full blur-2xl opacity-0 group-hover:opacity-40 transition-opacity duration-500"></div>
 
                   <div className="relative z-10 text-center">
-                    <motion.div 
+                    <motion.div
                       className="text-6xl mb-6 inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-red-500/30 to-red-500/10 group-hover:from-red-500/50 group-hover:to-red-500/30 transition-all duration-300"
                       whileHover={{ rotateZ: -10 }}
                     >
@@ -587,6 +587,6 @@ export default function BlockValidationPage() {
 
       </main>
 
-      </>
-    );
-  }
+    </>
+  );
+}

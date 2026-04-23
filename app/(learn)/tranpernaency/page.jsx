@@ -11,7 +11,7 @@ const fadeUp = {
 export default function TransparencyPage() {
   return (
     <main className="relative bg-gradient-to-b from-white to-gray-50 text-gray-900 overflow-hidden pt-12">
-      
+
       {/* --- BACKGROUND ORBITAL ANIMATIONS --- */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
         {/* Orbit 1: Inner Solid Ring */}
@@ -91,7 +91,7 @@ export default function TransparencyPage() {
               Transparency You Can Verify <span className="text-red-500">Live on MST Chain</span>
             </h1>
             <p className="text-gray-600 text-lg mb-8">
-              Every coin, every wallet, every burn — verifiable on-chain in real time.
+              Every coin, every wallet, every burn , verifiable on-chain in real time.
             </p>
             <button className="px-8 py-3 bg-red-500 text-white rounded-xl shadow-lg hover:bg-red-600 hover:scale-105 transition-all">
               Explore Transparency
@@ -154,7 +154,7 @@ export default function TransparencyPage() {
         <section className="py-16 px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase m-0 p-0 text-red-500">Official Wallets</h3>
-            <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase m-0 p-0">Every Major Wallet — Trackable</h2>
+            <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase m-0 p-0">Every Major Wallet , Trackable</h2>
             <div className="p-6 bg-white/80 backdrop-blur-sm shadow-lg border rounded-2xl hover:shadow-xl transition-all">
               <h4 className="mb-2 font-semibold">Master Wallet</h4>
               <p className="text-gray-600 break-all text-sm">0xA93c8f6922159954E26C6C6011d3ED7dd166E25D</p>

@@ -8,8 +8,8 @@ import FormModal from "@/app/components/form/FormModal";
 
 const featureItems = [
   {
-    title: 'Fractional Ownership — Any Amount',
-    description: 'MST tokenization removes the ₹50 lakh minimum barrier. Any investor can hold a fractional stake in premium real estate — verified, liquid, and tradeable on-chain.',
+    title: 'Fractional Ownership , Any Amount',
+    description: 'MST tokenization removes the ₹50 lakh minimum barrier. Any investor can hold a fractional stake in premium real estate , verified, liquid, and tradeable on-chain.',
     icon: CheckCircle2
   },
   {
@@ -19,7 +19,7 @@ const featureItems = [
   },
   {
     title: 'Automated Rental Distribution',
-    description: "Smart contracts distribute rental income to token holders proportionally and automatically — no property manager, no delay, no errors. Payments on schedule every time.",
+    description: "Smart contracts distribute rental income to token holders proportionally and automatically , no property manager, no delay, no errors. Payments on schedule every time.",
     icon: Database
   }
 ];
@@ -27,19 +27,19 @@ const featureItems = [
 const proofItems = [
   {
     title: 'Land Title Verification System',
-    description: 'Property titles anchored on MST — buyers, banks, and legal firms verify authenticity and ownership history in seconds, not days.',
+    description: 'Property titles anchored on MST , buyers, banks, and legal firms verify authenticity and ownership history in seconds, not days.',
     image: '/tokenized-estate/Land Title Verification System.jpg',
     alt: 'National car manufacturer supply chain'
   },
   {
     title: 'Fractional Commercial Real Estate',
-    description: 'Premium commercial property divided into accessible tokens — with automated rental income distribution to all fractional holders.',
+    description: 'Premium commercial property divided into accessible tokens , with automated rental income distribution to all fractional holders.',
     image: '/tokenized-estate/Fractional Commercial Real Estate.jpg',
     alt: 'Express shipping supply chain'
   },
   {
     title: 'Residential Crowdfunding',
-    description: 'Residential development projects tokenized for community co-investment — transparent on-chain progress tracking and proportional return distribution.',
+    description: 'Residential development projects tokenized for community co-investment , transparent on-chain progress tracking and proportional return distribution.',
     image: '/tokenized-estate/Residential Crowdfunding.jpg',
     alt: 'Food and agriculture supply chain'
   }
@@ -52,7 +52,7 @@ const issuerSteps = [
   },
   {
     title: "Issuer: Step 2",
-    desc: "FortunaX consensus anchors the ownership record permanently — no duplicate title can be created",
+    desc: "FortunaX consensus anchors the ownership record permanently , no duplicate title can be created",
   },
   {
     title: "Issuer: Step 3",
@@ -60,7 +60,7 @@ const issuerSteps = [
   },
   {
     title: "Issuer: Step 4",
-    desc: "Tokens issued to investors at any fraction size — recorded on-chain at moment of transfer",
+    desc: "Tokens issued to investors at any fraction size , recorded on-chain at moment of transfer",
   },
   {
     title: "Issuer: Step 5",
@@ -83,7 +83,7 @@ const userSteps = [
   },
   {
     title: "User: Step 4",
-    desc: "Checks complete on-chain ownership history — every transfer since tokenization visible",
+    desc: "Checks complete on-chain ownership history , every transfer since tokenization visible",
   },
   {
     title: "User: Step 5",
@@ -105,7 +105,7 @@ function SectionFade({ children, className = '' }) {
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      
+
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
@@ -132,7 +132,7 @@ function FeatureCard({ title, description, icon: Icon }) {
 
 function ProofCard({ title, description, image, alt }) {
   return (
-   <motion.article
+    <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)] min-h-[480px]"
@@ -182,7 +182,7 @@ function StepFlow({ title, steps, accent = false }) {
 
 export default function SupplyChainPage() {
   const [openForm, setOpenForm] = useState(false);
-const [formType, setFormType] = useState("General Enquiry");
+  const [formType, setFormType] = useState("General Enquiry");
   return (
     <main className="bg-white text-black">
       {/* HERO */}
@@ -193,42 +193,42 @@ const [formType, setFormType] = useState("General Enquiry");
             <div className="relative inline-block">
               <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
                 <span className="block">
-               Tokenized
+                  Tokenized
                 </span>
                 <span className="mt-2 block text-[#ff2d2d]">
-                 Real Estate
+                  Real Estate
                 </span>
               </h1>
             </div>
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
-            Real estate on MST blockchain — fractional, transparent, and permanently verifiable.
+              Real estate on MST blockchain , fractional, transparent, and permanently verifiable.
             </p>
           </div>
 
           {/* Responsive Button Group */}
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
-                      {/* DEMO */}
-                      <button
-                        onClick={() => {
-                          setFormType("Book a Demo");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Book a Demo
-                      </button>
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Book a Demo
+            </button>
 
-                      {/* EXPERT */}
-                      <button
-                        onClick={() => {
-                          setFormType("Talk to Expert");
-                          setOpenForm(true);
-                        }}
-                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
-                      >
-                        Talk to an Expert
-                      </button>
-            </div>
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex h-[280px] items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))] sm:h-[380px]">
@@ -286,7 +286,7 @@ const [formType, setFormType] = useState("General Enquiry");
                 <p className="text-3xl font-extrabold tracking-[-0.03em] sm:text-4xl">92%</p>
                 <p className="mt-2 text-sm font-medium text-white/70">Reduction in Settlement Time via Blockchain</p>
                 <p className="mt-1 text-xs italic text-white/50">World Economic Forum
-</p>
+                </p>
               </div>
             </div>
           </div>
@@ -297,10 +297,10 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-        What is Tokenized Real Estate on MST?
+            What is Tokenized Real Estate on MST?
           </h2>
           <p className="max-w-2xl text-base leading-8 text-black/70">
-          Tokenizing real estate means turning a physical property into digital tokens on MST blockchain. Think of it like dividing a building into thousands of digital shares — each representing real, verifiable ownership. Anyone can buy a fraction, whether that's worth ₹1,000 or ₹1 crore. Ownership is permanently recorded and cannot be disputed, forged, or manipulated. Property transfers that used to take weeks of paperwork happen in minutes.
+            Tokenizing real estate means turning a physical property into digital tokens on MST blockchain. Think of it like dividing a building into thousands of digital shares , each representing real, verifiable ownership. Anyone can buy a fraction, whether that's worth ₹1,000 or ₹1 crore. Ownership is permanently recorded and cannot be disputed, forged, or manipulated. Property transfers that used to take weeks of paperwork happen in minutes.
           </p>
         </SectionFade>
 
@@ -337,10 +337,10 @@ const [formType, setFormType] = useState("General Enquiry");
       {/* MST vs Traditional Table */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pt-10 pb-8 md:px-16">
         <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5 mb-2">
-         Why Build This on MST — Not the Traditional Way?
+          Why Build This on MST , Not the Traditional Way?
         </h2>
         <p className="text-base text-black/70 mb-7 max-w-2xl">
-          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome — and why MST specifically is the right choice.
+          Solutions like this exist in Web2 today. Here is exactly why MST blockchain changes the outcome , and why MST specifically is the right choice.
         </p>
         <div className="overflow-x-auto rounded-2xl shadow-sm border border-black/10 bg-white">
           <table className="min-w-full text-left text-base">
@@ -353,10 +353,10 @@ const [formType, setFormType] = useState("General Enquiry");
             <tbody className="align-top">
               <tr className="border-b border-[#f5eaea]">
                 <td className="px-6 py-5 text-[#1a2745] bg-[#f8fafd]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Minimum property investment starts at ₹50L+ — most Indians are excluded entirely</span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Minimum property investment starts at ₹50L+ , most Indians are excluded entirely</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Tokenization allows ₹1,000 fractional investments — any Indian can participate</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Tokenization allows ₹1,000 fractional investments , any Indian can participate</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
@@ -364,7 +364,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✗</span>Title searches take 7–15 days and still miss historical fraud in many registries</span>
                 </td>
                 <td className="px-6 py-5 bg-[#fff3f3] text-[#1a2745]">
-                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Instant on-chain ownership verification — complete 100-year history in one lookup</span></span>
+                  <span className="inline-flex items-center gap-2"><span className="text-[#ff2d2d] text-lg">✓</span> <span className="font-semibold">Instant on-chain ownership verification , complete 100-year history in one lookup</span></span>
                 </td>
               </tr>
               <tr className="border-b border-[#f5eaea]">
@@ -392,15 +392,15 @@ const [formType, setFormType] = useState("General Enquiry");
       <section className="mx-auto grid w-full max-w-[90rem] grid-cols-1 gap-10 px-6 py-16 md:px-16 lg:grid-cols-2 lg:items-center">
         <SectionFade className="space-y-5 border-l-2 border-[#ff2d2d] pl-5 md:pl-6">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-           The Problem: India's Real Estate Market Has a Trust and Access Crisis
+            The Problem: India's Real Estate Market Has a Trust and Access Crisis
           </h2>
           <p className="text-base leading-8 text-black/70">
-          Property transactions involve mountains of paperwork, expensive legal fees, and long waiting periods. Most Indians are completely locked out as investors. Land records in many states are still paper-based — duplicate titles, forged deeds, and ownership disputes drain courts and families alike. The World Bank estimates India loses $13 billion annually to land disputes.
+            Property transactions involve mountains of paperwork, expensive legal fees, and long waiting periods. Most Indians are completely locked out as investors. Land records in many states are still paper-based , duplicate titles, forged deeds, and ownership disputes drain courts and families alike. The World Bank estimates India loses $13 billion annually to land disputes.
           </p>
 
           <h2 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">How MST Specifically Solves It</h2>
           <p className="text-base leading-8 text-black/70">
-         MST's FortunaX consensus makes duplicate titles technically impossible — the chain only accepts ownership records consistent with the existing verified history. mUSD stablecoin means rental distributions are stable in value — not subject to crypto price swings. Fractional node ownership on MST means even the validation of these property records is decentralized and not controlled by any single government or corporation.
+            MST's FortunaX consensus makes duplicate titles technically impossible , the chain only accepts ownership records consistent with the existing verified history. mUSD stablecoin means rental distributions are stable in value , not subject to crypto price swings. Fractional node ownership on MST means even the validation of these property records is decentralized and not controlled by any single government or corporation.
           </p>
         </SectionFade>
 
@@ -428,7 +428,7 @@ const [formType, setFormType] = useState("General Enquiry");
                 What Makes MST the Right Blockchain for This
               </h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-white/70">
-                MST was built specifically for real-world use cases — not adapted from DeFi tooling. Here is how MST&apos;s unique protocols give this application capabilities no generic blockchain solution can match.
+                MST was built specifically for real-world use cases , not adapted from DeFi tooling. Here is how MST&apos;s unique protocols give this application capabilities no generic blockchain solution can match.
               </p>
 
               <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -438,7 +438,7 @@ const [formType, setFormType] = useState("General Enquiry");
                     Fraud-Proof Title Chain
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                   FortunaX's energy-efficient consensus permanently rejects duplicate title records. Historical fraudulent titles cannot coexist with the verified on-chain record — ever.
+                    FortunaX's energy-efficient consensus permanently rejects duplicate title records. Historical fraudulent titles cannot coexist with the verified on-chain record , ever.
                   </p>
                 </div>
 
@@ -448,14 +448,14 @@ const [formType, setFormType] = useState("General Enquiry");
                     Rupee-Stable Distributions
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
-                    Rental income and property sale proceeds are distributed in mUSD — MST's hybrid reserve-backed stablecoin — protecting investors from crypto volatility on their returns.
+                    Rental income and property sale proceeds are distributed in mUSD , MST's hybrid reserve-backed stablecoin , protecting investors from crypto volatility on their returns.
                   </p>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
                   <p className="text-[10px] font-bold uppercase tracking-[0.34em] text-[#ff2d2d]">Klethesia Protocol</p>
                   <h3 className="mt-3 font-[var(--font-space-grotesk)] text-xl font-bold tracking-[-0.01em] text-white">
-                   Private Investor Identities
+                    Private Investor Identities
                   </h3>
                   <p className="mt-3 text-sm leading-7 text-white/70">
                     Klethesia ensures investor identities remain private while ownership records stay fully verifiable. KYC data is kept off-chain; only cryptographic proofs are public.
@@ -493,68 +493,68 @@ const [formType, setFormType] = useState("General Enquiry");
 
       {/* STEPS */}
       <section className="w-full bg-white py-20">
-      <div className="max-w-4xl mx-auto px-6">
-        <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">
-          Case Study: End-to-End Walkthrough
-        </h2>
-      </div>
-
-      <div className="max-w-4xl mx-auto px-6 relative mt-10">
-
-        {/* Vertical Line */}
-        <div className="absolute left-6 top-0 bottom-0 w-[2px] bg-gray-300" />
-
-        {/* ISSUER STEPS */}
-        <div className="space-y-10">
-          {issuerSteps.map((step, index) => (
-            <div key={index} className="flex items-start gap-6 relative">
-
-              {/* Circle */}
-              <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-black text-white font-semibold">
-                {index + 1}
-              </div>
-
-              {/* Content */}
-              <div>
-                <h4 className="font-semibold text-black">
-                  {step.title}
-                </h4>
-                <p className="text-gray-600 text-sm max-w-xl">
-                  {step.desc}
-                </p>
-              </div>
-            </div>
-          ))}
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="font-[var(--font-space-grotesk)] text-3xl font-bold tracking-[-0.03em] text-black sm:text-4xl">
+            Case Study: End-to-End Walkthrough
+          </h2>
         </div>
 
-        {/* Spacer */}
-        <div className="h-12" />
+        <div className="max-w-4xl mx-auto px-6 relative mt-10">
 
-        {/* USER STEPS */}
-        <div className="space-y-10">
-          {userSteps.map((step, index) => (
-            <div key={index} className="flex items-start gap-6 relative">
+          {/* Vertical Line */}
+          <div className="absolute left-6 top-0 bottom-0 w-[2px] bg-gray-300" />
 
-              {/* Circle */}
-              <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-red-600 text-white font-semibold">
-                {index + 1}
+          {/* ISSUER STEPS */}
+          <div className="space-y-10">
+            {issuerSteps.map((step, index) => (
+              <div key={index} className="flex items-start gap-6 relative">
+
+                {/* Circle */}
+                <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-black text-white font-semibold">
+                  {index + 1}
+                </div>
+
+                {/* Content */}
+                <div>
+                  <h4 className="font-semibold text-black">
+                    {step.title}
+                  </h4>
+                  <p className="text-gray-600 text-sm max-w-xl">
+                    {step.desc}
+                  </p>
+                </div>
               </div>
+            ))}
+          </div>
 
-              {/* Content */}
-              <div>
-                <h4 className="font-semibold text-black">
-                  {step.title}
-                </h4>
-                <p className="text-gray-600 text-sm max-w-xl">
-                  {step.desc}
-                </p>
+          {/* Spacer */}
+          <div className="h-12" />
+
+          {/* USER STEPS */}
+          <div className="space-y-10">
+            {userSteps.map((step, index) => (
+              <div key={index} className="flex items-start gap-6 relative">
+
+                {/* Circle */}
+                <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-red-600 text-white font-semibold">
+                  {index + 1}
+                </div>
+
+                {/* Content */}
+                <div>
+                  <h4 className="font-semibold text-black">
+                    {step.title}
+                  </h4>
+                  <p className="text-gray-600 text-sm max-w-xl">
+                    {step.desc}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
         </div>
-
-      </div>
-    </section>
+      </section>
 
       {/* STATS */}
       <section className="mx-auto w-full max-w-[90rem] px-6 pb-20 pt-6 md:px-16">
@@ -585,7 +585,7 @@ const [formType, setFormType] = useState("General Enquiry");
                   Ready to Build On-Chain Certificate on MST?
                 </h2>
                 <p className="mt-3 text-sm leading-7 text-white/85">
-                  Our team will walk you through exactly how MST&apos;s protocols — SARAL, WASMify, Klethesia, and FortunaX — deliver this use case for your organization.
+                  Our team will walk you through exactly how MST&apos;s protocols , SARAL, WASMify, Klethesia, and FortunaX , deliver this use case for your organization.
                 </p>
               </div>
 

@@ -59,7 +59,7 @@ const team = [
     image:
       '/assets/nigelsir.jpeg',
     bio:
-      'He oversees operations at MST Blockchain, ensuring a seamless alignment between product strategy, execution, and user experience. He plays a key role in shaping how builders and community members interact with the ecosystem—making MST intuitive, accessible, and efficient at every touchpoint.',
+      'He oversees operations at MST Blockchain, ensuring a seamless alignment between product strategy, execution, and user experience. He plays a key role in shaping how builders and community members interact with the ecosystem,making MST intuitive, accessible, and efficient at every touchpoint.',
     bio2:
       'Driven by a vision of delivering a premium and user-centric experience, he ensures that every interaction within MST reflects quality, precision, and ease of use.',
     linkedinHandle: '@mst_Suresh',
