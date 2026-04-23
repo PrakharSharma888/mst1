@@ -145,11 +145,11 @@ export default function Footer() {
             <div className="col-span-1 lg:col-span-3 mb-6 sm:mb-0 text-start">
               <h4 className="bungee-regular text-lg md:text-lg leading-tight tracking-tight text-red-600 font-extrabold uppercase mb-6" style={{ fontFamily: 'Montserrat', fontWeight: 800 }}>Use Cases</h4>
               <ul className="space-y-4 text-gray-600 text-sm">
-                <li><Link href="/onchain-certificate" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">On Chain Certificate</Link></li>
-                <li><Link href="/supply-chain" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Supply Chain Transparency</Link></li>
-                <li><Link href="/tokenized-realestate" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Tokenized Real Estate</Link></li>
-                <li><Link href="/insurance-automation" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Insurance Automation</Link></li>
-                <li><Link href="/nft-ticketing" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">NFT Ticketing</Link></li>
+                <li><Link href="/On-Chain-Certificate" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">On Chain Certificate</Link></li>
+                <li><Link href="/Supply-Chain-Transparency" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Supply Chain Transparency</Link></li>
+                <li><Link href="/Tokenized-Real-Estate" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Tokenized Real Estate</Link></li>
+                <li><Link href="/Insurance-Automation" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Insurance Automation</Link></li>
+                <li><Link href="/NFT-Ticketing" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">NFT Ticketing</Link></li>
 
               </ul>
             </div>
