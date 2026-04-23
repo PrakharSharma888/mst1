@@ -68,7 +68,7 @@ function DotIndicators({ count, activeIndex, onSelect, className = '' }) {
   if (!count || count <= 1) return null;
 
   return (
-    <div className={`flex items-center justify-center gap-2 ${className}`.trim()}>
+    <div className={`flex items-center justify-center gap-2 ${className}`.trim()} >
       {Array.from({ length: count }).map((_, idx) => (
         <button
           key={idx}
@@ -176,7 +176,6 @@ function RotatingEventPanel({ title, events, variant }) {
   }, [events, index]);
 
   const activeEvent = events?.[index];
-
   return (
     <div
       className="flex h-auto min-h-[550px] flex-col overflow-hidden rounded-3xl border border-red-500/20 bg-transparent px-4 pt-4 pb-5 shadow-[0_0_28px_rgba(255,45,45,0.10)] sm:min-h-[560px] sm:px-5 sm:pt-5"
@@ -240,8 +239,7 @@ export default function MSTEventSection() {
         aria-hidden="true"
         className="pointer-events-none absolute left-1/2 top-1/2 h-[320px] w-[320px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-500/10 blur-[80px]"
       />
-
-      <div className="relative z-10 mx-auto max-w-[1200px] px-4 sm:px-6">
+      <div className="relative z-10 mx-auto max-w-[1200px] px-4 sm:px-6" id='Events'>
         {/* Header */}
         <div className="mb-8 sm:mb-10">
           <h2 className="bungee-regular text-4xl sm:text-5xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
@@ -251,7 +249,6 @@ export default function MSTEventSection() {
             Track what’s next, revisit what shipped
           </p>
         </div>
-
         {/* Two-column dynamic layout */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-6">
           <RotatingEventPanel title="Upcoming Events" events={UPCOMING_EVENTS} variant="upcoming" />
