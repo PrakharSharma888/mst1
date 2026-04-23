@@ -10,7 +10,7 @@ import PartnerMarquee from './PartnerMarquee';
 
 
 // --- Typewriter Hook ---
-function useTypewriter({ texts, typingSpeed = 1, deletingSpeed = 1, pause = 1500 }) {
+function useTypewriter({ texts, typingSpeed = 10, deletingSpeed = 10, pause = 1500 }) {
   const [index, setIndex] = useState(0);
   const [displayed, setDisplayed] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -84,7 +84,7 @@ const headings = [
 const stats = [
   { label: 'Average Block Time', value: 3.0, suffix: 's', decimals: 1, active: true },
   { label: 'Active Validators', value: 70000, suffix: '+', decimals: 0, active: true },
-  { label: 'Average Tx Fees', value: 0.001, suffix: ' MSTC', decimals: 3, active: true }
+  { label: 'Average Txn Fees', value: 0.001, suffix: ' MSTC', decimals: 3, active: true }
 ];
 
 // 🔥 LOGOS
@@ -198,21 +198,21 @@ export default function HeroSection() {
       </motion.div>
 
       {/* Main Content */}
-      <div className="relative z-10 mx-auto max-w-[90rem] min-h-screen grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] items-center gap-10 px-6 pt-28 pb-12">
+      <div className="relative z-10 mx-auto max-w-[90rem] min-h-screen grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] items-center gap-6 sm:gap-10 px-4 sm:px-6 pt-20 sm:pt-24 md:pt-28 pb-12">
 
-        {/* LEFT */}
+        {/* LEFT - Heading & Buttons */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col items-center text-center lg:items-start lg:text-left"
+          className="order-1 md:order-none flex flex-col items-center text-center md:items-start md:text-left"
         >
           {/* HEADING */}
-          <div className="h-[160px] md:h-[200px] mb-20 flex  justify-center lg:justify-start">
+          <div className="h-[90px] sm:h-[160px] md:h-[200px] mt-12 sm:mt-0 mb-6 sm:mb-14 md:mb-20 flex justify-center md:justify-start">
             {(() => {
               // Typewriter config
-              const typingSpeed = 5; // ms per character (faster)
-              const deletingSpeed = 5; // ms per character (faster)
+              const typingSpeed = 10; // ms per character (faster)
+              const deletingSpeed = 10; // ms per character (faster)
               const pause = 1400; // ms pause at end of word
               const typewriter = useTypewriter({
                 texts: headings,
@@ -221,9 +221,9 @@ export default function HeroSection() {
                 pause,
               });
               return (
-                <h1 className="bungee-regular text-4xl md:text-7xl w-full tracking-tight text-black font-extrabold uppercase">
+                <h1 className="bungee-regular text-2xl sm:text-4xl md:text-7xl w-full tracking-tight text-black font-extrabold uppercase">
                   {typewriter.format(headings[typewriter.index])}
-                  <span className="inline-block w-[4px] h-12 md:h-12 mb-2 bg-black align-middle animate-pulse ml-2" style={{ verticalAlign: 'middle', opacity: 1 }} />
+                  <span className="inline-block w-[3px] sm:w-[4px] h-7 sm:h-10 md:h-12 mb-1 sm:mb-2 bg-black align-middle animate-pulse ml-1 sm:ml-2" style={{ verticalAlign: 'middle', opacity: 1 }} />
                 </h1>
               );
             })()}
@@ -247,37 +247,37 @@ export default function HeroSection() {
               Documentation
             </a>
           </div>
-
-          {/* STATS */}
-          <div className="mt-5 sm:mt-5 mb-5 grid grid-cols-3 gap-2 sm:gap-4 w-full max-w-xl ">
-            {stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="group  p-2 sm:p-4 bg-white/60 border border-black/10 rounded-lg sm:rounded-2xl backdrop-blur-md hover:border-[#FF2D2D]/40 transition-all text-left"
-              >
-                <p className="text-[8px] sm:text-[10px] uppercase tracking-wide text-black/80 flex items-center gap-1">
-                  {stat.active && (
-                    <span className="h-1 w-1 rounded-full bg-[#FF2D2D] animate-ping" />
-                  )}
-                  {stat.label}
-                </p>
-
-                <p className="text-2xl sm:text-4xl font-extrabold mt-1 text-black group-hover:text-[#FF2D2D] transition-colors">
-                  <CountUp
-                    value={stat.value}
-                    prefix={stat.prefix}
-                    suffix={stat.suffix}
-                    decimals={stat.decimals}
-                  />
-                </p>
-              </div>
-            ))}
-          </div>
         </motion.div>
 
-        {/* RIGHT */}
-        <div className="flex justify-end w-full pr-5">
+        {/* RIGHT - Image Container */}
+        <div className="order-2 md:order-none md:col-start-2 md:row-span-2 flex justify-center md:justify-end w-full pr-0 md:pr-5">
           <HeroImage slides={slides} slideCount={slideCount} />
+        </div>
+
+        {/* STATS - Below image on mobile (sm), but below buttons on tablet (md) and laptop (lg) */}
+        <div className="order-3 md:order-none md:col-start-1 md:row-start-2 mt-6 md:mt-0 grid grid-cols-3 gap-2 sm:gap-4 w-full max-w-xl mx-auto md:mx-0">
+          {stats.map((stat) => (
+            <div
+              key={stat.label}
+              className="group p-2 sm:p-4 bg-white/60 border border-black/10 rounded-lg sm:rounded-2xl backdrop-blur-md hover:border-[#FF2D2D]/40 transition-all text-left"
+            >
+              <p className="text-[8px] sm:text-[10px] uppercase tracking-wide text-black/80 flex items-center gap-1">
+                {stat.active && (
+                  <span className="h-1 w-1 rounded-full bg-[#FF2D2D] animate-ping" />
+                )}
+                {stat.label}
+              </p>
+
+              <p className="text-2xl sm:text-4xl font-extrabold mt-1 text-black group-hover:text-[#FF2D2D] transition-colors">
+                <CountUp
+                  value={stat.value}
+                  prefix={stat.prefix}
+                  suffix={stat.suffix}
+                  decimals={stat.decimals}
+                />
+              </p>
+            </div>
+          ))}
         </div>
 
       </div>

@@ -31,7 +31,7 @@ export default function EcosystemSection() {
       }
     }, []);
   return (
-    <section id="ecosystemSection" className="relative bg-white text-gray-900 py-24 px-6 overflow-hidden">
+    <section id="ecosystemSection" className="relative bg-white text-gray-900 py-14 sm:py-18 md:py-24 px-4 sm:px-6 overflow-hidden">
       
       {/* --- Orbit Background --- */}
       <motion.div
@@ -107,13 +107,13 @@ export default function EcosystemSection() {
 
       {/* --- Content Section --- */}
       <div className="relative max-w-7xl mx-auto z-10">
-        <div className="mb-16 text-center">
-          <h2 className="bungee-regular text-6xl md:text-6xl leading-tight bg-white text-black font-extrabold uppercase ">
+        <div className="mb-10 sm:mb-12 md:mb-16 text-center">
+          <h2 className="bungee-regular text-3xl sm:text-4xl md:text-6xl leading-tight bg-white text-black font-extrabold uppercase">
             JOIN OUR <span className="text-red-600">ECOSYSTEM.</span>
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6 mb-8 sm:mb-12">
 
           <a href="/validator" className="md:col-span-7 block">
             <PartnerCard 
@@ -144,17 +144,17 @@ export default function EcosystemSection() {
 
           <motion.div 
             whileHover={{ y: -5 }}
-            className="md:col-span-7 bg-red-600 rounded-3xl p-8 flex flex-col justify-between group cursor-pointer overflow-hidden relative"
+            className="md:col-span-7 bg-red-600 rounded-2xl sm:rounded-3xl p-6 sm:p-8 flex flex-col justify-between group cursor-pointer overflow-hidden relative"
           >
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
             <div className="relative z-10">
-              <h3 className="bungee-regular text-3xl font-bold text-white leading-tight mb-4">
+              <h3 className="bungee-regular text-xl sm:text-3xl font-bold text-white leading-tight mb-4">
                 READY TO BUILD<br /> THE FUTURE?
               </h3>
             </div>
             <div className="relative z-10 flex items-center justify-between">
              <a href="https://mstblockchain.com/portal/" target="_blank" rel="noopener noreferrer">
-               <button className="bg-white text-red-600 px-8 py-4 rounded-full text-sm hover:bg-black hover:text-white hover:scale-105 transition-all flex items-center gap-3">
+               <button className="bg-white text-red-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-xs sm:text-sm hover:bg-black hover:text-white hover:scale-105 transition-all flex items-center gap-3">
                 BECOME A PARTNER
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
               </button>
@@ -172,9 +172,9 @@ function PartnerCard({ icon, title, description, className, tag }) {
   return (
     <motion.div 
       whileHover={{ y: -5 }}
-      className={`group relative bg-white border border-black/50 border-[1px] rounded-3xl p-8 transition-colors hover:border-red-500/50 hover:bg-red-600 ${className}`}
+      className={`group relative bg-white border border-black/50 border-[1px] rounded-2xl sm:rounded-3xl p-5 sm:p-8 transition-colors hover:border-red-500/50 hover:bg-red-600 ${className}`}
     >
-      <div className="flex justify-between items-start mb-12">
+      <div className="flex justify-between items-start mb-6 sm:mb-12">
         <div className="p-3 bg-red-100 text-red-600 rounded-2xl group-hover:bg-white/20 group-hover:text-white transition-all duration-300">
           {icon}
         </div>

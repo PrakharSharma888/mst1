@@ -23,7 +23,7 @@ export default function FAQSection() {
 
   return (
             
-    <section className="relative  py-20 px-6 overflow-hidden">
+    <section className="relative py-12 sm:py-16 md:py-20 px-4 sm:px-6 overflow-hidden">
       
       {/* Soft Red Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-red-500/10 blur-[120px] rounded-full" />
@@ -31,26 +31,26 @@ export default function FAQSection() {
       <div className="max-w-4xl mx-auto relative z-0">
        
         {/* Header */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-10 sm:mb-14 md:mb-20">
          
 
-          <h2 className="bungee-regular text-6xl md:text-6xl leading-tight text-black font-extrabold uppercase">
+          <h2 className="bungee-regular text-3xl sm:text-4xl md:text-6xl leading-tight text-black font-extrabold uppercase">
             Frequently Asked{" "}
             <span className="text-red-600">Questions</span>
           </h2>
 
-          <p className="mt-6 text-gray-800 text-lg max-w-xl mx-auto">
+          <p className="mt-4 sm:mt-6 text-gray-800 text-base sm:text-lg max-w-xl mx-auto">
             Everything you need to know about the MST ecosystem. Can’t find it? Ask our community.
           </p>
         </div>
 
         {/* FAQ Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-3 sm:gap-4 items-start">
           
           {faqs.slice(0, visibleCount).map((item, i) => (
             <div 
               key={i} 
-              className={`group transition-all duration-300 border rounded-2xl p-6 ${
+              className={`group transition-all duration-300 border rounded-xl sm:rounded-2xl p-4 sm:p-6 ${
                 openIndex === i 
                 ? 'bg-red-50 border-red-500 shadow-md' 
                 : 'bg-white border-gray-200 hover:border-red-300'
@@ -60,7 +60,7 @@ export default function FAQSection() {
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                 className="w-full flex items-center justify-between text-left outline-none"
               >
-                <span className={`font-semibold text-lg transition-colors ${
+                <span className={`font-semibold text-base sm:text-lg transition-colors ${
                   openIndex === i ? 'text-red-500' : 'text-black'
                 }`}>
                   {item.q}

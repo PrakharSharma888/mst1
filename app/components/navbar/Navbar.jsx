@@ -73,7 +73,7 @@ const buildResources = [
   {
     title: 'SUPPORT & PROGRAMS',
     items: [
-      { label: 'Grant Program', href: '/learn/grant' },
+      { label: 'Grant Program', href: '/grant' },
       { label: 'Developer Support Forum', href: 'https://future.forem.com/mst-chain' },
       { label: 'Personalized Dev Support', href: 'https://docs.google.com/forms/d/110LC2GOehrGDeeCPFgOn6486kZLekhhZIJd8X7nINO8/viewform?edit_requested=true' }
     ]
@@ -84,11 +84,11 @@ const learnResources = [
   {
     title: 'BLOCKCHAIN',
     items: [
-      { label: 'Block Validation Process', href: '/learn/Block-validation' },
-      { label: 'DAO & MST Chain', href: '/learn/dao' },
-      { label: 'No Code Fractional Validator', href: '/learn/fractional-validator' },
-      { label: 'Solidity : EVM Programming Language', href: '/learn/solidity' },
-      { label: 'Transparency', href: '/learn/tranpernaency' }
+      { label: 'Block Validation Process', href: '/Block-validation' },
+      { label: 'DAO & MST Chain', href: '/dao' },
+      { label: 'No Code Fractional Validator', href: '/fractional-validator' },
+      { label: 'Solidity : EVM Programming Language', href: '/solidity' },
+      { label: 'Transparency', href: '/tranpernaency' }
     ]
   }
 ];

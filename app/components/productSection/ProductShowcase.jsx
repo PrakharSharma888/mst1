@@ -106,11 +106,11 @@ const LogoFlipSection = () => {
 
       <div className="sticky top-0 h-screen items-center overflow-hidden ">
 
-        <div className="container mx-auto px-6 lg:px-16 relative z-10">
-          <h2 className="bungee-regular text-4xl md:text-6xl leading-tight tracking-tight text-black mt-20 font-extrabold uppercase">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-16 relative z-10">
+          <h2 className="bungee-regular text-3xl sm:text-4xl md:text-6xl leading-tight tracking-tight text-black mt-10 sm:mt-14 md:mt-20 font-extrabold uppercase">
             Our <span className='text-transparent bg-clip-text bg-red-600'>Products</span>
           </h2>
-          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+          <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-20">
 
             {/* LEFT → ATTRACTIVE & INTERACTIVE 3D LOGO AREA */}
             <div className="w-full lg:w-1/2 flex justify-center perspective-[1200px]">
@@ -122,7 +122,7 @@ const LogoFlipSection = () => {
                   rotateY: tiltY,
                   transformStyle: "preserve-3d"
                 }}
-                className="relative w-72 h-72 lg:w-[500px] lg:h-[500px] flex items-center justify-center"
+                className="relative w-52 h-52 sm:w-72 sm:h-72 lg:w-[500px] lg:h-[500px] flex items-center justify-center"
               >
                 {/* Visual Depth Elements */}
                 <div className="absolute inset-0 bg-red-500/10 rounded-full blur-3xl scale-75 animate-pulse" />
@@ -183,7 +183,7 @@ const LogoFlipSection = () => {
                   exit={{ opacity: 0, y: -20 }}
                 >
                   {/* TITLE */}
-                  <h1 className="bungee-regular text-4xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
+                  <h1 className="bungee-regular text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
                     <span className="bg-black rounded-xl text-white px-2 mr-2">
                       {firstWord}
                     </span>
@@ -191,21 +191,21 @@ const LogoFlipSection = () => {
                   </h1>
 
                   {/* DESCRIPTION */}
-                  <p className="text-xl mt-5 font-semibold text-gray-900 mb-8 max-w-md">
+                  <p className="text-sm sm:text-base md:text-lg lg:text-xl mt-3 sm:mt-5 font-semibold text-gray-900 mb-5 sm:mb-8 max-w-md">
                     {current.description}
                   </p>
 
                   {/* STATS */}
-                  <div className="grid grid-cols-3 gap-4 mb-10">
+                  <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-10">
                     {Object.entries(current.stats).map(([key, value]) => (
                       <div
                         key={key}
                         className="border-l-5 border-red-600 pl-4"
                       >
-                        <p className="text-xs uppercase tracking-widest text-gray-600 font-bold">
+                        <p className="text-[10px] sm:text-xs uppercase tracking-widest text-gray-600 font-bold">
                           {key.replace("_", " ")}
                         </p>
-                        <p className="text-2xl bungee-regular font-mono text-black">
+                        <p className="text-lg sm:text-xl md:text-2xl bungee-regular font-mono text-black">
                           {value}
                         </p>
                       </div>
@@ -228,7 +228,7 @@ const LogoFlipSection = () => {
               </div>
 
               {/* BUTTON */}
-              <div className="mt-10 flex justify-center lg:justify-start">
+              <div className="mt-6 sm:mt-10 flex justify-center lg:justify-start">
                 {current.link && current.link.startsWith('http') ? (
                   <a
                     href={current.link}

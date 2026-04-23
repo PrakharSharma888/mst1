@@ -11,7 +11,7 @@ export default function MSTCard({ icon: Icon, title, description, ctaText, href 
         visible: { opacity: 1, y: 0, transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] } }
       }}
       whileHover={{ scale: 1.03, y: -4 }}
-      className={`group flex h-full flex-col rounded-2xl border p-8 hover:bg-red-500 transition-all duration-300 ${
+      className={`group flex h-full flex-col rounded-xl sm:rounded-2xl border p-5 sm:p-8 hover:bg-red-500 transition-all duration-300 ${
         isActive
           ? 'border-accent bg-white shadow-[0_16px_40px_rgba(255,45,45,0.12)]'
           : 'border-black/12 bg-[#f5f5f6] hover:border-accent hover:shadow-[0_16px_36px_rgba(0,0,0,0.08)]'
