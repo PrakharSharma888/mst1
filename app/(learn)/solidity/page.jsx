@@ -21,7 +21,7 @@ export default function SolidityPage() {
           className="absolute top-[0%] -left-[35%] w-[110%] h-[110%] border-[0.5px] border-red-300 rounded-full hidden lg:flex items-center justify-center pointer-events-none z-0"
         >
           <div className="absolute w-[6px] h-[6px] bg-red-600 rounded-full bottom-[18%] right-[8%] shadow-[0_0_10px_#ff2d2d]" />
-          
+
           <motion.div
             animate={{ rotate: [-360, 0] }}
             transition={{ duration: 60, repeat: Infinity, ease: 'linear' }}
@@ -42,7 +42,7 @@ export default function SolidityPage() {
           className="absolute -top-[20%] -left-[60%] w-[140%] h-[140%] border-[0.5px] border-black/10 rounded-full border-dashed hidden lg:flex items-center justify-center pointer-events-none z-0"
         >
           <div className="absolute w-2 h-2 bg-red-400 rounded-full top-[12%] shadow-[0_0_15px_#ff2d2d]" />
-          
+
           <motion.div
             animate={{ rotate: [360, 0] }}
             transition={{ duration: 45, repeat: Infinity, ease: 'linear' }}
@@ -86,7 +86,7 @@ export default function SolidityPage() {
 
       <Navbar />
 
-      <main className="text-gray-900 relative z-10">
+      <main className="text-gray-900 relative z-10 bg-white relative">
         {/* 🔴 HERO */}
         <section className="py-32 px-6">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -126,7 +126,7 @@ export default function SolidityPage() {
         {/* 🔴 ABOUT SOLIDITY */}
         <section className="py-24 px-6 max-w-7xl mx-auto">
           <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-8 m-0 p-0">
-            The Language of <span className="text-red-600">Smart Contracts</span> 
+            The Language of <span className="text-red-600">Smart Contracts</span>
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[

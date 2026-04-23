@@ -478,9 +478,13 @@ const AboutUs = () => {
               Join thousands of developers and visionaries building on the world's most scalable blockchain protocol.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
-              <button className="bg-red-600 text-white px-8 py-3 rounded-2xl font-semibold hover:bg-red-500 transition-all shadow-xl shadow-red-900/40 text-lg">
-                Join our Telegram
-              </button>
+              <a href="https://t.me/mstblockchain"
+                rel="noopener noreferrer"
+                target="_blank">
+                <button className="bg-blue-500 text-white px-8 py-3 rounded-2xl font-semibold hover:bg-blue-400 transition-all shadow-xl shadow-blue-900/40 text-lg">
+                  Join our Telegram
+                </button>
+              </a>
               <a href="https://whatsapp.com/channel/0029Vb6jTUk0VycBIjCEe11x"
                 rel="noopener noreferrer"
                 target="_blank">

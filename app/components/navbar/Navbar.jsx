@@ -156,11 +156,12 @@ const itemVariants = {
   show: { opacity: 1, x: 0 }
 };
 
-function MegaMenuItem({ href = '#', label, description, icon: Icon, prefix }) {
+function MegaMenuItem({ href = '#', label, description, icon: Icon, prefix, onClick }) {
   // Use <a> for external links, <Link> for internal
   const isExternal = href?.startsWith('http');
   const commonProps = {
     className: "group flex items-start justify-between gap-4 rounded-xl px-3 py-2.5 text-left text-sm font-medium text-white transition-all duration-300 hover:bg-red-500/10 hover:text-red-400",
+    onClick,
     ...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})
   };
   return (
@@ -285,7 +286,8 @@ function MegaMenu({
   offsetY = 16,
   viewportMargin = 16,
   onMouseEnter,
-  onMouseLeave
+  onMouseLeave,
+  onItemClick
 }) {
   const panelRef = useRef(null);
   const [anchoredStyle, setAnchoredStyle] = useState(null);
@@ -349,7 +351,7 @@ function MegaMenu({
         ref={panelRef}
         {...panelMotion}
         transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-        className={`${widthClass} h-[350px] rounded-3xl border border-red-500/20 bg-black/90 p-8 text-white shadow-[0_0_40px_rgba(255,0,0,0.2)] backdrop-blur-xl`}
+        className={`${widthClass}h-[350px] rounded-3xl border border-red-500/20 bg-black/90 p-8 text-white shadow-[0_0_40px_rgba(255,0,0,0.2)] backdrop-blur-xl`}
       >
         <div className="grid h-full min-h-0 grid-cols-1 gap-8 lg:grid-cols-3">
           <div
@@ -369,7 +371,7 @@ function MegaMenu({
                   className="mt-5 space-y-1"
                 >
                   {section.items.map((item) => (
-                    <MegaMenuItem key={item.label} {...item} />
+                    <MegaMenuItem key={item.label} {...item} onClick={onItemClick} />
                   ))}
                 </motion.ul>
               </div>
@@ -402,6 +404,7 @@ export default function Navbar() {
 
   const closeAllMenus = () => {
     setActiveDesktopMenu(null);
+    setIsOpen(false);
   };
 
   const clearDesktopTimers = () => {
@@ -473,7 +476,7 @@ export default function Navbar() {
   const productIconByName = {
     BridgeKey: FiLink,           // Link for bridging
     'MST Buddy': FiUsers,        // Users for buddy/assistant
-    'MST Acadmey': FiBookOpen    // BookOpen for academy/education
+    'MasterStroke Accademy': FiBookOpen    // BookOpen for academy/education
   };
 
   const navLinkClass = (active) =>
@@ -509,6 +512,7 @@ export default function Navbar() {
       offsetY={14}
       onMouseEnter={() => requestOpenDesktopMenu('learn')}
       onMouseLeave={requestCloseDesktopMenu}
+      onItemClick={closeAllMenus}
       sections={learnResources.map((group) => ({
         title: group.title,
         items: group.items.map((item) => ({
@@ -529,6 +533,7 @@ export default function Navbar() {
       offsetY={14}
       onMouseEnter={() => requestOpenDesktopMenu('products')}
       onMouseLeave={requestCloseDesktopMenu}
+      onItemClick={closeAllMenus}
       sections={[
         {
           title: 'PRODUCTS',
@@ -564,6 +569,7 @@ export default function Navbar() {
       offsetY={14}
       onMouseEnter={() => requestOpenDesktopMenu('usecases')}
       onMouseLeave={requestCloseDesktopMenu}
+      onItemClick={closeAllMenus}
       sections={[
         {
           title: 'USECASES',
@@ -598,10 +604,9 @@ export default function Navbar() {
       className="fixed top-4 left-0 right-0 z-50 mx-auto w-full max-w-[90rem] px-4 sm:px-5 lg:px-6"
     >
       <div
-        className="relative rounded-2xl border border-white/10 bg-[#0b0b0b] p-[1px] shadow-[0_8px_26px_rgba(0,0,0,0.28)] transition-all duration-300"
+        className="relative rounded-2xl border border-white/10 shadow-[0_8px_26px_rgba(0,0,0,0.28)] transition-all duration-300"
       >
-        <div className="relative overflow-visible rounded-2xl bg-black/90  group/nav">
-          <div className="pointer-events-none absolute inset-0 bg-black/20" />
+        <div className="relative  rounded-2xl bg-black/90 backdrop-blur-xl group/nav">
 
           <nav className="relative z-20 flex h-16 w-full items-center justify-between px-4 lg:px-8">
 
@@ -625,12 +630,12 @@ export default function Navbar() {
                         type="button"
                         ref={buildButtonRef}
                         onClick={() => toggleDesktopMenu('build')}
-                        className={navLinkClass(true)}
+                        className={navLinkClass(false)}
                         aria-expanded={activeDesktopMenu === 'build'}
 
                       >
                         <span>Build</span>
-                        <span className="absolute -bottom-1 left-0 h-[1.5px] w-full bg-[#ff2d2d]" />
+                        <span className="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-[#ff2d2d] transition-all duration-300 group-hover:w-full" />
                       </button>
 
                       <AnimatePresence>{activeDesktopMenu === 'build' ? renderBuildDropdown() : null}</AnimatePresence>
@@ -793,7 +798,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 8, scale: 1 }}
             exit={{ opacity: 0, y: -10, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="absolute left-4 right-4 top-full mt-2 rounded-2xl border border-white/10 bg-black/95 p-4 text-white shadow-2xl backdrop-blur-[12px] lg:hidden"
+            className="absolute left-4 right-4 top-full mt-2 rounded-2xl border border-white/10 bg-black p-4 text-white shadow-2xl backdrop-blur-[40px] lg:hidden"
           >
             <div className="space-y-1">
               <button
