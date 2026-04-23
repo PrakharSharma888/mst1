@@ -84,7 +84,7 @@ const headings = [
 const stats = [
   { label: 'Average Block Time', value: 3.0, suffix: 's', decimals: 1, active: true },
   { label: 'Active Validators', value: 70000, suffix: '+', decimals: 0, active: true },
-  { label: 'Average Tx Fees', value: 0.001, suffix: ' MSTC', decimals: 3, active: true }
+  { label: 'Average Txn Fees', value: 0.001, suffix: ' MSTC', decimals: 3, active: true }
 ];
 
 // 🔥 LOGOS
@@ -198,7 +198,8 @@ export default function HeroSection() {
       </motion.div>
 
       {/* Main Content */}
-      <div className="relative z-10 mx-auto max-w-[90rem] min-h-screen grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] items-center gap-10 px-6 pt-28 pb-12">
+      {/* Main Content */}
+      <div className="relative z-10 mx-auto max-w-[90rem] min-h-screen grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] items-center gap-6 sm:gap-10 px-4 sm:px-6 pt-20 sm:pt-24 md:pt-28 pb-12">
 
         {/* LEFT */}
         <motion.div
@@ -208,7 +209,7 @@ export default function HeroSection() {
           className="flex flex-col items-center text-center lg:items-start lg:text-left"
         >
           {/* HEADING */}
-          <div className="h-[160px] md:h-[200px] mb-20 flex  justify-center lg:justify-start">
+          <div className="h-[120px] sm:h-[160px] md:h-[200px] mb-10 sm:mb-14 md:mb-20 flex justify-center lg:justify-start">
             {(() => {
               // Typewriter config
               const typingSpeed = 5; // ms per character (faster)
@@ -221,9 +222,9 @@ export default function HeroSection() {
                 pause,
               });
               return (
-                <h1 className="bungee-regular text-4xl md:text-7xl w-full tracking-tight text-black font-extrabold uppercase">
+                <h1 className="bungee-regular text-2xl sm:text-4xl md:text-7xl w-full tracking-tight text-black font-extrabold uppercase">
                   {typewriter.format(headings[typewriter.index])}
-                  <span className="inline-block w-[4px] h-12 md:h-12 mb-2 bg-black align-middle animate-pulse ml-2" style={{ verticalAlign: 'middle', opacity: 1 }} />
+                  <span className="inline-block w-[3px] sm:w-[4px] h-7 sm:h-10 md:h-12 mb-1 sm:mb-2 bg-black align-middle animate-pulse ml-1 sm:ml-2" style={{ verticalAlign: 'middle', opacity: 1 }} />
                 </h1>
               );
             })()}
@@ -276,7 +277,7 @@ export default function HeroSection() {
         </motion.div>
 
         {/* RIGHT */}
-        <div className="flex justify-end w-full pr-5">
+        <div className="flex justify-center lg:justify-end w-full pr-0 lg:pr-5">
           <HeroImage slides={slides} slideCount={slideCount} />
         </div>
 

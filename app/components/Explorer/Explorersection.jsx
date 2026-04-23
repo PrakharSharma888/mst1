@@ -100,7 +100,7 @@ export default function MSTExplorerFull() {
   }, []);
 
   return (
-    <section className="relative bg-white text-gray-900 py-24 px-6 overflow-hidden font-sans">
+    <section className="relative bg-white text-gray-900 py-14 sm:py-18 md:py-24 px-4 sm:px-6 overflow-hidden font-sans">
 
       {/* BACKGROUND */}
       <motion.div
@@ -135,28 +135,28 @@ export default function MSTExplorerFull() {
       <div className="relative z-10 max-w-6xl mx-auto">
 
         {/* HEADER */}
-        <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="bungee-regular text-6xl bg-white md:text-6xl leading-tight  text-black font-extrabold uppercase">
+        <div className="flex flex-col items-center text-center mb-10 sm:mb-12 md:mb-16">
+          <h2 className="bungee-regular text-3xl sm:text-4xl md:text-6xl bg-white leading-tight text-black font-extrabold uppercase">
             MST <span className="text-transparent bg-clip-text bg-red-600">EXPLORER</span>
           </h2>
-          <p className="text-gray-600 max-w-md bg-white text-lg">
+          <p className="text-gray-600 max-w-md bg-white text-base sm:text-lg">
             Real-time visualization of the MST mainnet ledger and transaction flow.
           </p>
         </div>
 
         {/* CARDS */}
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
           <DataCard title="Latest Blocks" items={blocks} type="block" formatTime={formatTime} />
           <DataCard title="Latest Transactions" items={txs} type="tx" formatTime={formatTime} />
         </div>
 
         {/* BUTTON */}
-        <div className="mt-16 flex justify-center">
+        <div className="mt-10 sm:mt-12 md:mt-16 flex justify-center">
           <a
             href="https://mstscan.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative px-10 py-4 font-bold bg-black text-white rounded-xl transition-all duration-300 hover:bg-red-500 border border-black/20 hover:border-red-600 text-center"
+            className="group relative px-8 sm:px-10 py-3 sm:py-4 text-sm font-bold bg-black text-white rounded-xl transition-all duration-300 hover:bg-red-500 border border-black/20 hover:border-red-600 text-center"
           >
             VIEW ALL ACTIVITY
           </a>
@@ -179,9 +179,9 @@ function DataCard({ title, items, type, formatTime }) {
   return (
     <div className="relative group">
       
-      <div className="relative bg-white/80 backdrop-blur-xl border border-black/50 border-[1px] rounded-2xl p-6 h-full z-10">
+      <div className="relative bg-white/80 backdrop-blur-xl border border-black/50 border-[1px] rounded-xl sm:rounded-2xl p-4 sm:p-6 h-full z-10">
 
-        <div className="flex justify-between  items-center mb-8">
+        <div className="flex justify-between items-center mb-5 sm:mb-8">
           <h3 className="text-sm font-bold tracking-widest text-gray-500 uppercase">{title}</h3>
           <div className="p-2 bg-gray-100 rounded-lg">
             {type === 'block' ? <BlockIcon /> : <TxIcon />}
@@ -201,17 +201,17 @@ function DataCard({ title, items, type, formatTime }) {
                   animate={{ opacity: isEmpty ? 0.4 : 1, x: 0 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ type: "spring", stiffness: 400, damping: 30 }}
-                  className={`flex items-center justify-between p-4 rounded-xl bg-gray-50 border border-black/20 border-[1px] ${!isEmpty ? 'hover:border-red-500/30 hover:bg-gray-100' : 'pointer-events-none'
+                  className={`flex items-center justify-between p-3 sm:p-4 rounded-xl bg-gray-50 border border-black/20 border-[1px] ${!isEmpty ? 'hover:border-red-500/30 hover:bg-gray-100' : 'pointer-events-none'
                     } transition-colors`}
                 >
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-2 sm:gap-4">
 
-                    <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${type === 'block' ? 'bg-red-100 text-red-500' : 'bg-blue-100 text-blue-500'}`}>
+                    <div className={`w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${type === 'block' ? 'bg-red-100 text-red-500' : 'bg-blue-100 text-blue-500'}`}>
                       <span className="text-xs font-bold">{type === 'block' ? 'BK' : 'TX'}</span>
                     </div>
 
                     <div>
-                      <p className="font-mono text-sm font-medium">
+                      <p className="font-mono text-xs sm:text-sm font-medium truncate max-w-[120px] sm:max-w-none">
                         {type === 'block' ? `#${item.id}` : item.address}
                       </p>
                       <p className="text-[10px] text-gray-400 uppercase tracking-wider">

@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export default function MSTInstitutional() {
   return (
-    <div className="px-5 md:px-10 py-20 bg-white">
-      <div className="max-w-7xl mx-auto rounded-[40px] bg-gradient-to-br from-[#f9f9f9] via-[#ffffff] to-[#f0f0f0] border border-black/30 p-10 md:p-16 flex flex-col lg:flex-row items-center justify-between gap-10 relative overflow-hidden">
+    <div className="px-4 sm:px-5 md:px-10 py-10 sm:py-14 md:py-20 bg-white">
+      <div className="max-w-7xl mx-auto rounded-[24px] sm:rounded-[32px] md:rounded-[40px] bg-gradient-to-br from-[#f9f9f9] via-[#ffffff] to-[#f0f0f0] border border-black/30 p-6 sm:p-8 md:p-16 flex flex-col lg:flex-row items-center justify-between gap-8 sm:gap-10 relative overflow-hidden">
         
         {/* 🔴 Background Glow */}
         <div className="absolute inset-0 pointer-events-none">
@@ -85,14 +85,14 @@ export default function MSTInstitutional() {
         </div>
 
         {/* LEFT CONTENT */}
-        <div className="relative z-10 max-w-xl">
-          <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
+        <div className="relative z-10 max-w-xl text-center lg:text-left">
+          <h2 className="bungee-regular text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
              Join Our <span className="text-red-600">Validator</span> Program 
           </h2>
 
          
 
-          <p className="text-gray-800 text-sm md:text-base leading-relaxed mb-8">
+          <p className="text-gray-800 text-sm md:text-base leading-relaxed mb-6 sm:mb-8">
             Help secure the most performant network in existence. Stake MSTC and
             run professional-grade infrastructure designed for high-throughput,
             reliability, and institutional-level performance.
@@ -118,7 +118,7 @@ export default function MSTInstitutional() {
         <div className="relative z-10">
           <motion.div
             whileHover={{ scale: 1.05, rotate: 2 }}
-            className="w-[140px] md:w-[300px] h-[140px] md:h-[300px] flex items-center justify-center rounded-2xl"
+            className="w-[100px] sm:w-[140px] md:w-[300px] h-[100px] sm:h-[140px] md:h-[300px] flex items-center justify-center rounded-2xl"
           >
             <img
               src="/1.png"

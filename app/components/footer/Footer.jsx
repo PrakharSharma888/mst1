@@ -89,10 +89,10 @@ export default function Footer() {
           </motion.div>
         </div>
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-10 items-start">
+          <div className="grid grid-cols-2 lg:grid-cols-12 gap-6 sm:gap-8 lg:gap-10 items-start">
 
             {/* BRAND */}
-            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0">
+            <div className="col-span-2 lg:col-span-3 mb-6 sm:mb-0">
               <div className="flex items-center gap-3 mb-6">
                 <img
                   src="1.png"
@@ -111,7 +111,7 @@ export default function Footer() {
             </div>
 
             {/* ECOSYSTEM */}
-            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-start">
+            <div className="col-span-1 lg:col-span-3 mb-6 sm:mb-0 text-start">
               <h4 className="bungee-regular text-lg md:text-lg leading-tight tracking-tight text-red-600 font-extrabold uppercase mb-6" >Community</h4>
               <ul className="space-y-4  text-gray-600 text-sm">
                 <li><Link href="/validator" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Validators</Link></li>
@@ -127,12 +127,22 @@ export default function Footer() {
                   </a>
                 </li>
                 <li><Link href="/events-page/pastevents" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Events</Link></li>
-                
+                <li>
+                  <a
+                    href="https://support.mstvalidator.com/portal/en/signin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal"
+                  >
+                    Support
+                  </a>
+                </li>
+
               </ul>
             </div>
 
             {/* USE CASES */}
-            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-start">
+            <div className="col-span-1 lg:col-span-3 mb-6 sm:mb-0 text-start">
               <h4 className="bungee-regular text-lg md:text-lg leading-tight tracking-tight text-red-600 font-extrabold uppercase mb-6" style={{ fontFamily: 'Montserrat', fontWeight: 800 }}>Use Cases</h4>
               <ul className="space-y-4 text-gray-600 text-sm">
                 <li className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">On Chain Certificate</li>
@@ -145,15 +155,15 @@ export default function Footer() {
             </div>
 
             {/* RESOURCES */}
-            <div className="col-span-1 sm:col-span-1 lg:col-span-3 mb-10 sm:mb-0 text-start">
+            <div className="col-span-1 lg:col-span-3 mb-6 sm:mb-0 text-start">
               <h4 className="bungee-regular text-lg md:text-lg leading-tight tracking-tight text-red-600 font-extrabold uppercase mb-6">Resources</h4>
               <ul className="space-y-4 text-gray-600 text-sm">
                 <li>
                   <Link href="/about" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">About Us</Link>
                 </li>
-                 <li>
-                    <Link href="/contact" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Contact Us</Link>
-                  </li>
+                <li>
+                  <Link href="/contact" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Contact Us</Link>
+                </li>
                 <li>
                   <a
                     href="https://github.com/mst-chain/whitepaper/blob/main/WHITEPAPER.md"
@@ -173,11 +183,7 @@ export default function Footer() {
                   >
                     Docs
                   </a>
-                  </li>
-                <li>
-                  <Link href="/contact" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Contact Us</Link>
                 </li>
-                <li><Link href="/contact" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Support</Link></li>
                 <li>
                   <Link href="/Career" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Careers</Link>
                 </li>
@@ -185,11 +191,11 @@ export default function Footer() {
             </div>
 
             {/* NEWSLETTER + CONTACT */}
-            <div className="col-span-1 sm:col-span-2 lg:col-span-12">
+            <div className="col-span-2 lg:col-span-12">
 
-              <div className="flex flex-col md:flex-row items-center justify-between gap-6 w-full">
+              <div className="flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 w-full">
                 {/* LEFT SIDE (INPUT GROUP) */}
-                <div className="flex flex-col sm:flex-row items-center gap-3 w-full max-w-md">
+                <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full max-w-md">
                   <input
                     type="email"
                     placeholder="YOUR EMAIL"
@@ -206,7 +212,7 @@ export default function Footer() {
                 </div>
 
                 {/* RIGHT SIDE (CONTACT + ICONS) */}
-                <div className="flex items-center gap-4 flex-shrink-0 ml-0 md:ml-auto md:pl-10 mt-6 md:mt-0">
+                <div className="flex flex-col sm:flex-row items-center gap-4 flex-shrink-0 ml-0 md:ml-auto md:pl-0 lg:pl-10 mt-4 md:mt-0 w-full md:w-auto">
                   <a
                     href="mailto:support@mstblockchain.com"
                     className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal text-sm whitespace-nowrap"
@@ -215,7 +221,7 @@ export default function Footer() {
                     support@mstblockchain.com
                   </a>
 
-                  <div className="flex items-center gap-4 whitespace-nowrap">
+                  <div className="flex items-center gap-3 sm:gap-4 flex-wrap justify-center">
                     <a
                       href="https://x.com/MSTBlockchain"
                       target="_blank"

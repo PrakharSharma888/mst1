@@ -52,9 +52,9 @@ const icons = {
 // ... (keep the useCases and icons objects exactly as they are)
 
 const sizeMap = {
-  small: "min-h-[140px]",
-  medium: "min-h-[190px]",
-  tall: "min-h-[250px]",
+  small: "min-h-[120px] sm:min-h-[140px]",
+  medium: "min-h-[160px] sm:min-h-[190px]",
+  tall: "min-h-[200px] sm:min-h-[250px]",
 };
 
 const Card = ({ item, index }) => {
@@ -103,8 +103,8 @@ const Card = ({ item, index }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={`
-        relative group cursor-pointer overflow-hidden rounded-3xl border 
-        p-6 flex flex-col justify-end transition-all duration-500 ease-out
+        relative group cursor-pointer overflow-hidden rounded-2xl sm:rounded-3xl border 
+        p-4 sm:p-6 flex flex-col justify-end transition-all duration-500 ease-out
         ${sizeMap[item.size]}
         ${isHovered
           ? "bg-red-600 border-red-600 shadow-xl shadow-red-500/20 translate-y-[-4px]"
@@ -123,8 +123,8 @@ const Card = ({ item, index }) => {
       {!isHovered && <div className="absolute inset-0 bg-gradient-to-t from-white via-white/80 to-transparent opacity-80" />}
 
       {/* Small Icon - Top Right */}
-      <div className={`absolute top-7 right-7 transition-all duration-500 ${isHovered ? "text-black scale-110 -rotate-12" : "text-zinc-300"}`}>
-        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <div className={`absolute top-4 right-4 sm:top-7 sm:right-7 transition-all duration-500 ${isHovered ? "text-black scale-110 -rotate-12" : "text-zinc-300"}`}>
+        <svg className="w-6 h-6 sm:w-8 sm:h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
           {icons[item.icon]}
         </svg>
       </div>
@@ -159,14 +159,14 @@ const Card = ({ item, index }) => {
 
 const UseCases = () => {
   return (
-    <section className="w-full bg-[#f8f9fa] py-24 min-h-screen relative overflow-hidden font-poppins">
+    <section className="w-full bg-[#f8f9fa] py-14 sm:py-18 md:py-24 min-h-screen relative overflow-hidden font-poppins">
       {/* Background Orbits (Keeping your existing orbit code but lowering opacity for professionalism) */}
       <div className="absolute inset-0 opacity-40 pointer-events-none">
         {/* ... (Insert your existing Orbit motion.divs here) ... */}
       </div>
 
-      <div className="max-w-[1600px] mx-auto px-8 relative z-10">
-        <header className="mb-20 text-center">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 relative z-10">
+        <header className="mb-10 sm:mb-14 md:mb-20 text-center">
           <motion.span
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -174,13 +174,13 @@ const UseCases = () => {
           >
             Capabilities
           </motion.span>
-          <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase ">
+          <h2 className="bungee-regular text-3xl sm:text-4xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase">
             Use <span className="text-red-600">case</span>
           </h2>
         </header>
 
         {/* Masonry Layout with improved spacing */}
-        <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-5 space-y-5">
+        <div className="columns-2 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-3 sm:gap-4 md:gap-5 space-y-3 sm:space-y-4 md:space-y-5">
           {useCases.map((item, i) => (
             <Card key={item.id} item={item} index={i} />
           ))}

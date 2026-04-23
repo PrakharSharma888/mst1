@@ -1,7 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import React, { useState, useRef, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 // ===== MOCK DATA =====
 const BLOGS = [
@@ -32,8 +32,26 @@ const BLOGS = [
 ];
 
 export default function MSTBlogSection() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const goLeft = () => {
+    setCurrentIndex((prev) => (prev === 0 ? BLOGS.length - 1 : prev - 1));
+  };
+
+  const goRight = () => {
+    setCurrentIndex((prev) => (prev === BLOGS.length - 1 ? 0 : prev + 1));
+  };
+
   return (
-    <section className="relative w-full overflow-hidden bg-white text-black py-24 px-6">
+    <section className="relative w-full overflow-hidden bg-white text-black py-14 sm:py-18 md:py-24 px-4 sm:px-6">
       
       {/* 🔴 BACKGROUND LAYER */}
       <motion.div
@@ -59,12 +77,12 @@ export default function MSTBlogSection() {
       <div className="max-w-7xl mx-auto relative z-10">
         
         {/* HEADER */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 sm:mb-12 md:mb-16 gap-4 sm:gap-6">
           <motion.h2
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase"
+            className="bungee-regular text-3xl sm:text-4xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase"
           >
             LATEST{" "}
             <span className="text-red-600">
@@ -74,17 +92,49 @@ export default function MSTBlogSection() {
 
           {/* NAV BUTTONS */}
           <div className="flex items-center gap-3">
-            <NavButton direction="left" />
-            <NavButton direction="right" />
+            <NavButton direction="left" onClick={goLeft} />
+            <NavButton direction="right" onClick={goRight} />
           </div>
         </div>
 
-        {/* BLOG GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 ">
-          {BLOGS.map((post, idx) => (
-            <BlogCard key={post.id} post={post} index={idx} />
-          ))}
-        </div>
+        {/* MOBILE CAROUSEL */}
+        {isMobile ? (
+          <div className="relative overflow-hidden">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentIndex}
+                initial={{ opacity: 0, x: 80 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -80 }}
+                transition={{ duration: 0.35, ease: 'easeInOut' }}
+              >
+                <BlogCard post={BLOGS[currentIndex]} index={0} />
+              </motion.div>
+            </AnimatePresence>
+
+            {/* Dot Indicators */}
+            <div className="flex items-center justify-center gap-2 mt-6">
+              {BLOGS.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setCurrentIndex(i)}
+                  className={`rounded-full transition-all duration-300 ${
+                    i === currentIndex
+                      ? 'w-6 h-2 bg-red-500'
+                      : 'w-2 h-2 bg-gray-300 hover:bg-gray-400'
+                  }`}
+                />
+              ))}
+            </div>
+          </div>
+        ) : (
+          /* DESKTOP GRID */
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
+            {BLOGS.map((post, idx) => (
+              <BlogCard key={post.id} post={post} index={idx} />
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );
@@ -101,7 +151,7 @@ function BlogCard({ post, index }) {
       className="group cursor-pointer flex flex-col"
     >
       {/* IMAGE */}
-      <div className="relative aspect-[16/10] w-full overflow-hidden mb-8 border border-black/5 rounded-lg">
+      <div className="relative aspect-[16/10] w-full overflow-hidden mb-5 sm:mb-8 border border-black/5 rounded-lg">
         <div className="absolute inset-0 bg-red-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 z-10" />
         <motion.img
@@ -123,12 +173,12 @@ function BlogCard({ post, index }) {
       </div>
 
       {/* TITLE */}
-      <h3 className=" bungee-regular text-3xl font-bold mb-4 tracking-tight group-hover:text-red-500 transition-colors duration-300 leading-[1.1]">
+      <h3 className="bungee-regular text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4 tracking-tight group-hover:text-red-500 transition-colors duration-300 leading-[1.1]">
         {post.title}
       </h3>
 
       {/* EXCERPT */}
-      <p className="text-gray-700 text-sm leading-relaxed mb-8 line-clamp-2  ">
+      <p className="text-gray-700 text-sm leading-relaxed mb-5 sm:mb-8 line-clamp-2">
         {post.excerpt}
       </p>
 
@@ -138,7 +188,7 @@ function BlogCard({ post, index }) {
           href="#"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="inline-block px-6 py-3 rounded-full bg-black text-white font-bold uppercase tracking-wider shadow-lg hover:brightness-110  transition-all duration-300 hover:bg-red-500"
+          className="inline-block px-5 sm:px-6 py-2.5 sm:py-3 rounded-full bg-black text-white text-sm font-bold uppercase tracking-wider shadow-lg hover:brightness-110 transition-all duration-300 hover:bg-red-500"
         >
           Read More
         </motion.a>
@@ -147,19 +197,20 @@ function BlogCard({ post, index }) {
   );
 }
 
-function NavButton({ direction }) {
+function NavButton({ direction, onClick }) {
   return (
     <motion.button
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
-      className="w-14 h-14 flex items-center justify-center border border-black/10 hover:border-red-600/50 hover:bg-red-600/5 transition-all group"
+      onClick={onClick}
+      className="w-10 h-10 sm:w-14 sm:h-14 flex items-center justify-center border border-black/10 hover:border-red-600/50 hover:bg-red-600/5 transition-all group"
     >
       {direction === 'left' ? (
-        <svg className="w-6 h-6 text-gray-500 group-hover:text-red-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 sm:w-6 sm:h-6 text-gray-500 group-hover:text-red-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
         </svg>
       ) : (
-        <svg className="w-6 h-6 text-gray-500 group-hover:text-red-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 sm:w-6 sm:h-6 text-gray-500 group-hover:text-red-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
         </svg>
       )}
