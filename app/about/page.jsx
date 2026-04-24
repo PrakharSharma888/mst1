@@ -176,7 +176,7 @@ const AboutUs = () => {
             <span className="inline-block px-4 py-1.5 mb-6 text-sm font-bold tracking-widest text-red-600 uppercase bg-red-50 rounded-full">
               POWERING THE DECENTRALIZED FUTURE
             </span>
-            <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
+            <h1 className="bungee-regular text-4xl sm:text-5xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
               About <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-500">MST Blockchain</span>
             </h1>
 
@@ -239,11 +239,11 @@ const AboutUs = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
-              className="p-12 rounded-[3rem] bg-white border border-gray-100 hover:border-red-100 shadow-sm hover:shadow-xl transition-all duration-500"
+              className="p-8 sm:p-12 rounded-[2.5rem] sm:rounded-[3rem] bg-white border border-gray-100 hover:border-red-100 shadow-sm hover:shadow-xl transition-all duration-500"
             >
               <div className="mb-6">{item.icon}</div>
-              <h3 className="bungee-regular text-3xl md:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{item.title}</h3>
-              <p className="text-gray-500 text-lg leading-relaxed">{item.text}</p>
+              <h3 className="bungee-regular text-2xl sm:text-3xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{item.title}</h3>
+              <p className="text-gray-500 text-base sm:text-lg leading-relaxed">{item.text}</p>
             </motion.div>
           ))}
         </div>
@@ -252,16 +252,16 @@ const AboutUs = () => {
       {/* 4. FEATURES (CORE INFRASTRUCTURE) */}
       <section className="py-24 bg-gray-50/50">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-20">
-            <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">Core <span className="text-red-600">Infrastructure</span></h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-lg">Every part of MST is built to handle real workloads. Here is what makes the network work the way it does.</p>
+          <div className="text-center mb-12 sm:mb-20">
+            <h2 className="bungee-regular text-3xl sm:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">Core <span className="text-red-600">Infrastructure</span></h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-base sm:text-lg">Every part of MST is built to handle real workloads. Here is what makes the network work the way it does.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((item, i) => (
               <motion.div
                 key={i}
                 whileHover={{ y: -10 }}
-                className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-sm hover:shadow-2xl transition-all"
+                className="bg-white p-8 sm:p-10 rounded-[2rem] sm:rounded-[2.5rem] border border-gray-100 shadow-sm hover:shadow-2xl transition-all"
               >
                 <div className="w-14 h-14 bg-red-50 rounded-2xl flex items-center justify-center mb-8">
                   {item.icon}
@@ -278,11 +278,11 @@ const AboutUs = () => {
 
       {/* 5. MEET THE TEAM (SCREENSHOT-STYLE) */}
       <section className="bg-gray-100">
-        <div className="pt-24 pb-16 px-6 text-center">
-          <h2 className="bungee-regular text-5xl md:text-7xl leading-tight tracking-tight text-black font-extrabold uppercase mb-8">
+        <div className="pt-24 pb-12 sm:pb-16 px-6 text-center">
+          <h2 className="bungee-regular text-4xl sm:text-5xl md:text-7xl leading-tight tracking-tight text-black font-extrabold uppercase mb-8">
             The People Behind MST
           </h2>
-          <p className="text-gray-500 max-w-3xl mx-auto text-lg md:text-xl leading-relaxed">
+          <p className="text-gray-500 max-w-3xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed">
             These are the people building MST from the ground up. Each one brings something different to the table and together they are shaping what blockchain infrastructure looks like for the next decade.
           </p>
         </div>
@@ -419,9 +419,9 @@ const AboutUs = () => {
 
       {/* 6. WHY CHOOSE MST SECTION */}
       <section className="pt-24 pb-8">
-        <div className="max-w-5xl mx-auto px-6 bg-gradient-to-br from-white to-red-50/30 border border-gray-100 rounded-[4rem] p-12 md:p-20 shadow-2xl shadow-red-100/20">
-          <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase text-center mb-12">Why Builders Choose <span className="text-red-600">MST</span></h2>
-          <div className="grid md:grid-cols-2 gap-8">
+        <div className="max-w-5xl mx-auto px-6 bg-gradient-to-br from-white to-red-50/30 border border-gray-100 rounded-[2.5rem] sm:rounded-[4rem] p-8 sm:p-12 md:p-20 shadow-2xl shadow-red-100/20">
+          <h2 className="bungee-regular text-3xl sm:text-4xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase text-center mb-12">Why Builders Choose <span className="text-red-600">MST</span></h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
             {[
               "Lightning-fast (4000+ TPS)", "Near zero gas fees",
               "EVM Compatible", "Enterprise grade security",
@@ -450,8 +450,8 @@ const AboutUs = () => {
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-600 rounded-full blur-[150px] opacity-10 -ml-32 -mb-32" />
 
           <div className="relative z-10">
-            <h2 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-white font-extrabold uppercase">Ready to <span className="text-red-600">Build</span> <br />the <span className="text-red-600">Future?</span></h2>
-            <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
+            <h2 className="bungee-regular text-3xl sm:text-4xl md:text-6xl leading-tight tracking-tight text-white font-extrabold uppercase">Ready to <span className="text-red-600">Build</span> <br className="hidden sm:block" />the <span className="text-red-600">Future?</span></h2>
+            <p className="text-gray-400 text-base sm:text-lg md:text-xl mb-12 max-w-2xl mx-auto">
               Join thousands of developers and visionaries building on the world's most scalable blockchain protocol.
             </p>
             <div className="flex flex-wrap justify-center gap-6">

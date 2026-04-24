@@ -1,29 +1,28 @@
 'use client';
 
-import React, { useRef, useMemo, Suspense } from 'react';
-import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { Float, Text, Points, PointMaterial, Center } from '@react-three/drei';
+import React, { useRef, useMemo, Suspense, useState, useEffect } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
+import { Float, Text, Points, PointMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
 function ParticleSphere() {
-  const { mouse } = useThree();
   const points = useMemo(() => {
-    const p = new Float32Array(3000 * 3);
-    for (let i = 0; i < 3000; i++) {
+    const p = new Float32Array(1500 * 3); // Reduced count for stability
+    for (let i = 0; i < 1500; i++) {
       const theta = THREE.MathUtils.randFloatSpread(360);
       const phi = THREE.MathUtils.randFloatSpread(360);
-      p[i * 3] = 12 * Math.sin(theta) * Math.cos(phi);
-      p[i * 3 + 1] = 12 * Math.sin(theta) * Math.sin(phi);
-      p[i * 3 + 2] = 12 * Math.cos(theta);
+      p[i * 3] = 10 * Math.sin(theta) * Math.cos(phi);
+      p[i * 3 + 1] = 10 * Math.sin(theta) * Math.sin(phi);
+      p[i * 3 + 2] = 10 * Math.cos(theta);
     }
     return p;
   }, []);
 
   const ref = useRef();
   useFrame((state) => {
-    const t = state.clock.getElapsedTime();
-    ref.current.rotation.y = t * 0.05 + mouse.x * 0.1;
-    ref.current.rotation.x = t * 0.02 + mouse.y * 0.1;
+    if (!ref.current) return;
+    ref.current.rotation.y = state.clock.getElapsedTime() * 0.05;
+    ref.current.rotation.x = state.clock.getElapsedTime() * 0.02;
   });
 
   return (
@@ -32,7 +31,7 @@ function ParticleSphere() {
         <PointMaterial
           transparent
           color="#ff2d2d"
-          size={0.04}
+          size={0.05}
           sizeAttenuation={true}
           depthWrite={false}
           blending={THREE.AdditiveBlending}
@@ -45,74 +44,66 @@ function ParticleSphere() {
 function FloatingCore() {
   const mesh = useRef();
   useFrame((state) => {
+    if (!mesh.current) return;
     mesh.current.rotation.x = state.clock.getElapsedTime() * 0.2;
     mesh.current.rotation.y = state.clock.getElapsedTime() * 0.3;
   });
 
   return (
-    <Float speed={3} rotationIntensity={2} floatIntensity={2}>
+    <Float speed={2} rotationIntensity={1} floatIntensity={1}>
       <mesh ref={mesh}>
-        <octahedronGeometry args={[2.5, 2]} />
-        <meshStandardMaterial color="#ff2d2d" wireframe opacity={0.3} transparent />
+        <icosahedronGeometry args={[2, 1]} />
+        <meshStandardMaterial color="#ff2d2d" wireframe opacity={0.2} transparent />
       </mesh>
     </Float>
   );
 }
 
 export default function SectionHeader3D({ title, subtitle }) {
-  const canvasKey = useMemo(() => "stable-3d-header", []); 
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return <div className="w-full h-[500px] md:h-[700px] bg-black" />;
 
   return (
-    <div className="relative w-full h-[500px] md:h-[700px] bg-[#0a0a0a] overflow-hidden">
-      <Suspense fallback={
-        <div className="w-full h-full flex flex-col items-center justify-center bg-[#0a0a0a] text-white/20 font-mono text-[10px] tracking-[0.5em] uppercase animate-pulse">
-          Initializing Engine...
-        </div>
-      }>
-        <Canvas 
-          key={canvasKey}
-          camera={{ position: [0, 0, 18], fov: 40 }}
-          gl={{ 
-            antialias: true, 
-            alpha: true,
-            powerPreference: "high-performance",
-            failIfMajorPerformanceCaveat: false
-          }}
-          dpr={[1, 2]} // Support high-DPI displays
-        >
-          <color attach="background" args={['#0a0a0a']} />
-          <ambientLight intensity={0.5} />
-          <pointLight position={[10, 10, 10]} intensity={2} color="#ff2d2d" />
-          <pointLight position={[-10, -10, -10]} intensity={1} color="#ff0000" />
-          
-          <Text
-            position={[0, 0, 0]}
-            fontSize={1.2}
-            color="white"
-            anchorX="center"
-            anchorY="middle"
-            letterSpacing={0.2}
-            maxWidth={10}
-            textAlign="center"
-          >
-            {title}
-          </Text>
-
-          <ParticleSphere />
-          <FloatingCore />
-        </Canvas>
-      </Suspense>
-
-      {/* High-end decorative elements */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#0a0a0a] to-transparent" />
-        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#f9fafb] to-transparent" />
-      </div>
+    <div className="relative w-full h-[500px] md:h-[700px] bg-black overflow-hidden flex items-center justify-center">
+      {/* Background Gradient to prevent "Blank Black" look */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,45,45,0.05)_0%,transparent_70%)]" />
       
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4">
-        <div className="w-px h-24 bg-gradient-to-b from-red-600/0 via-red-600 to-red-600/0 animate-pulse" />
-        <span className="text-[9px] font-black tracking-[0.5em] text-white/30 uppercase">{subtitle}</span>
+      <div className="absolute inset-0 z-0">
+        <Canvas 
+          camera={{ position: [0, 0, 15], fov: 45 }}
+          gl={{ antialias: true, alpha: true }}
+          dpr={[1, 1.5]}
+        >
+          <ambientLight intensity={0.5} />
+          <pointLight position={[5, 5, 5]} intensity={1} color="#ff2d2d" />
+          <Suspense fallback={null}>
+            <ParticleSphere />
+            <FloatingCore />
+          </Suspense>
+        </Canvas>
       </div>
+
+      {/* HTML Content Overlay for 100% Reliability */}
+      <div className="relative z-10 flex flex-col items-center pointer-events-none text-center px-6">
+        <h2 className="bungee-regular text-4xl sm:text-6xl md:text-7xl text-white tracking-tighter uppercase drop-shadow-[0_0_30px_rgba(255,45,45,0.3)]">
+          {title}
+        </h2>
+        <div className="mt-8 flex flex-col items-center gap-4">
+          <div className="w-px h-16 bg-gradient-to-b from-red-600/0 via-red-600 to-red-600/0 animate-pulse" />
+          <span className="text-[10px] font-black tracking-[0.6em] text-white/40 uppercase">
+            {subtitle}
+          </span>
+        </div>
+      </div>
+
+      {/* Decorative Overlays */}
+      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black to-transparent pointer-events-none" />
+      <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-gray-100 to-transparent pointer-events-none" />
     </div>
   );
 }
