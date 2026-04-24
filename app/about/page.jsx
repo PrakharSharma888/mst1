@@ -42,6 +42,18 @@ const team = [
     linkedinHref: '#'
   },
   {
+    name: 'Mahendra Dhomase',
+    role: 'CFO',
+    image:
+      '/assets/mahendra.jpeg',
+    bio:
+      'He oversees the financial strategy and operations at MST Blockchain, ensuring sustainable growth, capital efficiency, and long-term value creation. He manages financial planning, investor relations, and regulatory compliance while aligning financial decisions with MST’s strategic vision.',
+    bio2:
+      'With a strong focus on scaling Web3 ventures, he plays a key role in budgeting, fundraising, and risk management, helping position MST Blockchain as a financially resilient and growth-driven ecosystem.',
+    linkedinHandle: '@Mahendra_Dhomase',
+    linkedinHref: 'https://www.linkedin.com/in/mahendra-dhomase?utm_source=share_via&utm_content=profile&utm_medium=member_ios' 
+  },
+  {
     name: 'Kamlesh Nagware',
     role: 'Director',
     image:
@@ -89,7 +101,7 @@ const team = [
     linkedinHandle: '@Ashish_Kumar_Jain',
     linkedinHref: 'https://www.linkedin.com/in/c2ashish?utm_source=share_via&utm_content=profile&utm_medium=member_ios  '
   },
-
+   
 ];
 
 const advisors = [

@@ -46,9 +46,9 @@ export default function CareersPage() {
     try {
       setLoading(true);
       console.log("Working till now")
-      const response = await fetch(APPS_SCRIPT_URL, {
+      const response = await fetch("/api/career", {
         method: "POST",
-        headers: { "Content-Type": "text/plain" },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: form.name,
           email: form.email,

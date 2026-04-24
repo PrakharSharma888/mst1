@@ -31,8 +31,6 @@ export default function Contacts() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  // APPS SCRIPT WEB APP URL FOR CONTACT FORM
-  const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxqEL7hpZX3O30D-QFML_ImpI-40sctyrt8b1x3dQ81GxqzB0Va4NwewhjbSYMQwZE6/exec";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -44,15 +42,15 @@ export default function Contacts() {
     try {
       setLoading(true);
 
-      const response = await fetch(APPS_SCRIPT_URL, {
+      const response = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "text/plain" },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-  fullname: form.name,
-  email: form.email,
-  subject: form.subject,
-  message: form.message,
-})
+          name: form.name,
+          email: form.email,
+          subject: form.subject,
+          message: form.message,
+        })
       });
 
       const result = await response.json();
@@ -62,7 +60,7 @@ export default function Contacts() {
         toast.success("Message sent successfully 🚀");
         setForm({ name: "", email: "", subject: "", message: "" });
       } else {
-        toast.error("Something went wrong: " + (result.message || "Unknown error"));
+        alert("Something went wrong: " + (result.message || "Unknown error") + (result.details ? "\nDetails: " + result.details : ""));
       }
     } catch (err) {
       console.error("Error:", err); // Log the error for debugging

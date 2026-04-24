@@ -1,11 +1,64 @@
 "use client";
-import React from "react";
-
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-
 export default function FormModal({ open, setOpen, formType }) {
+  const [form, setForm] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    organization: "",
+    role: "",
+    enquiryType: formType || "General Enquiry",
+    solutionArea: "On-Chain Certificate",
+    projectType: "General Enquiry",
+    message: ""
+  });
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState("");
+
+  useEffect(() => {
+    if (formType) {
+      setForm(prev => ({ ...prev, enquiryType: formType }));
+    }
+  }, [formType]);
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      setLoading(true);
+      const response = await fetch("/api/formmodal", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      const result = await response.json();
+      if (result.status === "success") {
+        setSuccess("Enquiry sent successfully! 🚀");
+        setForm({
+          firstName: "", lastName: "", email: "", phone: "",
+          organization: "", role: "", enquiryType: formType || "General Enquiry",
+          solutionArea: "On-Chain Certificate", projectType: "General Enquiry", message: ""
+        });
+        setTimeout(() => {
+          setSuccess("");
+          setOpen(false); // Auto close modal after 3 seconds on success
+        }, 3000);
+      } else {
+        alert("Something went wrong: " + (result.message || "Unknown error"));
+      }
+    } catch (err) {
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   if (!open) return null;
 
   return (
@@ -98,46 +151,44 @@ export default function FormModal({ open, setOpen, formType }) {
 
             {/* FORM */}
             <form
-              action="https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse"
-              method="POST"
-              target="_blank"
+              onSubmit={handleSubmit}
               className="space-y-6"
             >
               <h3 className="font-semibold text-black mb-2 pt-3">Your Details</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-1">
                   <label className="text-sm text-black font-medium">First Name</label>
-                  <input name="entry.111" placeholder="First Name" required className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
+                  <input name="firstName" value={form.firstName} onChange={handleChange} placeholder="First Name" required className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
                 </div>
                 <div className="flex flex-col gap-1">
                   <label className="text-sm text-black font-medium">Last Name</label>
-                  <input name="entry.112" placeholder="Last Name" required className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
+                  <input name="lastName" value={form.lastName} onChange={handleChange} placeholder="Last Name" required className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
                 </div>
               </div>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-1">
                   <label className="text-sm text-black font-medium">Email</label>
-                  <input name="entry.113" placeholder="Email" type="email" required className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
+                  <input name="email" value={form.email} onChange={handleChange} placeholder="Email" type="email" required className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
                 </div>
                 <div className="flex flex-col gap-1">
                   <label className="text-sm text-black font-medium">Phone Number</label>
-                  <input name="entry.114" placeholder="Phone Number" className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
+                  <input name="phone" value={form.phone} onChange={handleChange} placeholder="Phone Number" className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
                 </div>
               </div>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-1">
                   <label className="text-sm text-black font-medium">Organization</label>
-                  <input name="entry.115" placeholder="Organization" className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
+                  <input name="organization" value={form.organization} onChange={handleChange} placeholder="Organization" className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
                 </div>
                 <div className="flex flex-col gap-1">
                   <label className="text-sm text-black font-medium">Role</label>
-                  <input name="entry.116" placeholder="Role" className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
+                  <input name="role" value={form.role} onChange={handleChange} placeholder="Role" className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition" />
                 </div>
               </div>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-1">
                   <label className="text-sm text-black font-medium">Enquiry Type</label>
-                  <select name="entry.xxx" defaultValue={formType} className="bg-white border border-black text-black rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition">
+                  <select name="enquiryType" value={form.enquiryType} onChange={handleChange} className="bg-white border border-black text-black rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition">
                     <option value="General Enquiry">General Enquiry</option>
                     <option value="Book a Demo">Book a Demo</option>
                     <option value="Talk to Expert">Talk to Expert</option>
@@ -145,40 +196,48 @@ export default function FormModal({ open, setOpen, formType }) {
                 </div>
                 <div className="flex flex-col gap-1">
                   <label className="text-sm text-black font-medium">Solution Area</label>
-                  <select name="entry.117" className="bg-white border border-black text-black rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition">
-                    <option>On-Chain Certificate</option>
-                    <option>NFT Ticketing</option>
-                    <option>Tokenized Real Estate</option>
-                    <option>Healthcare Records</option>
-                    <option>Decentralized Voting</option>
-                    <option>Other</option>
+                  <select name="solutionArea" value={form.solutionArea} onChange={handleChange} className="bg-white border border-black text-black rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition">
+                    <option value="On-Chain Certificate">On-Chain Certificate</option>
+                    <option value="NFT Ticketing">NFT Ticketing</option>
+                    <option value="Tokenized Real Estate">Tokenized Real Estate</option>
+                    <option value="Healthcare Records">Healthcare Records</option>
+                    <option value="Decentralized Voting">Decentralized Voting</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
                 <div className="flex flex-col gap-1 md:col-span-2">
                   <label className="text-sm text-black font-medium">Project Type</label>
-                  <select name="entry.118" className="bg-white border border-black text-black rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition">
-                    <option>General Enquiry</option>
-                    <option>Book a Demo</option>
-                    <option>Talk to Expert</option>
-                    <option>Technical Consultation</option>
-                    <option>Partnership</option>
+                  <select name="projectType" value={form.projectType} onChange={handleChange} className="bg-white border border-black text-black rounded-lg px-3 py-2 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition">
+                    <option value="General Enquiry">General Enquiry</option>
+                    <option value="Book a Demo">Book a Demo</option>
+                    <option value="Talk to Expert">Talk to Expert</option>
+                    <option value="Technical Consultation">Technical Consultation</option>
+                    <option value="Partnership">Partnership</option>
                   </select>
                 </div>
               </div>
               <div className="flex flex-col gap-1">
                 <label className="text-sm text-black font-medium">Tell us about your project</label>
                 <textarea
-                  name="entry.119"
+                  name="message"
+                  value={form.message}
+                  onChange={handleChange}
                   placeholder="Tell us about your project..."
                   className="bg-white border border-black text-black placeholder:text-gray-500 rounded-lg px-3 py-2 h-28 focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition"
                 />
               </div>
               <button
                 type="submit"
-                className="w-full mt-4 py-3 rounded-lg bg-red-600 hover:bg-black transition text-white hover:text-white font-semibold text-base"
+                disabled={loading}
+                className="w-full mt-4 py-3 rounded-lg bg-red-600 hover:bg-black transition text-white hover:text-white font-semibold text-base disabled:opacity-50 flex justify-center items-center"
               >
-                Send Enquiry
+                {loading ? "Sending..." : "Send Enquiry"}
               </button>
+              {success && (
+                <div className="text-green-600 text-center mt-2 font-semibold bg-green-50 p-2 rounded-lg">
+                  {success}
+                </div>
+              )}
             </form>
           </div>
         </motion.div>

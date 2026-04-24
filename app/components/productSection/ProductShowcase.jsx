@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const logos = [
   {
-    src: "/assets/logo-bridgekey.svg",
+    src: "/assets/bridgekey.png",
     title: "Bridge Key",
     description:
        "BridgeKey is a secure and powerful multi-chain wallet designed to simplify digital asset management. It enables seamless transactions, cross-chain transfers, and advanced security features, making it the perfect gateway for users entering the Web3 ecosystem.",

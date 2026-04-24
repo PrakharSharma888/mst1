@@ -159,7 +159,7 @@ function ProofCard({ title, description, image, alt }) {
       <div className="p-6">
         <h3 className="mt-3 text-xl font-bold text-black">{title}</h3>
         <p className="mt-3 text-sm leading-6 text-black/70">{description}</p>
-        <a href="#" className="mt-4 inline-block text-sm font-semibold text-[#ff2d2d] hover:underline">Read More</a>
+        {/* <a href="#" className="mt-4 inline-block text-sm font-semibold text-[#ff2d2d] hover:underline">Read More</a> */}
       </div>
     </motion.article>
   );
@@ -218,7 +218,7 @@ export default function SupplyChainPage() {
                 setFormType("Book a Demo");
                 setOpenForm(true);
               }}
-              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105  hover:bg-[#000000]"
             >
               Book a Demo
             </button>

@@ -118,9 +118,9 @@ function ProofCard({ title, description, image, alt }) {
       <div className="p-5 flex flex-col flex-1">
         <h3 className="bungee-regular text-xl sm:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-black/68">{description}</p>
-        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#ff2d2d] transition-transform duration-300 group-hover:translate-x-1">
+        {/* <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#ff2d2d] transition-transform duration-300 group-hover:translate-x-1">
           Read More <ArrowRight className="h-4 w-4" />
-        </span>
+        </span> */}
       </div>
     </motion.article>
   );
@@ -166,8 +166,44 @@ export default function SupplyChainPage() {
             <p className="max-w-2xl text-base leading-relaxed text-black/68 sm:text-lg">
               The trust of gold. The accessibility of a digital wallet. The transparency of the blockchain.
             </p>
-          </div>
+          </div> 
 
+          {/* Responsive Button Group */}
+          <div className="flex flex-col gap-3 sm:flex-row sm:justify-start sm:items-center mt-6 mb-8 w-full">
+
+            {/* CONTACT */}
+            {/* <button
+                        onClick={() => {
+                          setFormType("General Enquiry");
+                          setOpenForm(true);
+                        }}
+                        className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105"
+                      >
+                        Contact Us / Enquire
+                      </button> */}
+
+            {/* DEMO */}
+            <button
+              onClick={() => {
+                setFormType("Book a Demo");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105  hover:bg-[#000000]"
+            >
+              Book a Demo
+            </button>
+
+            {/* EXPERT */}
+            <button
+              onClick={() => {
+                setFormType("Talk to Expert");
+                setOpenForm(true);
+              }}
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#FF2D2D]"
+            >
+              Talk to an Expert
+            </button>
+          </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
             <div className="relative flex aspect-video items-center justify-center overflow-hidden rounded-3xl bg-[linear-gradient(135deg,rgba(255,45,45,0.22),rgba(0,0,0,0.7))]">

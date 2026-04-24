@@ -104,9 +104,9 @@ function ProofCard({ title, description, image, alt }) {
     <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.22 }}
-      className="group overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)]"
+      className="group flex flex-col h-full overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.06)] transition-all duration-300 hover:shadow-[0_18px_42px_rgba(255,45,45,0.12)]"
     >
-      <div className="relative aspect-video overflow-hidden bg-[linear-gradient(135deg,rgba(255,45,45,0.16),rgba(0,0,0,0.04))]">
+      <div className="relative h-[170px] overflow-hidden bg-[linear-gradient(135deg,rgba(255,45,45,0.16),rgba(0,0,0,0.04))]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,45,45,0.25),transparent_65%)]" />
         <Image
           src={image}
@@ -117,11 +117,11 @@ function ProofCard({ title, description, image, alt }) {
         />
       </div>
       <div className="p-5">
-        <h3 className="bungee-regular text-xl sm:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{title}</h3>
+        <h3 className="bungee-regular text-2xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">{title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-black/68">{description}</p>
-        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#ff2d2d] transition-transform duration-300 group-hover:translate-x-1">
+        {/* <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#ff2d2d] transition-transform duration-300 group-hover:translate-x-1">
           Read More <ArrowRight className="h-4 w-4" />
-        </span>
+        </span> */}
       </div>
     </motion.article>
   );
@@ -177,7 +177,7 @@ export default function SupplyChainPage() {
                 setFormType("Book a Demo");
                 setOpenForm(true);
               }}
-              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105  hover:bg-[#000000]"
             >
               Book a Demo
             </button>
@@ -191,7 +191,7 @@ export default function SupplyChainPage() {
               className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black/80 border border-white/20 text-white font-semibold hover:bg-[#ff2d2d]"
             >
               Talk to an Expert
-            </button>
+            </button> 
           </div>
 
           <div className="overflow-hidden rounded-3xl bg-black shadow-none">
@@ -442,12 +442,13 @@ export default function SupplyChainPage() {
         <motion.div
           initial="hidden"
           whileInView="visible"
+
           viewport={{ once: true, amount: 0.18 }}
           variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.12 } } }}
           className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
         >
           {proofItems.map((item) => (
-            <motion.div key={item.title} variants={{ hidden: { opacity: 0, y: 18 }, visible: { opacity: 1, y: 0 } }}>
+            <motion.div key={item.title} className="h-full" variants={{ hidden: { opacity: 0, y: 18 }, visible: { opacity: 1, y: 0 } }}>
               <ProofCard {...item} />
             </motion.div>
           ))}
