@@ -41,7 +41,7 @@ const team = [
   {
     name: 'Mahendra Dhomase',
     role: 'Chief Financial Officer (CFO)',
-    image: '/assets/mahendra.jpeg',
+    image: '/assets/Mahendra.jpeg',
     bio: 'He oversees the financial strategy and operations at MST Blockchain, ensuring sustainable growth, capital efficiency, and long-term value creation. He manages financial planning, investor relations, and regulatory compliance while aligning financial decisions with MST’s strategic vision.',
     bio2: 'With a strong focus on scaling Web3 ventures, he plays a key role in budgeting, fundraising, and risk management, helping position MST Blockchain as a financially resilient and growth-driven ecosystem.',
     linkedinHandle: '@Mahendra_Dhomase',
@@ -51,7 +51,7 @@ const team = [
   {
     name: 'Kamlesh Nagware',
     role: 'Director',
-    image: '/assets/Kamlesh Sir.jpg',
+    image: '/assets/Kamlesh sir.jpg',
     bio: 'He plays a crucial role in strengthening MST Blockchain’s security, reliability, and core infrastructure. He focuses on developing secure smart contract patterns and robust system primitives that enable teams to build confidently and efficiently on the MST ecosystem.',
     bio2: 'Beyond development, he contributes by creating reference implementations, testing frameworks, and practical guides, turning best practices into scalable and repeatable development processe',
     linkedinHandle: '@kamlesh_Nagware',
@@ -102,7 +102,7 @@ const advisors = [
   {
     name: 'Adv. Ishita Sharma',
     role: 'Legal Advisor',
-    image: '/assets/Ishita.png',
+    image: '/assets/ishita.png',
     bio: 'Ishita Sharma advises MST Blockchain on legal frameworks, compliance strategy, and regulatory alignment within the evolving Web3 ecosystem.',
     bio2: 'Her expertise ensures that innovation is backed by strong legal foundations, enabling secure, compliant, and scalable growth across markets.',
     designation: 'Legal Advisor'
