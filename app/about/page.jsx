@@ -168,10 +168,12 @@ const AboutUs = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center relative z-10 mb-8 sm:mb-12 md:mb-0">
+          {/* TITLE - Top on Mobile */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
+            className="order-1 lg:order-none"
           >
             <span className="inline-block px-4 py-1.5 mb-6 text-sm font-bold tracking-widest text-red-600 uppercase bg-red-50 rounded-full">
               POWERING THE DECENTRALIZED FUTURE
@@ -179,18 +181,14 @@ const AboutUs = () => {
             <h1 className="bungee-regular text-4xl sm:text-5xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
               About <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-500">MST Blockchain</span>
             </h1>
-
-            <p className="mt-8 text-gray-600 text-xl leading-relaxed max-w-2xl">
-              Redefining digital systems with speed, trust, and decentralization. We provide the robust, high-performance infrastructure needed to power the next generation of global decentralized economies.
-            </p>
-
           </motion.div>
 
+          {/* IMAGE - Middle on Mobile */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
-            className="relative flex justify-center items-center h-full w-full"
+            className="relative flex justify-center items-center h-full w-full order-2 lg:order-none lg:col-start-2 lg:row-span-2"
           >
             <div className="absolute -inset-4 bg-gradient-to-r from-red-500 to-pink-500 rounded-[2.5rem] opacity-20 blur-2xl animate-pulse hidden sm:block" />
             <div className="relative w-full max-w-xs sm:max-w-md md:max-w-none aspect-[4/3] sm:aspect-[5/3] md:aspect-[16/7] md:h-[450px] md:w-full md:col-span-1 rounded-[2rem] overflow-hidden border-4 border-white shadow-2xl flex items-center justify-center md:items-stretch md:justify-stretch mx-auto md:mx-0">
@@ -201,6 +199,18 @@ const AboutUs = () => {
                 style={{ aspectRatio: 'inherit' }}
               />
             </div>
+          </motion.div>
+
+          {/* TEXT CONTENT - Bottom on Mobile */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="order-3 lg:order-none lg:col-start-1"
+          >
+            <p className="mt-8 text-gray-600 text-xl leading-relaxed max-w-2xl">
+              Redefining digital systems with speed, trust, and decentralization. We provide the robust, high-performance infrastructure needed to power the next generation of global decentralized economies.
+            </p>
           </motion.div>
         </div>
       </section>

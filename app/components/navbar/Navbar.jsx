@@ -671,7 +671,7 @@ export default function Navbar() {
                 priority
               />
               <Image
-                src="/1.png"
+                src="/mstlogoo.png"
                 alt="MST logo mobile"
                 width={150}
                 height={50}

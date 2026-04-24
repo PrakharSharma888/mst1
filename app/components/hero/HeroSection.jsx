@@ -200,25 +200,20 @@ export default function HeroSection() {
       {/* Main Content */}
       <div className="relative z-10 mx-auto max-w-[90rem] min-h-screen grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] items-center gap-6 sm:gap-10 px-4 sm:px-6 pt-20 sm:pt-24 md:pt-28 pb-12">
 
-        {/* LEFT - Heading & Buttons */}
+        {/* HEADING - Top on Mobile */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="order-1 md:order-none flex flex-col items-center text-center md:items-start md:text-left"
+          className="order-1 md:order-none md:col-start-1 md:row-start-1 flex flex-col items-center text-center md:items-start md:text-left"
         >
-          {/* HEADING */}
           <div className="h-[90px] sm:h-[160px] md:h-[200px] mt-12 sm:mt-0 mb-6 sm:mb-14 md:mb-20 flex justify-center md:justify-start">
             {(() => {
-              // Typewriter config
-              const typingSpeed = 10; // ms per character (faster)
-              const deletingSpeed = 10; // ms per character (faster)
-              const pause = 1400; // ms pause at end of word
               const typewriter = useTypewriter({
                 texts: headings,
-                typingSpeed,
-                deletingSpeed,
-                pause,
+                typingSpeed: 10,
+                deletingSpeed: 10,
+                pause: 1400,
               });
               return (
                 <h1 className="bungee-regular text-2xl sm:text-4xl md:text-7xl w-full tracking-tight text-black font-extrabold uppercase">
@@ -228,9 +223,21 @@ export default function HeroSection() {
               );
             })()}
           </div>
+        </motion.div>
 
-          {/* BUTTONS */}
-          <div className="mt-6 sm:mt-8 grid grid-cols-2 sm:flex gap-2 sm:gap-4 w-full max-w-md">
+        {/* IMAGE - Middle on Mobile */}
+        <div className="order-2 md:order-none md:col-start-2 md:row-span-3 flex justify-center md:justify-end w-full pr-0 md:pr-5">
+          <HeroImage slides={slides} slideCount={slideCount} />
+        </div>
+
+        {/* BUTTONS - Bottom on Mobile */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="order-3 md:order-none md:col-start-1 md:row-start-2 flex flex-col items-center md:items-start z-20"
+        >
+          <div className="grid grid-cols-2 sm:flex gap-2 sm:gap-4 w-full max-w-md">
             <a
               href="#ProductShowcase"
               className="text-center px-4 sm:px-8 py-2.5 sm:py-3 bg-black text-white text-[9px] sm:text-[11px] font-bold uppercase tracking-wide sm:tracking-widest rounded-full hover:bg-red-500 transition-all shadow-md sm:shadow-lg shadow-black/10"
@@ -249,13 +256,8 @@ export default function HeroSection() {
           </div>
         </motion.div>
 
-        {/* RIGHT - Image Container */}
-        <div className="order-2 md:order-none md:col-start-2 md:row-span-2 flex justify-center md:justify-end w-full pr-0 md:pr-5">
-          <HeroImage slides={slides} slideCount={slideCount} />
-        </div>
-
-        {/* STATS - Below image on mobile (sm), but below buttons on tablet (md) and laptop (lg) */}
-        <div className="order-3 md:order-none md:col-start-1 md:row-start-2 mt-6 md:mt-0 grid grid-cols-3 gap-2 sm:gap-4 w-full max-w-xl mx-auto md:mx-0">
+        {/* STATS - Bottom on Mobile */}
+        <div className="order-4 md:order-none md:col-start-1 md:row-start-3 mt-6 md:mt-0 grid grid-cols-3 gap-2 sm:gap-4 w-full max-w-xl mx-auto md:mx-0">
           {stats.map((stat) => (
             <div
               key={stat.label}
