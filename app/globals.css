@@ -42,3 +42,24 @@ h1, .font-extrabold, .font-bold {
 .input {
   @apply w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 transition;
 }
+
+@keyframes navAuroraDrift {
+  0%   { transform: translateX(0%) scaleX(1); }
+  100% { transform: translateX(38%) scaleX(1.15); }
+}
+@keyframes navAuroraDrift2 {
+  0%   { transform: translateX(0%) scaleY(1); }
+  100% { transform: translateX(-35%) scaleY(1.2); }
+}
+@keyframes navShimmer {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(320%); }
+}
+@keyframes navEdgePulse {
+  0%, 100% { opacity: 0.35; }
+  50%       { opacity: 1; }
+}
+@keyframes navDot {
+  0%   { transform: translateY(0) translateX(0); opacity: 0.1; }
+  100% { transform: translateY(-6px) translateX(3px); opacity: 0.7; }
+}

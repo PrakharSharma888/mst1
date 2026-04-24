@@ -607,7 +607,58 @@ export default function Navbar() {
         className="relative rounded-2xl border border-white/10 shadow-[0_8px_26px_rgba(0,0,0,0.28)] transition-all duration-300"
       >
         <div className="relative  rounded-2xl bg-black/90 backdrop-blur-xl group/nav">
+          {/* 1. Drifting red aurora */}
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden rounded-[inherit]">
+            <div className="absolute -top-1/2 -left-[10%] h-[200%] w-[55%] animate-[navAuroraDrift_9s_ease-in-out_infinite_alternate] rounded-[50%] blur-sm"
+              style={{ background: 'radial-gradient(ellipse at center, rgba(220,30,30,0.18) 0%, rgba(180,20,20,0.07) 40%, transparent 70%)', willChange: 'transform' }} />
+            <div className="absolute -top-1/2 right-[5%] h-[200%] w-[40%] animate-[navAuroraDrift2_12s_ease-in-out_infinite_alternate] rounded-[50%] blur-[3px]"
+              style={{ background: 'radial-gradient(ellipse at center, rgba(255,60,60,0.10) 0%, rgba(180,20,20,0.04) 45%, transparent 70%)', willChange: 'transform' }} />
+          </div>
 
+          {/* 2. Grid overlay */}
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 rounded-[inherit]"
+            style={{
+              backgroundImage: 'linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px)',
+              backgroundSize: '40px 40px',
+              WebkitMaskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 20%, rgba(0,0,0,0.6) 80%, transparent 100%)',
+              maskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 20%, rgba(0,0,0,0.6) 80%, transparent 100%)',
+            }} />
+
+          {/* 3. Shimmer sweep */}
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden rounded-[inherit]">
+            <div className="absolute inset-y-0 -left-full w-[60%] animate-[navShimmer_7s_ease-in-out_infinite]"
+              style={{
+                background: 'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.022) 40%, rgba(255,80,80,0.03) 50%, rgba(255,255,255,0.022) 60%, transparent 100%)',
+                willChange: 'transform',
+              }} />
+          </div>
+
+          {/* 4. Left edge pulse */}
+          <div aria-hidden="true" className="pointer-events-none absolute left-0 top-0 h-full w-[3px] animate-[navEdgePulse_3.5s_ease-in-out_infinite] rounded-l-[18px]"
+            style={{ background: 'linear-gradient(to bottom, transparent, rgba(220,40,40,0.6), rgba(255,80,80,0.8), rgba(220,40,40,0.6), transparent)' }} />
+
+          {/* 5. Floating red micro-dots */}
+          {[
+            { left: '12%', top: '30%', dur: '3.2s', delay: '0s' },
+            { left: '25%', top: '60%', dur: '4.1s', delay: '-1.4s' },
+            { left: '38%', top: '25%', dur: '3.7s', delay: '-0.7s' },
+            { left: '51%', top: '70%', dur: '4.8s', delay: '-2.1s' },
+            { left: '63%', top: '40%', dur: '3.3s', delay: '-0.3s' },
+            { left: '74%', top: '55%', dur: '5.2s', delay: '-1.8s' },
+            { left: '84%', top: '20%', dur: '3.9s', delay: '-0.9s' },
+            { left: '91%', top: '65%', dur: '4.4s', delay: '-2.5s' },
+          ].map((d, i) => (
+            <div key={i} aria-hidden="true"
+              className="pointer-events-none absolute h-[2px] w-[2px] rounded-full"
+              style={{
+                left: d.left, top: d.top,
+                background: 'rgba(255,80,80,0.55)',
+                animation: `navDot ${d.dur} ease-in-out infinite ${d.delay} alternate`,
+                willChange: 'transform, opacity',
+              }} />
+          ))}
+
+          {/* ↑↑↑ END ANIMATION LAYERS ↑↑↑ */}
           <nav className="relative z-20 flex h-16 w-full items-center justify-between px-4 lg:px-8">
 
             <Link href="/" className="lg:-ml-5 ml-0 flex items-center h-full group overflow-visible">

@@ -249,8 +249,8 @@ export default function SupplyChainPage() {
               <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,45,45,0.18),transparent_45%),radial-gradient(circle_at_bottom_right,rgba(255,255,255,0.08),transparent_50%)]" />
               <div className="relative">
                 <p className="text-3xl font-extrabold tracking-[-0.03em] sm:text-4xl">Zero</p>
-                <p className="mt-2 text-sm font-medium text-white/70">Possible Ballot Alterations on MST</p>
-                <p className="mt-1 text-xs italic text-white/50">Blockchain by Design</p>
+                <p className="mt-2 text-sm font-medium text-white/70">Possible Vote Modifications</p>
+                <p className="mt-1 text-xs italic text-white/50">On MST Blockchain</p>
               </div>
             </div>
           </div>

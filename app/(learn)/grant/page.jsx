@@ -244,10 +244,9 @@ export default function Page() {
 
           <div>
             <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase" style={{margin:0,padding:0}}>initGrant()</h2>
-            <p className="red-text">Up to $50,000</p>
+            <p className="red-text">Up to $1000</p>
             <p>
-              Designed for <span className="red-text">early-stage innovators</span> and developers exploring
-              <span className="red-text"> new blockchain concepts</span>.
+              For developers starting <span className="red-text">new ideas</span>, <span className="red-text">experiments</span>, or <span className="red-text">early-stage prototypes</span> on MST.
             </p>
 
             <ul>
@@ -264,10 +263,9 @@ export default function Page() {
 
           <div>
             <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase" style={{margin:0,padding:0}}>buildGrant()</h2>
-            <p className="red-text">Up to $100,000</p>
+            <p className="red-text">Up to $10,000</p>
             <p>
-              Tailored for <span className="red-text">active development</span> and
-              <span className="red-text"> testnet deployment</span>.
+              For <span className="red-text">testnet-ready projects</span> with <span className="red-text">working prototypes</span> and a clear execution roadmap.
             </p>
 
             <ul>
