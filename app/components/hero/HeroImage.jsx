@@ -50,7 +50,7 @@ export default function HeroImage() {
         className="absolute top-[0%] -left-[35%] w-[110%] h-[110%] border-[0.5px] border-red-300 rounded-full hidden lg:flex items-center justify-center pointer-events-none z-0"
       >
         <div className="absolute w-[6px] h-[6px] bg-red-600 rounded-full bottom-[18%] right-[8%] shadow-[0_0_10px_#ff2d2d]" />
-        
+
         {/* Orbital Text Node */}
         <motion.div
           animate={{ rotate: [-360, 0] }}
@@ -69,7 +69,7 @@ export default function HeroImage() {
         className="absolute -top-[20%] -left-[60%] w-[140%] h-[140%] border-[0.5px] border-black/10 rounded-full border-dashed hidden lg:flex items-center justify-center pointer-events-none z-0"
       >
         <div className="absolute w-2 h-2 bg-accent rounded-full top-[12%] shadow-[0_0_15px_#ff2d2d]" />
-        
+
         {/* Orbital Text Node */}
         <motion.div
           animate={{ rotate: [360, 0] }}
@@ -130,61 +130,61 @@ export default function HeroImage() {
         >
           <div className="relative overflow-hidden rounded-[2rem] border border-accent/10 bg-gradient-to-br from-white/90 via-white to-zinc-100/90 p-2 lg:mr-20 lg:mb-10 shadow-glow lg:[transform:rotateX(13deg)_rotateY(-16deg)] transition-transform duration-700 ease-in-out hover:[transform:rotateX(0deg)_rotateY(0deg)] hover:shadow-[0_0_120px_rgba(255,45,45,0.25)]" style={{ boxShadow: '0 0 90px rgba(255, 45, 45, 0.15), 0 34px 76px rgba(0, 0, 0, 0.25)', transformOrigin: '50% 50%' }}>
             <div className="relative w-[195px] h-[360px] sm:w-[300px] sm:h-[480px] overflow-hidden rounded-[1.5rem] border border-black/10 bg-black/5 mx-auto flex items-center justify-center">
-            {slides.map((slide, index) => (
-              <motion.div
-                key={slide.src}
-                initial={{ opacity: index === 0 ? 1 : 0, scale: index === 0 ? 1 : 1.01 }}
-                animate={{ 
-                  opacity: activeIndex === index ? 1 : 0, 
-                  scale: activeIndex === index ? 1 : 1.01 
-                }}
-                transition={{ duration: 0.35, ease: 'easeInOut' }}
-                className="absolute inset-0"
-                style={{ 
-                  zIndex: activeIndex === index ? 10 : 0,
-                  pointerEvents: activeIndex === index ? 'auto' : 'none'
-                }}
-              >
-                <Image
-                  src={slide.src}
-                  alt={slide.alt}
-                  fill
-                  className="object-cover"
-                  style={{objectFit:'cover', width:'100%', height:'100%'}}
-                  priority={true}
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </motion.div>
-            ))}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/5 to-transparent pointer-events-none" />
-
-            {/* Loop Progress Indicators */}
-            <div className="absolute bottom-5 left-6 flex items-center gap-2 z-20">
-              {slides.map((_, index) => (
-                <div key={index} className="relative h-1 w-8 overflow-hidden rounded-full bg-white/30 backdrop-blur-sm">
-                  {activeIndex === index && (
-                    <motion.div
-                      key={`progress-${activeIndex}`}
-                      initial={{ width: '0%' }}
-                      animate={{ width: '100%' }}
-                      transition={{ duration: 6, ease: 'linear' }}
-                      className="absolute left-0 top-0 h-full bg-white shadow-[0_0_8px_white]"
-                    />
-                  )}
-                  {activeIndex > index && (
-                    <div className="absolute left-0 top-0 h-full w-full bg-white/60" />
-                  )}
-                </div>
+              {slides.map((slide, index) => (
+                <motion.div
+                  key={slide.src}
+                  initial={{ opacity: index === 0 ? 1 : 0, scale: index === 0 ? 1 : 1.01 }}
+                  animate={{
+                    opacity: activeIndex === index ? 1 : 0,
+                    scale: activeIndex === index ? 1 : 1.01
+                  }}
+                  transition={{ duration: 0.35, ease: 'easeInOut' }}
+                  className="absolute inset-0"
+                  style={{
+                    zIndex: activeIndex === index ? 10 : 0,
+                    pointerEvents: activeIndex === index ? 'auto' : 'none'
+                  }}
+                >
+                  <Image
+                    src={slide.src}
+                    alt={slide.alt}
+                    fill
+                    className="object-cover"
+                    style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                    priority={true}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                </motion.div>
               ))}
-              <div className="ml-2 text-[9px] font-bold tracking-widest text-white/90">
-                0{activeIndex + 1} / 0{slides.length}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/5 to-transparent pointer-events-none" />
+
+              {/* Loop Progress Indicators */}
+              <div className="absolute bottom-5 left-6 flex items-center gap-2 z-20">
+                {slides.map((_, index) => (
+                  <div key={index} className="relative h-1 w-8 overflow-hidden rounded-full bg-white/30 backdrop-blur-sm">
+                    {activeIndex === index && (
+                      <motion.div
+                        key={`progress-${activeIndex}`}
+                        initial={{ width: '0%' }}
+                        animate={{ width: '100%' }}
+                        transition={{ duration: 6, ease: 'linear' }}
+                        className="absolute left-0 top-0 h-full bg-white shadow-[0_0_8px_white]"
+                      />
+                    )}
+                    {activeIndex > index && (
+                      <div className="absolute left-0 top-0 h-full w-full bg-white/60" />
+                    )}
+                  </div>
+                ))}
+                <div className="ml-2 text-[9px] font-bold tracking-widest text-white/90">
+                  0{activeIndex + 1} / 0{slides.length}
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="pointer-events-none absolute -right-12 -top-10 h-40 w-40 rounded-full bg-accent/30 blur-[60px]" />
-          <div />
-        </div>
+            <div className="pointer-events-none absolute -right-12 -top-10 h-40 w-40 rounded-full bg-accent/30 blur-[60px]" />
+            <div />
+          </div>
         </motion.div>
       </motion.div>
     </div>
