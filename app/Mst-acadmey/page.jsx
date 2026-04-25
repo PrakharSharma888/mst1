@@ -78,7 +78,7 @@ const modules = [
         row: 1, col: 3,
     },
     {
-        num: 6, title: "NFT Minting DApp Project",
+        num: 6, title: "ERC-20 TOKEN DEVELOPMENT ON MST",
         category: "deployment",
         gradient: "from-cyan-500 to-teal-600", borderColor: "border-cyan-500/20",
         textColor: "text-cyan-600", bgColor: "bg-cyan-500",
@@ -234,7 +234,7 @@ const ModuleDetail = ({ mod }) => {
                 <div className="absolute inset-0 bg-gradient-to-br from-red-600/10 to-transparent pointer-events-none" />
                 <div className="relative z-10">
                     <Award size={48} className="text-red-600 mx-auto mb-6" />
-                    <h4 className="bungee-regular text-2xl text-white uppercase mb-4 tracking-tight">Final Assessment</h4>
+                    <h4 className="bungee-regular text-2xl text-white uppercase mb-4 tracking-tight">Knowledge Check</h4>
                     <p className="text-white/50 text-sm max-w-lg mx-auto mb-10 font-medium">Complete the module curriculum to unlock the knowledge check and earn your progress badge.</p>
 
                     <div className="grid grid-cols-3 gap-4 max-w-md mx-auto mb-10">
@@ -251,7 +251,7 @@ const ModuleDetail = ({ mod }) => {
                     </div>
 
                     <button className="px-12 py-5 bg-red-600 text-white rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-white hover:text-black transition-all shadow-xl shadow-red-600/20">
-                        Start Knowledge Check
+                        Start Assessment
                     </button>
                 </div>
             </div>
@@ -297,11 +297,11 @@ export default function AcademyPage() {
                                 MST Blockchain Academy
                             </span>
                             <h1 className="bungee-regular text-4xl sm:text-6xl md:text-8xl leading-[0.95] tracking-tighter text-black font-black uppercase mb-10">
-                                Become a <br />
-                                <span className="text-red-600">Certified</span> Expert
+                               Certified MST<br />
+                                <span className="text-red-600">Blockchain </span> Developer
                             </h1>
                             <p className="text-slate-400 text-lg md:text-xl font-bold max-w-2xl mx-auto leading-relaxed mb-12 uppercase tracking-tight">
-                                Master the institutional <span className="text-slate-900">Web3 stack</span> through structured, hands-on modules.
+                                Master blockchain development through interactive courses. <span className="text-slate-900">Deploy L1s, build dApps, and customize your own infrastructure</span> on MST Chain.
                             </p>
 
                             {/* Filters */}
@@ -376,15 +376,21 @@ export default function AcademyPage() {
                             <div className="relative z-10 max-w-3xl mx-auto">
                                 <Award size={64} className="text-red-600 mx-auto mb-10" />
                                 <h2 className="bungee-regular text-4xl md:text-6xl text-white uppercase mb-8 tracking-tighter leading-tight">
-                                    Earn Your <br />
-                                    <span className="text-red-600">Official</span> Certificate
+                                    Ready to become a<br />
+                                    <span className="text-red-600">Certified MST </span> Developer?
                                 </h2>
                                 <p className="text-white/40 text-lg md:text-xl font-bold mb-14 leading-relaxed uppercase tracking-tight">
-                                    Complete all modules to receive the MST Certified Developer credential on-chain.
+                                    Complete all 7 modules, pass assessments, and deliver your NFT DApp to earn certification.
                                 </p>
-                                <button className="px-14 py-7 bg-white text-black rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-red-600 hover:text-white transition-all duration-500 shadow-2xl shadow-white/5">
-                                    Start Learning Today
-                                </button>
+                                <div className="flex gap-4 ml-10">
+  <button className="px-14 py-7 bg-white text-black rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-red-600 hover:text-white transition-all duration-500 shadow-2xl shadow-white/5">
+    Start Your Journey
+  </button>
+
+  <button className="px-14 py-7 bg-white text-black rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-red-600 hover:text-white transition-all duration-500 shadow-2xl shadow-white/5">
+    Download Syallbus
+  </button>
+</div>
                             </div>
                         </div>
                     </section>

@@ -112,7 +112,7 @@ export default function WhatIsMST() {
         </h2>
 
         <p className="mt-4 sm:mt-6 max-w-2xl text-sm sm:text-base leading-relaxed text-black/70 md:text-lg">
-          MST Blockchain (MST) is a public, EVM-compatible Layer 1 blockchain developed by India-based Masterstroke Technosoft, designed for high-speed (400 TPS) and low-cost decentralized applications. Using Proof of Stake Authority (PoSA), it focuses on security and efficiency for enterprise, fintech, supply chain, and digital identity use cases
+          MST Blockchain (MST) is a public, EVM-compatible Layer 1 blockchain developed by India-based Masterstroke Technosoft, designed for high-speed (400+ TPS) and low-cost decentralized applications. Using Proof of Stake Authority (PoSA), it focuses on security and efficiency for enterprise, fintech, supply chain, and digital identity use cases
         </p>
 
         <motion.div

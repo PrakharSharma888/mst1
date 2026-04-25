@@ -108,3 +108,44 @@
     grid-template-columns: 1fr;
   }
 }
+
+.section-title {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.grant-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.grant-btn:hover {
+  background: black;
+  color: white;
+}
+
+.apply-btn {
+  margin-top: 12px;
+  padding: 12px 22px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(to right, #ff2d2d, #ff4d4d);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.apply-btn:hover {
+  opacity: 0.9;
+}
+
+.apply-btn:active {
+  transform: scale(0.96);
+}

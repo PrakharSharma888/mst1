@@ -228,96 +228,164 @@ export default function Page() {
           </p>
         </div>
 
-        {/* TRACK 1 */}
-        <div className="grid">
+{/* TRACK 1 */}
+<div className="grid">
 
-          <div className="hero-wrapper">
-            <div className="hero-card">
-              <div className="hero-image-container">
-                <img src="/grant/init grant - Banner.jpg" className="hero-img active" />
-                <img src="/grant/init grant - Banner.jpg" className="hero-img" />
-              </div>
-              <div className="hero-glow-1"></div>
-              <div className="hero-glow-2"></div>
-            </div>
-          </div>
+  <div className="hero-wrapper">
+    <div className="hero-card">
+      <div className="hero-image-container">
+        <img src="/grant/init grant - Banner.jpg" className="hero-img active" />
+        <img src="/grant/init grant - Banner.jpg" className="hero-img" />
+      </div>
+      <div className="hero-glow-1"></div>
+      <div className="hero-glow-2"></div>
+    </div>
+  </div>
 
-          <div>
-            <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase" style={{margin:0,padding:0}}>initGrant()</h2>
-            <p className="red-text">Up to $1000</p>
-            <p>
-              For developers starting <span className="red-text">new ideas</span>, <span className="red-text">experiments</span>, or <span className="red-text">early-stage prototypes</span> on MST.
-            </p>
+  <div>
+    <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase" style={{margin:0,padding:0}}>initGrant()</h2>
+    <p className="red-text">Up to $1,000</p>
 
-            <ul>
-              <li>✔ Prototype & idea validation</li>
-              <li>✔ Research-based innovation</li>
-              <li>✔ Early product development</li>
-            </ul>
-          </div>
+    <p>
+      For developers starting <span className="red-text">new ideas</span>, <span className="red-text">experiments</span>, or <span className="red-text">early-stage prototypes</span> on MST.
+    </p>
 
-        </div>
+  {/* REQUIREMENTS */}
+<p style={{ fontWeight: "bold", marginTop: "10px" }}>Activities</p>
+<ul style={{ listStyleType: "disc", paddingLeft: "18px", margin: "0" }}>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>MST Blockchain onboarding & academy sessions</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Dedicated technical mentorship (group & 1:1 sessions)</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Architecture review by MST engineering team</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Testnet optimization and debugging support</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Integration with MST ecosystem tools (Wallet, Explorer, Bridge)</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>User testing and feedback cycles</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Smart contract and Web3 development workshops</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Weekly progress tracking via Google Meet sessions</li>
+</ul>
 
-        {/* TRACK 2 */}
-        <div className="grid">
+{/* DELIVERABLES */}
+<p style={{ fontWeight: "bold", marginTop: "8px" }}>Deliverables</p>
 
-          <div>
-            <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase" style={{margin:0,padding:0}}>buildGrant()</h2>
-            <p className="red-text">Up to $10,000</p>
-            <p>
-              For <span className="red-text">testnet-ready projects</span> with <span className="red-text">working prototypes</span> and a clear execution roadmap.
-            </p>
+<ul style={{ listStyleType: "disc", paddingLeft: "18px", margin: "0" }}>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Working prototype (dApp or smart contract)</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>GitHub repository with structured codebase</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Testnet deployment on MST Blockchain</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Basic technical documentation</li>
+  <li style={{ margin: "2px 0", fontWeight: "400" }}>Initial demo showcasing functionality</li>
+</ul>
 
-            <ul>
-              <li>✔ Smart contract deployment</li>
-              <li>✔ Scalable architecture</li>
-              <li>✔ MVP to production</li>
-            </ul>
-          </div>
+{/* APPLY BUTTON */}
+<button className="apply-btn">
+  APPLY FOR INITGRANT →
+</button>
+  </div>
 
-          <div className="hero-wrapper">
-            <div className="hero-card">
-              <div className="hero-image-container">
-                <img src="/grant/Copy of Scale grant - Banner.jpg" className="hero-img active" />
-                <img src="/grant/Copy of Scale grant - Banner.jpg" className="hero-img" />
-              </div>
-              <div className="hero-glow-1"></div>
-              <div className="hero-glow-2"></div>
-            </div>
-          </div>
+</div>
+{/* TRACK 2 */}
+<div className="grid">
 
-        </div>
+  <div>
+    <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase" style={{margin:0,padding:0}}>buildGrant()</h2>
+    <p className="red-text">Up to $10,000</p>
 
-        {/* TRACK 3 */}
-        <div className="grid">
+    <p>
+      For <span className="red-text">testnet-ready projects</span> with <span className="red-text">working prototypes</span> and a clear execution roadmap.
+    </p>
 
-          <div className="hero-wrapper">
-            <div className="hero-card">
-              <div className="hero-image-container">
-                <img src="/grant/Build grant-Banner (4).jpg" className="hero-img active" />
-                <img src="/grant/Build grant-Banner (4).jpg" className="hero-img" />
-              </div>
-              <div className="hero-glow-1"></div>
-              <div className="hero-glow-2"></div>
-            </div>
-          </div>
+    {/* REQUIREMENTS */}
+    <p style={{ fontWeight: "bold", marginTop: "10px" }}>Activities</p>
+    <ul style={{ listStyleType: "disc", paddingLeft: "18px", margin: "0" }}>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Deep technical architecture refinement with MST engineering team</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Code refactoring, optimization, and performance improvements</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Security review and vulnerability assessment (pre-mainnet readiness)</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Product usability improvements (UX flow, onboarding, reliability)</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Advanced integration with MST ecosystem services</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Controlled user pilot testing (early adopters & closed beta groups)</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Feedback-driven iteration cycles based on real usage data</li>
+    </ul>
 
-          <div>
-            <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase" style={{margin:0,padding:0}}>scaleGrant()</h2>
-            <p className="red-text">Up to $500,000</p>
-            <p>
-              Built for <span className="red-text">high-growth startups</span> and
-              <span className="red-text"> production-ready systems</span>.
-            </p>
+    {/* DELIVERABLES */}
+    <p style={{ fontWeight: "bold", marginTop: "8px" }}>Deliverables</p>
+    <ul style={{ listStyleType: "disc", paddingLeft: "18px", margin: "0" }}>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Stable, production-quality testnet application</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Finalized system architecture and technical documentation</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Security assessment report & fixes implemented</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>User pilot results and insights report</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Mainnet readiness approval checklist</li>
+    </ul>
 
-            <ul>
-              <li>✔ High-performance dApps</li>
-              <li>✔ Ecosystem scaling</li>
-              <li>✔ Enterprise solutions</li>
-            </ul>
-          </div>
+    {/* APPLY BUTTON */}
+    <button className="apply-btn">
+      APPLY FOR BUILDGRANT →
+    </button>
+  </div>
 
-        </div>
+  <div className="hero-wrapper">
+    <div className="hero-card">
+      <div className="hero-image-container">
+        <img src="/grant/Copy of Scale grant - Banner.jpg" className="hero-img active" />
+        <img src="/grant/Copy of Scale grant - Banner.jpg" className="hero-img" />
+      </div>
+      <div className="hero-glow-1"></div>
+      <div className="hero-glow-2"></div>
+    </div>
+  </div>
+
+</div>
+
+{/* TRACK 3 */}
+<div className="grid">
+
+  <div className="hero-wrapper">
+    <div className="hero-card">
+      <div className="hero-image-container">
+        <img src="/grant/Build grant-Banner (4).jpg" className="hero-img active" />
+        <img src="/grant/Build grant-Banner (4).jpg" className="hero-img" />
+      </div>
+      <div className="hero-glow-1"></div>
+      <div className="hero-glow-2"></div>
+    </div>
+  </div>
+
+  <div>
+    <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase" style={{margin:0,padding:0}}>scaleGrant()</h2>
+    <p className="red-text">Up to $50,000</p>
+
+    <p>
+      For <span className="red-text">production-ready applications</span> with strong teams and scalable infrastructure.
+    </p>
+
+    {/* REQUIREMENTS */}
+    <p style={{ fontWeight: "bold", marginTop: "10px" }}>Activities</p>
+    <ul style={{ listStyleType: "disc", paddingLeft: "18px", margin: "0" }}>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Mainnet deployment and live system launch</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Governance and engineering final review approval</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Scalability monitoring and infrastructure tuning</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Go-To-Market (GTM) strategy execution</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Community building and developer/user acquisition</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Ecosystem partnership integrations and collaborations</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Growth experiments (funnels, retention, activation strategies)</li>
+    </ul>
+
+    {/* DELIVERABLES */}
+    <p style={{ fontWeight: "bold", marginTop: "8px" }}>Deliverables</p>
+    <ul style={{ listStyleType: "disc", paddingLeft: "18px", margin: "0" }}>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Fully deployed Mainnet application</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Verified real-user traction metrics (usage, retention, activity)</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Live community and growth channels</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>GTM execution report with results</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Ecosystem integrations completed</li>
+      <li style={{ margin: "2px 0", fontWeight: "400" }}>Long-term scaling roadmap</li>
+      
+    </ul>
+
+    {/* APPLY BUTTON */}
+    <button className="apply-btn">
+      APPLY FOR SCALEGRANT →
+    </button>
+  </div>
+
+</div>
       </div>
 
       <style jsx>{`
