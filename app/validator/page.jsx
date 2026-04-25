@@ -51,7 +51,7 @@ export default function ValidatorPage() {
       Icon: CreditCard,
       title: "Create Account",
       description: "Sign up on our portal and complete KYC verification.",
-      imageSrc: "/img1.webp",
+      imageSrc: "/fractional-validator/Create Account-Banner.png",
       imageAlt: "Create account",
     },
     {
@@ -59,7 +59,7 @@ export default function ValidatorPage() {
       Icon: PieChart,
       title: "Make Payment",
       description: "Pay securely in your preferred currency.",
-      imageSrc: "/img2.jpg",
+      imageSrc: "/fractional-validator/Make Payment-Banner.jpg",
       imageAlt: "Make payment",
     },
     {
@@ -67,7 +67,7 @@ export default function ValidatorPage() {
       Icon: UserPlus,
       title: "Own Your Fraction",
       description: "After confirmation, get on-chain ownership and validator rewards.",
-      imageSrc: "/img3.jpeg",
+      imageSrc: "/fractional-validator/Own Fraction-Banner.jpg",
       imageAlt: "Own your fraction",
     },
   ];
@@ -162,15 +162,15 @@ export default function ValidatorPage() {
       </div>
 
       {/* Hero image (above circles) */}
-      <div className="absolute right-6 md:right-10 lg:right-[8.5rem] top-28 md:top-36 lg:top-48 z-[1] pointer-events-none select-none opacity-90 rounded-2xl border border-red-200/70 bg-white/60 p-2 overflow-hidden hidden md:block">
-        <div className="relative w-56 h-56 md:w-72 md:h-72 lg:w-[400px] lg:h-[400px] rounded-xl overflow-hidden">
+      <div className="absolute right-6 md:right-10 lg:right-[4rem] top-28 md:top-36 lg:top-[14rem] z-[1] pointer-events-none select-none opacity-95 rounded-2xl border border-red-200/70 bg-white/60 p-2 overflow-hidden hidden lg:block shadow-xl backdrop-blur-md">
+        <div className="relative w-[450px] xl:w-[550px] h-[250px] xl:h-[300px] rounded-xl overflow-hidden">
           <Image
-            src="/hero-visual-1.svg"
-            alt="MST hero visual"
+            src="/fractional-validator/Piece of MST- Banner.png"
+            alt="Piece of MST Banner"
             fill
             priority
-            className="object-contain"
-            sizes="(min-width: 1024px) 400px, (min-width: 768px) 288px, 224px"
+            className="object-cover"
+            sizes="(min-width: 1024px) 550px, 100vw"
           />
         </div>
       </div>
@@ -182,22 +182,140 @@ export default function ValidatorPage() {
       {/* Glow blobs */}
       <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-red-300 opacity-20 blur-[120px]"></div>
 
+      {/* BACKGROUND WATERMARK */}
+      <div className="absolute top-32 left-0 w-full overflow-hidden pointer-events-none flex justify-center z-0 opacity-[0.03] select-none">
+        <h1 className="text-[16vw] font-black text-black whitespace-nowrap leading-none tracking-tighter">
+          FRACTIONAL
+        </h1>
+      </div>
+
       {/* 🔴 HERO SECTION */}
-      <section className="relative z-10 max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-10 items-center">
+      <section className="relative z-10 max-w-7xl mx-auto px-6 pt-36 pb-24 grid lg:grid-cols-[1fr_450px] gap-12 items-center min-h-[85vh]">
+        
+        {/* LEFT TEXT & UI */}
+        <div className="flex flex-col items-start relative z-20">
+          
+          {/* Animated Premium Badge */}
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="group relative mb-8 inline-flex items-center gap-3 rounded-full bg-white/70 backdrop-blur-md px-2 py-1 pr-4 shadow-[0_0_0_1px_rgba(239,68,68,0.2)] hover:shadow-[0_0_0_1px_rgba(239,68,68,0.5)] transition-all overflow-hidden"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-red-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+            <span className="relative flex h-7 w-7 items-center justify-center rounded-full bg-red-100">
+               <span className="absolute inline-flex h-4 w-4 animate-ping rounded-full bg-red-400 opacity-60"></span>
+               <span className="relative h-2.5 w-2.5 rounded-full bg-red-600"></span>
+            </span>
+            <span className="relative text-[11px] font-bold uppercase tracking-widest text-gray-800">
+              MST Mainnet <span className="text-red-600 font-black">Live</span>
+            </span>
+          </motion.div>
 
-        {/* LEFT TEXT */}
-        <div>
-          <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-            Own a Piece of <br />
-            <span className="text-red-600">MST Blockchain</span>
-          </h1>
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.1 }}
+            className="bungee-regular text-[3.5rem] md:text-[4.5rem] lg:text-[5.5rem] leading-[1.05] tracking-tight text-black font-extrabold uppercase mb-6 drop-shadow-sm"
+          >
+            Own a piece of <br />
+            <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-red-500 to-red-700 pb-2">
+              MST Blockchain
+              {/* Animated underline */}
+              <motion.svg 
+                className="absolute -bottom-1 left-0 w-full h-4 text-red-500/30"
+                viewBox="0 0 100 10" preserveAspectRatio="none"
+              >
+                 <motion.path 
+                   d="M0 5 Q 50 10 100 5" 
+                   fill="none" 
+                   stroke="currentColor" 
+                   strokeWidth="4"
+                   strokeLinecap="round"
+                   initial={{ pathLength: 0 }}
+                   animate={{ pathLength: 1 }}
+                   transition={{ duration: 1.2, delay: 0.8, ease: "easeInOut" }}
+                 />
+              </motion.svg>
+            </span>
+          </motion.h1>
 
-          <p className="mt-6 text-gray-600 text-lg max-w-lg">
-            Start receiving validator rewards by owning a fraction of a node , no hardware, no coding required.
-          </p>
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+            className="mt-4 flex gap-4"
+          >
+            <div className="w-1.5 rounded-full bg-gradient-to-b from-red-500 to-red-200" />
+            <p className="text-gray-600 text-lg md:text-xl max-w-lg leading-relaxed font-medium">
+              Start receiving validator rewards by owning a fraction of a node. Secure the network and earn yields with <strong className="text-gray-900">zero technical setup</strong>.
+            </p>
+          </motion.div>
+
+          {/* Glowing CTA Buttons */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.3 }}
+            className="mt-10 flex flex-col sm:flex-row items-center gap-5 w-full sm:w-auto"
+          >
+            <button className="relative w-full sm:w-auto group overflow-hidden rounded-2xl bg-red-600 px-8 py-4 font-bold uppercase tracking-[0.15em] text-white transition-all hover:scale-[1.02] active:scale-[0.98] shadow-[0_0_0_4px_rgba(239,68,68,0.1)] hover:shadow-[0_0_0_8px_rgba(239,68,68,0.25)]">
+              <span className="relative z-10 flex items-center justify-center gap-3 text-sm">
+                Start Earning 
+                <UserPlus className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </span>
+              <div className="absolute inset-0 z-0 h-full w-full bg-gradient-to-r from-red-500 to-red-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+              <div className="absolute -left-[100%] top-0 z-0 h-full w-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-[200%]" />
+            </button>
+
+            <button className="relative w-full sm:w-auto group overflow-hidden rounded-2xl bg-white/70 backdrop-blur-sm border border-red-100 px-8 py-4 font-bold uppercase tracking-[0.15em] text-gray-800 transition-all hover:bg-white active:scale-[0.98] shadow-sm hover:shadow-md">
+               <span className="relative z-10 flex items-center justify-center gap-3 text-sm">
+                View Documentation
+                <PieChart className="h-4 w-4 text-red-400 transition-transform group-hover:rotate-12 group-hover:scale-110" />
+              </span>
+            </button>
+          </motion.div>
+          
+          {/* Glassmorphic Stats Widget */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="mt-14 w-full max-w-lg rounded-3xl border border-white/80 bg-white/50 p-6 backdrop-blur-xl shadow-[0_8px_40px_rgb(239,68,68,0.08)] relative overflow-hidden"
+          >
+            {/* Subtle widget glow */}
+            <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-red-400/10 blur-2xl" />
+            
+            <div className="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6 sm:gap-4">
+              <div className="flex items-center gap-4">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-red-50 to-red-100 text-red-600 shadow-inner border border-red-100">
+                  <PieChart className="h-7 w-7" />
+                </div>
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Current Est. APY</p>
+                  <p className="bungee-regular text-3xl text-black mt-1">12.5<span className="text-red-500 text-2xl">%</span></p>
+                </div>
+              </div>
+              
+              <div className="hidden sm:block h-12 w-px bg-gradient-to-b from-transparent via-red-200 to-transparent"></div>
+              
+              <div className="sm:text-right flex sm:block items-center justify-between">
+                <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Active Nodes</p>
+                <div className="flex items-center sm:justify-end gap-2 mt-1">
+                  <span className="relative flex h-2.5 w-2.5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500" />
+                  </span>
+                  <p className="bungee-regular text-3xl text-black">1,402</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </div>
 
-
+        {/* RIGHT VISUAL STRUCTURE */}
+        {/* We keep the empty div to enforce grid constraints so the left text doesn't overlap the absolute image */}
+        <div className="hidden lg:block relative h-full min-h-[500px]"></div>
       </section>
 
       {/* 🔴 STEPS SECTION */}
@@ -332,7 +450,7 @@ export default function ValidatorPage() {
               <div className="bg-white rounded-3xl border border-red-200/70 shadow-lg overflow-hidden lg:justify-self-end w-full lg:max-w-[480px]">
                 <div className="relative h-56 sm:h-72 md:h-[360px]">
                   <Image
-                    src="/1.png"
+                    src="/fractional-validator/Blockchain Rewards Dashboard.jpg"
                     alt="Validator dashboard preview"
                     fill
                     className="object-cover"

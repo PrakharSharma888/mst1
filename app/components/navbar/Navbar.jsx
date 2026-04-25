@@ -275,7 +275,7 @@ function HighlightCard({ highlight }) {
 
 function MegaMenu({
   menuId,
-  widthClass = 'w-[1040px] max-w-[calc(100vw-2rem)]',
+  widthClass = 'w-[800px] max-w-[calc(100vw-2rem)]',
   sections,
   highlight,
   leftScrollable = false,
@@ -355,8 +355,8 @@ function MegaMenu({
       >
         <div className="grid h-full min-h-0 grid-cols-1 gap-8 lg:grid-cols-3">
           <div
-            className={`grid min-h-0 gap-8 lg:col-span-2 ${sections?.length > 1 ? 'sm:grid-cols-2' : 'sm:grid-cols-1'
-              } ${leftScrollable ? leftMaxHeightClass : 'max-h-full'} overflow-y-auto pr-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`}
+            className={`grid min-h-0 gap-8 ${sections?.length > 1 ? 'sm:grid-cols-2' : 'sm:grid-cols-1'
+              } lg:col-span-3 ${leftScrollable ? leftMaxHeightClass : 'max-h-full'} overflow-y-auto pr-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`}
           >
             {sections?.map((section) => (
               <div key={section.title} className="min-w-0">
@@ -485,7 +485,7 @@ export default function Navbar() {
   const renderBuildDropdown = () => (
     <MegaMenu
       menuId="build"
-      widthClass="w-[1040px] max-w-[calc(100vw-2rem)]"
+      widthClass="w-[700px] max-w-[calc(100vw-2rem)]"
       anchorRef={buildButtonRef}
       positionStrategy="fixed"
       viewportMargin={16}
@@ -505,7 +505,7 @@ export default function Navbar() {
   const renderLearnDropdown = () => (
     <MegaMenu
       menuId="learn"
-      widthClass="w-[1040px] max-w-[calc(100vw-2rem)]"
+      widthClass="w-[700px] max-w-[calc(100vw-2rem)]"
       anchorRef={learnButtonRef}
       positionStrategy="fixed"
       viewportMargin={16}
@@ -526,7 +526,7 @@ export default function Navbar() {
   const renderProductsDropdown = () => (
     <MegaMenu
       menuId="products"
-      widthClass="w-[1040px] max-w-[calc(100vw-2rem)]"
+      widthClass="w-[700px] max-w-[calc(100vw-2rem)]"
       anchorRef={productsButtonRef}
       positionStrategy="fixed"
       viewportMargin={16}
@@ -561,12 +561,12 @@ export default function Navbar() {
   const renderUseCasesDropdown = () => (
     <MegaMenu
       menuId="usecases"
-      widthClass="w-[1040px] max-w-[calc(100vw-2rem)]"
+      widthClass="w-[700px] max-w-[calc(100vw-2rem)]"
       leftScrollable
       anchorRef={usecasesButtonRef}
       positionStrategy="fixed"
       viewportMargin={16}
-      offsetY={14}
+      offsetY={14} 
       onMouseEnter={() => requestOpenDesktopMenu('usecases')}
       onMouseLeave={requestCloseDesktopMenu}
       onItemClick={closeAllMenus}
