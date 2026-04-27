@@ -147,9 +147,8 @@ export default function MSTBlogSection() {
                 {blogs.map((_, i) => (
                   <div
                     key={i}
-                    className={`h-1.5 rounded-full transition-all duration-300 ${
-                      i === currentIndex ? 'w-6 bg-red-600' : 'w-2 bg-gray-300'
-                    }`}
+                    className={`h-1.5 rounded-full transition-all duration-300 ${i === currentIndex ? 'w-6 bg-red-600' : 'w-2 bg-gray-300'
+                      }`}
                   />
                 ))}
               </div>
@@ -180,7 +179,7 @@ function BlogCard({ post, index }) {
           alt={post.title}
           width={500}
           height={500}
-          className="object-cover w-full h-full md:grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out rounded-lg"
+          className="object-fit w-full h-full md:grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out rounded-lg"
           onError={(e) => {
             e.target.src = 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800';
           }}

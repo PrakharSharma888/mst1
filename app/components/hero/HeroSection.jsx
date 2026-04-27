@@ -83,7 +83,7 @@ const headings = [
 
 const stats = [
   { label: 'Average Block Time', value: 3.0, suffix: 's', decimals: 1, active: true },
-  { label: 'Active Validators', value: 70000, suffix: '+', decimals: 0, active: true },
+  { label: 'Active Validators', value: 72000, suffix: '+', decimals: 0, active: true },
   { label: 'Average Txn Fees', value: 0.001, suffix: ' MSTC', decimals: 3, active: true }
 ];
 

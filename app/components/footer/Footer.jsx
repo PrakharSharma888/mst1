@@ -133,7 +133,7 @@ export default function Footer() {
             <div className="col-span-1 lg:col-span-3 mb-6 sm:mb-0 text-start">
               <h4 className="bungee-regular text-lg md:text-lg leading-tight tracking-tight text-red-600 font-extrabold uppercase mb-6" >Community</h4>
               <ul className="space-y-4  text-gray-600 text-sm">
-                <li><Link href="/validator" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Validators</Link></li>
+                <li><Link href="/fractional-validator" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Validators</Link></li>
                 <li><Link href="/grant" className="hover:text-red-500 cursor-pointer transition font-aeonik font-normal">Grants</Link></li>
                 <li>
                   <a
@@ -311,8 +311,8 @@ export default function Footer() {
             </p>
 
             <div className="flex gap-8 text-xs text-gray-500" style={{ fontFamily: 'Poppins', fontWeight: 400 }}>
-              <Link href="/Privacy-Policy" className="hover:text-red-500 cursor-pointer transition">Privacy Policy</Link>
-              <Link href="/Terms-Of-Service" className="hover:text-red-500 cursor-pointer transition">Terms of Service</Link>
+              <a href="https://mstblockchain.com/privacy" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 cursor-pointer transition">Privacy Policy</a>
+              <a href="https://mstblockchain.com/terms" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 cursor-pointer transition">Terms of Service</a>
             </div>
           </div>
         </div>

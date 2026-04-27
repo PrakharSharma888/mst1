@@ -25,14 +25,14 @@ const Icons = {
 };
 
 export default function EcosystemSection() {
-    useEffect(() => {
-      if (typeof window !== 'undefined') {
-        window.sessionStorage.setItem('fromEcosystem', 'true');
-      }
-    }, []);
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.sessionStorage.setItem('fromEcosystem', 'true');
+    }
+  }, []);
   return (
     <section id="ecosystemSection" className="relative bg-white text-gray-900 py-14 sm:py-18 md:py-24 px-4 sm:px-6 overflow-hidden">
-      
+
       {/* --- Orbit Background --- */}
       <motion.div
         animate={{ rotate: [360, 0] }}
@@ -81,7 +81,7 @@ export default function EcosystemSection() {
           <span className="text-[8px] font-bold tracking-[0.25em] text-red-300 whitespace-nowrap">POSA Consensus</span>
         </motion.div>
       </motion.div>
-            {/* DotGrid Animated Background - behind card content */}
+      {/* DotGrid Animated Background - behind card content */}
       <div className="absolute inset-0 w-full h-full z-0 pointer-events-none rounded-2xl overflow-hidden">
         <DotGrid
           dotSize={2}
@@ -115,8 +115,8 @@ export default function EcosystemSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6 mb-8 sm:mb-12">
 
-          <a href="/validator" className="md:col-span-7 block">
-            <PartnerCard 
+          <a href="/fractional-validator" className="md:col-span-7 block">
+            <PartnerCard
               icon={Icons.validator}
               tag="Incentivized"
               title="VALIDATOR"
@@ -125,7 +125,7 @@ export default function EcosystemSection() {
           </a>
 
           <a href="/Ambassador" className="md:col-span-5 block">
-            <PartnerCard 
+            <PartnerCard
               icon={Icons.ambassador}
               tag="Community"
               title="AMBASSADOR"
@@ -133,8 +133,8 @@ export default function EcosystemSection() {
             />
           </a>
 
-          <a href="/learn/grant" className="md:col-span-5 block">
-            <PartnerCard 
+          <a href="grant" className="md:col-span-5 block">
+            <PartnerCard
               icon={Icons.grants}
               tag="Funding"
               title="GRANTS"
@@ -142,7 +142,7 @@ export default function EcosystemSection() {
             />
           </a>
 
-          <motion.div 
+          <motion.div
             whileHover={{ y: -5 }}
             className="md:col-span-7 bg-red-600 rounded-2xl sm:rounded-3xl p-6 sm:p-8 flex flex-col justify-between group cursor-pointer overflow-hidden relative"
           >
@@ -153,12 +153,12 @@ export default function EcosystemSection() {
               </h3>
             </div>
             <div className="relative z-10 flex items-center justify-between">
-             <a href="https://mstblockchain.com/portal/" target="_blank" rel="noopener noreferrer">
-               <button className="bg-white text-red-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-xs sm:text-sm hover:bg-black hover:text-white hover:scale-105 transition-all flex items-center gap-3">
-                BECOME A PARTNER
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
-              </button>
-             </a>
+              <a href="https://mstblockchain.com/portal/" target="_blank" rel="noopener noreferrer">
+                <button className="bg-white text-red-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-xs sm:text-sm hover:bg-black hover:text-white hover:scale-105 transition-all flex items-center gap-3">
+                  BECOME A PARTNER
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                </button>
+              </a>
             </div>
           </motion.div>
 
@@ -170,7 +170,7 @@ export default function EcosystemSection() {
 
 function PartnerCard({ icon, title, description, className, tag }) {
   return (
-    <motion.div 
+    <motion.div
       whileHover={{ y: -5 }}
       className={`group relative bg-white border border-black/50 border-[1px] rounded-2xl sm:rounded-3xl p-5 sm:p-8 transition-colors hover:border-red-500/50 hover:bg-red-600 ${className}`}
     >

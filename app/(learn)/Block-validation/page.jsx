@@ -4,137 +4,84 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaGem, FaBolt, FaTrophy, FaShieldAlt, FaUserSlash, FaNetworkWired } from "react-icons/fa";
-import Navbar from "@/app/components/navbar/Navbar";
+import { ShieldCheck, UserX, Network } from "lucide-react";
 
 export default function BlockValidationPage() {
   // Animation variants
   const fadeUp = {
-    hidden: { opacity: 0, y: 40 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
-  };
-
-  const scaleIn = {
-    hidden: { opacity: 0, scale: 0.95 },
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } }
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
   };
 
   const slideInLeft = {
-    hidden: { opacity: 0, x: -50 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.6 } }
+    hidden: { opacity: 0, x: -40 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
   };
 
   const slideInRight = {
-    hidden: { opacity: 0, x: 50 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.6 } }
+    hidden: { opacity: 0, x: 40 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
   };
 
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.1, delayChildren: 0.2 }
+      transition: { staggerChildren: 0.1, delayChildren: 0.1 }
     }
   };
 
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] } }
   };
 
   return (
-    <>
-
-      <main className="text-white overflow-hidden bg-white z-0 relative">
-        {/* Background gradient effects */}
-        <div className="fixed inset-0 -z-10 pointer-events-none">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-red-600/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-red-600/5 rounded-full blur-3xl"></div>
-        </div>
-
-        {/* Global orbital animated background */}
-        <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
-          {/* Orbit 1: Inner Ring */}
+    <div className="min-h-screen bg-[#FAFAFA] text-black font-poppins selection:bg-[#FF2D2D] selection:text-white overflow-x-hidden">
+      {/* Theme Background Orbits */}
+      <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+        <motion.div
+          animate={{ rotate: [360, 0] }}
+          transition={{ duration: 60, repeat: Infinity, ease: 'linear' }}
+          className="absolute top-[5%] left-[5%] h-[320px] w-[320px] rounded-full border-[2px] border-red-300/30 pointer-events-none"
+        >
+          <div className="absolute bottom-[18%] right-[8%] h-[6px] w-[6px] rounded-full bg-[#FF2D2D] shadow-[0_0_10px_#ff2d2d]" />
           <motion.div
-            animate={{ rotate: [360, 0] }}
-            transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
-            className="absolute top-[0%] -left-[35%] w-[110%] h-[110%] border-[0.5px] border-red-300 rounded-full hidden lg:flex items-center justify-center"
+            animate={{ rotate: [-360, 0] }}
+            transition={{ duration: 60, repeat: Infinity, ease: 'linear' }}
+            className="absolute left-[15%] top-[15%] flex items-center gap-2"
           >
-            <div className="absolute w-[6px] h-[6px] bg-red-600 rounded-full bottom-[18%] right-[8%] shadow-[0_0_10px_#ff2d2d]" />
-
-            <motion.div
-              animate={{ rotate: [-360, 0] }}
-              transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
-              className="absolute top-[10%] left-[10%] flex items-center gap-2"
-            >
-              <span className="relative flex h-1.5 w-1.5">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-red-500"></span>
-              </span>
-              <span className="text-[9px]  tracking-[0.2em] text-red-300 whitespace-nowrap">Use Cases</span>
-            </motion.div>
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#FF2D2D] opacity-75"></span>
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[#FF2D2D]"></span>
+            </span>
+            <span className="whitespace-nowrap text-[9px] font-black tracking-[0.2em] text-red-500/50 uppercase">MST BLOCKCHAIN</span>
           </motion.div>
+        </motion.div>
 
-          {/* Orbit 2: Middle Dashed Ring */}
-          <motion.div
-            animate={{ rotate: [0, 360] }}
-            transition={{ duration: 45, repeat: Infinity, ease: "linear" }}
-            className="absolute -top-[20%] -left-[60%] w-[140%] h-[140%] border-[0.5px] border-black/10 rounded-full border-dashed hidden lg:flex items-center justify-center"
-          >
-            <div className="absolute w-2 h-2 bg-red-500 rounded-full top-[12%] shadow-[0_0_15px_#ff2d2d]" />
+        <motion.div
+          animate={{ y: [-15, 15, -15], x: [-10, 10, -10], rotate: [0, 90, 0] }}
+          transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
+          className="absolute left-[30%] top-[25%] flex h-32 w-32 items-center justify-center rounded-full border-2 border-red-500/20 pointer-events-none"
+        >
+          <div className="h-20 w-20 rounded-full border-2 border-red-500/10" />
+          <div className="absolute top-0 h-1.5 w-1.5 rounded-full bg-[#FF2D2D] shadow-[0_0_10px_#ff2d2d]" />
+        </motion.div>
 
-            <motion.div
-              animate={{ rotate: [360, 0] }}
-              transition={{ duration: 45, repeat: Infinity, ease: "linear" }}
-              className="absolute -left-[5px] top-[50%] -translate-y-1/2 flex items-center gap-2 pr-4 bg-white/40 backdrop-blur-[2px] rounded-full p-1 border border-white/50"
-            >
-              <div className="h-px w-8 bg-gradient-to-r from-transparent via-red-500 to-red-200" />
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
-              </span>
-              <span className="text-[10px]  tracking-[0.2em] text-red-400 whitespace-nowrap">9+ Active Nodes</span>
-            </motion.div>
-          </motion.div>
+        <motion.div
+          animate={{ rotate: [0, 360] }}
+          transition={{ duration: 80, repeat: Infinity, ease: 'linear' }}
+          className="absolute bottom-[5%] right-[5%] h-[400px] w-[400px] rounded-full border-[2px] border-red-300/30 pointer-events-none"
+        >
+          <div className="absolute top-[18%] left-[8%] h-[8px] w-[8px] rounded-full bg-[#FF2D2D] shadow-[0_0_15px_#ff2d2d]" />
+        </motion.div>
+      </div>
 
-          {/* Orbit 3: Outer Faint Ring */}
-          <motion.div
-            animate={{ rotate: [0, 360] }}
-            transition={{ duration: 90, repeat: Infinity, ease: "linear" }}
-            className="absolute -top-[35%] -left-[85%] w-[170%] h-[170%] border-[0.5px] border-black/5 rounded-full hidden lg:flex items-center justify-center"
-          >
-            <motion.div
-              animate={{ rotate: [360, 0] }}
-              transition={{ duration: 90, repeat: Infinity, ease: "linear" }}
-              className="absolute bottom-[20%] left-[10%] flex items-center gap-2 opacity-50"
-            >
-              <span className="relative inline-flex rounded-full h-1 w-1 bg-black"></span>
-              <span className="text-[8px]  tracking-[0.25em] text-red-300 whitespace-nowrap">POSA Consensus</span>
-            </motion.div>
-          </motion.div>
+      <div className="relative z-10">
+        <main className="max-w-[1400px] mx-auto px-6 md:px-12">
 
-          {/* Small floating local element */}
-          <motion.div
-            animate={{ y: [-15, 15, -15], x: [-10, 10, -10], rotate: [0, 90, 0] }}
-            transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
-            className="absolute -top-5 -left-10 w-24 h-24 border border-red-500 rounded-full hidden lg:flex items-center justify-center opacity-60"
-          >
-            <div className="w-16 h-16 border border-red-500/20 rounded-full" />
-            <div className="absolute w-1.5 h-1.5 bg-red-500 rounded-full shadow-[0_0_10px_#ff2d2d] top-0" />
-          </motion.div>
-        </div>
-
-        {/* 🔴 HERO SECTION */}
-        <section className="min-h-screen relative flex items-center justify-center px-6 pt-32 pb-17 overflow-hidden">
-          {/* Animated background grid */}
-          <div className="absolute inset-0 -z-10">
-            <motion.div
-              className="absolute top-0 left-1/2 w-[500px] h-[500px] bg-red-500/10 rounded-full blur-3xl -translate-x-1/2"
-              animate={{ y: [0, 30, 0] }}
-              transition={{ duration: 6, repeat: Infinity }}
-            ></motion.div>
-          </div>
-
-          <div className="max-w-7xl mx-auto w-full z-10">
+          {/* 🔴 HERO SECTION */}
+          <section className="min-h-[85vh] flex flex-col justify-center pt-32 pb-16">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <motion.div
                 className="text-left"
@@ -142,98 +89,56 @@ export default function BlockValidationPage() {
                 animate="visible"
                 variants={fadeUp}
               >
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.97 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
-                >
-                  <h1 className="bungee-regular text-6xl md:text-6xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-                    <span className="text-extrabold text-black">How Blocks Are</span> <br />
-                    <span className="relative">
-                      <span className="relative z-10 text-red-500">
-                        Validated
-                      </span>
-                    </span>
-                    <br />
-                    <span className="text-black">On MST Blockchain</span>
-                  </h1>
-                </motion.div>
+                <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-black/10 bg-white/60 backdrop-blur-sm text-black text-[10px] font-bold uppercase tracking-[0.3em] mb-8 shadow-sm">
 
-                <motion.p
-                  className="mt-6 text-base sm:text-lg md:text-xl text-gray-500 max-w-2xl leading-relaxed"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.8, delay: 0.4 }}
-                >
-                  MST Chain&apos;s validation protocol ensures that every transaction is processed with maximum integrity. From the moment a transaction is broadcast to its inclusion in the final, immutable block, our network remains <span className="text-red-400">secure</span>, <span className="text-red-400">fast</span>, and <span className="text-red-400">transparent</span>—powering the next generation of decentralized trust.
-                </motion.p>
+                </div>
 
-                <motion.div
-                  className="mt-8 flex gap-4 justify-start flex-wrap"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.6 }}
-                >
-                  {/* <motion.button
-                    whileHover={{ scale: 1.05, y: -2 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="group relative px-8 py-4 rounded-xl border border-red-500/50 bg-gradient-to-br from-red-500/10 to-red-500/5 backdrop-blur-xl text-red-500 font-bold text-base transition-all duration-300 overflow-hidden"
-                  >
-                    <div className="absolute inset-0 bg-gradient-to-r from-red-500/0 via-red-500/20 to-red-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <div className="absolute inset-0 rounded-xl shadow-lg shadow-red-500/0 group-hover:shadow-red-500/30 transition-shadow duration-300"></div>
-                    <span className="relative flex items-center gap-2">
-                      Learn More
-                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                      </svg>
-                    </span>
-                  </motion.button> */}
-                </motion.div>
+                <h1 className="bungee-regular text-5xl sm:text-6xl md:text-7xl leading-[0.95] tracking-tight text-black font-extrabold uppercase mb-6">
+                  How Blocks Are <br />
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF2D2D] via-red-600 to-rose-500">Validated</span>
+                </h1>
+
+                <p className="text-zinc-500 text-lg md:text-xl font-medium max-w-xl leading-relaxed mb-10">
+                  MST Chain&apos;s validation protocol ensures that every transaction is processed with maximum integrity. From the moment a transaction is broadcast to its inclusion in the final, immutable block, our network remains <span className="text-red-600 font-semibold">secure</span>, <span className="text-red-600 font-semibold">fast</span>, and <span className="text-red-600 font-semibold">transparent</span>—powering the next generation of decentralized trust.
+                </p>
               </motion.div>
 
               <motion.div
                 className="flex justify-center lg:justify-end"
                 initial={{ opacity: 0, x: 30 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: 0.35 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
               >
-                <div className="relative w-full max-w-[520px] sm:max-w-[640px] h-[460px] rounded-3xl border border-red-500/30 overflow-hidden bg-gradient-to-b from-[#fbe1e2] via-[#f7d7d9] to-[#f3cbce] shadow-[0_20px_50px_rgba(239,68,68,0.15)]">
+                <div className="relative w-full max-w-[520px] h-[460px] rounded-[2rem] border border-black shadow-xl overflow-hidden bg-white group">
                   <Image
                     src="/block-validation/How-Blocks-Validate.jpg"
                     alt="Block validation visual"
                     fill
-                    className="object-cover"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
                     priority
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
                 </div>
               </motion.div>
             </div>
-          </div>
+          </section>
 
-        </section>
-
-        {/* 🔴 BACKBONE SECTION */}
-        <section className="py-24 px-6 relative overflow-hidden">
-          <div className="max-w-7xl mx-auto">
+          {/* 🔴 BACKBONE SECTION */}
+          <section className="py-24">
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <motion.div
                 initial="hidden"
                 whileInView="visible"
                 variants={slideInLeft}
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: true, margin: "-50px" }}
               >
-                <motion.h2
-                  className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.6 }}
-                >
-                  The Backbone of MST Blockchain
-                </motion.h2>
+                <span className="text-red-600 text-[10px] font-black uppercase tracking-[0.5em] mb-4 block">Core Process</span>
+                <h2 className="bungee-regular text-3xl sm:text-4xl md:text-5xl leading-tight tracking-tight text-black font-extrabold uppercase mb-8">
+                  The <span className="text-[#FF2D2D]">Backbone</span> of MST
+                </h2>
 
                 <motion.div
-                  className="space-y-5"
+                  className="space-y-4"
                   variants={containerVariants}
                   initial="hidden"
                   whileInView="visible"
@@ -247,10 +152,12 @@ export default function BlockValidationPage() {
                     <motion.div
                       key={i}
                       variants={itemVariants}
-                      className="group relative pl-6 py-4 rounded-lg px-4 transition-all duration-300 hover:bg-red-500/5"
+                      className="group flex items-start gap-4 p-5 rounded-2xl bg-gradient-to-br from-red-500/10 to-transparent border border-red-500/20 shadow-sm transition-all duration-300 hover:border-[#FF2D2D] hover:shadow-md hover:from-red-500/20 hover:-translate-y-1"
                     >
-                      <div className="absolute left-0 top-0 w-1->5 h-full bg-gradient-to-b from-red-500 via-red-500 to-transparent rounded-full group-hover:shadow-lg group-hover:shadow-red-500/30 transition-shadow duration-300"></div>
-                      <p className="text-gray-700 leading-relaxed font-medium group-hover:text-gray-900 transition-colors duration-300">
+                      <div className="w-8 h-8 rounded-full bg-[#FAFAFA] border border-black flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-[#FF2D2D] group-hover:border-[#FF2D2D] group-hover:text-white transition-colors">
+                        <span className="text-xs font-bold">{i + 1}</span>
+                      </div>
+                      <p className="text-zinc-900 text-sm leading-relaxed font-medium group-hover:text-black transition-colors mt-2">
                         {text}
                       </p>
                     </motion.div>
@@ -259,50 +166,46 @@ export default function BlockValidationPage() {
               </motion.div>
 
               <motion.div
-                className="relative h-[400px] md:h-[500px] rounded-3xl overflow-hidden"
+                className="relative h-[400px] md:h-[500px] rounded-[2rem] overflow-hidden border border-black shadow-xl group"
                 initial="hidden"
                 whileInView="visible"
                 variants={slideInRight}
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: true, margin: "-50px" }}
               >
                 <Image
                   src="/block-validation/Backbone-of-MST-Square.jpg"
                   alt="Backbone of MST Blockchain"
                   fill
-                  className="object-cover"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
-                <div className="absolute inset-0 border border-red-500/30 rounded-3xl"></div>
               </motion.div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* 🔴 PROOF SECTION */}
-        <section className="py-24 px-6 relative">
-          <div className="max-w-7xl mx-auto">
+          {/* 🔴 PROOF SECTION */}
+          <section className="py-24 border-t border-slate-100">
             <motion.div
               className="text-center mb-16"
               initial="hidden"
               whileInView="visible"
               variants={fadeUp}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-50px" }}
             >
-              <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-                <span className="text-gray-700">Proof of</span>{" "}
-                <span className="text-red-500">Staked Authority</span>
+              <span className="text-red-600 text-[10px] font-black uppercase tracking-[0.5em] mb-4 block">Consensus</span>
+              <h2 className="bungee-regular text-3xl sm:text-4xl md:text-5xl leading-tight tracking-tight text-black font-extrabold uppercase mb-4">
+                Proof of <span className="text-[#FF2D2D]">Staked Authority</span>
               </h2>
-              <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                The consensus mechanism that powers MST Blockchain
+              <p className="text-zinc-500 text-sm md:text-base font-medium max-w-2xl mx-auto uppercase tracking-widest">
+                The mechanism powering MST Blockchain
               </p>
             </motion.div>
 
             <motion.div
-              className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
               variants={containerVariants}
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-50px" }}
             >
               {[
                 { num: "01", text: "Combines staking + identity verification" },
@@ -313,280 +216,201 @@ export default function BlockValidationPage() {
                 <motion.div
                   key={i}
                   variants={itemVariants}
-                  className="group relative p-8 rounded-2xl border border-red-500/30 bg-gradient-to-br from-white/90 to-white/70 backdrop-blur-xl hover:border-red-500/70 transition-all duration-500 overflow-hidden"
-                  whileHover={{ y: -8, scale: 1.02 }}
+                  className="group relative flex flex-col p-6 sm:p-8 rounded-3xl bg-white border border-black shadow-sm transition-all duration-500 hover:border-[#FF2D2D] hover:shadow-xl hover:-translate-y-1"
                 >
-                  <div className="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-br from-red-500/15 via-transparent to-red-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <div className="absolute -top-10 -right-10 w-32 h-32 bg-red-500/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                  <div className="relative z-10">
-                    <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-red-500/30 to-red-500/10 text-2xl font-bold text-red-500 mb-5 group-hover:from-red-500/50 group-hover:to-red-500/20 transition-all duration-300">
-                      {item.num}
-                    </div>
-                    <p className="text-gray-700 leading-relaxed font-medium group-hover:text-gray-900 transition-colors duration-300">
-                      {item.text}
-                    </p>
+                  <div className="text-[#FF2D2D] text-3xl font-black mb-6 opacity-30 group-hover:opacity-100 transition-opacity text-center">
+                    {item.num}
                   </div>
-                  <div className="absolute inset-0 rounded-2xl shadow-2xl shadow-red-500/0 group-hover:shadow-red-500/40 transition-shadow duration-400 pointer-events-none"></div>
+                  <p className="text-black font-mono text-md text-center leading-relaxed">
+                    {item.text}
+                  </p>
                 </motion.div>
               ))}
             </motion.div>
-          </div>
-        </section>
+          </section>
 
-        {/* 🔴 STEP FLOW - VERTICAL TIMELINE */}
-        <section className="py-24 px-6 relative">
-          <div className="max-w-4xl mx-auto">
+          {/* 🔴 STEP FLOW */}
+          <section className="py-24 border-t border-slate-100">
             <motion.div
               className="text-center mb-16"
               initial="hidden"
               whileInView="visible"
               variants={fadeUp}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-50px" }}
             >
-              <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-                <span className="text-gray-700">Step-by-Step: How a</span>{" "}
-                <span className="text-red-500">Block is Born</span>
+              <span className="text-red-600 text-[10px] font-black uppercase tracking-[0.5em] mb-4 block">Workflow</span>
+              <h2 className="bungee-regular text-3xl sm:text-4xl md:text-5xl leading-tight tracking-tight text-black font-extrabold uppercase mb-4">
+                How a <span className="text-[#FF2D2D]">Block is Born</span>
               </h2>
             </motion.div>
 
-            <div className="max-w-6xl mx-auto">
-              <motion.div
-                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-                variants={containerVariants}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-100px" }}
-              >
-                {[
-                  {
-                    step: "Transaction Submission",
-                    desc: "User sends transaction → goes into pending list (mempool).",
-                    size: "sm:col-span-1 lg:col-span-2 h-[240px]"
-                  },
-                  {
-                    step: "Validator Selection",
-                    desc: "System picks the validator for this block.",
-                    size: "sm:col-span-1 lg:col-span-1 h-[240px]"
-                  },
-                  {
-                    step: "Transaction Verification",
-                    desc: "Validator checks balances, signatures, and smart contract results.",
-                    size: "sm:col-span-2 lg:col-span-1 lg:col-start-1 lg:row-start-2 h-[240px]"
-                  },
-                  {
-                    step: "Block Creation",
-                    desc: "Valid transactions are bundled into a new block.",
-                    size: "sm:col-span-2 lg:col-span-2 lg:col-start-2 lg:row-start-2 h-[220px]"
-                  },
-                  {
-                    step: "Block Broadcasting",
-                    desc: "Block is shared with all validators for confirmation.",
-                    size: "sm:col-span-1 lg:col-span-1 lg:col-start-3 lg:row-start-3 h-[220px]"
-                  },
-                  {
-                    step: "Finalization",
-                    desc: "Block is added to the blockchain and can’t be changed.",
-                    size: "sm:col-span-2 lg:col-span-2 lg:col-start-1 lg:row-start-3 h-[220px]"
-                  }
-                ].map((item, i) => (
-                  <motion.div
-                    key={i}
-                    variants={itemVariants}
-                    className={`group relative rounded-2xl border border-red-500/30 bg-gradient-to-br from-white/10 via-white/5 to-white/0 backdrop-blur-xl p-7 md:p-8 transition-all duration-500 hover:from-white/20 hover:via-white/15 hover:border-red-500/70 hover:shadow-[0_20px_40px_rgba(239,68,68,0.2)] overflow-hidden ${item.size}`}
-                    whileHover={{ scale: 1.03, y: -5 }}
-                  >
-                    <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-red-500/15 via-transparent to-red-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                    <div className="absolute -top-12 -right-12 w-40 h-40 bg-red-500/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-
-                    <div className="relative z-10 h-full flex flex-col gap-6">
-                      <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl border border-red-500/40 bg-gradient-to-br from-red-500/30 to-red-500/10 text-red-500 font-bold text-sm group-hover:from-red-500/50 group-hover:to-red-500/30 group-hover:border-red-500/60 transition-all duration-300">
-                        {String(i + 1).padStart(2, "0")}
-                      </div>
-
-                      <div className="flex-1 pt-1">
-                        <h3 className="bungee-regular text-xl md:text-2xl leading-tight tracking-tight text-black font-extrabold uppercase mb-4 group-hover:text-red-500 transition-all duration-500">
-                          {item.step}
-                        </h3>
-                        <p className="mt-2 text-sm md:text-base text-gray-600 group-hover:text-gray-800 transition-colors duration-500 leading-relaxed font-medium">
-                          {item.desc}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="absolute inset-0 rounded-2xl shadow-2xl shadow-red-500/0 group-hover:shadow-red-500/50 transition-shadow duration-500 pointer-events-none"></div>
-                  </motion.div>
-                ))}
-              </motion.div>
-            </div>
-          </div>
-        </section>
-
-        {/* 🔴 WHY VALIDATORS SECTION */}
-        <section className="py-24 px-6">
-          <div className="max-w-7xl mx-auto">
             <motion.div
-              className="text-center mb-16"
-              initial="hidden"
-              whileInView="visible"
-              variants={fadeUp}
-              viewport={{ once: true, margin: "-100px" }}
-            >
-              <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-                <span className="text-black">Why</span>{" "}
-                <span className="text-red-500">Validators</span>{" "}
-                <span className="text-black">Participate</span>
-              </h2>
-              <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                Understanding the incentives behind network security
-              </p>
-            </motion.div>
-
-            <motion.div
-              className="grid md:grid-cols-3 gap-8"
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
               variants={containerVariants}
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-50px" }}
+            >
+              {[
+                {
+                  step: "Transaction Submission",
+                  desc: "User sends transaction → goes into pending list (mempool).",
+                },
+                {
+                  step: "Validator Selection",
+                  desc: "System picks the validator for this block.",
+                },
+                {
+                  step: "Transaction Verification",
+                  desc: "Validator checks balances, signatures, and smart contract results.",
+                },
+                {
+                  step: "Block Creation",
+                  desc: "Valid transactions are bundled into a new block.",
+                },
+                {
+                  step: "Block Broadcasting",
+                  desc: "Block is shared with all validators for confirmation.",
+                },
+                {
+                  step: "Finalization",
+                  desc: "Block is added to the blockchain and can’t be changed.",
+                }
+              ].map((item, i) => (
+                <motion.div
+                  key={i}
+                  variants={itemVariants}
+                  className="group relative flex flex-col p-8 rounded-3xl bg-white border border-zinc-200 shadow-sm transition-all duration-500 hover:border-[#FF2D2D] hover:shadow-xl hover:-translate-y-1"
+                >
+                  <div className="w-12 h-12 rounded-2xl bg-[#FAFAFA] border border-black flex items-center justify-center mb-6 text-black font-bold transition-all duration-500 group-hover:bg-[#FF2D2D] group-hover:text-white group-hover:border-[#FF2D2D]">
+                    {i + 1}
+                  </div>
+                  <h3 className="font-bold text-lg uppercase tracking-wider text-black mb-3 transition-colors group-hover:text-[#FF2D2D]">
+                    {item.step}
+                  </h3>
+                  <p className="text-zinc-700 text-[16px] leading-relaxed font-medium">
+                    {item.desc}
+                  </p>
+                </motion.div>
+              ))}
+            </motion.div>
+          </section>
+
+          {/* 🔴 WHY VALIDATORS */}
+          <section className="py-24 border-t border-slate-100">
+            <motion.div
+              className="text-center mb-16"
+              initial="hidden"
+              whileInView="visible"
+              variants={fadeUp}
+              viewport={{ once: true, margin: "-50px" }}
+            >
+              <span className="text-red-600 text-[10px] font-black uppercase tracking-[0.5em] mb-4 block">Incentives</span>
+              <h2 className="bungee-regular text-3xl sm:text-4xl md:text-5xl leading-tight tracking-tight text-black font-extrabold uppercase mb-4">
+                Why <span className="text-[#FF2D2D]">Validators</span> Participate
+              </h2>
+            </motion.div>
+
+            <motion.div
+              className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8"
+              variants={containerVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-50px" }}
             >
               {[
                 {
                   title: "Block Reward",
                   desc: "Earn native coins for validating blocks.",
-                  icon: <FaGem className="text-red-400" />
+                  icon: FaGem
                 },
                 {
                   title: "Transaction Fees",
                   desc: "Receive fees from processed transactions.",
-                  icon: <FaBolt className="text-red-400" />
+                  icon: FaBolt
                 },
                 {
                   title: "Reputation",
                   desc: "Build trust and authority in the network.",
-                  icon: <FaTrophy className="text-red-400" />
+                  icon: FaTrophy
                 }
               ].map((item, i) => (
                 <motion.div
                   key={i}
                   variants={itemVariants}
-                  className="group relative overflow-hidden rounded-3xl border border-red-500/40 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 hover:border-red-500/80 transition-all duration-500 p-8 md:p-10"
-                  whileHover={{ y: -12, scale: 1.02 }}
+                  className="group relative flex flex-col p-8 md:p-10 rounded-3xl bg-white border border-black shadow-sm transition-all duration-500 hover:border-[#FF2D2D] hover:shadow-xl hover:-translate-y-1"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 to-red-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <div className="absolute top-0 right-0 w-40 h-40 bg-red-500/30 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 opacity-30 group-hover:opacity-60 transition-opacity duration-500"></div>
-                  <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-red-500/20 rounded-full blur-2xl opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-
-                  <div className="relative z-10">
-                    <motion.div
-                      className="text-5xl md:text-6xl mb-6 inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-red-500/30 to-red-500/10 group-hover:from-red-500/50 group-hover:to-red-500/30 transition-all duration-300"
-                      whileHover={{ rotate: 12, scale: 1.1 }}
-                    >
-                      {item.icon}
-                    </motion.div>
-                    <h3 className="bungee-regular text-2xl md:text-3xl leading-tight tracking-tight font-extrabold uppercase mb-4 text-white group-hover:text-red-300 transition-colors duration-300">
-                      {item.title}
-                    </h3>
-                    <p className="text-gray-300 leading-relaxed group-hover:text-gray-100 transition-colors duration-300 font-medium">
-                      {item.desc}
-                    </p>
+                  <div className="w-14 h-14 rounded-2xl bg-[#FAFAFA] border border-black flex items-center justify-center mb-6 text-black transition-all duration-500 group-hover:scale-110 group-hover:bg-[#FF2D2D] group-hover:text-white group-hover:border-[#FF2D2D]">
+                    <item.icon size={24} />
                   </div>
-
-                  {/* Hover glow effect */}
-                  <div className="absolute inset-0 rounded-3xl shadow-2xl shadow-red-500/0 group-hover:shadow-red-500/50 transition-shadow duration-400 pointer-events-none"></div>
+                  <h3 className="font-bold text-xl uppercase tracking-wider text-black mb-3 transition-colors group-hover:text-[#FF2D2D]">
+                    {item.title}
+                  </h3>
+                  <p className="text-zinc-700 text-[16px] leading-relaxed font-medium">
+                    {item.desc}
+                  </p>
                 </motion.div>
               ))}
             </motion.div>
-          </div>
-        </section>
+          </section>
 
-        {/* 🔴 TRUST SECTION */}
-        <section className="py-24 px-6 relative overflow-hidden">
-          <div className="absolute inset-0 -z-10">
-            <motion.div
-              className="absolute bottom-0 right-0 w-96 h-96 bg-red-600/5 rounded-full blur-3xl"
-              animate={{ opacity: [0.3, 0.6, 0.3] }}
-              transition={{ duration: 5, repeat: Infinity }}
-            ></motion.div>
-          </div>
-
-          <div className="max-w-7xl mx-auto">
+          {/* 🔴 TRUST SECTION */}
+          <section className="py-24 border-t border-slate-100 mb-16">
             <motion.div
               className="text-center mb-16"
               initial="hidden"
               whileInView="visible"
               variants={fadeUp}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-50px" }}
             >
-              <h2 className="bungee-regular text-4xl md:text-4xl leading-tight tracking-tight text-black font-extrabold uppercase mb-5">
-                <span className="text-black">Trust is Built Into</span> <br />
-                <span className="text-red-500">Every Block</span>
+              <h2 className="bungee-regular text-4xl md:text-5xl lg:text-6xl leading-[1.1] tracking-tight text-black font-extrabold uppercase mb-6">
+                Trust is Built Into <br />
+                <span className="text-[#FF2D2D]">Every Block</span>
               </h2>
-              <p className="text-gray-400 text-lg max-w-2xl mx-auto mt-4">
+              <p className="text-zinc-500 text-sm md:text-base font-medium max-w-xl mx-auto uppercase tracking-widest">
                 Security, transparency, and decentralization working in harmony
               </p>
             </motion.div>
 
             <motion.div
-              className="grid md:grid-cols-3 gap-8"
+              className="grid grid-cols-1 md:grid-cols-3 gap-6"
               variants={containerVariants}
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-50px" }}
             >
               {[
                 {
                   title: "Double-spending is prevented",
-                  icon: <FaShieldAlt className="text-red-400" />
+                  icon: ShieldCheck
                 },
                 {
                   title: "Bad validators are penalized",
-                  icon: <FaUserSlash className="text-red-400" />
+                  icon: UserX
                 },
                 {
                   title: "Decentralized & secure network",
-                  icon: <FaNetworkWired className="text-red-400" />
+                  icon: Network
                 }
               ].map((item, i) => (
                 <motion.div
                   key={i}
                   variants={itemVariants}
-                  className="group relative overflow-hidden rounded-2xl border border-red-500/40 bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-xl p-10 hover:border-red-500/80 transition-all duration-500"
-                  whileHover={{ scale: 1.08, y: -12 }}
+                  className="group relative flex flex-col items-center text-center p-10 rounded-[2rem] bg-black border border-black transition-all duration-500 hover:border-[#FF2D2D] hover:shadow-2xl hover:shadow-red-500/20 hover:-translate-y-2"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-br from-red-500/25 via-transparent to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <div className="absolute -top-12 -right-12 w-32 h-32 bg-red-500/30 rounded-full blur-3xl opacity-20 group-hover:opacity-60 transition-opacity duration-500"></div>
-                  <div className="absolute -bottom-8 -left-8 w-28 h-28 bg-red-500/20 rounded-full blur-2xl opacity-0 group-hover:opacity-40 transition-opacity duration-500"></div>
-
-                  <div className="relative z-10 text-center">
-                    <motion.div
-                      className="text-6xl mb-6 inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-red-500/30 to-red-500/10 group-hover:from-red-500/50 group-hover:to-red-500/30 transition-all duration-300"
-                      whileHover={{ rotateZ: -10 }}
-                    >
-                      {item.icon}
-                    </motion.div>
-                    <p className="text-lg font-bold text-black group-hover:text-red-600 transition-colors duration-300 leading-snug">
-                      {item.title}
-                    </p>
+                  <div className="w-16 h-16 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center mb-6 text-white transition-all duration-500 group-hover:scale-110 group-hover:bg-[#FF2D2D] group-hover:border-[#FF2D2D]">
+                    <item.icon size={28} />
                   </div>
-
-                  {/* Depth shadow */}
-                  <div className="absolute inset-0 rounded-2xl shadow-2xl shadow-red-500/0 group-hover:shadow-red-500/50 transition-shadow duration-500 pointer-events-none"></div>
+                  <h3 className="font-bold text-lg text-white transition-colors group-hover:text-[#FF2D2D]">
+                    {item.title}
+                  </h3>
                 </motion.div>
               ))}
             </motion.div>
+          </section>
 
-            {/* Bottom accent line */}
-            <motion.div
-              className="mt-20 h-1 w-48 mx-auto bg-gradient-to-r from-transparent via-red-500 to-transparent rounded-full"
-              initial={{ opacity: 0, scaleX: 0 }}
-              whileInView={{ opacity: 1, scaleX: 1 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-            ></motion.div>
-          </div>
-        </section>
-
-      </main>
-
-    </>
+        </main>
+      </div>
+    </div>
   );
 }
