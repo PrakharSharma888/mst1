@@ -1,5 +1,5 @@
 "use client";
-import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
+import { Geist, Geist_Mono, Space_Grotesk, Bungee } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import MstBuddy from "./components/MstBuddy/BuddyPanel";
@@ -20,12 +20,17 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
   subsets: ["latin"],
 });
+const bungee = Bungee({
+  variable: "--font-bungee",
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} ${bungee.variable} h-full antialiased`}
     >
       <body suppressHydrationWarning className="min-h-full flex flex-col">
         <Navbar />

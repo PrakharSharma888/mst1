@@ -1,15 +1,20 @@
-"use client";
+"use client"; // Updated 2026-04-27
+
 
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
+import TiltCard from "@/app/components/academy/TiltCard";
+
+
+
 import {
     ArrowLeft, BookOpen, Code, Shield, Rocket, Layers, Cpu, Award,
     CheckCircle, Play, Clock, Video, ClipboardCheck,
     ChevronRight, Globe, Star, FileText
 } from "lucide-react";
 import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
+import EnrollmentModal from "@/app/components/academy/EnrollmentModal";
 
 /* ─── DATA ─── */
 const categories = [
@@ -101,51 +106,60 @@ const modules = [
     },
 ];
 
-
 /* ─── COMPONENTS ─── */
 
 const TreeNode = ({ mod, isSelected, onClick, index }) => (
-    <motion.div
-        onClick={onClick}
-        className="relative cursor-pointer group px-4 py-2"
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 + index * 0.08, duration: 0.5 }}
-    >
-        <div className={`relative rounded-3xl border-2 overflow-hidden transition-all duration-500 bg-white ${isSelected
-            ? `${mod.borderColor} shadow-[0_20px_40px_rgba(0,0,0,0.04)] ring-4 ring-slate-50`
-            : "border-slate-200 hover:border-slate-400"
+    <TiltCard className="group">
+        <motion.div
+            onClick={onClick}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.05, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            className={`relative w-full h-full rounded-[2.5rem] p-8 transition-all duration-500 border cursor-pointer flex flex-col gap-6 overflow-hidden ${isSelected 
+                ? "bg-white border-slate-900 shadow-[0_40px_100px_rgba(0,0,0,0.1)] scale-105 z-10" 
+                : "bg-white border-slate-300 hover:border-slate-900 shadow-sm"
             }`}
-            style={{ minWidth: 220, maxWidth: 260 }}
         >
-            <div className={`h-1 bg-gradient-to-r ${mod.gradient}`} />
+            {/* Background Decorative Pill */}
+            <div className={`absolute top-0 right-0 w-32 h-32 blur-[60px] opacity-10 rounded-full -mr-10 -mt-10 transition-colors ${isSelected ? "bg-red-600" : "bg-slate-200"}`} />
 
-            <div className="p-6">
-                <div className="flex items-start justify-between mb-4">
-                    <div className={`w-10 h-10 rounded-xl bg-slate-50 border border-slate-400 flex items-center justify-center ${mod.textColor} transition-all duration-500 group-hover:bg-red-600 group-hover:text-white`}>
-                        <mod.icon size={20} />
-                    </div>
-                    {isSelected && (
-                        <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="w-5 h-5 rounded-full bg-red-600 flex items-center justify-center">
-                            <CheckCircle size={12} className="text-white" />
-                        </motion.div>
-                    )}
+            {/* Header: Module Number */}
+            <div className="flex justify-between items-start relative z-10">
+                <div className={`px-4 py-1.5 rounded-full font-mono text-[9px] font-bold uppercase tracking-[0.2em] transition-colors ${isSelected ? "bg-slate-950 text-white" : "bg-slate-100 text-slate-600"}`}>
+                    Module_0{mod.num}
                 </div>
+            </div>
 
-                <h4 className="text-xs font-black text-slate-900 uppercase tracking-tight mb-2 leading-tight">{mod.title}</h4>
-                <p className="text-[10px] text-slate-400 font-medium leading-relaxed line-clamp-2">{mod.desc}</p>
+            {/* Content: Title & Description */}
+            <div className="flex-1 min-h-[140px] relative z-10">
+                <h4 className={`text-2xl bungee-regular tracking-tight leading-[1.15] mb-4 transition-colors ${isSelected ? "text-black" : "text-slate-950"}`}>
+                    {mod.title}
+                </h4>
+                <p className={`text-[12px] font-medium leading-relaxed line-clamp-3 transition-colors ${isSelected ? "text-slate-700" : "text-slate-600"}`}>
+                    {mod.desc}
+                </p>
+            </div>
 
-                <div className="flex items-center gap-3 mt-4 pt-4 border-t border-slate-500">
-                    <span className="text-[9px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1.5">
-                        <Clock size={10} /> {mod.duration}
+            {/* Footer: Metadata */}
+            <div className={`pt-6 border-t flex items-center justify-between relative z-10 transition-colors ${isSelected ? "border-slate-200" : "border-slate-100"}`}>
+                <div className="flex items-center gap-2">
+                    <span className={`font-mono text-[10px] font-bold uppercase tracking-widest transition-colors ${isSelected ? "text-slate-900" : "text-slate-500"}`}>
+                        {mod.duration}
                     </span>
-                    <span className="text-[9px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1.5">
-                        <Video size={10} /> {mod.lessons}
+                </div>
+                <div className="flex items-center gap-2">
+                    <span className={`font-mono text-[10px] font-bold uppercase tracking-widest transition-colors ${isSelected ? "text-slate-900" : "text-slate-500"}`}>
+                        {mod.lessons} Units
                     </span>
                 </div>
             </div>
-        </div>
-    </motion.div>
+
+            {/* Indicator */}
+            {isSelected && (
+                <motion.div layoutId="node-border" className="absolute inset-0 rounded-[2.5rem] border-[2px] border-slate-950 pointer-events-none" />
+            )}
+        </motion.div>
+    </TiltCard>
 );
 
 const ModuleDetail = ({ mod }) => {
@@ -154,250 +168,555 @@ const ModuleDetail = ({ mod }) => {
     return (
         <motion.div
             key={mod.num}
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="max-w-5xl mx-auto"
+            exit={{ opacity: 0, y: -40 }}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+            className="max-w-7xl mx-auto"
         >
-            <div className="relative rounded-[2.5rem] overflow-hidden mb-8 bg-white border-2 border-slate-200 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
-                <div className={`h-1.5 bg-gradient-to-r ${mod.gradient}`} />
-                <div className="p-8 md:p-12">
-                    <div className="flex items-start gap-8 mb-8">
-                        <div className={`w-16 h-16 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center ${mod.textColor} shadow-sm`}>
-                            <mod.icon size={32} />
+            {/* 🧪 LABORATORY MODULE HEADER */}
+            <div className="relative rounded-[2.5rem] overflow-hidden mb-12 bg-slate-950 text-white shadow-2xl border border-white/5 group">
+                <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]" />
+                <div className="absolute inset-0 bg-gradient-to-br from-red-600/10 via-transparent to-transparent" />
+                <div className={`absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r ${mod.gradient} opacity-50`} />
+                
+                <div className="relative z-10 p-8 md:p-14 grid lg:grid-cols-[1fr_auto] gap-12 items-center">
+                    <div>
+                        <div className="flex items-center gap-5 mb-8">
+                            <div className="relative">
+                                <div className={`w-16 h-16 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center ${mod.textColor} shadow-2xl`}>
+                                    <mod.icon size={32} />
+                                </div>
+                                <div className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-red-600 animate-ping" />
+                            </div>
+                            <div>
+                                <p className={`font-mono text-[10px] font-bold uppercase tracking-[0.4em] ${mod.textColor}`}>Session_ID // 0{mod.num}</p>
+                                <p className="font-mono text-white/30 text-[9px] uppercase tracking-widest mt-1">Uplink: Synchronized</p>
+                            </div>
                         </div>
-                        <div className="flex-1">
-                            <p className={`text-[10px] font-black uppercase tracking-[0.4em] ${mod.textColor} mb-3`}>Module {mod.num}</p>
-                            <h3 className="bungee-regular text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight">{mod.title}</h3>
-                            <p className="text-slate-500 font-medium mt-4 leading-relaxed">{mod.desc}</p>
-                        </div>
+                        
+                        <h3 className="bungee-regular text-4xl md:text-6xl font-bold text-white tracking-tighter leading-[1.1] mb-8">
+                            {mod.title}
+                        </h3>
+                        
+                        <p className="text-white/50 text-lg font-medium leading-relaxed max-w-2xl">
+                            {mod.desc}
+                        </p>
                     </div>
 
-                    <div className="flex flex-wrap gap-6">
+                    <div className="grid grid-cols-2 lg:grid-cols-1 gap-3">
                         {[
-                            { icon: Clock, text: mod.duration },
-                            { icon: Video, text: `${mod.lessons} Lectures` },
-                            { icon: ClipboardCheck, text: "Assessment Included" },
-                        ].map((m, i) => (
-                            <span key={i} className="flex items-center gap-2 text-[10px] text-slate-400 font-black uppercase tracking-widest">
-                                <m.icon size={14} className={mod.textColor} /> {m.text}
-                            </span>
+                            { icon: Clock, label: "Duration", val: mod.duration, color: "text-amber-400" },
+                            { icon: Video, label: "Tactical Units", val: `${mod.lessons} Files`, color: "text-blue-400" },
+                            { icon: Globe, label: "Network", val: "MST_LAYER_1", color: "text-emerald-400" },
+                            { icon: Award, label: "Certification", val: "Tier 1 Earnable", color: "text-red-500" },
+                        ].map((item, i) => (
+                            <div key={i} className="p-4 rounded-xl bg-white/[0.03] border border-white/5 flex items-center gap-4 hover:bg-white/[0.06] transition-all duration-300">
+                                <div className={`w-9 h-9 rounded-lg bg-white/5 flex items-center justify-center ${item.color}`}>
+                                    <item.icon size={16} />
+                                </div>
+                                <div>
+                                    <p className="font-mono text-[8px] uppercase tracking-widest text-white/30 mb-0.5">{item.label}</p>
+                                    <p className="font-mono text-xs font-bold text-white tracking-tight">{item.val}</p>
+                                </div>
+                            </div>
                         ))}
                     </div>
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-                {/* Video Player Placeholder */}
-                <div className="relative rounded-3xl overflow-hidden aspect-video bg-slate-900 group">
-                    <div className="absolute inset-0 bg-red-600/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center">
-                        <motion.div
-                            className="w-20 h-20 rounded-full bg-red-600 flex items-center justify-center cursor-pointer shadow-2xl"
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.95 }}
-                        >
-                            <Play size={28} className="text-white ml-1" fill="currentColor" />
-                        </motion.div>
-                        <p className="text-[10px] font-black text-white/40 mt-6 uppercase tracking-[0.3em]">Module {mod.num} Overview</p>
+            <div className="grid grid-cols-1 lg:grid-cols-[1.3fr_0.7fr] gap-8 items-start">
+                {/* 📹 ANALYTIC TACTICAL PLAYER */}
+                <div className="space-y-6">
+                    <div className="relative rounded-[2.5rem] overflow-hidden aspect-video bg-black group border border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.5)]">
+                        {/* Scanline & Grain Overlay */}
+                        <div className="absolute inset-0 pointer-events-none z-30 opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%] transition-opacity group-hover:opacity-[0.05]" />
+                        
+                        {/* High-Tech HUD Overlay */}
+                        <div className="absolute inset-0 z-20 pointer-events-none p-6 flex flex-col justify-between font-mono">
+                            <div className="flex justify-between items-start">
+                                <div className="space-y-2">
+                                    <div className="flex items-center gap-3">
+                                        <div className="w-2 h-2 rounded-full bg-red-600 animate-pulse shadow-[0_0_10px_#ef4444]" />
+                                        <span className="text-[10px] font-bold text-white uppercase tracking-[0.3em]">REC // SESSION_0{mod.num}</span>
+                                    </div>
+                                    <div className="flex flex-col gap-1 opacity-40 group-hover:opacity-100 transition-opacity duration-700 text-[8px] text-white tracking-widest">
+                                        <p>CIPHER: AES-MST-256</p>
+                                        <p>PROXY: 192.168.MST.01</p>
+                                    </div>
+                                </div>
+                                <div className="text-right space-y-1 opacity-40 group-hover:opacity-100 transition-opacity duration-700 text-[9px] tracking-widest">
+                                    <p className="text-red-500 font-bold">BITRATE: 48.4 MBPS</p>
+                                    <p className="text-white uppercase">Buffer: Opti-Stream</p>
+                                </div>
+                            </div>
+
+                            <div className="flex justify-between items-end">
+                                <div className="flex items-center gap-4">
+                                    <div className="w-12 h-1 bg-white/10 rounded-full overflow-hidden">
+                                        <motion.div animate={{ x: [-48, 48] }} transition={{ duration: 2, repeat: Infinity, ease: "linear" }} className="w-1/2 h-full bg-red-600/50" />
+                                    </div>
+                                    <span className="text-[8px] text-white/40 uppercase tracking-[0.2em]">Signal: Secure</span>
+                                </div>
+                                <div className="px-4 py-1.5 rounded-md bg-white/5 border border-white/10 backdrop-blur-md">
+                                    <p className="text-[8px] font-bold text-white/60 uppercase tracking-[0.4em]">Authorized Access Only</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Central Play Interaction */}
+                        <div className="absolute inset-0 flex flex-col items-center justify-center z-40 bg-slate-950/20 backdrop-blur-[1px] group-hover:backdrop-blur-0 transition-all duration-700">
+                            <motion.button
+                                className="w-24 h-24 rounded-full bg-white text-slate-950 flex items-center justify-center cursor-pointer shadow-[0_0_50px_rgba(255,255,255,0.2)] hover:shadow-[0_0_80px_rgba(239,68,68,0.4)] transition-shadow duration-500"
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.95 }}
+                            >
+                                <Play size={28} className="ml-1 fill-current" />
+                            </motion.button>
+                            <div className="mt-8 flex flex-col items-center gap-2">
+                                <p className="font-mono text-[9px] font-bold text-white uppercase tracking-[0.8em] animate-pulse">Initialize Link</p>
+                                <div className="w-[1px] h-10 bg-gradient-to-b from-red-600 to-transparent" />
+                            </div>
+                        </div>
+                        
+                        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(239,68,68,0.05)_0%,transparent_70%)] opacity-50" />
                     </div>
-                    <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/10">
-                        <motion.div className="h-full bg-red-600" initial={{ width: "0%" }} animate={{ width: "30%" }} />
+
+                    {/* Mentor Info */}
+                    <div className="relative p-6 rounded-3xl bg-slate-50 border border-slate-200 overflow-hidden group hover:border-red-600/20 transition-all duration-500">
+                        <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-5">
+                                <div className="w-14 h-14 rounded-2xl bg-slate-950 flex items-center justify-center text-white shadow-lg">
+                                    <Cpu size={24} />
+                                </div>
+                                <div>
+                                    <p className="font-mono text-[9px] font-bold text-slate-400 uppercase tracking-widest mb-0.5">Assigned Mentor</p>
+                                    <p className="text-lg font-bold text-slate-950 tracking-tight">MST Lab Command</p>
+                                    <div className="flex items-center gap-2 mt-1">
+                                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                                        <span className="font-mono text-[8px] font-bold text-slate-500 uppercase tracking-widest">Status: Monitoring Session</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button className="flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-slate-950 text-white font-mono text-[10px] font-bold uppercase tracking-widest hover:bg-red-600 transition-all duration-300 shadow-lg shadow-slate-900/10">
+                                <FileText size={14} /> Data Packet
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                {/* Topics List */}
-                <div className="space-y-3">
-                    <p className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400 mb-4">Curriculum</p>
-                    {mod.topics.map((topic, ti) => (
-                        <motion.button
-                            key={ti}
-                            onClick={() => setExpandedTopic(expandedTopic === ti ? null : ti)}
-                            className={`w-full text-left rounded-2xl p-4 flex items-center gap-4 transition-all border-2 ${expandedTopic === ti ? "border-red-600/10 bg-red-50/30" : "border-slate-50 hover:border-slate-100 bg-white"
-                                }`}
-                        >
-                            <div className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${expandedTopic === ti ? "bg-red-600 text-white" : "bg-slate-50 text-slate-400"
-                                }`}>
-                                <span className="text-[10px] font-black">{ti + 1}</span>
-                            </div>
-                            <span className={`text-xs font-black uppercase tracking-tight flex-1 ${expandedTopic === ti ? "text-slate-900" : "text-slate-500"}`}>
-                                {topic}
-                            </span>
-                            <ChevronRight size={14} className={`transition-transform duration-300 ${expandedTopic === ti ? "rotate-90 text-red-600" : "text-slate-200"}`} />
-                        </motion.button>
-                    ))}
-                </div>
-            </div>
-
-            {/* Assessment Section */}
-            <div className="relative rounded-[2.5rem] overflow-hidden bg-slate-900 p-8 md:p-12 text-center">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-600/10 to-transparent pointer-events-none" />
-                <div className="relative z-10">
-                    <Award size={48} className="text-red-600 mx-auto mb-6" />
-                    <h4 className="bungee-regular text-2xl text-white uppercase mb-4 tracking-tight">Knowledge Check</h4>
-                    <p className="text-white/50 text-sm max-w-lg mx-auto mb-10 font-medium">Complete the module curriculum to unlock the knowledge check and earn your progress badge.</p>
-
-                    <div className="grid grid-cols-3 gap-4 max-w-md mx-auto mb-10">
-                        {[
-                            { val: mod.assessment.questions, label: "Questions" },
-                            { val: mod.assessment.passingScore, label: "To Pass" },
-                            { val: "∞", label: "Attempts" },
-                        ].map((a, i) => (
-                            <div key={i} className="p-4 rounded-2xl bg-white/5 border border-white/10">
-                                <p className="text-xl font-black text-white">{a.val}</p>
-                                <p className="text-[8px] font-black uppercase tracking-widest text-white/30">{a.label}</p>
-                            </div>
-                        ))}
+                {/* 📑 INTELLIGENT CURRICULUM & ASSESSMENT */}
+                <div className="space-y-6">
+                    <div className="bg-white rounded-[2.5rem] border border-slate-200 p-8 shadow-sm">
+                        <div className="flex items-center justify-between mb-8 px-2">
+                            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.4em] text-slate-400">Curriculum Data</p>
+                            <span className="font-mono text-[10px] font-bold text-red-600 uppercase tracking-widest bg-red-50 px-3 py-1 rounded-lg">{mod.topics.length} Segments</span>
+                        </div>
+                        
+                        <div className="space-y-2">
+                            {mod.topics.map((topic, ti) => (
+                                <motion.button
+                                    key={ti}
+                                    onClick={() => setExpandedTopic(expandedTopic === ti ? null : ti)}
+                                    className={`w-full text-left rounded-2xl p-4 flex items-center gap-4 transition-all group ${
+                                        expandedTopic === ti 
+                                        ? "bg-slate-950 text-white shadow-xl -translate-y-1" 
+                                        : "bg-slate-50 hover:bg-slate-100"
+                                    }`}
+                                >
+                                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 transition-all duration-500 font-mono text-xs font-bold ${
+                                        expandedTopic === ti ? "bg-red-600 text-white" : "bg-white text-slate-400"
+                                    }`}>
+                                        0{ti + 1}
+                                    </div>
+                                    <div className="flex-1">
+                                        <span className={`text-[11px] font-bold uppercase tracking-tight block transition-colors ${expandedTopic === ti ? "text-white" : "text-slate-700"}`}>
+                                            {topic}
+                                        </span>
+                                        <AnimatePresence>
+                                            {expandedTopic === ti && (
+                                                <motion.p 
+                                                    initial={{ opacity: 0, height: 0 }}
+                                                    animate={{ opacity: 1, height: "auto" }}
+                                                    exit={{ opacity: 0, height: 0 }}
+                                                    className="text-[10px] text-white/60 font-medium mt-2 leading-relaxed"
+                                                >
+                                                    Detailed technical walkthrough covering the core principles and hands-on implementation of this segment.
+                                                </motion.p>
+                                            )}
+                                        </AnimatePresence>
+                                    </div>
+                                    <ChevronRight size={14} className={`transition-transform duration-500 ${expandedTopic === ti ? "rotate-90 text-red-500" : "text-slate-300 group-hover:text-slate-400"}`} />
+                                </motion.button>
+                            ))}
+                        </div>
                     </div>
 
-                    <button className="px-12 py-5 bg-red-600 text-white rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-white hover:text-black transition-all shadow-xl shadow-red-600/20">
-                        Start Assessment
-                    </button>
+                    {/* 🛡️ TACTICAL ASSESSMENT CONSOLE */}
+                    <div className="relative rounded-[2.5rem] overflow-hidden bg-slate-950 p-8 shadow-2xl group border border-white/5">
+                        <div className="absolute inset-0 opacity-[0.03] bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]" />
+                        <div className="absolute top-0 left-0 w-[2px] h-full bg-red-600" />
+                        
+                        <div className="relative z-10">
+                            <div className="flex items-center justify-between mb-8">
+                                <div className="flex items-center gap-4">
+                                    <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-red-500 shadow-inner">
+                                        <Shield size={22} />
+                                    </div>
+                                    <h4 className="text-xl bungee-regular tracking-tighter text-white">Mission Assessment</h4>
+                                </div>
+                                <div className="px-3 py-1 rounded-full bg-red-600/10 text-[9px] font-mono font-bold uppercase tracking-widest text-red-500 border border-red-600/20">
+                                    Status: Locked
+                                </div>
+                            </div>
+                            
+                            <p className="text-white/40 font-mono text-[10px] uppercase tracking-widest mb-8 leading-relaxed">
+                                <span className="text-red-500 font-bold">Verification:</span> Complete all tactical segments to initialize examination.
+                            </p>
+                            
+                            <div className="grid grid-cols-2 gap-3 mb-8">
+                                <div className="p-5 rounded-2xl bg-white/[0.03] border border-white/5 text-center group-hover:bg-white/[0.05] transition-colors">
+                                    <p className="font-mono text-2xl font-bold text-white mb-1">{mod.assessment.questions}</p>
+                                    <p className="font-mono text-[8px] font-bold uppercase tracking-[0.2em] text-white/30">Total Queries</p>
+                                </div>
+                                <div className="p-5 rounded-2xl bg-white/[0.03] border border-white/5 text-center group-hover:bg-white/[0.05] transition-colors">
+                                    <p className="font-mono text-2xl font-bold text-white mb-1">{mod.assessment.passingScore}</p>
+                                    <p className="font-mono text-[8px] font-bold uppercase tracking-[0.2em] text-white/30">Survival Threshold</p>
+                                </div>
+                            </div>
+
+                            <button className="w-full py-5 bg-white text-slate-950 rounded-2xl font-bold uppercase tracking-[0.2em] text-[10px] hover:bg-red-600 hover:text-white transition-all duration-500 shadow-xl flex items-center justify-center gap-3 group/btn relative overflow-hidden">
+                                <span className="relative z-10">Initialize Examination</span>
+                                <ChevronRight size={16} className="relative z-10 group-hover/btn:translate-x-1 transition-transform" />
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </motion.div>
     );
 };
 
+
 export default function AcademyPage() {
+    const [isEnrollModalOpen, setIsEnrollModalOpen] = useState(false);
     const [selectedModule, setSelectedModule] = useState(0);
     const [activeCategory, setActiveCategory] = useState("all");
     const containerRef = useRef(null);
+    const detailRef = useRef(null);
+    const gridRef = useRef(null);
+
+    const scrollToDetail = () => {
+        if (detailRef.current) {
+            const offset = 80;
+            const elementPosition = detailRef.current.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
+            window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+        }
+    };
+
+    const scrollToGrid = () => {
+        if (gridRef.current) {
+            const offset = 100;
+            const elementPosition = gridRef.current.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
+            window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+        }
+    };
+
+    const handleCategorySelect = (id) => {
+        setActiveCategory(id);
+        setTimeout(scrollToGrid, 100);
+    };
+
+    const handleModuleSelect = (idx) => {
+        setSelectedModule(idx);
+        setTimeout(scrollToDetail, 100);
+    };
 
     const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
     const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
 
     const filteredModules = activeCategory === "all" ? modules : modules.filter((m) => m.category === activeCategory);
-    const rows = [
-        filteredModules.filter(m => m.row === 0),
-        filteredModules.filter(m => m.row === 1),
-        filteredModules.filter(m => m.row === 2)
-    ];
 
     return (
-        <div ref={containerRef} className="min-h-screen bg-white text-slate-900 selection:bg-red-600 selection:text-white overflow-x-hidden">
+        <div ref={containerRef} className="min-h-screen bg-[#fafafa] text-slate-900 selection:bg-red-600 selection:text-white overflow-x-hidden font-sans">
             <Navbar />
 
-            {/* Background Decor */}
+            {/* Premium Background Layer */}
             <div className="fixed inset-0 pointer-events-none z-0">
                 <motion.div style={{ y: backgroundY }} className="absolute inset-0">
-                    <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-red-600/[0.02] blur-[150px] rounded-full" />
-                    <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-600/[0.01] blur-[150px] rounded-full" />
-                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,0,0,0.03)_1px,transparent_1px)] bg-[length:40px_40px]" />
+                    <div className="absolute top-0 right-0 w-[1000px] h-[1000px] bg-red-600/[0.03] blur-[150px] rounded-full" />
+                    <div className="absolute bottom-0 left-0 w-[800px] h-[800px] bg-blue-600/[0.02] blur-[150px] rounded-full" />
+                    <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:40px_40px] opacity-40" />
                 </motion.div>
             </div>
 
-            <div className="relative z-10 pt-32">
-                <main className="max-w-[1400px] mx-auto px-8">
+            <div className="relative z-10">
+                {/* 🔴 PREMIUM HERO SECTION - Full Width */}
+                <section className="relative min-h-screen flex flex-col items-center justify-center pt-40 pb-32 overflow-hidden">
+                    
+                    {/* Background Mesh Gradient - Absolute Edges */}
+                    <div className="absolute inset-0 pointer-events-none z-0">
+                        <motion.img 
+                            initial={{ opacity: 0, scale: 1.1 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 1.5 }}
+                            src="/academy_hero_mesh_1777268427771.png" 
+                            className="absolute inset-0 w-full h-full object-cover opacity-80"
+                            alt="Mesh Background"
+                        />
+                        {/* Refined gradient blend */}
+                        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black opacity-30" />
+                        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,black_100%)] opacity-20" />
+                    </div>
 
-                    {/* Hero */}
-                    <section className="text-center mb-24">
-                        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-                            <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-red-600/10 bg-red-50 text-red-600 text-[10px] font-black uppercase tracking-[0.4em] mb-8">
-                                MST Blockchain Academy
+                    <div className="relative z-20 text-center px-6 max-w-5xl mx-auto">
+                        {/* Top Badge */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6 }}
+                            className="inline-flex items-center gap-3 px-5 py-2 rounded-full border border-red-600/10 bg-white/50 backdrop-blur-md text-red-600 mb-12 shadow-sm"
+                        >
+                            <span className="relative flex h-2 w-2">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-2 w-2 bg-red-600"></span>
                             </span>
-                            <h1 className="bungee-regular text-4xl sm:text-6xl md:text-8xl leading-[0.95] tracking-tighter text-black font-black uppercase mb-10">
-                               Certified MST<br />
-                                <span className="text-red-600">Blockchain </span> Developer
-                            </h1>
-                            <p className="text-slate-400 text-lg md:text-xl font-bold max-w-2xl mx-auto leading-relaxed mb-12 uppercase tracking-tight">
-                                Master blockchain development through interactive courses. <span className="text-slate-900">Deploy L1s, build dApps, and customize your own infrastructure</span> on MST Chain.
-                            </p>
+                            <span className="font-mono text-[10px] font-bold uppercase tracking-[0.3em]">MST Academy // Enrollment Open</span>
+                        </motion.div>
 
-                            {/* Filters */}
-                            <div className="flex flex-wrap justify-center gap-3 mb-12">
+                        {/* Main Heading */}
+                        <motion.h1 
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.1 }}
+                            className="bungee-regular text-6xl text-white md:text-8xl lg:text-9xl leading-[0.9] tracking-tighter text-slate-950 font-bold mb-10"
+                        >
+                            Master the <br />
+                            <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-red-500 to-red-800 pb-2">
+                                Future of Web3
+                            </span>
+                        </motion.h1>
+
+                        {/* Subtitle */}
+                        <motion.p 
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.2 }}
+                            className="text-white/70 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed mb-16"
+                        >
+                            Comprehensive blockchain education designed for engineers. From smart contract security to L1 architecture, <span className="inline-block bg-red-600 text-white px-4 py-1.5 rounded-xl font-bold shadow-lg shadow-red-600/20 transform -rotate-1 ml-1 hover:rotate-0 transition-transform duration-300">build your career on MST.</span>
+                        </motion.p>
+
+                        {/* CTAs */}
+                        <motion.div 
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.3 }}
+                            className="flex flex-wrap justify-center gap-5"
+                        >
+                            <button 
+                                onClick={() => setIsEnrollModalOpen(true)}
+                                className="px-10 py-5 bg-slate-950 text-white rounded-2xl font-bold uppercase tracking-widest text-[11px] hover:bg-red-600 hover:scale-105 transition-all duration-300 shadow-2xl shadow-slate-900/20"
+                            >
+                                Start Your Journey
+                            </button>
+                            <button className="px-10 py-5 bg-white text-slate-900 border-2 border-slate-200 rounded-2xl font-bold uppercase tracking-widest text-[11px] hover:bg-slate-50 transition-all duration-300">
+                                Download Syllabus
+                            </button>
+                        </motion.div>
+                    </div>
+                </section>
+
+                <main className="max-w-[1440px] mx-auto px-8">
+
+                    {/* Glassmorphic Category Selector */}
+                    <section id="curriculum" className="relative z-30 mb-20 mt-15">
+                        <div className="max-w-fit mx-auto p-2 rounded-[2rem] bg-white/40 backdrop-blur-xl border border-white/20 shadow-xl">
+                            <div className="flex flex-wrap justify-center gap-2">
                                 {categories.map((cat) => (
                                     <button
                                         key={cat.id}
-                                        onClick={() => { setActiveCategory(cat.id); setSelectedModule(0); }}
-                                        className={`flex items-center gap-2.5 px-6 py-3.5 rounded-2xl text-[10px] font-black uppercase tracking-widest transition-all border-2 ${activeCategory === cat.id
-                                            ? "border-red-600 bg-red-600 text-white shadow-xl shadow-red-600/20"
-                                            : "border-slate-100 text-slate-400 hover:border-slate-200"
+                                        onClick={() => handleCategorySelect(cat.id)}
+                                        className={`relative group flex items-center gap-3 px-6 py-4 rounded-3xl text-[11px] font-bold uppercase tracking-widest transition-all duration-500 ${activeCategory === cat.id
+                                            ? "text-white"
+                                            : "text-slate-500 hover:text-slate-950 hover:bg-white/50"
                                             }`}
                                     >
-                                        <cat.icon size={14} />
-                                        {cat.label}
+                                        {activeCategory === cat.id && (
+                                            <motion.div 
+                                                layoutId="active-pill" 
+                                                className="absolute inset-0 bg-slate-950 rounded-3xl shadow-lg" 
+                                                transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                                            />
+                                        )}
+                                        <div className="relative z-10 flex items-center gap-3">
+                                            <cat.icon size={16} />
+                                            <span>{cat.label}</span>
+                                        </div>
                                     </button>
                                 ))}
                             </div>
-                        </motion.div>
-                    </section>
-
-                    {/* Tree View */}
-                    <section className="pb-32 relative overflow-x-auto pb-8 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-                        <div className="min-w-[1000px]">
-                            {rows.map((rowModules, rowIndex) => (
-                                <div key={rowIndex} className="mb-12">
-                                    <div className="flex justify-center items-center">
-                                        {rowModules.map((mod, i) => {
-                                            const globalIdx = modules.findIndex((m) => m.num === mod.num);
-                                            return (
-                                                <React.Fragment key={mod.num}>
-                                                    <TreeNode
-                                                        mod={mod}
-                                                        index={i}
-                                                        isSelected={selectedModule === globalIdx}
-                                                        onClick={() => setSelectedModule(globalIdx)}
-                                                    />
-                                                    {i < rowModules.length - 1 && (
-                                                        <div className="w-12 h-[2px] bg-red-600/10 -mx-4" />
-                                                    )}
-                                                </React.Fragment>
-                                            );
-                                        })}
-                                    </div>
-                                    {/* Visual Connections */}
-                                    {rowIndex < rows.length - 1 && rows[rowIndex + 1].length > 0 && (
-                                        <div className="flex flex-col items-center mt-8">
-                                            <div className="w-2 h-2 rounded-full bg-red-600 mb-1" />
-                                            <div className="w-[2px] h-12 bg-gradient-to-b from-red-600 to-transparent" />
-                                        </div>
-                                    )}
-                                </div>
-                            ))}
                         </div>
                     </section>
 
-                    {/* Module Details */}
-                    <section className="pb-32 border-t border-slate-50 pt-32">
+                    {/* 3D Module Grid */}
+                    <section ref={gridRef} className="pb-32 px-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+                            {filteredModules.map((mod, i) => {
+                                const globalIdx = modules.findIndex((m) => m.num === mod.num);
+                                return (
+                                    <TreeNode
+                                        key={mod.num}
+                                        mod={mod}
+                                        index={i}
+                                        isSelected={selectedModule === globalIdx}
+                                        onClick={() => handleModuleSelect(globalIdx)}
+                                    />
+                                );
+                            })}
+                        </div>
+                    </section>
+
+                    {/* Refined Module Details */}
+                    <section ref={detailRef} className="pb-40 pt-20 border-t border-slate-100">
                         <AnimatePresence mode="wait">
                             <ModuleDetail mod={modules[selectedModule]} />
                         </AnimatePresence>
                     </section>
 
-                    {/* Final Certification CTA */}
-                    <section className="pb-32">
-                        <div className="relative rounded-[3.5rem] overflow-hidden bg-slate-900 p-16 md:p-24 text-center group">
+                    {/* 🛡️ PREMIUM FINAL CERTIFICATION CTA */}
+                    <section className="pb-10 pt-0">
+                        <div className="relative rounded-[2rem] overflow-hidden bg-slate-950 border border-white/5 shadow-2xl group">
+                            {/* Immersive Background Decor */}
                             <div className="absolute inset-0 pointer-events-none">
-                                <div className="absolute -top-1/2 -right-1/4 w-full h-full bg-red-600/10 blur-[150px] rounded-full" />
-                                <div className="absolute -bottom-1/2 -left-1/4 w-full h-full bg-blue-600/5 blur-[150px] rounded-full" />
+                                <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
+                                <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-red-600/10 blur-[150px] rounded-full -mr-40 -mt-40" />
+                                <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-600/5 blur-[150px] rounded-full -ml-40 -mb-40" />
+                                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/80 to-slate-950" />
+                                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[length:40px_40px]" />
                             </div>
 
-                            <div className="relative z-10 max-w-3xl mx-auto">
-                                <Award size={64} className="text-red-600 mx-auto mb-10" />
-                                <h2 className="bungee-regular text-4xl md:text-6xl text-white uppercase mb-8 tracking-tighter leading-tight">
-                                    Ready to become a<br />
-                                    <span className="text-red-600">Certified MST </span> Developer?
-                                </h2>
-                                <p className="text-white/40 text-lg md:text-xl font-bold mb-14 leading-relaxed uppercase tracking-tight">
-                                    Complete all 7 modules, pass assessments, and deliver your NFT DApp to earn certification.
-                                </p>
-                                <div className="flex gap-4 ml-10">
-  <button className="px-14 py-7 bg-white text-black rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-red-600 hover:text-white transition-all duration-500 shadow-2xl shadow-white/5">
-    Start Your Journey
-  </button>
+                            <div className="relative z-10 p-6 md:p-12 lg:p-14 grid lg:grid-cols-2 gap-10 items-center">
+                                {/* Left Content: Value Prop */}
+                                <div>
+                                    <motion.div
+                                        initial={{ opacity: 0, x: -30 }}
+                                        whileInView={{ opacity: 1, x: 0 }}
+                                        transition={{ duration: 0.8 }}
+                                        className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-red-600/10 border border-red-600/20 text-red-500 mb-4"
+                                    >
+                                        <Award size={16} />
+                                        <span className="font-mono text-[9px] font-bold uppercase tracking-[0.4em]">Final Mission // Certification</span>
+                                    </motion.div>
 
-  <button className="px-14 py-7 bg-white text-black rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-red-600 hover:text-white transition-all duration-500 shadow-2xl shadow-white/5">
-    Download Syallbus
-  </button>
-</div>
+                                    <motion.h2 
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.8, delay: 0.1 }}
+                                        className="text-4xl md:text-6xl font-bungee text-white tracking-tighter leading-[0.95] mb-4"
+                                    >
+                                        Become a <br />
+                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-red-500 to-red-400">
+                                            Certified MST
+                                        </span> <br />
+                                        Developer
+                                    </motion.h2>
+
+                                    <motion.p 
+                                        initial={{ opacity: 0, y: 20 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.8, delay: 0.2 }}
+                                        className="text-white/40 text-base md:text-lg font-medium max-w-xl mb-8 leading-relaxed"
+                                    >
+                                        Prove your mastery of blockchain architecture. Complete the curriculum, pass the tactical assessments, and deploy a production-grade DApp to earn your <span className="text-white">on-chain NFT certification.</span>
+                                    </motion.p>
+
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 20 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.8, delay: 0.3 }}
+                                        className="flex flex-wrap gap-5"
+                                    >
+                                        <button 
+                                            onClick={() => setIsEnrollModalOpen(true)}
+                                            className="px-12 py-6 bg-slate-950 text-white rounded-2xl font-bold uppercase tracking-widest text-[11px] hover:bg-red-600 hover:scale-105 transition-all duration-500 shadow-2xl shadow-slate-900/10 flex items-center gap-4 group/btn"
+                                        >
+                                            Initialize Enrollment
+                                            <ChevronRight size={16} className="group-hover/btn:translate-x-1 transition-transform" />
+                                        </button>
+                                        <div className="flex -space-x-3 items-center">
+                                            {[1,2,3,4].map((i) => (
+                                                <div key={i} className="w-12 h-12 rounded-full border-2 border-slate-950 bg-slate-800 flex items-center justify-center overflow-hidden">
+                                                    <img src={`https://i.pravatar.cc/100?img=${i+10}`} alt="User" className="w-full h-full object-cover opacity-80" />
+                                                </div>
+                                            ))}
+                                            <div className="pl-6 font-mono text-[9px] text-white/40 uppercase tracking-widest">
+                                                +1.2k Developers Certified
+                                            </div>
+                                        </div>
+                                    </motion.div>
+                                </div>
+
+                                {/* Right Content: 3D Certificate Preview */}
+                                <motion.div
+                                    initial={{ opacity: 0, scale: 0.9, rotateY: 20 }}
+                                    whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+                                    transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                                    className="relative hidden lg:block"
+                                >
+                                    <TiltCard>
+                                        <div className="relative w-full aspect-[4/3] rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl p-10 overflow-hidden group/cert shadow-2xl">
+                                            {/* Holographic Overlays */}
+                                            <div className="absolute inset-0 bg-gradient-to-br from-red-600/10 via-transparent to-blue-600/5" />
+                                            <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-white/5 blur-[100px] rounded-full rotate-45 group-hover/cert:translate-x-full transition-transform duration-1000" />
+                                            
+                                            {/* Certificate Content */}
+                                            <div className="relative z-10 h-full flex flex-col justify-between font-mono">
+                                                <div className="flex justify-between items-start">
+                                                    <div>
+                                                        <p className="text-red-500 font-bold text-[10px] tracking-[0.4em] mb-2 uppercase">Official_Certificate</p>
+                                                        <p className="text-white/30 text-[8px] uppercase tracking-widest">Hash: 0x71C...MST2026</p>
+                                                    </div>
+                                                    <Award size={40} className="text-red-600/50" />
+                                                </div>
+
+                                                <div className="space-y-4">
+                                                    <p className="text-white/20 text-[9px] uppercase tracking-[0.5em]">Verified Developer</p>
+                                                    <h4 className="text-4xl text-white  bungee-regular tracking-tighter uppercase leading-none border-b border-white/10 pb-6">
+                                                        YOUR_NAME <br /> HERE
+                                                    </h4>
+                                                </div>
+
+                                                <div className="flex justify-between items-end">
+                                                    <div className="space-y-1">
+                                                        <p className="text-white/40 text-[8px] uppercase tracking-widest">Issued By</p>
+                                                        <p className="text-white text-xs font-bold tracking-tight">MST Lab Command</p>
+                                                    </div>
+                                                    <div className="text-right">
+                                                        <div className="w-16 h-16 bg-white/10 rounded-lg p-2 flex items-center justify-center opacity-40">
+                                                            <div className="w-full h-full border-2 border-white/20 rounded-sm border-dashed" />
+                                                        </div>
+                                                        <p className="text-white/20 text-[7px] mt-2 uppercase tracking-widest">QR_Verification_ID</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </TiltCard>
+
+                                </motion.div>
                             </div>
                         </div>
                     </section>
 
                 </main>
             </div>
-            <Footer />
+            
+            <EnrollmentModal 
+                isOpen={isEnrollModalOpen} 
+                onClose={() => setIsEnrollModalOpen(false)} 
+            />
         </div>
     );
 }
