@@ -1,299 +1,205 @@
-"use client";
-import React, { useState, useRef, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { ChevronRight, User, Briefcase, Globe, Mail } from "lucide-react";
-import { FaLinkedin, FaGithub, FaTwitter, FaRegEnvelope } from "react-icons/fa";
-import Navbar from "../components/navbar/Navbar";
+'use client';
 
-/* ─── TEAM DATA (20 Members) ─── */
+import dynamic from 'next/dynamic';
+
+const Lanyard = dynamic(() => import('../components/Lanyard/Lanyard'), { ssr: false });
+
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import Head from 'next/head';
+
 const team = [
-    { id: "ceo", name: "Abhishek G", role: "Founder & CEO", image: "https://i.pravatar.cc/300?img=68", bio: "Visionary leader driving the future of MST Blockchain and the SARAL Protocol.", socials: { linkedin: "#", twitter: "#" }, pos: { x: 50, y: 15, size: 90 } },
-    { id: "cto", name: "Vikram S", role: "CTO", image: "https://i.pravatar.cc/300?img=12", bio: "Architecting the L1 ecosystem and smart contract security standards.", socials: { linkedin: "#", github: "#" }, pos: { x: 35, y: 30, size: 75 } },
-    { id: "design-lead", name: "Neha R", role: "Design Lead", image: "https://i.pravatar.cc/300?img=32", bio: "Defining the visual language and UX for the MST Ecosystem.", socials: { linkedin: "#", twitter: "#" }, pos: { x: 65, y: 30, size: 75 } },
-    { id: "blockchain-1", name: "Rahul M", role: "Lead Blockchain Eng", image: "https://i.pravatar.cc/300?img=11", bio: "Specializing in EVM optimization and consensus design.", socials: { github: "#" }, pos: { x: 22, y: 40, size: 65 } },
-    { id: "frontend-1", name: "Priya K", role: "Sr. Frontend Eng", image: "https://i.pravatar.cc/300?img=44", bio: "Building high-performance Web3 interfaces.", socials: { github: "#" }, pos: { x: 78, y: 40, size: 65 } },
-    { id: "security-1", name: "Anand T", role: "Security Auditor", image: "https://i.pravatar.cc/300?img=3", bio: "Ensuring integrity through rigorous auditing.", socials: { linkedin: "#" }, pos: { x: 50, y: 38, size: 65 } },
-    { id: "comm-1", name: "Sanya P", role: "Community Manager", image: "https://i.pravatar.cc/300?img=47", bio: "Fostering the MST developer community.", socials: { twitter: "#" }, pos: { x: 12, y: 52, size: 60 } },
-    { id: "ops-1", name: "Karan J", role: "Ops Manager", image: "https://i.pravatar.cc/300?img=15", bio: "Managing cross-functional workflows.", socials: { linkedin: "#" }, pos: { x: 88, y: 52, size: 60 } },
-    { id: "dev-1", name: "Sneha L", role: "Full Stack Dev", image: "https://i.pravatar.cc/300?img=26", bio: "Developing core Academy modules.", socials: { github: "#" }, pos: { x: 30, y: 55, size: 60 } },
-    { id: "dev-2", name: "Amit B", role: "Solidity Dev", image: "https://i.pravatar.cc/300?img=59", bio: "Crafting efficient smart contracts.", socials: { github: "#" }, pos: { x: 70, y: 55, size: 60 } },
-    { id: "node-1", name: "Manoj R", role: "Node Infrastructure", image: "https://i.pravatar.cc/300?img=60", bio: "Maintaining MST global node network.", socials: { linkedin: "#" }, pos: { x: 42, y: 60, size: 60 } },
-    { id: "node-2", name: "Deepak S", role: "Network Engineer", image: "https://i.pravatar.cc/300?img=58", bio: "Optimizing P2P synchronization.", socials: { github: "#" }, pos: { x: 58, y: 60, size: 60 } },
-    { id: "qa-1", name: "Anjali V", role: "QA Lead", image: "https://i.pravatar.cc/300?img=49", bio: "Testing edge cases in SARAL protocol.", socials: { linkedin: "#" }, pos: { x: 20, y: 68, size: 55 } },
-    { id: "qa-2", name: "Rohit P", role: "Automation Eng", image: "https://i.pravatar.cc/300?img=57", bio: "Building automated test suites.", socials: { github: "#" }, pos: { x: 80, y: 68, size: 55 } },
-    { id: "mark-1", name: "Isha D", role: "Marketing Lead", image: "https://i.pravatar.cc/300?img=43", bio: "Driving global brand awareness.", socials: { twitter: "#" }, pos: { x: 10, y: 35, size: 55 } },
-    { id: "mark-2", name: "Vivek C", role: "Growth Hacker", image: "https://i.pravatar.cc/300?img=61", bio: "Scaling user acquisition.", socials: { linkedin: "#" }, pos: { x: 90, y: 35, size: 55 } },
-    { id: "support-1", name: "Meera H", role: "Partner Support", image: "https://i.pravatar.cc/300?img=42", bio: "Managing enterprise integrations.", socials: { linkedin: "#" }, pos: { x: 38, y: 75, size: 55 } },
-    { id: "support-2", name: "Aditya N", role: "Dev Rel", image: "https://i.pravatar.cc/300?img=62", bio: "Helping devs build on MST.", socials: { twitter: "#" }, pos: { x: 62, y: 75, size: 55 } },
-    { id: "legal-1", name: "Shweta B", role: "Legal Counsel", image: "https://i.pravatar.cc/300?img=41", bio: "Ensuring regulatory compliance.", socials: { linkedin: "#" }, pos: { x: 25, y: 25, size: 55 } },
-    { id: "hr-1", name: "Pooja W", role: "HR Head", image: "https://i.pravatar.cc/300?img=45", bio: "Building the dream team.", socials: { linkedin: "#" }, pos: { x: 75, y: 25, size: 55 } },
+    { id: 1, title: 'OM', year: '2024', type: 'CORE', role: 'WEB DEV', name: 'OM ', img: '/assets/teams/om_animated.png', hoverImg: '/assets/teams/om.jpeg' },
+    { id: 2, title: 'ajay', year: '2024', type: 'CORE', role: 'WEB DEV', name: 'AJAY ', img: '/assets/teams/ajayAnimated.png', hoverImg: '/assets/teams/ajay.jpeg' },
+    { id: 3, title: 'datta', year: '2024', type: 'CORE', role: 'Designer', name: 'datta ', img: '/assets/teams/dattaanimated.png', hoverImg: '/assets/teams/datta.jpeg' },
+    { id: 4, title: 'apurva', year: '2024', type: 'CORE', role: 'Devloper', name: 'Apurva ', img: '/assets/teams/appsAnimated.png', hoverImg: '/assets/teams/apps.jpeg' },
+    { id: 5, title: 'smita', year: '2024', type: 'CORE', role: 'Devloper', name: 'smita ', img: '/assets/teams/smitaAnimated.png', hoverImg: '/assets/teams/smita.jpeg' },
+    { id: 5, title: 'PULSE', year: 'CYBER', type: 'ESPORTS', role: 'NEON', name: 'VIRTUAL', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDNwB9riItzhnx2IQCrH5woB9xOnauSFSCfNDgIYB18n9zEAjPx2FR15BO2a297yYb6Rv3vWqGppP9Jzq2ciDcXJ8pNrTAKIZe5G5I0ZFRH-2pBDKxdiecOdY0X9YuPAcMPfFXVZyT234HSEFHy5484cKQ3SJfGWAM5QZCX8OubZuXRLDnJmzy276WjkixR3buLPqpf1oLLyfibFhoBYjrTpCBx1yuig1KK1jGZtJECy1BLn19dNPYrI-s8KHK32jnov87GHGgQHO9R' },
+    { id: 6, title: 'RACE', year: '2023', type: 'CHAMPIONSHIP', role: 'PRO SPEC', name: 'HANS', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCq3MgU7KVqSWL_bQ8ITLYFSaZ37nWf2NnhGC9mJym6S8oeLkkdpU1n0Sa4t5Ut2nfKcPpKOa7ViGqOkhYh3pz4_sZ-sDJBUPKRKB7MYuWal21ir8HJ1cyhVE6mLEaS5PAu7P6cfw2r0vKWMlcrf7dj0FGKfQUpkUEWE-U1BYur_U4WRsQzReaj_ASeX9oKzg1D8g24D3wdVYe9laYkzRXYq-aVLsjgqeQuVsd2ND229v9dzaBmJ1O1xAw0BToZ_ndVPRzBO1j9FnqO' },
+    { id: 7, title: 'RAW', year: 'WEAVE', type: 'COMPOSITE', role: '6K WEAVE', name: 'ULTRALIGHT', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCxajFC4D1t9pFvPg25szC_BHyoQ_5hR0yNCfACLiyT0eH77-IryhClNEDuYsQHiF1uzxntPsVflfIQ61VbcEC8EYdMDqTrg2rPryWwlW4y2lJG_t_llsDGbzeHQnOkr1EgMTPYwBxi-U8RDATM1onWeWqC9LY5wS-a83FFKvW5ST6JkC8qIzCuSyfhWIETw23mCqfStFYAsvq6GfFYU_5E7anClZvjRDNl7S3liKQrRmswNvLZydB6OgW4GWeW3EjxtNxSGrqESokp' },
+    { id: 8, title: 'CIRCUIT', year: 'NEON', type: 'HIGH-VIS', role: 'IRIDIUM', name: 'DAYLIGHT', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAR2l53cAqOqpEZ2ORP7v5-07hflg16NiF9CmxOVYCinb8YuHzNPgtVRs79GEEvSMhpdLCjp6_PQGU1hT0QZj5hodK5oYyYDI0lYB1gZOsjqxuVOiWVf35JpOyqmODLtoygi_VRH4kooRsuqOmNGcTkeMuI93Z2Wd5b2C2MQKRa_a6xCKT2VQwklqgPnY-PJmIgr6rXzNCM25xptbPuP78Tmm7OagIsH8YAOQn7bgjOimSj7n5BX_qKKsV7Ptps6z2-1xjnxqsRMRlF' },
+    { id: 9, title: 'CORE', year: 'WHITE', type: 'BASE LAYER', role: 'FIBERGLASS', name: 'STUDIO', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDgJIo_RwGLsfXiNgURgjTDb6C7PRbJJojR5Dj1q7dGwvgV5LMH4YTZ5rn13yk7MXrqtPZkhbvOu5oOKsJHShk5dcYHSaC0oa17mD110SSeAJWrQ1YyusPNYEP7gpeOAxD7O4YpZ6jVZATWdA_C_TRSOAhM_pm3s1GqFq3o4xGPz-SwfoAJaSsK8z7k1kXj8n4W9vMy-SuTZIaV5vwRIsk-1T1G_qdR-T7RA5vHBEs2Vv2R5k3ePoJuZ38f2_2wKjdrHuRQFhSCjoSb' },
+    { id: 10, title: 'SILVER', year: 'SURGE', type: 'LAB SERIES', role: 'MIRROR', name: 'S-CLASS', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBUcaLV5w5FZfhsB-gi3TpFOMZzeoorVm5A3v2vlwM-lgGzbdWYuzIiQQUu6aHG5XG5-g60zQkQflXAKxc7LAT_Pqm5C29YBT8-2XlWfCBfPetl6wK727E__QBiiCZ7MHqC-8lIZWeYHOi61z-jVFNX8qa7U-QqtNkU05WxKO0i-r4RvI43hwNDYyCL1MWih89-zFUJXP1I8faghOFrESQkNLYegkuB_1AnBLK9JpksD_pmX1KZEJ0ujrVb5ETU08wz2hwiskDJSInl' },
+    { id: 11, title: 'PHANTOM', year: 'ONE', type: 'BASE LAYER', role: 'CARBON', name: 'STUDIO', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDkjPrWK9UejxgSicj16Kxi46DQ4gOPRkUlaFbAoVRl8QgubpbuvgcgMKOBcyzv99_4DEqCl7i7UhP_7tOKVd4lpnTLHFfUXi1LLpw1_jamr6YZ6NQ2gvoKzSYBPuT-NjFIbLN5HNNUH6HA17TXEjwKdlredKHxTCQ_Vb_pgLq5Vzc1BYqfnp1cJcpw9J8a70ndqmhY2BiGSEqDj5YueWCgOxLGILV2Wd603BF7JzBb-i9oiGsGBbMOHn16XFGVhnrSIB7hoE96d_JD' },
+    { id: 12, title: 'AUREUM', year: 'MX', type: 'ROYAL', role: 'GOLD', name: 'LTD', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDRVjBgumfIEXNzq9nCBQGDe4mdilTu30I3uXKWHKArXHqTITRGyhbjrXuIlRjyuCiGUiaTs4KGseg0gQi6xTp0dTPMkOyFt6WMIaPcIBRZ0_52iFvRFliEzXn4_he1OrqXHz9AyH97zZgWVECkAIZyyO4ie6W68FMpOMfogF5591SwHwo1evDSUy6-sAfyygddRH9PWH08v-6rxwPQrvVxVazsswrrtD3ycOkGKlpRwsgqk2ENzktubi9-_evP2vJvIFIAA66_Ig71' },
+    { id: 13, title: 'CYBER', year: 'WAVE', type: 'ESPORTS', role: 'NEON', name: 'VIRTUAL', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDNwB9riItzhnx2IQCrH5woB9xOnauSFSCfNDgIYB18n9zEAjPx2FR15BO2a297yYb6Rv3vWqGppP9Jzq2ciDcXJ8pNrTAKIZe5G5I0ZFRH-2pBDKxdiecOdY0X9YuPAcMPfFXVZyT234HSEFHy5484cKQ3SJfGWAM5QZCX8OubZuXRLDnJmzy276WjkixR3buLPqpf1oLLyfibFhoBYjrTpCBx1yuig1KK1jGZtJECy1BLn19dNPYrI-s8KHK32jnov87GHGgQHO9R' },
+    { id: 14, title: 'PRO', year: 'FLIGHT', type: 'AERO', role: 'CARBON', name: 'RACING', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCq3MgU7KVqSWL_bQ8ITLYFSaZ37nWf2NnhGC9mJym6S8oeLkkdpU1n0Sa4t5Ut2nfKcPpKOa7ViGqOkhYh3pz4_sZ-sDJBUPKRKB7MYuWal21ir8HJ1cyhVE6mLEaS5PAu7P6cfw2r0vKWMlcrf7dj0FGKfQUpkUEWE-U1BYur_U4WRsQzReaj_ASeX9oKzg1D8g24D3wdVYe9laYkzRXYq-aVLsjgqeQuVsd2ND229v9dzaBmJ1O1xAw0BToZ_ndVPRzBO1j9FnqO' },
+    { id: 15, title: 'VOID', year: 'CARBON', type: 'COMPOSITE', role: 'STEALTH', name: 'NIGHT', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCxajFC4D1t9pFvPg25szC_BHyoQ_5hR0yNCfACLiyT0eH77-IryhClNEDuYsQHiF1uzxntPsVflfIQ61VbcEC8EYdMDqTrg2rPryWwlW4y2lJG_t_llsDGbzeHQnOkr1EgMTPYwBxi-U8RDATM1onWeWqC9LY5wS-a83FFKvW5ST6JkC8qIzCuSyfhWIETw23mCqfStFYAsvq6GfFYU_5E7anClZvjRDNl7S3liKQrRmswNvLZydB6OgW4GWeW3EjxtNxSGrqESokp' },
+    { id: 16, title: 'NEON', year: 'STRIKE', type: 'HIGH-VIS', role: 'IRIDIUM', name: 'RACE', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAR2l53cAqOqpEZ2ORP7v5-07hflg16NiF9CmxOVYCinb8YuHzNPgtVRs79GEEvSMhpdLCjp6_PQGU1hT0QZj5hodK5oYyYDI0lYB1gZOsjqxuVOiWVf35JpOyqmODLtoygi_VRH4kooRsuqOmNGcTkeMuI93Z2Wd5b2C2MQKRa_a6xCKT2VQwklqgPnY-PJmIgr6rXzNCM25xptbPuP78Tmm7OagIsH8YAOQn7bgjOimSj7n5BX_qKKsV7Ptps6z2-1xjnxqsRMRlF' },
+    { id: 17, title: 'ZENITH', year: 'X', type: 'GP', role: 'CARBON', name: 'SUZUKA', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDgJIo_RwGLsfXiNgURgjTDb6C7PRbJJojR5Dj1q7dGwvgV5LMH4YTZ5rn13yk7MXrqtPZkhbvOu5oOKsJHShk5dcYHSaC0oa17mD110SSeAJWrQ1YyusPNYEP7gpeOAxD7O4YpZ6jVZATWdA_C_TRSOAhM_pm3s1GqFq3o4xGPz-SwfoAJaSsK8z7k1kXj8n4W9vMy-SuTZIaV5vwRIsk-1T1G_qdR-T7RA5vHBEs2Vv2R5k3ePoJuZ38f2_2wKjdrHuRQFhSCjoSb' },
+    { id: 18, title: 'TITAN', year: 'GLOSS', type: 'LAB', role: 'MIRROR', name: 'REFLECTIVE', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBUcaLV5w5FZfhsB-gi3TpFOMZzeoorVm5A3v2vlwM-lgGzbdWYuzIiQQUu6aHG5XG5-g60zQkQflXAKxc7LAT_Pqm5C29YBT8-2XlWfCBfPetl6wK727E__QBiiCZ7MHqC-8lIZWeYHOi61z-jVFNX8qa7U-QqtNkU05WxKO0i-r4RvI43hwNDYyCL1MWih89-zFUJXP1I8faghOFrESQkNLYegkuB_1AnBLK9JpksD_pmX1KZEJ0ujrVb5ETU08wz2hwiskDJSInl' },
+    { id: 19, title: 'DARK', year: 'FORCE', type: 'MIDNIGHT', role: 'CARBON', name: 'NIGHT', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDkjPrWK9UejxgSicj16Kxi46DQ4gOPRkUlaFbAoVRl8QgubpbuvgcgMKOBcyzv99_4DEqCl7i7UhP_7tOKVd4lpnTLHFfUXi1LLpw1_jamr6YZ6NQ2gvoKzSYBPuT-NjFIbLN5HNNUH6HA17TXEjwKdlredKHxTCQ_Vb_pgLq5Vzc1BYqfnp1cJcpw9J8a70ndqmhY2BiGSEqDj5YueWCgOxLGILV2Wd603BF7JzBb-i9oiGsGBbMOHn16XFGVhnrSIB7hoE96d_JD' },
+    { id: 20, title: 'ELITE', year: 'GOLD', type: 'ROYAL', role: '24K', name: 'LTD', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDRVjBgumfIEXNzq9nCBQGDe4mdilTu30I3uXKWHKArXHqTITRGyhbjrXuIlRjyuCiGUiaTs4KGseg0gQi6xTp0dTPMkOyFt6WMIaPcIBRZ0_52iFvRFliEzXn4_he1OrqXHz9AyH97zZgWVECkAIZyyO4ie6W68FMpOMfogF5591SwHwo1evDSUy6-sAfyygddRH9PWH08v-6rxwPQrvVxVazsswrrtD3ycOkGKlpRwsgqk2ENzktubi9-_evP2vJvIFIAA66_Ig71' },
+    { id: 21, title: 'GRID', year: 'RUNNER', type: 'ESPORTS', role: 'VIRTUAL', name: 'NEON', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDNwB9riItzhnx2IQCrH5woB9xOnauSFSCfNDgIYB18n9zEAjPx2FR15BO2a297yYb6Rv3vWqGppP9Jzq2ciDcXJ8pNrTAKIZe5G5I0ZFRH-2pBDKxdiecOdY0X9YuPAcMPfFXVZyT234HSEFHy5484cKQ3SJfGWAM5QZCX8OubZuXRLDnJmzy276WjkixR3buLPqpf1oLLyfibFhoBYjrTpCBx1yuig1KK1jGZtJECy1BLn19dNPYrI-s8KHK32jnov87GHGgQHO9R' },
+    { id: 22, title: 'TEAM', year: 'ZERO', type: 'PRO', role: 'CARBON', name: 'RACING', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCq3MgU7KVqSWL_bQ8ITLYFSaZ37nWf2NnhGC9mJym6S8oeLkkdpU1n0Sa4t5Ut2nfKcPpKOa7ViGqOkhYh3pz4_sZ-sDJBUPKRKB7MYuWal21ir8HJ1cyhVE6mLEaS5PAu7P6cfw2r0vKWMlcrf7dj0FGKfQUpkUEWE-U1BYur_U4WRsQzReaj_ASeX9oKzg1D8g24D3wdVYe9laYkzRXYq-aVLsjgqeQuVsd2ND229v9dzaBmJ1O1xAw0BToZ_ndVPRzBO1j9FnqO' },
+    { id: 23, title: 'VOID', year: 'MX', type: 'MX', role: 'CARBON', name: 'CROSS', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCxajFC4D1t9pFvPg25szC_BHyoQ_5hR0yNCfACLiyT0eH77-IryhClNEDuYsQHiF1uzxntPsVflfIQ61VbcEC8EYdMDqTrg2rPryWwlW4y2lJG_t_llsDGbzeHQnOkr1EgMTPYwBxi-U8RDATM1onWeWqC9LY5wS-a83FFKvW5ST6JkC8qIzCuSyfhWIETw23mCqfStFYAsvq6GfFYU_5E7anClZvjRDNl7S3liKQrRmswNvLZydB6OgW4GWeW3EjxtNxSGrqESokp' },
+    { id: 24, title: 'CIRCUIT', year: '2024', type: 'GP', role: 'NEON', name: 'SUZUKA', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAR2l53cAqOqpEZ2ORP7v5-07hflg16NiF9CmxOVYCinb8YuHzNPgtVRs79GEEvSMhpdLCjp6_PQGU1hT0QZj5hodK5oYyYDI0lYB1gZOsjqxuVOiWVf35JpOyqmODLtoygi_VRH4kooRsuqOmNGcTkeMuI93Z2Wd5b2C2MQKRa_a6xCKT2VQwklqgPnY-PJmIgr6rXzNCM25xptbPuP78Tmm7OagIsH8YAOQn7bgjOimSj7n5BX_qKKsV7Ptps6z2-1xjnxqsRMRlF' },
+    { id: 25, title: 'APEX', year: 'ONE', type: 'PRO', role: 'CARBON', name: 'RACING', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDgJIo_RwGLsfXiNgURgjTDb6C7PRbJJojR5Dj1q7dGwvgV5LMH4YTZ5rn13yk7MXrqtPZkhbvOu5oOKsJHShk5dcYHSaC0oa17mD110SSeAJWrQ1YyusPNYEP7gpeOAxD7O4YpZ6jVZATWdA_C_TRSOAhM_pm3s1GqFq3o4xGPz-SwfoAJaSsK8z7k1kXj8n4W9vMy-SuTZIaV5vwRIsk-1T1G_qdR-T7RA5vHBEs2Vv2R5k3ePoJuZ38f2_2wKjdrHuRQFhSCjoSb' },
 ];
 
-/* ─── TEAM TREE SECTION WITH MEMBER IMAGES ─── */
-const TreeSection = ({ onSelect }) => {
-  return (
-    <div className="relative w-full aspect-[16/10] max-w-6xl mx-auto py-20 flex items-center justify-center overflow-visible">
-      {/* TREE BACKGROUND */}
-      <svg
-        viewBox="0 0 1000 800"
-        className="absolute inset-0 w-full h-full text-[#8B4513] opacity-90 pointer-events-none select-none"
-        style={{ filter: "drop-shadow(0 0 10px rgba(139,69,19,0.2))" }}
-      >
-        <defs>
-          <linearGradient id="trunkGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style={{ stopColor: "#5D2E0A" }} />
-            <stop offset="50%" style={{ stopColor: "#8B4513" }} />
-            <stop offset="100%" style={{ stopColor: "#5D2E0A" }} />
-          </linearGradient>
-        </defs>
-
-        {/* MAIN TRUNK */}
-        <path
-          d="M500 800 C 500 700, 480 600, 480 500 L 520 500 C 520 600, 500 700, 500 800"
-          fill="url(#trunkGradient)"
-        />
-
-        {/* PRIMARY & SECONDARY BRANCHES */}
-        <path d="M490 500 Q 400 450, 350 300" fill="none" stroke="#8B4513" strokeWidth="15" strokeLinecap="round" />
-        <path d="M510 500 Q 600 450, 650 300" fill="none" stroke="#8B4513" strokeWidth="15" strokeLinecap="round" />
-        <path d="M500 500 L 500 200" fill="none" stroke="#8B4513" strokeWidth="12" strokeLinecap="round" />
-        <path d="M380 380 Q 250 350, 220 400" fill="none" stroke="#8B4513" strokeWidth="10" strokeLinecap="round" />
-        <path d="M620 380 Q 750 350, 780 400" fill="none" stroke="#8B4513" strokeWidth="10" strokeLinecap="round" />
-        <path d="M400 320 Q 300 280, 250 250" fill="none" stroke="#8B4513" strokeWidth="8" strokeLinecap="round" />
-        <path d="M600 320 Q 700 280, 750 250" fill="none" stroke="#8B4513" strokeWidth="8" strokeLinecap="round" />
-        <path d="M480 600 Q 200 550, 120 520" fill="none" stroke="#8B4513" strokeWidth="10" strokeLinecap="round" />
-        <path d="M520 600 Q 800 550, 880 520" fill="none" stroke="#8B4513" strokeWidth="10" strokeLinecap="round" />
-        <path d="M480 650 Q 350 620, 300 550" fill="none" stroke="#8B4513" strokeWidth="7" strokeLinecap="round" />
-        <path d="M520 650 Q 650 620, 700 550" fill="none" stroke="#8B4513" strokeWidth="7" strokeLinecap="round" />
-        <path d="M420 550 Q 400 580, 420 600" fill="none" stroke="#8B4513" strokeWidth="6" strokeLinecap="round" />
-        <path d="M580 550 Q 600 580, 580 600" fill="none" stroke="#8B4513" strokeWidth="6" strokeLinecap="round" />
-        <path d="M220 400 Q 150 350, 100 350" fill="none" stroke="#8B4513" strokeWidth="5" strokeLinecap="round" />
-        <path d="M780 400 Q 850 350, 900 350" fill="none" stroke="#8B4513" strokeWidth="5" strokeLinecap="round" />
-        <path d="M300 550 Q 250 650, 200 680" fill="none" stroke="#8B4513" strokeWidth="5" strokeLinecap="round" />
-        <path d="M700 550 Q 750 650, 800 680" fill="none" stroke="#8B4513" strokeWidth="5" strokeLinecap="round" />
-        <path d="M450 650 Q 400 720, 380 750" fill="none" stroke="#8B4513" strokeWidth="4" strokeLinecap="round" />
-        <path d="M550 650 Q 600 720, 620 750" fill="none" stroke="#8B4513" strokeWidth="4" strokeLinecap="round" />
-      </svg>
-
-      {/* MEMBER IMAGES (FRUITS) */}
-      <div className="absolute inset-0 w-full h-full z-10">
-        {team.map((member, index) => (
-          <motion.button
-            key={member.id}
-            onClick={() => onSelect(member.id)}
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ delay: index * 0.05, duration: 0.6, type: "spring" }}
-            whileHover={{ scale: 1.15, zIndex: 50 }}
-            className="absolute group -translate-x-1/2 -translate-y-1/2 cursor-pointer focus:outline-none"
-            style={{ left: `${member.pos.x}%`, top: `${member.pos.y}%` }}
-          >
-            <div
-              className="relative rounded-full p-1 bg-white shadow-xl border-2 border-white group-hover:border-red-600 transition-all duration-300 overflow-hidden"
-              style={{ width: member.pos.size, height: member.pos.size }}
-            >
-              <img
-                src={member.image}
-                alt={member.name}
-                className="w-full h-full rounded-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              {/* Tooltip */}
-              <div className="absolute -bottom-12 left-1/2 -translate-x-1/2 whitespace-nowrap px-4 py-2 bg-slate-950 text-white text-[10px] rounded-xl opacity-0 group-hover:opacity-100 transition-all shadow-2xl z-50 border border-white/10 pointer-events-none">
-                <p className="font-bold">{member.name}</p>
-                <p className="text-red-500 font-mono text-[8px] uppercase tracking-widest">{member.role}</p>
-              </div>
-            </div>
-          </motion.button>
-        ))}
-      </div>
-
-      {/* RANDOM LEAVES */}
-      <div className="absolute inset-0 pointer-events-none opacity-40">
-        {[...Array(20)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute w-3 h-3 text-emerald-700 fill-current"
-            style={{
-              left: `${10 + Math.random() * 80}%`,
-              top: `${15 + Math.random() * 70}%`,
-              rotate: `${Math.random() * 360}deg`,
-            }}
-          >
-            <svg viewBox="0 0 24 24">
-              <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8.17,20C14.33,20 19,15.33 19,9.17C19,8.75 19,8.33 18.93,7.91C18.44,8.12 17.75,8.13 17,8Z" />
-            </svg>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const TeamCard = ({ member, isSelected }) => {
-    return (
-        <motion.div
-            id={`card-${member.id}`}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            className={`group relative p-8 rounded-[3rem] bg-white border transition-all duration-700 overflow-hidden ${
-                isSelected ? "border-red-600 shadow-[0_40px_100px_rgba(220,38,38,0.15)] -translate-y-4" : "border-slate-100 hover:border-slate-200"
-            }`}
-        >
-            {/* Background Accent */}
-            <div className={`absolute top-0 right-0 w-64 h-64 blur-[100px] opacity-[0.03] rounded-full -mr-20 -mt-20 transition-colors ${isSelected ? "bg-red-600" : "bg-slate-400"}`} />
-
-            <div className="flex flex-col md:flex-row gap-10 items-center md:items-start relative z-10">
-                <div className="relative w-40 h-40 rounded-[2.5rem] overflow-hidden shadow-2xl flex-shrink-0 group-hover:scale-105 transition-transform duration-700">
-                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-[2.5rem]" />
-                </div>
-
-                <div className="flex-1 space-y-6 text-center md:text-left">
-                    <div>
-                        <div className="flex flex-wrap justify-center md:justify-start items-center gap-4 mb-2">
-                            <h3 className="text-3xl font-bold text-slate-950 tracking-tight">{member.name}</h3>
-                            <div className="px-4 py-1.5 rounded-full bg-slate-950 text-[9px] font-bold uppercase tracking-[0.3em] text-white">
-                                Node_Verified
-                            </div>
-                        </div>
-                        <p className="text-red-600 font-bungee text-sm tracking-widest">{member.role}</p>
-                    </div>
-
-                    <p className="text-slate-500 text-lg font-medium leading-relaxed max-w-2xl italic">
-                        "{member.bio}"
-                    </p>
-
-                    <div className="flex items-center justify-center md:justify-start gap-5 pt-2">
-                        {member.socials.linkedin && (
-                            <a href={member.socials.linkedin} className="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 text-slate-400 hover:text-blue-600 hover:bg-blue-50 hover:border-blue-200 transition-all shadow-sm">
-                                <FaLinkedin size={20} />
-                            </a>
-                        )}
-                        {member.socials.github && (
-                            <a href={member.socials.github} className="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 text-slate-400 hover:text-slate-950 hover:bg-slate-100 hover:border-slate-300 transition-all shadow-sm">
-                                <FaGithub size={20} />
-                            </a>
-                        )}
-                        {member.socials.twitter && (
-                            <a href={member.socials.twitter} className="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 text-slate-400 hover:text-sky-500 hover:bg-sky-50 hover:border-sky-200 transition-all shadow-sm">
-                                <FaTwitter size={20} />
-                            </a>
-                        )}
-                        <div className="h-10 w-px bg-slate-100 mx-2 hidden md:block" />
-                        <a href={`mailto:${member.id}@mstblockchain.com`} className="flex items-center gap-3 px-6 py-3.5 rounded-2xl bg-slate-950 text-white font-bold text-[10px] uppercase tracking-widest hover:bg-red-600 transition-all shadow-xl shadow-slate-900/10">
-                            <Mail size={16} /> Contact
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </motion.div>
-    );
-};
-
 export default function TeamsPage() {
-    const [selectedId, setSelectedId] = useState(null);
+    const [activeMemberId, setActiveMemberId] = useState(null);
 
-    const handleSelectMember = (id) => {
-        setSelectedId(id);
-        const element = document.getElementById(`card-${id}`);
-        if (element) {
-            const offset = 120;
-            const elementPosition = element.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.pageYOffset - offset;
-            window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+    const toggleActiveMember = (id) => {
+        if (window.innerWidth < 1024) {
+            setActiveMemberId(activeMemberId === id ? null : id);
         }
     };
 
     return (
-        <div className="min-h-screen bg-[#fafafa] text-slate-900 selection:bg-red-600 selection:text-white font-sans overflow-x-hidden">
-            <Navbar />
+        <div className="min-h-screen bg-zinc-50 text-zinc-900 font-['Inter'] selection:bg-[#d2f000] selection:text-black overflow-x-hidden relative">
+            <Head>
+                <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+            </Head>
 
-            {/* HERO SECTION */}
-            <section className="relative pt-48 pb-20 px-6 text-center overflow-hidden">
-                <div className="absolute inset-0 pointer-events-none">
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-red-600/[0.04] blur-[150px] rounded-full" />
-                    <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:60px_60px] opacity-20" />
-                </div>
+            <style jsx global>{`
+        .material-symbols-outlined {
+          font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .helmet-card {
+          position: relative;
+          transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+          border: 1px solid #000;
+          background: #fdfdfd;
+          /* Notch shape using clip-path */
+          clip-path: polygon(
+            0% 0%, 
+            100% 0%, 
+            100% calc(100% - 40px), 
+            calc(100% - 140px) calc(100% - 40px), 
+            calc(100% - 140px) 100%, 
+            0% 100%
+          );
+        }
+        .helmet-card::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 140px;
+          height: 40px;
+          border-left: 1px solid #000;
+          border-top: 1px solid #000;
+          background: transparent;
+          pointer-events: none;
+          z-index: 20;
+        }
+        .helmet-card:hover {
+          background: #fff;
+          transform: translateY(-5px);
+        }
+      `}</style>
 
-                <div className="relative z-10 max-w-5xl mx-auto">
+            {/* Theme Background Orbits */}
+            <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+                <motion.div
+                    animate={{ rotate: [360, 0] }}
+                    transition={{ duration: 60, repeat: Infinity, ease: 'linear' }}
+                    className="absolute top-[5%] left-[5%] h-[320px] w-[320px] rounded-full border-[2px] border-red-300/30 pointer-events-none"
+                >
+                    <div className="absolute bottom-[18%] right-[8%] h-[6px] w-[6px] rounded-full bg-[#FF2D2D] shadow-[0_0_10px_#ff2d2d]" />
                     <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="inline-flex items-center gap-3 px-6 py-2.5 rounded-full border border-red-600/10 bg-white/60 backdrop-blur-xl text-red-600 mb-10 shadow-sm"
+                        animate={{ rotate: [-360, 0] }}
+                        transition={{ duration: 60, repeat: Infinity, ease: 'linear' }}
+                        className="absolute left-[15%] top-[15%] flex items-center gap-2"
                     >
-                        <Globe size={16} />
-                        <span className="font-mono text-[10px] font-bold uppercase tracking-[0.4em]">The MST Human Network // 20 Nodes Active</span>
+                        <span className="relative flex h-1.5 w-1.5">
+                            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#FF2D2D] opacity-75"></span>
+                            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[#FF2D2D]"></span>
+                        </span>
+                        <span className="whitespace-nowrap text-[9px] font-black tracking-[0.2em] text-red-500/50 uppercase">MST BLOCKCHAIN</span>
                     </motion.div>
+                </motion.div>
 
-                    <h1 className="font-bungee text-6xl md:text-8xl lg:text-9xl text-slate-950 leading-tight tracking-tighter mb-10">
-                        The <span className="text-red-600 underline decoration-red-600/20 underline-offset-[1rem]">Growth</span> <br />
-                        of MST
-                    </h1>
-                    
-                    <p className="text-slate-500 text-xl md:text-2xl font-medium max-w-3xl mx-auto leading-relaxed mb-16">
-                        Explore our organizational DNA through this interactive hierarchy. Every member is a vital node in our decentralized mission.
+                <motion.div
+                    animate={{ y: [-15, 15, -15], x: [-10, 10, -10], rotate: [0, 90, 0] }}
+                    transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
+                    className="absolute left-[30%] top-[25%] flex h-32 w-32 items-center justify-center rounded-full border-2 border-red-500/20 pointer-events-none"
+                >
+                    <div className="h-20 w-20 rounded-full border-2 border-red-500/10" />
+                    <div className="absolute top-0 h-1.5 w-1.5 rounded-full bg-[#FF2D2D] shadow-[0_0_10px_#ff2d2d]" />
+                </motion.div>
+
+                <motion.div
+                    animate={{ rotate: [0, 360] }}
+                    transition={{ duration: 80, repeat: Infinity, ease: 'linear' }}
+                    className="absolute bottom-[5%] right-[5%] h-[400px] w-[400px] rounded-full border-[2px] border-red-300/30 pointer-events-none"
+                >
+                    <div className="absolute top-[18%] left-[8%] h-[8px] w-[8px] rounded-full bg-[#FF2D2D] shadow-[0_0_15px_#ff2d2d]" />
+                </motion.div>
+            </div>
+            <main className="relative z-10 pt-32 pb-24 px-10 max-w-[1600px] mx-auto">
+                {/* Section Header */}
+                <div className="mb-12 border-l-4 border-red-600 pl-6">
+                    <h1 className="bungee-regular text-6xl md:text-7xl font-bold text-zinc-900 uppercase leading-[1.1] tracking-[-0.04em]">Meet Our <span className="text-red-600">Team</span> </h1>
+                    <p className="text-lg text-zinc-600 max-w-2xl mt-4">
+                        <span className='text-red-600 bungee-regular'>Core Contributors:</span> The driving forces behind the MST Ecosystem.
                     </p>
                 </div>
-            </section>
 
-            {/* TREE SECTION */}
-            <section className="relative px-6 pb-40">
-                <div className="max-w-7xl mx-auto">
-                    <div className="flex justify-center mb-10">
-                        <div className="flex flex-col items-center gap-4">
-                            <div className="w-[3px] h-16 bg-gradient-to-b from-red-600 to-transparent rounded-full shadow-[0_0_10px_rgba(220,38,38,0.5)]" />
-                            <p className="font-mono text-[10px] font-black text-slate-950 uppercase tracking-[0.6em]">System Architecture</p>
-                        </div>
+                {/* Hero / Filter Box */}
+                <div className="w-full h-[500px] p-10 rounded-lg mb-12 flex items-center justify-center relative overflow-hidden">
+                    {/* Background Image with Opacity */}
+                    <div
+                        className="absolute inset-0 z-0 pointer-events-none"
+                        style={{
+                            backgroundImage: "url('/assets/lanyard/nodes.jpg')",
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center-bottom',
+                            backgroundRepeat: 'no-repeat',
+                            // opacity: 0.5
+                        }}
+                    />
+
+                    <div className="absolute inset-0 z-10 pointer-events-auto">
+                        <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} transparent={true} />
                     </div>
-                    
-                    <TreeSection onSelect={handleSelectMember} />
                 </div>
-            </section>
 
-            {/* TEAM CARDS GRID */}
-            <section className="py-40 px-6 bg-white border-y border-slate-100">
-                <div className="max-w-5xl mx-auto space-y-16">
-                    <div className="text-center mb-24">
-                        <h2 className="font-bungee text-4xl md:text-6xl text-slate-950 mb-6 tracking-tighter">Node Manifest</h2>
-                        <div className="w-20 h-1.5 bg-red-600 mx-auto rounded-full mb-6" />
-                        <p className="text-slate-400 font-mono text-[11px] font-bold uppercase tracking-[0.4em]">Directory // Authorized Access Only</p>
-                    </div>
-
-                    <div className="grid grid-cols-1 gap-12">
-                        {team.map((member) => (
-                            <TeamCard 
-                                key={member.id} 
-                                member={member} 
-                                isSelected={selectedId === member.id} 
+                {/* Helmet Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                    {team.map((helmet) => (
+                        <motion.div
+                            key={helmet.id}
+                            onClick={() => toggleActiveMember(helmet.id)}
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: (helmet.id % 5) * 0.1 }}
+                            className={`helmet-card group relative aspect-[4/5] bg-zinc-100 border border-black overflow-hidden ${activeMemberId === helmet.id ? 'mobile-active' : ''}`}
+                        >
+                            {/* Normal Image */}
+                            <img
+                                className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-out lg:group-hover:opacity-0 ${activeMemberId === helmet.id ? 'opacity-0' : 'opacity-100'}`}
+                                src={helmet.img}
+                                alt={helmet.title}
                             />
-                        ))}
-                    </div>
-                </div>
-            </section>
+                            {/* Hover Image */}
+                            <img
+                                className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-out opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-110 ${activeMemberId === helmet.id ? 'opacity-100 scale-110' : ''}`}
+                                src={helmet.hoverImg || helmet.img}
+                                alt={helmet.title + " hover"}
+                            />
+                            {/* Notch Label (Visible Always) */}
+                            <div className="absolute bottom-0 right-0 w-[140px] h-[40px] flex items-center justify-center px-4 z-30">
+                                <p className="font-['Bungee'] text-[11px] font-bold text-zinc-900 tracking-[0.02em] whitespace-nowrap">
+                                    <span className="capitalize">{helmet.title.toLowerCase()}</span> <span className="text-zinc-400 ml-1">{helmet.year}</span>
+                                </p>
+                            </div>
 
-            {/* FOOTER CALLOUT */}
-            <section className="py-40 px-6 text-center bg-slate-950 text-white relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
-                <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-red-600/10 blur-[150px] rounded-full -mr-40 -mb-40" />
-
-                <div className="relative z-10 max-w-3xl mx-auto">
-                    <div className="w-20 h-20 bg-white/5 border border-white/10 rounded-[2rem] flex items-center justify-center text-red-500 mx-auto mb-10 shadow-2xl">
-                        <Briefcase size={32} />
-                    </div>
-                    <h3 className="font-bungee text-4xl md:text-6xl mb-8 tracking-tighter">Become a Node</h3>
-                    <p className="text-white/50 text-lg md:text-xl mb-12 leading-relaxed font-medium">
-                        We're actively seeking architects, builders, and visionaries to expand our network. Your talent could be the next vital branch.
-                    </p>
-                    <a 
-                        href="/Career" 
-                        className="px-12 py-6 bg-red-600 text-white rounded-2xl font-bold uppercase tracking-[0.2em] text-[11px] hover:bg-white hover:text-slate-950 hover:scale-105 transition-all duration-500 shadow-2xl shadow-red-600/20 flex items-center gap-4 mx-auto w-fit group"
-                    >
-                        Apply for a Position
-                        <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                    </a>
+                            <div className={`absolute bottom-[25px] left-0 w-full p-6 translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500 ${activeMemberId === helmet.id ? 'translate-y-0' : ''}`}>
+                                <div className="flex justify-between items-end">
+                                    <div>
+                                        <p className="font-['Bungee'] text-[10px] font-bold text-[#FF2D2D] tracking-[0.1em]">{helmet.role}</p>
+                                        <p className="font-['Bungee'] text-[10px] font-bold text-zinc-900 tracking-[0.1em] uppercase">{helmet.name}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </motion.div>
+                    ))}
                 </div>
-            </section>
+            </main>
         </div>
     );
 }
