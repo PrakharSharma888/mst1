@@ -177,7 +177,7 @@ export default function SolidityPage() {
               >
                 <div className="relative h-full w-full rounded-xl overflow-hidden border border-red-100/50 bg-gradient-to-b from-gray-900 to-black">
                   <Image
-                    src="/solidity/Solidity Hero-Banner.jpg"
+                    src="/solidity/Solidity Powering Smart Contracts.jpg"
                     alt="Solidity hero"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 [mask-image:linear-gradient(to_bottom,black_85%,transparent)]"

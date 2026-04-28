@@ -73,7 +73,8 @@ export default function ProtocolPage() {
                 <div className="rounded-2xl overflow-hidden shadow-[0_18px_40px_rgba(0,0,0,0.08)]">
                   <div className="relative w-full aspect-[16/10]">
                     <img
-                      src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0"
+                      src="/Protocol/SARAL-No code deployment.jpg"
+                      alt="SARAL Protocol"
                       className="absolute inset-0 w-full h-full object-cover"
                     />
                   </div>
@@ -129,7 +130,8 @@ export default function ProtocolPage() {
                 <div className="rounded-2xl overflow-hidden shadow-[0_18px_40px_rgba(0,0,0,0.08)]">
                   <div className="relative w-full aspect-[16/10]">
                     <img
-                      src="https://images.unsplash.com/photo-1644088379091-d574269d422f?auto=format&fit=crop&q=80&w=800"
+                      src="/Protocol/programming language.jpg"
+                      alt="Wasmify Protocol"
                       className="absolute inset-0 w-full h-full object-cover"
                     />
                   </div>
@@ -156,6 +158,7 @@ export default function ProtocolPage() {
                   <div className="relative w-full aspect-[16/10]">
                     <img
                       src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+                      alt= "Post quantum protocol"
                       className="absolute inset-0 w-full h-full object-cover"
                     />
                   </div>

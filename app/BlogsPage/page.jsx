@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, User, Tag } from 'lucide-react';
+import { FaGlobe, FaTelegram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 function SectionFade({ children, className = '' }) {
   return (
@@ -133,13 +134,51 @@ export default function BlogDetailsPage() {
             </p>
           </div>
 
-          {/* Navigation */}
-          <div className="mt-12 pt-8 border-t border-black/10">
-            <button className="flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff2d2d] text-white font-semibold transition-all duration-200 transform hover:scale-105 hover:bg-black">
-              <ArrowLeft size={18} />
-              Back to Blogs
-            </button>
-          </div>
+         {/* Social Links */}
+    <div className="mt-10 pt-6 border-t border-gray-200">
+           <p className="text-lg font-semibold text-black mb-3">
+             Stay connected with MST Blockchain:
+          </p>
+
+      <div className="flex flex-wrap items-center gap-2 text-base text-black">
+
+    <a
+      href="https://t.me/yourusername"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-1 hover:underline hover:text-[#ff2d2d] transition"
+    >
+      <FaTelegram className="text-sm" />
+      Telegram
+    </a>
+
+    <span>|</span>
+
+    <a
+      href="https://twitter.com/yourusername"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-1 hover:underline hover:text-[#ff2d2d] transition"
+    >
+      <FaTwitter className="text-sm" />
+      X (Twitter)
+    </a>
+
+    <span>|</span>
+
+    <a
+      href="https://linkedin.com/in/yourusername"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-1 hover:underline hover:text-[#ff2d2d] transition"
+    >
+      <FaLinkedin className="text-sm" />
+      LinkedIn
+    </a>
+
+  </div>
+  </div>
+          
         </SectionFade>
       </section>
     </main>

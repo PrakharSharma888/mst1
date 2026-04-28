@@ -193,8 +193,8 @@ const AboutUs = () => {
             <div className="absolute -inset-4 bg-gradient-to-r from-red-500 to-pink-500 rounded-[2.5rem] opacity-20 blur-2xl animate-pulse hidden sm:block" />
             <div className="relative w-full max-w-xs sm:max-w-md md:max-w-none aspect-[4/3] sm:aspect-[5/3] md:aspect-[16/7] md:h-[450px] md:w-full md:col-span-1 rounded-[2rem] overflow-hidden border-4 border-white shadow-2xl flex items-center justify-center md:items-stretch md:justify-stretch mx-auto md:mx-0">
               <img
-                src="https://images.unsplash.com/photo-1669060475569-a7e0c78bce30?q=80&w=1032&auto=format&fit=crop"
-                alt="blockchain"
+                src="/about/About MST Blockchain.jpg"
+                alt="about mst blockchain"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                 style={{ aspectRatio: 'inherit' }}
               />

@@ -188,7 +188,7 @@ export default function SupplyChainPage() {
               >
                 <div className="relative h-full w-full rounded-xl overflow-hidden border border-red-100/50">
                   <Image
-                    src="/fractional-validator/Piece of MST- Banner.png"
+                    src="/fractional-validator/Buying a piece of block.png"
                     alt="Fractional validator"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
